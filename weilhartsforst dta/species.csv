@@ -1,7 +1,7 @@
 "plot";"abbr";"layer";"cov"
 "wf01a";"pice abie";"tl1";5
 "wf01a";"agro capi";"hl";"+"
-"wf01a";"aven flex";"hl";"+"
+"wf01a";"aven flex flex";"hl";"+"
 "wf01a";"cala epig";"hl";"+"
 "wf01a";"care pilu pilu";"hl";1
 "wf01a";"dryo cart";"hl";1
@@ -21,7 +21,7 @@
 "wf02a";"fagu sylv";"sl";1
 "wf02a";"pice abie";"sl";"2a"
 "wf02a";"pinu sylv";"sl";"+"
-"wf02a";"aven flex";"hl";"2b"
+"wf02a";"aven flex flex";"hl";"2b"
 "wf02a";"cala epig";"hl";"+"
 "wf02a";"call vulg";"hl";"+"
 "wf02a";"care pilu pilu";"hl";"+"
@@ -45,7 +45,7 @@
 "wf02b";"fagu sylv";"sl";"2a"
 "wf02b";"pice abie";"sl";3
 "wf02b";"agro capi";"hl";"+"
-"wf02b";"aven flex";"hl";1
+"wf02b";"aven flex flex";"hl";1
 "wf02b";"cala epig";"hl";1
 "wf02b";"care pilu pilu";"hl";"+"
 "wf02b";"digi purp";"hl";"+"
@@ -68,7 +68,7 @@
 "wf02c";"pice abie";"sl";"2b"
 "wf02c";"spha girg";"ml";1
 "wf02c";"acer pseu";"hl";"r"
-"wf02c";"aven flex";"hl";1
+"wf02c";"aven flex flex";"hl";1
 "wf02c";"care pilu pilu";"hl";"+"
 "wf02c";"digi purp";"hl";"+"
 "wf02c";"dryo cart";"hl";1
@@ -86,7 +86,7 @@
 "wf02d";"fagu sylv";"sl";1
 "wf02d";"pice abie";"sl";"2a"
 "wf02d";"spha girg";"ml";"+"
-"wf02d";"aven flex";"hl";1
+"wf02d";"aven flex flex";"hl";1
 "wf02d";"care pilu pilu";"hl";"+"
 "wf02d";"dryo cart";"hl";"+"
 "wf02d";"dryo dila";"hl";1
@@ -114,7 +114,7 @@
 "wf04a";"urti dioi dioi";"hl";"+"
 "wf04a";"vacc myrt";"hl";"+"
 "wf05a";"pice abie";"tl1";5
-"wf05a";"aven flex";"hl";"+"
+"wf05a";"aven flex flex";"hl";"+"
 "wf05a";"care pall";"hl";"+"
 "wf05a";"care pilu pilu";"hl";1
 "wf05a";"digi purp";"hl";"r"
@@ -131,7 +131,7 @@
 "wf06a";"fagu sylv";"sl";"+"
 "wf06a";"pice abie";"sl";"2a"
 "wf06a";"spha girg";"ml";1
-"wf06a";"aven flex";"hl";1
+"wf06a";"aven flex flex";"hl";1
 "wf06a";"care pilu pilu";"hl";"+"
 "wf06a";"dryo cart";"hl";"+"
 "wf06a";"fagu sylv";"hl";"+"
@@ -145,7 +145,7 @@
 "wf06b";"fagu sylv";"sl";"+"
 "wf06b";"pice abie";"sl";"2b"
 "wf06b";"spha girg";"ml";1
-"wf06b";"aven flex";"hl";1
+"wf06b";"aven flex flex";"hl";1
 "wf06b";"cala epig";"hl";"+"
 "wf06b";"care pilu pilu";"hl";"+"
 "wf06b";"dryo cart";"hl";"+"
@@ -164,7 +164,7 @@
 "wf07a";"pice abie";"tl2";"2b"
 "wf07a";"pice abie";"tl1";5
 "wf07a";"spha girg";"ml";"2b"
-"wf07a";"aven flex";"hl";"+"
+"wf07a";"aven flex flex";"hl";"+"
 "wf07a";"care pilu pilu";"hl";"+"
 "wf07a";"dryo cart";"hl";"+"
 "wf07a";"fagu sylv";"hl";"+"
@@ -190,7 +190,7 @@
 "wf08b";"fagu sylv";"sl";"2a"
 "wf08b";"pice abie";"sl";4
 "wf08b";"agro capi";"hl";"+"
-"wf08b";"aven flex";"hl";1
+"wf08b";"aven flex flex";"hl";1
 "wf08b";"cala epig";"hl";"2b"
 "wf08b";"call vulg";"hl";"+"
 "wf08b";"care briz";"hl";"+"
@@ -211,7 +211,7 @@
 "wf08b";"vacc myrt";"hl";1
 "wf09a";"pice abie";"tl1";5
 "wf09a";"pinu sylv";"tl1";1
-"wf09a";"aven flex";"hl";"+"
+"wf09a";"aven flex flex";"hl";"+"
 "wf09a";"care pall";"hl";"+"
 "wf09a";"care pilu pilu";"hl";"+"
 "wf09a";"digi purp";"hl";"+"
@@ -228,7 +228,7 @@
 "wf09b";"pice abie";"tl1";5
 "wf09b";"spha girg";"ml";"2b"
 "wf09b";"athy fili";"hl";"+"
-"wf09b";"aven flex";"hl";"+"
+"wf09b";"aven flex flex";"hl";"+"
 "wf09b";"care pilu pilu";"hl";"+"
 "wf09b";"dryo cart";"hl";"+"
 "wf09b";"lact mura";"hl";"r"
@@ -241,7 +241,7 @@
 "wf10a";"pice abie";"tl1";5
 "wf10a";"pinu sylv";"tl1";1
 "wf10a";"spha girg";"ml";1
-"wf10a";"aven flex";"hl";"+"
+"wf10a";"aven flex flex";"hl";"+"
 "wf10a";"care pall";"hl";"+"
 "wf10a";"care pilu pilu";"hl";"+"
 "wf10a";"dryo cart";"hl";"+"
@@ -254,7 +254,7 @@
 "wf10b";"pinu sylv";"tl1";1
 "wf10b";"spha girg";"ml";1
 "wf10b";"acer pseu";"hl";"r"
-"wf10b";"aven flex";"hl";1
+"wf10b";"aven flex flex";"hl";1
 "wf10b";"care pilu pilu";"hl";"+"
 "wf10b";"dryo cart";"hl";"+"
 "wf10b";"dryo dila";"hl";"+"

@@ -30,7 +30,7 @@
 "wt2a";"anth vuln alpe";"hl";"+";
 "wt2a";"arme alpi";"hl";"+";
 "wt2a";"aste bell";"hl";"+";
-"wt2a";"aven flex";"hl";1;
+"wt2a";"aven flex flex";"hl";1;
 "wt2a";"aven vers";"hl";1;
 "wt2a";"bart alpi";"hl";1;
 "wt2a";"bisc laev";"hl";"+";
@@ -418,7 +418,7 @@
 "wt8a";"leon helv";"hl";1;
 "wt8a";"poa alpi";"hl";"+";
 "wt8a";"care brun";"hl";1;
-"wt8a";"aven flex";"hl";"2b";
+"wt8a";"aven flex flex";"hl";"2b";
 "wt8a";"trif prat niva";"hl";1;
 "wt8a";"care curv";"hl";"+";
 "wt8b";"poa alpi";"hl";"2b";
@@ -444,6 +444,6 @@
 "wt8b";"nard stri";"hl";1;
 "wt8b";"phle comm";"hl";"+";
 "wt8b";"desc cesp";"hl";1;
-"wt8b";"aven flex";"hl";"2b";
+"wt8b";"aven flex flex";"hl";"2b";
 "wt8b";"fest nigr";"hl";1;
 "wt8b";"care curv";"hl";1;

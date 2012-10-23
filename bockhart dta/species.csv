@@ -24,7 +24,7 @@
 "ga01";"sile vulg";"hl";"+";
 "ga01";"cala vill";"hl";"+";
 "ga01";"vacc viti";"hl";"2a";
-"ga01";"aven flex";"hl";"2a";
+"ga01";"aven flex flex";"hl";"2a";
 "ga01";"call vulg";"hl";"2b";
 "ga01";"vacc myrt";"hl";"2b";
 "ga01";"cetr isla";"ll";"+";"cf."
@@ -44,7 +44,7 @@
 "ga02";"soli minu";"hl";1;
 "ga02";"chae vill";"hl";1;
 "ga02";"pote aure";"hl";1;
-"ga02";"aven flex";"hl";1;
+"ga02";"aven flex flex";"hl";1;
 "ga02";"rhod ferr";"hl";3;
 "ga02";"carl acau";"hl";"+";
 "ga02";"rhin glac";"hl";"+";
@@ -90,7 +90,7 @@
 "ga02";"scio refl";"ml";"+";
 "ga02";"alnu viri";"sl";1;
 "ga03";"cala vill";"hl";1;
-"ga03";"aven flex";"hl";1;
+"ga03";"aven flex flex";"hl";1;
 "ga03";"call vulg";"hl";1;
 "ga03";"anth alpi";"hl";1;
 "ga03";"juni alpi";"hl";3;
@@ -128,7 +128,7 @@
 "ga04";"vacc viti";"hl";1;
 "ga04";"call vulg";"hl";4;
 "ga04";"leon helv";"hl";"+";
-"ga04";"aven flex";"hl";"+";
+"ga04";"aven flex flex";"hl";"+";
 "ga04";"puls alba";"hl";"+";
 "ga04";"pseu albi";"hl";"+";
 "ga04";"prim mini";"hl";"+";
@@ -265,7 +265,7 @@
 "ga07";"anth alpi";"hl";"+";
 "ga07";"thal aqui";"hl";"+";
 "ga07";"dact macu";"hl";"+";
-"ga07";"aven flex";"hl";"+";
+"ga07";"aven flex flex";"hl";"+";
 "ga07";"hype macu";"hl";"+";
 "ga07";"euph offi pict";"hl";"+";
 "ga07";"rhin glac";"hl";"+";
@@ -362,7 +362,7 @@
 "ga13";"loni caer";"hl";"+";
 "ga13";"lois proc";"hl";"+";
 "ga13";"cala vill";"hl";"+";
-"ga13";"aven flex";"hl";"+";
+"ga13";"aven flex flex";"hl";"+";
 "ga13";"nard stri";"hl";"+";
 "ga13";"puls alba";"hl";"+";
 "ga13";"junc trif";"hl";"+";
@@ -382,7 +382,7 @@
 "ga14";"viol bifl";"hl";1;
 "ga14";"dryo dila";"hl";1;
 "ga14";"aden alli";"hl";4;
-"ga14";"aven flex";"hl";"+";
+"ga14";"aven flex flex";"hl";"+";
 "ga14";"loni caer";"hl";"+";
 "ga14";"sene caca";"hl";"+";
 "ga14";"rume alpe";"hl";"+";

@@ -25,7 +25,7 @@
 "hk01";"briz medi";"hl";"+";;;
 "hk01";"viol bifl";"hl";"+";;;
 "hk01";"luzu luzu rube";"hl";"+";;;
-"hk01";"aven flex";"hl";"+";;;
+"hk01";"aven flex flex";"hl";"+";;;
 "hk01";"scor helv";"hl";"+";;;
 "hk01";"achi mill aggr";"hl";"+";;;
 "hk02";"pice abie";"hl";"+";;;
@@ -35,7 +35,7 @@
 "hk02";"vacc myrt";"hl";4;;;
 "hk02";"pleu schr";"ml";3;;;
 "hk02";"nard stri";"hl";1;;;
-"hk02";"aven flex";"hl";"2b";;;
+"hk02";"aven flex flex";"hl";"2b";;;
 "hk02";"sold pusi alpi";"hl";"+";;;
 "hk02";"homo alpi";"hl";1;;;
 "hk02";"pseu furf";"tl1";"2a";;;
@@ -57,7 +57,7 @@
 "hk02";"vacc viti";"hl";"+";;;
 "hk03";"rhod ferr";"hl";4;;;
 "hk03";"vacc myrt";"hl";3;;;
-"hk03";"aven flex";"hl";"2a";;;
+"hk03";"aven flex flex";"hl";"2a";;;
 "hk03";"poly form";"ml";1;;;
 "hk03";"pleu schr";"ml";3;;;
 "hk03";"homo alpi";"hl";1;;;
@@ -119,7 +119,7 @@
 "hk05";"vacc gaul";"hl";"2b";;;
 "hk05";"vacc myrt";"hl";"2a";;;
 "hk05";"vacc viti";"hl";1;;;
-"hk05";"aven flex";"hl";1;;;
+"hk05";"aven flex flex";"hl";1;;;
 "hk05";"clad cucu";"ml";"2b";;;
 "hk05";"cetr isla";"ml";1;;;
 "hk05";"tham verm";"ml";"+";;;
@@ -137,7 +137,7 @@
 "hk06";"vacc gaul";"hl";"2a";;;
 "hk06";"cala vill";"hl";"2b";;;
 "hk06";"call vulg";"hl";1;;;
-"hk06";"aven flex";"hl";"2a";;;
+"hk06";"aven flex flex";"hl";"2a";;;
 "hk06";"pleu schr";"ml";"2b";;;
 "hk06";"vacc viti";"hl";1;;;
 "hk06";"dicr scop";"ml";"2a";;;
@@ -149,7 +149,7 @@
 "hk07";"luzu luzu rube";"hl";1;;;
 "hk07";"athy dist";"hl";1;;;
 "hk07";"vacc myrt";"hl";"2b";;;
-"hk07";"aven flex";"hl";"2a";;;
+"hk07";"aven flex flex";"hl";"2a";;;
 "hk07";"dicr scop";"ml";"2a";;;
 "hk07";"sile vulg vulg";"hl";"+";;;
 "hk07";"homo alpi";"hl";1;;;
@@ -181,7 +181,7 @@
 "hk08";"dicr scop";"ml";"2b";;;
 "hk08";"pleu schr";"ml";"2b";;;
 "hk08";"vacc viti";"hl";"2b";;;
-"hk08";"aven flex";"hl";"2a";;;
+"hk08";"aven flex flex";"hl";"2a";;;
 "hk08";"dryo dila";"hl";"+";;;
 "hk08";"blec spic";"hl";1;;;
 "hk08";"pseu furf";"tl1";"2a";;;
@@ -239,7 +239,7 @@
 "hk10";"anth alpi";"hl";1;;;
 "hk10";"agro agro";"hl";"2b";;;
 "hk10";"lari deci deci";"hl";"+";;;
-"hk10";"aven flex";"hl";1;;;
+"hk10";"aven flex flex";"hl";1;;;
 "hk10";"rhiz geog";"ml";"2a";;;
 "hk11";"nard stri";"hl";4;;;
 "hk11";"fest nigr cens";"hl";"2a";;;
@@ -254,7 +254,7 @@
 "hk11";"camp sche";"hl";"+";;;
 "hk11";"vacc gaul";"hl";1;;;
 "hk11";"cetr isla";"ml";1;;;
-"hk11";"aven flex";"hl";1;;;
+"hk11";"aven flex flex";"hl";1;;;
 "hk11";"care nigr";"hl";"2b";;;
 "hk11";"spha capi";"ml";"2a";;;
 "hk11";"poly form";"ml";"2b";;;
@@ -282,7 +282,7 @@
 "hk12";"anth alpi";"hl";"2a";;;
 "hk12";"vera albu slat";"hl";"+";;;
 "hk12";"empe herm";"hl";"r";;;
-"hk12";"aven flex";"hl";"2a";;;
+"hk12";"aven flex flex";"hl";"2a";;;
 "hk12";"clad rang";"ml";1;;;
 "hk12";"dicr scop";"ml";"2a";;;
 "hk12";"hylo sple";"ml";1;;;
@@ -294,7 +294,7 @@
 "hk13";"lois proc";"hl";5;;;
 "hk13";"pinu cemb";"hl";"r";;;
 "hk13";"vacc myrt";"hl";3;;;
-"hk13";"aven flex";"hl";"2a";;;
+"hk13";"aven flex flex";"hl";"2a";;;
 "hk13";"rhod ferr";"hl";"+";;;
 "hk13";"vacc viti";"hl";1;;;
 "hk13";"clad rang";"ml";"2a";;;
@@ -353,7 +353,7 @@
 "hk16";"cetr isla";"ml";"2a";;;
 "hk16";"care semp semp";"hl";"2b";;;
 "hk16";"aven vers";"hl";"2a";;;
-"hk16";"aven flex";"hl";"2a";;;
+"hk16";"aven flex flex";"hl";"2a";;;
 "hk16";"juni comm nana";"hl";"2a";;;
 "hk16";"homo alpi";"hl";"+";;;
 "hk16";"pote aure";"hl";1;;;
@@ -383,7 +383,7 @@
 "hk17";"alec ochr";"ml";"+";;;
 "hk17";"poly juni";"ml";1;;;
 "hk17";"cetr isla";"ml";1;;;
-"hk17";"aven flex";"hl";1;;;
+"hk17";"aven flex flex";"hl";1;;;
 "hk17";"fest pict";"hl";"+";;;
 "hk17";"pote aure";"hl";"+";;;
 "hk17";"euph offi pict";"hl";"+";;"cf.";
@@ -411,7 +411,7 @@
 "hk18";"rhod ferr";"hl";"+";;;
 "hk18";"call vulg";"hl";"2a";;;
 "hk18";"lois proc";"hl";3;;;
-"hk18";"aven flex";"hl";"2a";;;
+"hk18";"aven flex flex";"hl";"2a";;;
 "hk18";"sapo pumi";"hl";1;;;
 "hk18";"scor helv";"hl";"+";;;
 "hk18";"junc trif";"hl";1;;;
@@ -440,7 +440,7 @@
 "hk19";"cetr eric";"ml";"2a";;;
 "hk19";"empe herm";"hl";"2a";;;
 "hk19";"vacc myrt";"hl";"2a";;;
-"hk19";"aven flex";"hl";1;;;
+"hk19";"aven flex flex";"hl";1;;;
 "hk19";"vacc gaul";"hl";3;;;
 "hk19";"pleu schr";"ml";"+";;;
 "hk19";"poly form";"ml";1;;;

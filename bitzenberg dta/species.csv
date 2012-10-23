@@ -32,7 +32,7 @@
 "bb02";"vacc myrt";"hl";"+";
 "bb03";"abie alba";"hl";"+";
 "bb03";"aego poda";"hl";"+";
-"bb03";"aven flex";"hl";"+";
+"bb03";"aven flex flex";"hl";"+";
 "bb03";"betu pend";"hl";"+";
 "bb03";"care cane";"hl";"1";
 "bb03";"care pilu";"hl";"+";
@@ -49,7 +49,7 @@
 "bb04";"abie alba";"hl";"1";
 "bb04";"abie alba";"sl";"4";
 "bb04";"abie alba";"tl";"1";
-"bb04";"aven flex";"hl";"+";
+"bb04";"aven flex flex";"hl";"+";
 "bb04";"betu pend";"sl";"+";
 "bb04";"betu pend";"tl";"1";
 "bb04";"camp flex";"ml";"+";
@@ -68,7 +68,7 @@
 "bb05";"abie alba";"hl";"1";
 "bb05";"abie alba";"sl";"+";
 "bb05";"abie alba";"tl";"2b";
-"bb05";"aven flex";"hl";"+";
+"bb05";"aven flex flex";"hl";"+";
 "bb05";"dicr scop";"ml";"+";
 "bb05";"dryo cart";"hl";"+";
 "bb05";"fran alnu";"hl";"+";
@@ -86,7 +86,7 @@
 "bb06";"abie alba";"sl";"1";
 "bb06";"abie alba";"tl";"2a";
 "bb06";"agro tenu";"hl";"+";
-"bb06";"aven flex";"hl";"1";
+"bb06";"aven flex flex";"hl";"1";
 "bb06";"betu pend";"hl";"+";
 "bb06";"betu pend";"sl";"+";
 "bb06";"betu pend";"tl";"1";
@@ -109,7 +109,7 @@
 "bb07";"abie alba";"hl";"1";
 "bb07";"abie alba";"sl";"+";
 "bb07";"abie alba";"tl";"4";
-"bb07";"aven flex";"hl";"+";
+"bb07";"aven flex flex";"hl";"+";
 "bb07";"bazz tril";"ml";"2a";
 "bb07";"camp flex";"ml";"1";
 "bb07";"fran alnu";"hl";"+";
@@ -126,7 +126,7 @@
 "bb07";"vacc myrt";"hl";"2b";
 "bb08";"abie alba";"sl";"2a";
 "bb08";"abie alba";"tl";"2a";
-"bb08";"aven flex";"hl";"+";
+"bb08";"aven flex flex";"hl";"+";
 "bb08";"betu pend";"sl";"1";
 "bb08";"betu pend";"tl";"4";
 "bb08";"camp flex";"ml";"1";
@@ -147,7 +147,7 @@
 "bb09";"abie alba";"tl";"2a";
 "bb09";"agro tenu";"hl";"+";
 "bb09";"ajug rept";"hl";"+";
-"bb09";"aven flex";"hl";"2a";
+"bb09";"aven flex flex";"hl";"2a";
 "bb09";"betu pend";"sl";"+";
 "bb09";"betu pend";"tl";"+";
 "bb09";"care cane";"hl";"+";
@@ -178,7 +178,7 @@
 "bb10";"abie alba";"hl";"2b";
 "bb10";"abie alba";"sl";"3";
 "bb10";"abie alba";"tl";"1";
-"bb10";"aven flex";"hl";"+";
+"bb10";"aven flex flex";"hl";"+";
 "bb10";"bazz tril";"ml";"1";
 "bb10";"betu pend";"sl";"+";
 "bb10";"camp flex";"ml";"1";
@@ -198,7 +198,7 @@
 "bb10";"spha capi";"ml";"1";
 "bb10";"vacc myrt";"hl";"2a";
 "bb11";"abie alba";"hl";"+";
-"bb11";"aven flex";"hl";"+";
+"bb11";"aven flex flex";"hl";"+";
 "bb11";"betu pend";"sl";"2a";
 "bb11";"betu pend";"tl";"2a";
 "bb11";"camp flex";"ml";"+";
@@ -250,7 +250,7 @@
 "bb14";"acer pseu";"tl";"2b";
 "bb14";"ajug rept";"hl";"1";
 "bb14";"ange sylv";"hl";"2a";
-"bb14";"aven flex";"hl";"+";
+"bb14";"aven flex flex";"hl";"+";
 "bb14";"betu pend";"tl";"2a";
 "bb14";"brac sylv";"hl";"1";
 "bb14";"call vulg";"hl";"1";
