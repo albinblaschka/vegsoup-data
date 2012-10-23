@@ -1,0 +1,23 @@
+fs01	Niklfeld 1979:IX:9
+fs02	Niklfeld 1979:IX:10
+fs03	Niklfeld 1964
+sa01	Niklfeld 1979:IX:29
+sa02	Niklfeld 1979:IX:30
+sa03	Niklfeld 1979:IX:31
+sa04	Niklfeld 1979:IX:32
+sa05	Niklfeld 1979:IX:33
+sa06	Niklfeld 1979:IX:34
+sa07	Niklfeld 1979:IX:35
+sa08	Niklfeld 1979:IX:36
+ts01	Niklfeld 1979:IX:11
+ts02	Niklfeld 1979:IX:12
+ts03	Niklfeld 1979:IX:13
+ts04	Niklfeld 1979:IX:14
+ts05	Niklfeld 1979:IX:15
+ts06	Niklfeld 1979:IX:16
+ts07	Karrer 1985:I:7
+ts08	Karrer 1985:I:8
+ts09	Karrer 1985:I:9
+ts10	Karrer 1985:I:10
+
+
