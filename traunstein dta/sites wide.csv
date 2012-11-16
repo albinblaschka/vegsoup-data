@@ -1,10 +1,10 @@
-"plot";"date";"plsx";"plsy";"expo";"slope";"cov";"t1cov";"t2cov";"scov";"hcov";"mcov";"rock";"stones";"bare";"htl1";"htl2";"hsl";"hhl1";"hhl2";"longitude";"latitude";"horizontal.precision";"location";"comment";"soil";"physiognomy"
-"ts01";;8;8;"W";50;75;0;15;30;70;5;0;30;1;0;10;4,5;1;0,3;13,816559;47,865654;10;"Traunstein";"talus";"Rendzina";"semidry open mixed forest"
-"ts02";;8;8;"W";50;97;20;0;50;90;5;0;2;1;10;0;5;1;0,3;13,816623;47,865542;10;"Traunstein";"talus";"Rendzina";"semidry open mixed forest"
-"ts03";;8;8;"W";55;70;40;0;40;55;1;0;45;1;10;0;4;1,1;0,3;13,816906;47,865303;10;"Traunstein";"talus";"Rendzina";"semidry open mixed forest"
-"ts04";;8;8;"W";50;90;25;0;10;90;2;0;10;0;12;0;4;1;0,5;13,817526;47,865755;10;"Traunstein";"talus";"Rendzina";"semidry open mixed forest"
-"ts05";;4;4;"W";30;98;0;0;0;98;3;1;0;1;0;0;0;1,2;0,35;13,817727;47,865987;10;"Traunstein";"talus, near cliff";"Rendzina";"rocky calcareous garssland"
-"ts06";;8;8;"W";0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;13,801306;47,819484;10;"Karbach";;"Mull-Renbzina";"thermophilous decidous elfin-forest"
-"ts07";;8;8;"SW";80;85;0;10;50;15;5;85;0;1;0;6;3;1;0,2;13,801068;47,819374;10;"Karbach";"rockwall";"rock, Proto-Rendzina";"calcareous rock shrubbery"
-"ts08";;2,5;8;"W";35;95;0;35;80;45;10;3;0;1;0;10;4;1;0,25;13,800961;47,819201;10;"Karbach";"rockwall";"Mull-Renbzina";"thermophilous decidous elfin-forest"
-"ts09";;8;8;"W";0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;13,801379;47,819198;10;"Karbach";;"Mull-Renbzina";"thermophilous decidous elfin-forest"
+plot;date;plsx;plsy;expo;slope;cov;t1cov;t2cov;scov;hcov;mcov;rock;stones;bare;htl1;htl2;hsl;hhl1;hhl2;longitude;latitude;horizontal.precision;location;comment;soil;physiognomy
+ts01;2011-09-11;8;8;W;50;75;0;15;30;70;5;0;30;1;0;10;4,5;1;0,3;13,816559;47,865654;10;Traunstein;talus;Rendzina;semidry open mixed forest
+ts02;2011-09-11;8;8;W;50;97;20;0;50;90;5;0;2;1;10;0;5;1;0,3;13,816623;47,865542;10;Traunstein;talus;Rendzina;semidry open mixed forest
+ts03;2011-09-11;8;8;W;55;70;40;0;40;55;1;0;45;1;10;0;4;1,1;0,3;13,816906;47,865303;10;Traunstein;talus;Rendzina;semidry open mixed forest
+ts04;2011-09-11;8;8;W;50;90;25;0;10;90;2;0;10;0;12;0;4;1;0,5;13,817526;47,865755;10;Traunstein;talus;Rendzina;semidry open mixed forest
+ts05;2011-09-11;4;4;W;30;98;0;0;0;98;3;1;0;1;0;0;0;1,2;0,35;13,817727;47,865987;10;Traunstein;talus, near cliff;Rendzina;rocky calcareous garssland
+ts06;2011-09-11;8;8;W;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;13,801306;47,819484;10;Karbach;;Mull-Renbzina;thermophilous decidous elfin-forest
+ts07;2011-09-11;8;8;SW;80;85;0;10;50;15;5;85;0;1;0;6;3;1;0,2;13,801068;47,819374;10;Karbach;rockwall;rock, Proto-Rendzina;calcareous rock shrubbery
+ts08;2011-09-11;2,5;8;W;35;95;0;35;80;45;10;3;0;1;0;10;4;1;0,25;13,800961;47,819201;10;Karbach;rockwall;Mull-Renbzina;thermophilous decidous elfin-forest
+ts09;2011-09-11;8;8;W;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;13,801379;47,819198;10;Karbach;;Mull-Renbzina;thermophilous decidous elfin-forest
