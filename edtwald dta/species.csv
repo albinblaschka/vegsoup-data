@@ -5,7 +5,7 @@
 "fb01";"abie alba";"sl";"+";;;
 "fb01";"hylo sple";"ml";"5";;;
 "fb01";"bazz tril";"ml";"1";;;
-"fb01";"dicr hete";"ml";"+";;;
+"fb01";"dicr denu";"ml";"+";;;
 "fb01";"pleu schr";"ml";"1";;;
 "fb01";"dicr scop";"ml";"+";;;
 "fb01";"poly form";"ml";"+";;"cf.";
@@ -19,7 +19,7 @@
 "fb02";"hylo sple";"ml";"4";;;
 "fb02";"bazz tril";"ml";"1";;;
 "fb02";"brac ruta";"ml";"2b";;"cf.";
-"fb02";"dicr hete";"ml";"+";;;
+"fb02";"dicr denu";"ml";"+";;;
 "fb02";"poly form";"ml";"+";;;
 "fb02";"leuc glau";"ml";"+";;;
 "fb02";"dicr scop";"ml";"+";;;
@@ -61,7 +61,7 @@
 "fb04";"pleu schr";"ml";"1";;;
 "fb04";"poly form";"ml";"2b";;;
 "fb04";"plag laet secu";"ml";"1";;;
-"fb04";"dicr hete";"ml";"1";;;
+"fb04";"dicr denu";"ml";"1";;;
 "fb04";"leuc glau";"ml";"1";;;
 "fb04";"dicr scop";"ml";"1";;;
 "fb05";"pice abie";"tl1";"3";;;
@@ -87,7 +87,7 @@
 "fb05";"hylo sple";"ml";"2a";;;
 "fb05";"leuc glau";"ml";"+";;;
 "fb05";"dicr scop";"ml";"+";;;
-"fb05";"dicr hete";"ml";"1";;;
+"fb05";"dicr denu";"ml";"1";;;
 "fb05";"plag laet secu";"ml";"1";;;
 "fb06";"abie alba";"tl1";"2a";;;
 "fb06";"abie alba";"sl";"2a";;;
@@ -107,8 +107,7 @@
 "fb06";"pleu schr";"ml";"2a";;;
 "fb06";"bazz tril";"ml";"1";;;
 "fb06";"plag laet secu";"ml";"2b";;;
-"fb06";"dicr hete";"ml";"+";;;
-"fb06";"hylo sple";"ml";"+";;;
+"fb06";"dicr denu";"ml";"+";;;
 "fb07";"pice abie";"tl1";"4";;;
 "fb07";"pice abie";"sl";"2a";;;
 "fb07";"pice abie";"hl";"1";;;
@@ -124,12 +123,12 @@
 "fb07";"pleu schr";"ml";"1";;;
 "fb07";"poly form";"ml";"1";;;
 "fb07";"dicr scop";"ml";"+";;;
-"fb07";"dicr hete";"ml";"+";;;
+"fb07";"dicr denu";"ml";"+";;;
 "fb07";"hypn cupr";"ml";"1";;;
 "fb07";"hylo sple";"ml";"1";;;
 "fb07";"clad spec ies";"ml";"+";;;
 "fb07";"leuc glau";"ml";"+";;;
-"fb08";"pice abie";"tl1";"3";;;
+"fb08";"pice abie";"tl2";"3";;;
 "fb08";"abie alba";"tl1";"2a";;;
 "fb08";"abie alba";"tl2";"3";;;
 "fb08";"abie alba";"sl";"2b";;;
@@ -163,7 +162,7 @@
 "fb09";"spha girg";"ml";"+";;;
 "fb09";"dicr scop";"ml";"+";;;
 "fb09";"bazz tril";"ml";"+";;;
-"fb09";"dicr hete";"ml";"1";;;
+"fb09";"dicr denu";"ml";"1";;;
 "fb09";"dryo cart";"hl";"r";;;
 "fb10";"pice abie";"tl1";"2b";;;
 "fb10";"pice abie";"tl2";"1";;;
@@ -208,7 +207,7 @@
 "fb11";"leuc glau";"ml";"2a";;;
 "fb11";"dicr scop";"ml";"1";;;
 "fb11";"plag laet secu";"ml";"1";;;
-"fb11";"dicr hete";"ml";"+";;;
+"fb11";"dicr denu";"ml";"+";;;
 "fb11";"bazz tril";"ml";"1";;;
 "fb11";"hylo sple";"ml";"1";;;
 "fb11";"spha girg";"ml";"1";;;
@@ -228,11 +227,10 @@
 "fb12";"aven flex flex";"hl";"+";;;
 "fb12";"betu pend";"hl";"+";;;
 "fb12";"betu pend";"sl";"1";;;
-"fb12";"dicr hete";"ml";"+";;;
+"fb12";"dicr denu";"ml";"+";;;
 "fb12";"poly form";"ml";"+";;;
 "fb12";"pleu schr";"ml";"3";;;
 "fb12";"leuc glau";"ml";"2a";;;
-"fb12";"dicr hete";"ml";"1";;;
 "fb12";"hylo sple";"ml";"2b";;;
 "fb12";"hypn cupr";"ml";"+";;;
 "fb12";"plag laet secu";"ml";"+";;;
@@ -256,7 +254,7 @@
 "fb13";"hylo sple";"ml";"2b";;;
 "fb13";"leuc glau";"ml";"1";;;
 "fb13";"plag laet secu";"ml";"1";;;
-"fb13";"dicr hete";"ml";"+";;;
+"fb13";"dicr denu";"ml";"+";;;
 "fb13";"hypn cupr";"ml";"+";;;
 "fb13";"bazz tril";"ml";"+";;;
 "fb14";"abie gran";"sl";"1";;;
@@ -278,7 +276,7 @@
 "fb14";"hylo sple";"ml";"1";;;
 "fb14";"plag laet secu";"ml";"3";;;
 "fb14";"pleu schr";"ml";"1";;;
-"fb14";"dicr hete";"ml";"+";;;
+"fb14";"dicr denu";"ml";"+";;;
 "fb14";"leuc glau";"ml";"1";;;
 "fb14";"poly form";"ml";"+";;;
 "fb14";"bazz tril";"ml";"+";;;
@@ -307,7 +305,7 @@
 "fb15";"call vulg";"hl";"+";;;
 "fb15";"care pilu pilu";"hl";"+";;;
 "fb15";"care cane cane";"hl";"+";;;
-"fb15";"dicr hete";"ml";"+";;;
+"fb15";"dicr denu";"ml";"+";;;
 "fb15";"plag laet secu";"ml";"1";;;
 "fb15";"clad spec ies";"ml";"+";;;
 "fb15";"poly form";"ml";"+";;;
@@ -328,7 +326,7 @@
 "fb16";"vacc myrt";"hl";"3";;;
 "fb16";"call vulg";"hl";"1";;;
 "fb16";"junc effu";"hl";"+";;;
-"fb16";"dicr hete";"ml";"+";;;
+"fb16";"dicr denu";"ml";"+";;;
 "fb16";"poly form";"ml";"+";;;
 "fb16";"plag laet secu";"ml";"1";;;
 "fb16";"dicr scop";"ml";"+";;;
@@ -363,11 +361,11 @@
 "fb17";"dicr scop";"ml";"+";;;
 "fb17";"leuc glau";"ml";"+";;;
 "fb18";"pice abie";"sl";"1";;;
-"fb18";"pice abie";"tl1";"1";;;
-"fb18";"pice abie";"sl";"3";;;
-"fb18";"abie gran";"tl2";"+";;;
-"fb18";"abie gran";"tl1";"1";;;
-"fb18";"abie gran";"tl2";"3";;;
+"fb18";"pice abie";"tl2";"1";;;
+"fb18";"pice abie";"tl1";"3";;;
+"fb18";"abie gran";"sl";"+";;;
+"fb18";"abie gran";"tl2";"1";;;
+"fb18";"abie gran";"tl1";"3";;;
 "fb18";"quer robu";"sl";"+";;;
 "fb18";"fran alnu";"tl1";"1";;;
 "fb18";"lari deci deci";"hl";"1";;;
@@ -376,7 +374,7 @@
 "fb18";"tsug cana";"tl2";"1";;;
 "fb18";"quer robu";"tl2";"+";;;
 "fb18";"vacc myrt";"hl";"2a";;;
-"fb18";"dicr hete";"ml";"+";;;
+"fb18";"dicr denu";"ml";"+";;;
 "fb18";"plag laet secu";"ml";"2b";;;
 "fb18";"leuc glau";"ml";"1";;;
 "fb18";"pinu sylv";"tl1";"1";;;
