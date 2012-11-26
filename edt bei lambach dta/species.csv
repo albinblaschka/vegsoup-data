@@ -120,8 +120,8 @@
 "el03";"gera phae slat";"hl";"+";;;;;
 "el03";"erig annu annu";"hl";"+";;;;;
 "el03";"clem vita";"hl";"2a";;;;;
-"el03";"clem vita";"hl";3;;;;;
-"el03";"clem vita";"hl";1;;;;;
+"el03";"clem vita";"sl";3;;;;;
+"el03";"clem vita";"tl2";1;;;;;
 "el03";"ange sylv sylv";"hl";"+";;;;;
 "el03";"rubu frut aggr";"hl";"+";;;;;
 "el03";"lami macu";"hl";1;;;;;
@@ -163,7 +163,7 @@
 "el04";"acer pseu";"sl";1;;;;;
 "el04";"acer pseu";"hl";"+";;;;;
 "el04";"tili cord";"tl2";1;;;;;
-"el04";"quer robu";"sl";1;;;;;
+"el04";"quer robu";"tl2";1;;;;;
 "el04";"phal arun";"hl";1;;;;;
 "el04";"clem vita";"tl2";"2a";;;;;
 "el04";"clem vita";"sl";"2b";;;;;
@@ -264,7 +264,6 @@
 "el06";"humu lupu";"sl";"+";;;;;
 "el06";"humu lupu";"hl";"+";;;;;
 "el06";"corn sang slat";"sl";1;;;;;
-"el06";"prun padu padu";"sl";1;;;;;
 "el06";"gera phae slat";"hl";"2a";;;;;
 "el06";"merc pere";"hl";"+";;;;;
 "el06";"cirs oler";"hl";1;;;;;
