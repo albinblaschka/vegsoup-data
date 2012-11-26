@@ -1,6 +1,6 @@
 "plot";"variable";"value";"comment"
-"fv01";"logitude";16,101379;
-"fv01";"latitude";47,818451;
+"fv01";"longitude";16.101379E;
+"fv01";"latitude";47.818451N;
 "fv01";"precision";20;
 "fv01";"cov";80;
 "fv01";"hcov";80;
