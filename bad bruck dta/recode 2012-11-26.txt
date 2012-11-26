@@ -1,40 +1,8 @@
-agro schr	agro agro
-camp barb	camp barb barb
-loni caer	loni caer caer
-leon helv	scor helv
-juni alpi	juni comm nana
-soli minu	soli virg minu
-sile vulg	sile vulg vulg
-cetr isla	cetr isla isla
-puls alba	puls alpi alba
-carl acau	carl acau acau
-care semp	care semp semp
-vera albu	vera albu slat
-cice alpi	lact alpi
-leon hisp	leon hisp slat
-dact macu	dact macu slat
-schi spec	schi spec ies
-scio refl	sciu refl
-alnu viri	alnu alno alno
-pseu albi	pseu albi slat
-raco cane	raco cane cane
-ptili cili	ptil cili
-ligu mute	mute adon
-sesl albi	sesl caer
-sold pusi	sold pusi alpi
-aste bell	bell mich
-alch vulg agg	alch spec ies
-caly stip	will stip
-bryu pseu	bryu pseu slat
-thes pyre	thes pyre alpe
-pter cili	pter fili maju
-bryu spec	bryu spec ies
-ceph bisc	ceph bicu
-care cane	care cane cane
-phle alpi	phle rhae
-tric cesp	tric cesp cesp
-agro rupe	agro rupe rupe
-hier spec	hier spec ies
-tham verm	tham verm verm
-will stip	will stip stip
-junc jaqu	junc jacq
+tris flav	tris flav flav
+dact glom	dact glom glom
+fest prat	fest prat prat
+ranu acri	ranu acri acri
+pimp majo	pimp majo majo
+lath prat	lath prat prat
+vale dioi	vale dioi dioi
+sorb aucu	sorb aucu aucu
