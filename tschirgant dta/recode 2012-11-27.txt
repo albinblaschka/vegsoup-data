@@ -1,7 +1,7 @@
 card defl	card defl viri
 carl vulg	carl vulg vulg
 corn sang	corn sang slat
-dact glom    dact glom glom
+dact glom	dact glom glom
 epip hell	epip hell slat
 eric herb	eric carn
 erig acri ac	erig acri acri
@@ -26,8 +26,8 @@ pimp majo	pimp majo majo
 sile nuta	sile nuta nuta
 sile vulg v	sile vulg vulg
 thym pule	thym pule pule
-trif prat p  trif prat prat
-hera spho s  hera spho spho
+trif prat p	trif prat prat
+hera spho s	hera spho spho
 ranu acri	ranu acri acri
 rume acet	rume acet osa
 salv prat	salv prat prat
@@ -46,7 +46,7 @@ drep revo	scor revo
 gali palu	gali palu palu
 gymn cono	gymn cono cono
 moli caer a	moli caer aggr
-palu comm	palu comm falc
+palu comm	palu comm comm
 poly amae	poly amar ella
 poly bist	pers bist
 sali rosm	sali repe rosm
@@ -83,7 +83,7 @@ dact inca	dact inca inca
 lych flos	lych flos cucu
 conv maja	conv maja maja
 prun padu	prun padu padu
-ribe sp		ribe spec ies
+ribe sp	ribe spec ies
 sorb aucu	sorb aucu aucu
 prun cers	prun cera ifera
 myce mura	lact mura
@@ -133,3 +133,4 @@ marc aqua	marc poly poly
 char sp	char spec ies
 dact macu	dact macu slat
 dact maja	dact maja maja
+musc sp	musc species
