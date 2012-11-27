@@ -1,29 +1,28 @@
 "plot";"abbr";"layer";"cov";"comment";"history"
 "si01";"fest pall";"hl";"2a";"living voucher";
-"si01";"sedu albu";"hl";1;;
+"si01";"sedu albu";"hl";"1";;
 "si01";"euph cypa";"hl";"+";;
 "si01";"alli lusi";"hl";"2a";;
 "si01";"verb lych";"hl";"+";;
 "si01";"arte camp";"hl";"2a";;
-"si01";"sedu sexa";"hl";1;;
+"si01";"sedu sexa";"hl";"1";;
 "si01";"pote pusi";"hl";"2b";;
-"si01";"acin alpi";"hl";1;;
-"si01";"phyt beto";"hl";1;;
-"si01";"sedu albu";"hl";1;;
-"si01";"saxi pani";"hl";1;;
+"si01";"clin alpi alpi";"hl";"1";;" | Changed acin alpi To clin alpi alpi 2012-11-27 15:06:28"
+"si01";"phyt beto";"hl";"1";;
+"si01";"saxi pani";"hl";"1";;
 "si01";"cala vari";"hl";"+";;
-"si01";"heli numm obsc";"+";"cf.";;
-"si01";"trif medi";"hl";"+";;
+"si01";"heli numm obsc";"hl";"+";"cf.";
+"si01";"trif medi medi";"hl";"+";;" | Changed trif medi To trif medi medi 2012-11-27 15:06:28"
 "si01";"erys sylv";"hl";"+";;
 "si01";"scab ochr";"hl";"+";"cf.";
 "si01";"sesl caer";"hl";"+";;
-"si01";"koel pyra";"hl";1;;
+"si01";"koel pyra pyra";"hl";"1";;" | Changed koel pyra To koel pyra pyra 2012-11-27 15:06:28"
 "si01";"sile nuta nuta";"hl";"+";;
 "si01";"poa alpi";"hl";"+";"cf.";
 "si01";"thym prae poly";"hl";"+";;
-"si01";"semp arac arac";"hl";1;"living voucher";
+"si01";"semp arac";"hl";"1";"living voucher";" | Changed semp arac arac To semp arac 2012-11-27 15:06:28"
 "si01";"care cary";"hl";"+";;
-"si01";"vinc hier";"hl";"+";;
+"si01";"vinc hiru";"hl";"+";;" | Changed vinc hier To vinc hiru 2012-11-27 15:06:28"
 "si01";"aste alpi";"hl";"r";;
 "si01";"care humi";"hl";"+";;
 "si01";"achi mill aggr";"hl";"+";;
