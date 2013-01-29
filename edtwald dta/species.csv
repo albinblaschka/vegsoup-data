@@ -60,6 +60,7 @@
 "fb04";"bazz tril";"ml";"2b";;;
 "fb04";"pleu schr";"ml";"1";;;
 "fb04";"poly form";"ml";"2b";;;
+"fb04";"poly comm";"ml";"+";;"cf.";
 "fb04";"plag laet secu";"ml";"1";;;
 "fb04";"dicr denu";"ml";"1";;;
 "fb04";"leuc glau";"ml";"1";;;
@@ -82,6 +83,7 @@
 "fb05";"pleu schr";"ml";"3";;;
 "fb05";"spha girg";"ml";"2b";;;
 "fb05";"poly form";"ml";"1";;;
+"fb05";"poly comm";"ml";"+";;"cf.";
 "fb05";"hypn cupr";"ml";"+";;;
 "fb05";"bazz tril";"ml";"2b";;;
 "fb05";"hylo sple";"ml";"2a";;;
@@ -118,10 +120,11 @@
 "fb07";"pinu sylv";"tl1";"1";;;
 "fb07";"sorb aucu aucu";"hl";"r";;;
 "fb07";"vacc myrt";"hl";"4";;;
-"fb07";"spha fimb";"ml";"3";;;
+"fb07";"spha capi";"ml";"3";;"spha fimb?";
 "fb07";"bazz tril";"ml";"3";;;
 "fb07";"pleu schr";"ml";"1";;;
 "fb07";"poly form";"ml";"1";;;
+"fb07";"poly comm";"ml";"+";;"cf.";
 "fb07";"dicr scop";"ml";"+";;;
 "fb07";"dicr denu";"ml";"+";;;
 "fb07";"hypn cupr";"ml";"1";;;
@@ -179,6 +182,7 @@
 "fb10";"dryo cart";"hl";"+";;;
 "fb10";"dryo dila";"hl";"+";;;
 "fb10";"poly form";"ml";"2a";;;
+"fb10";"poly comm";"ml";"+";;"cf.";
 "fb10";"hylo sple";"ml";"2a";;;
 "fb10";"leuc glau";"ml";"2a";;;
 "fb10";"plag laet secu";"ml";"1";;;
@@ -188,7 +192,7 @@
 "fb10";"spha girg";"ml";"2b";;"cf.";
 "fb10";"clad spec ies";"ml";"+";;;
 "fb10";"hypn cupr";"ml";"+";;;
-"fb10";"spha quin";"ml";"+";;"cf.";
+"fb10";"spha capi";"ml";"+";;"cf. spha quin?";
 "fb11";"pinu sylv";"tl1";"3";;;
 "fb11";"pice abie";"tl1";"2b";;;
 "fb11";"pice abie";"sl";"+";;;
@@ -203,6 +207,7 @@
 "fb11";"dryo cart";"hl";"+";;;
 "fb11";"dryo dila";"hl";"+";;;
 "fb11";"poly form";"ml";"1";;;
+"fb11";"poly comm";"ml";"+";;"cf.";
 "fb11";"pleu schr";"ml";"3";;;
 "fb11";"leuc glau";"ml";"2a";;;
 "fb11";"dicr scop";"ml";"1";;;
@@ -250,6 +255,7 @@
 "fb13";"aven flex flex";"hl";"+";;;
 "fb13";"pleu schr";"ml";"2b";;;
 "fb13";"poly form";"ml";"2b";;;
+"fb13";"poly comm";"ml";"+";;"cf.";
 "fb13";"dicr scop";"ml";"1";;;
 "fb13";"hylo sple";"ml";"2b";;;
 "fb13";"leuc glau";"ml";"1";;;
@@ -298,7 +304,7 @@
 "fb15";"vacc myrt";"hl";"r";;;
 "fb15";"quer robu";"hl";"+";;;
 "fb15";"pseu menz";"sl";"+";;;
-"fb15";"spha quin";"ml";"2a";;;
+"fb15";"spha capi";"ml";"2a";;"cf. spha quin?";
 "fb15";"pleu schr";"ml";"3";;;
 "fb15";"hylo sple";"ml";"+";;;
 "fb15";"leuc glau";"ml";"+";;;
