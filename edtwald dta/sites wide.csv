@@ -1,5 +1,5 @@
 "plot";"cov";"tcov1";"tcov2";"scov";"hcov";"mcov";"htl1";"htl2";"hsl";"hhl1";"hhl2";"plsx";"plsy";"expo";"slope";"rock";"stones";"bare";"soil";"date";"altitude";"precision.vertical";"precision.horizontal";"longitude";"latitude";"comment";"syntaxon"
-"fb01";99;95;0;1;1;912;15;0;1;0,1;0,2;16;16;"F";0;0;0;0;;"2012-09-22";559;8;5;"13.529440E";"48.556192N";;"Bazzanio-Piceetum  Br.Bl. & Sissingh 1939"
+"fb01";99;95;0;1;1;91;15;0;1;0,1;0,2;16;16;"F";0;0;0;0;;"2012-09-22";559;8;5;"13.529440E";"48.556192N";;"Bazzanio-Piceetum  Br.Bl. & Sissingh 1939"
 "fb02";98;92;0;0;1;92;16;0;0;0,1;0,3;16;16;"F";0;0;0;0;;"2012-09-22";552;7;5;"13.528951E";"48.555734N";;"Bazzanio-Piceetum  Br.Bl. & Sissingh 1939"
 "fb03";99;90;0;2;30;98;22;0;2;0,1;0,3;16;16;"F";0;0;0;0;;"2012-09-22";530;10;5;"13.528091E";"48.555650N";;"Bazzanio-Piceetum  Br.Bl. & Sissingh 1939"
 "fb04";99;90;7;3;50;90;28;7;4;0,1;0,3;16;16;"W";5;0;0;0;;"2012-09-22";545;10;5;"13.527223E";"48.555667N";;"Bazzanio-Piceetum  Br.Bl. & Sissingh 1939"
