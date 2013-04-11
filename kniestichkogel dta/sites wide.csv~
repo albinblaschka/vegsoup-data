@@ -1,4 +1,0 @@
-plo	date	latitude	longitude	horizontal.prec	plsx	plsy	expo	slope	cov	hcov	mcov	hhl1
-kn01	01.08.2012	47.415120N	12.724233E	6m	6	4	SSW	10	98	70	90	0,4
-kn02	01.08.2012	47.414442N	12.729510E	5m	5	4	SSE	5	100	55	99	0,3
-kn03	01.08.2012	47.410742N	12.717765E	12m	5	5	ENE	20	100	95	98	0,5
