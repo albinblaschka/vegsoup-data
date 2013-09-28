@@ -50,5 +50,7 @@ eb92$expo <- df.attr$Exposition
 eb92$cov <- df.attr$"Deckung...."
 eb92$ph <- df.attr$"ph...10.2."
 
+rownames(eb92) <- paste0("eb92",
+	gsub(" ", "0", format(rownames(eb92), width = 3, justify = "right")))
 save(eb92, file = "~/Documents/vegsoup-data/erschbammer1992/eb92.rda")
 rm(file, x, X, x.df, Y, df.attr)
