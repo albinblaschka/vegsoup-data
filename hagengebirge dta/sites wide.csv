@@ -1,4 +1,4 @@
-"plot";"cov";"t1cov";"t2cov";"scov";"hcov";"mcov";"htl1";"htl2";"hsl";"hhl1";"hhl2";"plsx";"plsy";"expo";"slope";"rock";"bare";"stones";"date";"soil";"comment";"latitude";"longitude";"horizontal precision";"altitude";"syntaxon"
+"plot";"cov";"tcov1";"tcov1";"scov";"hcov";"mcov";"htl1";"htl2";"hsl";"hhl1";"hhl2";"plsx";"plsy";"expo";"slope";"rock";"bare";"stones";"date";"soil";"comment";"latitude";"longitude";"horizontal precision";"altitude";"syntaxon"
 "hg01";98;0;0;0;96;2;0;0;0;0,15;0,04;4;4;"W";15;1;1;0;2013-08-21;"Pechrendzina";;"47.507001N";"13.113866E";8;;
 "hg02";98;0;0;0;93;5;0;0;0;0,15;0,03;4;4;"W";20;1;1;0;2013-08-21;"Pechrendzina";;"47.502437N";"13.093143E";8;;
 "hg03";88;0;0;0;83;7;0;0;0;0,15;0,02;4;4;"N";7;2;3;7;2013-08-22;"Pechrendzina";;"47.502637N";"13.092859E";20;;
