@@ -1,9 +1,8 @@
 require(vegsoup)
 
 #	read digitized table 
-file <- system.file("extdata", "Erschbammer1992Tab4.txt",
-                    package = "vegsoup")
-x <- read.verbatim(file, "Aufnahme Nr.")
+file <- "~/Documents/vegsoup-data/erschbammer1992/Erschbammer1992Tab4.txt"
+x <- read.verbatim(file, "Aufnahme Nr.", verbose = T)
 
 
 # add species from table footer
@@ -11,8 +10,13 @@ file <- "~/Documents/vegsoup-data/erschbammer1992/Erschbammer1992Tab4Tablefooter
 x <- read.verbatim.append(x, file, mode = "species")
 
 # turn into long format
-x.df <- data.frame(abbr = rownames(x), layer = "hl", comment = NA, x,
-                   check.names = FALSE)
+l <- rep("hl", nrow(x))
+l[c(10:13, 65, 94, 96, 100, 112, 114, 121, 126, 143, 150)] <- "ml"
+
+x.df <- data.frame(abbr = rownames(x),
+			layer = l,
+			comment = NA, x,
+			check.names = FALSE)
 # promote to class "Species"
 X <- stack.species(x.df)
 # groome abundance scale codes to fit the standard
