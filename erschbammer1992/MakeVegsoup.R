@@ -11,7 +11,7 @@ x <- read.verbatim.append(x, file, mode = "species")
 
 # turn into long format
 l <- rep("hl", nrow(x))
-l[c(10:13, 65, 94, 96, 100, 112, 114, 121, 126, 143, 150)] <- "ml"
+l[c(10:13, 52, 65, 94, 96, 100, 112, 114, 121, 126, 143, 150)] <- "ml"
 
 x.df <- data.frame(abbr = rownames(x),
 			layer = l,
