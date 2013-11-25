@@ -14,7 +14,7 @@ file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian stan
 # promote to class "SpeciesTaxonomy"
 XZ <- SpeciesTaxonomy(X, file.y = file)
 # promote to class "Vegsoup"
-hs <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
+hö <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
-save(hs, file = "~/Documents/vegsoup-data/höllenstein dta/sm.rda")
+save(hö, file = "~/Documents/vegsoup-data/höllenstein dta/hö.rda")
 rm(X, Y, XZ, file)
