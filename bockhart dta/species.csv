@@ -28,7 +28,7 @@
 "ga01";"call vulg";"hl";"2b";;
 "ga01";"vacc myrt";"hl";"2b";;
 "ga01";"cetr isla isla";"ll";"+";"cf.";" | Changed cetr isla To cetr isla isla 2012-11-26 22:33:43"
-"ga01";"clad spec";"ll";"+";;
+"ga01";"clad spec ies";"ll";"+";;
 "ga01";"rhyt triq";"ml";"1";;
 "ga01";"dicr denu";"ml";"1";;
 "ga01";"hylo sple";"ml";"1";;
@@ -82,7 +82,7 @@
 "ga02";"rume alpe";"hl";"2b";;
 "ga02";"dact macu slat";"hl";"r";;" | Changed dact macu To dact macu slat 2012-11-26 22:33:43"
 "ga02";"aden alli";"hl";"r";;
-"ga02";"clad spec";"ll";"+";;
+"ga02";"clad spec ies";"ll";"+";;
 "ga02";"schi spec ies";"ml";"+";;" | Changed schi spec To schi spec ies 2012-11-26 22:33:43"
 "ga02";"hete dimo";"ml";"+";;
 "ga02";"dicr scop";"ml";"+";;
@@ -368,7 +368,7 @@
 "ga13";"call vulg";"hl";"2a";;
 "ga13";"vacc myrt";"hl";"2b";;
 "ga13";"vacc gaul";"hl";"2b";;
-"ga13";"clad spec";"ll";"2a";"Cladonia rangiferina";
+"ga13";"clad rang";"ll";"2a";"Cladonia rangiferina";
 "ga13";"dicr flex";"ml";"1";;
 "ga13";"pleu schr";"ml";"4";;
 "ga13";"hylo sple";"ml";"2b";;
