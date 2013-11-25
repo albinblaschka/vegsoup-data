@@ -16,5 +16,5 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 # promote to class "Vegsoup"
 sp <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
-save(rx, file = "~/Documents/vegsoup-data/stadl-paura dta/sp.rda")
+save(sp, file = "~/Documents/vegsoup-data/stadl-paura dta/sp.rda")
 rm(X, Y, XZ, file)
