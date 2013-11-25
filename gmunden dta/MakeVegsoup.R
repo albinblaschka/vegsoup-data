@@ -5,10 +5,10 @@ file <- "~/Documents/vegsoup-data/gmunden dta/species.csv"
 
 X <- species(file, sep = ";")
 X <- X[, 1:4]
-file <- "~/Documents/vegsoup-data/gmunden dta/sites wide.csv"
+file <- "~/Documents/vegsoup-data/gmunden dta/sites.csv"
 
 # promote to class "Sites"
-Y <- stack.sites(file = file)
+Y <- sites(read.csv2(file))
 
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 # promote to class "SpeciesTaxonomy"
