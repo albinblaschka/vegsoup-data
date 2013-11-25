@@ -1,4 +1,3 @@
-
 library(vegsoup)
 
 file <- "~/Documents/vegsoup-data/starzengruber1979/Starzengruber1979Tab1.txt"
@@ -45,6 +44,7 @@ tmp[tmp$abbr == "rubu.idae", ]$layer <- "hl"
 
 starzengruber1979@species <- tmp
 
+rownames(starzengruber1979) <- paste("starzengruber1979", rownames(starzengruber1979), sep = ":")
 save(starzengruber1979, file = "~/Documents/vegsoup-data/starzengruber1979/starzengruber1979.rda")
 
 rm(list = ls()[-grep("starzengruber1979", ls())])
