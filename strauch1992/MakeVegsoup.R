@@ -51,3 +51,5 @@ Layers(strauch1992) <- c("tl", "sl", "hl")
 rownames(strauch1992) <- paste("strauch1992", rownames(strauch1992), sep = ":")
 
 rm(list = ls()[-grep("strauch1992", ls())])
+
+save(strauch1992, file = "~/Documents/vegsoup-data/strauch1992/strauch1992.rda")
