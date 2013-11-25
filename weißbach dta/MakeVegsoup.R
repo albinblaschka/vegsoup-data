@@ -21,4 +21,4 @@ XZ <- SpeciesTaxonomy(x = X, file.y = file)
 wb <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
 save(wb, file = "~/Documents/vegsoup-data/weißbach dta/wb.rda")
-#	QuickMap(wk)
+rm(list = ls()[-grep("wb", ls(), fixed = TRUE)])
