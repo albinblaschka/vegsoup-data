@@ -1,0 +1,63 @@
+"plot";"cov";"t1cov";"t2cov";"scov";"hcov";"mcov";"htl1";"htl2";"hsl";"hhl1";"hhl2";"plsx";"plsy";"expo";"slope";"rock";"date";"latitude";"longitude";"horizontal precision";"soil";"type";"syntaxon";"timber";"stand.age";"comment";"deadwood"
+"sp01";95;60;70;25;90;0;25;13;4;0,4;0,25;16;16;"F";0;0;"2013-04-24 & 2013-05-09 & 2013-05-15 & 2013-07-12 & 2013-08-28";"48.079123N";"13.832324E";10;"unkown";"EHW";"Stellario-Carpinetum";"SH, BH";"het";"artenreiche Baumschicht, mit Gebüschinsel";0
+"sp02";90;80;5;10;85;0;23;12;1,5;0,3;0,15;16;16;"F";0;0;"2013-04-24 & 2013-05-09 & 2013-08-28";"48.079998N";"13.834100E";10;"unkown";"TBW";"Helleboro nigri-Fagetum";"BH";"het";"randliche Kronenlücke";1
+"sp03";97;45;0;30;95;0;21;0;2,5;0,3;0,1;16;16;"F";0;0;"2013-04-24 & 2013-05-09";"48.080120N";"13.835070E";10;"unkown";"TBW";"Helleboro nigri-Fagetum";"Di";"hom";"Lücke bei Windwurf an Bestandesrand ";0
+"sp04";97;95;7;0;35;1;24;18;4,5;0,2;0,1;16;16;"F";0;0;"2013-04-24 & 2013-05-09";"48.079993N";"13.836818E";5;"unkown";"TBW";"Helleboro nigri-Fagetum";"Di, SH, (BH)";"hom-het";"schmale Parzelle zwischen Nadelholz";0
+"sp05";97;95;0;3;80;0;25;0;3;0,3;0,1;16;16;"F";0;0;"2013-04-24 & 2013-05-14";"48.083500N";"13.836267E";10;"unkown";"TBW";"Helleboro nigri-Fagetum";"BH";"het";"am Begin einer seichten Geländedelle";3
+"sp06";95;85;25;15;75;0;22;16;6;0,3;0,1;16;16;"F";0;0;"2013-04-24 & 2013-05-09";"48.083639N";"13.839290E";10;"unkown";"TBW";"Helleboro nigri-Fagetum";"Sh, BH";"hom";"mit Gebüschinsel";0
+"sp07";97;10;85;5;90;1;23;16;4;0;0,15;16;16;"F";0;0;"2013-05-09 & 2013-05-15 & 2013-07-12";"48.079120N";"13.832815E";9,2;"unkown";"EHW";"Stellario-Carpinetum";"SH, BH";"hom-het";"Niederwald mit Eschenüberhältern";0
+"sp08";95;0;0;2;95;0;0;0;4;0,4;0,2;16;16;"F";0;0;"2013-05-09";"48.077510N";"13.832760E";4;"unkown";"SF";"Frangula alnus Cephalanthero-Fagenion-Gesellschaft";"J1";"hom";"randlich mit Überhältern";0
+"sp09";99;80;50;40;7;0;28;12;6;0,2;0,1;16;16;"F";0;0;"2013-05-09";"48.077278N";"13.834006E";5;"unkown";"TBW";"Helleboro nigri-Fagetum";"Di, SH, BH, StH";"het";"geplenterter Altbestand mit viel Aufwuchs";2
+"sp10";97;75;30;15;35;1;25;15;6;0,25;0,1;16;16;"F";0;0;"2013-05-09";"48.078188N";"13.834155E";4,5;"unkown";"TBW";"Helleboro nigri-Fagetum";"SH, BH";"het";"mit Fichte im Nebenbestand";2
+"sp11";97;95;10;5;75;1;25;18;5;0,3;0,1;16;16;"F";0;0;"2013-05-09";"48.078432N";"13.833943E";3,6;"unkown";"TBW";"Helleboro nigri-Fagetum";"SH, BH, (StH)";"het";"mit Fichte im Nebenbestand";2
+"sp12";95;0;0;0;95;1;0;0;0;0,7;0,3;16;16;"F";0;0;"2013-05-09 & 2013-07-12";"48.077961N";"13.831964E";3,3;"unkown";"SF";"unclassified";"J1";"hom";"Schlag an Terassenkante";0
+"sp13";98;0;0;45;95;0;0;0;2,5;0,5;0,25;8;8;"F";0;0;"2013-05-09";"48.078201N";"13.831285E";3;"unkown";"SF";"unclassified";"J1";"hom";"mit nat. Baumaufwuchs (Dickung) in TB";0
+"sp14";99;80;70;2;7;0;30;20;5;0,2;0,1;16;16;"F";0;0;"2013-05-09";"48.078957N";"13.831571E";3,7;"unkown";"LW";"Aceri-Tilietum platyphylli";"SH, BH, StH";"het";"mit viele Buche v.a. als StarkH";1
+"sp15";95;65;20;15;45;0;20;13;4;0,3;0,1;16;16;"F";0;0;"2013-05-09";"48.080384N";"13.831938E";4,5;"unkown";"FF";"Nadelholzforst (Fi, Lä) ";"SH, BH";"hom";"mit 40% nat. Baumarten";0
+"sp16";98;15;80;5;10;0;23;17;6;0,15;0,1;16;16;"F";0;0;"2013-05-09";"48.080834N";"13.832867E";7,7;"unkown";"TBW";"Helleboro nigri-Fagetum";"Di, (SH), BH";"het";"Bu-Aufwuchs auf Plenterfläche mit Bu-Überhältern";0
+"sp17";97;85;40;5;80;0;30;16;4;0,5;0,1;16;16;"F";0;0;"2013-05-09";"48.080273N";"13.832809E";6,8;"unkown";"TBW";"Helleboro nigri-Fagetum";"(SH), BH, (StH)";"het";"mit Eiche in BS1 und Hainbuche in BS2";0
+"sp18";98;92;4;0;5;93;22;12;0;0,3;0,1;16;16;"F";0;0;"2013-05-09";"48.079960N";"13.832680E";6;"unkown";"FF";"unclassified";"SH, (BH)";"hom";"sehr schlecht, ohne nat. Baumarten";0
+"sp19";95;90;5;1;80;60;25;15;4;0,3;0,1;16;16;"F";0;0;"2013-05-09";"48.079032N";"13.833842E";5,9;"unkown";"FF";"unclassified";"BH";"hom";"gut, mit 30% nat. Baumarten";0
+"sp20";98;60;50;10;35;1;25;18;4;0,3;0,15;16;16;"F";0;0;"2013-05-14";"48.080099N";"13.831867E";7,2;"unkown";"EHW";"Stellario-Carpinetum";"SH, BH, StH";"het";"Ausbildung am Übergang zum Leitenwald ";0
+"sp21";99;95;15;3;70;1;27;22;6;0,2;0,1;16;16;"F";0;0;"2013-05-14";"48.080166N";"13.831488E";5,2;"unkown";"LW";"Aceri-Tilietum platyphylli";"SH, BH, (StH)";"het";"Leitenwald, Übergang Helleboro nigri-Fagetum";2
+"sp22";99;80;50;5;90;1;30;20;5;0,4;0,15;32;8;"F";0;0;"2013-05-14";"48.080197N";"13.831109E";4,8;"unkown";"LW";"Aceri-Tilietum platyphylli";"SH, BH, StH";"het";"Leitenwald der untersten Terassenstufe";3
+"sp23";97;90;10;5;75;3;25;18;4,5;0,3;0,2;16;16;"F";0;2;"2013-05-14";"48.081573N";"13.830388E";5;"unkown";"LW";"Aceri-Tilietum platyphylli";"(SH), BH, (StH)";"het";"missing";2
+"sp24";99;85;15;5;98;1;25;18;4;0,4;0,1;16;16;"F";0;0;"2013-05-14 & 2013-08-28";"48.082452N";"13.830614E";7,2;"unkown";"AW";"Carici albae-Tilietum cordatae";"SH, BH";"hom-het";"missing";0
+"sp25";95;80;7;70;35;4;27;20;4;0,4;0,1;16;16;"F";0;0;"2013-05-15";"48.081303N";"13.831236E";9,4;"unkown";"TBW";"Helleboro nigri-Fagetum";"(SH), BH";"het";"missing";0
+"sp26";99;0;98;3;45;0;0;10;2,5;0,15;0,15;16;16;"F";0;0;"2013-05-15";"48.081733N";"13.832167E";7,1;"unkown";"VW";"Helleboro nigri-Fagetum";"Di, (SH)";"hom";"missing";99
+"sp27";99;0;99;2;7;2;0;10;3;0,3;0,1;16;16;"F";0;0;"2013-05-15";"48.082449N";"13.832618E";6,8;"unkown";"VW";"Helleboro nigri-Fagetum";"Di, (SH)";"hom";"missing";99
+"sp28";99;0;0;25;98;40;0;0;3,5;0,8;0,4;16;16;"F";0;0;"2013-05-15";"48.082502N";"13.834265E";4,2;"unkown";"SF";"Frangula alnus Cephalanthero-Fagenion-Gesellschaft";"missing";"missing";"missing";99
+"sp29";97;95;0;1;45;0;26;0;1,5;0,25;0,15;16;16;"F";0;0;"2013-05-15";"48.082152N";"13.834655E";8,7;"unkown";"TBW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp30";95;85;10;4;85;2;26;18;4;0,4;0,1;16;16;"F";0;0;"2013-05-15";"48.081412N";"13.834555E";5;"unkown";"TBW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp31";99;0;0;85;90;20;0;0;5;0,6;0,1;16;16;"F";0;0;"2013-05-15";"48.081211N";"13.833242E";8,9;"unkown";"VW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp32";95;7;10;60;90;7;26;18;5;0,7;0,1;16;16;"F";0;0;"2013-05-15";"48.080640N";"13.833870E";7,7;"unkown";"TBW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp33";97;93;30;10;90;1;30;20;5;0,5;0,1;16;16;"W";20;0;"2013-05-15";"48.080600N";"13.832410E";5;"unkown";"TBW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp34";97;50;0;45;95;1;23;0;4;0,7;0,1;16;16;"F";0;0;"2013-05-15";"48.082848N";"13.835721E";7,1;"unkown";"FF";"unclassified";"missing";"missing";"missing";99
+"sp35";99;0;25;75;97;20;0;8;6;0,5;0,25;16;16;"F";0;0;"2013-05-15";"48.084436N";"13.839819E";3,9;"unkown";"VW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp36";98;0;97;15;30;1;0;8;4;0,3;0,1;16;16;"N";15;0;"2013-05-15";"48.084630N";"13.839150E";9,2;"unkown";"VW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp37";93;85;15;35;65;20;27;15;5,5;0,4;0,2;16;16;"N";50;7;"2013-05-15";"48.085028N";"13.839754E";11,8;"unkown";"LW";"unclassified";"missing";"missing";"missing";99
+"sp38";98;95;30;7;33;1;30;20;4;0,5;0,1;16;16;"N";40;2;"2013-05-15 & 2013-08-28";"48.084823N";"13.837539E";13,2;"unkown";"LW";"unclassified";"missing";"missing";"missing";99
+"sp39";95;0;80;20;75;0;0;13;4,5;0,25;0,1;16;16;"F";0;0;"2013-05-15";"48.084152N";"13.838544E";4,4;"unkown";"TBW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp40";92;90;10;0;70;1;27;18;0;0,3;0,1;16;16;"F";0;0;"2013-05-15";"48.083299N";"13.837099E";6,2;"unkown";"TBW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp41";95;85;5;3;15;65;16;14;2;0,2;0,1;16;16;"F";0;0;"2013-05-15";"48.082230N";"13.838812E";6,1;"unkown";"FF";"unclassified";"missing";"missing";"missing";99
+"sp42";98;90;10;15;80;1;28;18;4;0,3;0,1;16;16;"F";0;0;"2013-05-15";"48.082265N";"13.836911E";3,4;"unkown";"TBW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp43";97;0;0;80;90;5;0;0;4;0,7;0,3;16;16;"F";0;0;"2013-05-16";"48.081671N";"13.838231E";7,1;"unkown";"SF";"Frangula alnus Cephalanthero-Fagenion-Gesellschaft";"missing";"missing";"missing";99
+"sp44";99;0;1;65;98;1;0;20;4;0,6;0,1;16;16;"F";0;0;"2013-05-16";"48.081812N";"13.837276E";8,1;"unkown";"SF";"Frangula alnus Cephalanthero-Fagenion-Gesellschaft";"missing";"missing";"missing";99
+"sp45";98;0;0;90;97;3;0;0;4;0,7;0,4;16;16;"F";0;0;"2013-05-16";"48.081234N";"13.837414E";4,1;"unkown";"VW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp46";96;80;45;25;80;1;28;18;4;0,5;0,1;16;16;"F";0;0;"2013-05-16";"48.081000N";"13.837952E";4,1;"unkown";"TBW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp47";99;0;0;95;85;3;0;0;5;0,5;0,25;16;16;"F";0;0;"2013-05-16";"48.081039N";"13.837318E";6,5;"unkown";"VW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp48";97;97;7;1;7;1;18;15;2;0,15;0,05;16;16;"F";0;0;"2013-05-16";"48.079170N";"13.837890E";7,4;"unkown";"TBW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp49";98;80;90;7;5;1;30;12;4;0,2;0,1;16;16;"F";0;0;"2013-05-16";"48.079509N";"13.837341E";5,2;"unkown";"TBW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp50";97;20;25;50;97;5;14;10;5;0,5;0,3;16;16;"F";0;0;"2013-05-16";"48.080639N";"13.837806E";3,9;"unkown";"VW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp51";98;97;0;7;45;1;10;0;4;0,3;0,1;16;16;"F";0;0;"2013-05-16";"48.081188N";"13.839238E";4,6;"unkown";"TBW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp52";96;0;2;85;94;1;0;6;2;0,35;0,2;16;16;"F";0;0;"2013-05-16 & 2013-08-28";"48.079217N";"13.843711E";6,9;"unkown";"REK";"Frangula alnus Cephalanthero-Fagenion-Gesellschaft";"missing";"missing";"missing";99
+"sp53";95;0;3;60;90;1;0;10;2,5;0,5;0,1;16;16;"F";0;0;"2013-05-16 & 2013-08-28";"48.079332N";"13.843022E";6,7;"unkown";"REK";"Frangula alnus Cephalanthero-Fagenion-Gesellschaft";"missing";"missing";"missing";99
+"sp54";99;0;7;90;90;4;0;8;4;0,8;0,25;16;16;"F";0;0;"2013-05-16";"48.078734N";"13.842349E";5,8;"unkown";"REK";"Frangula alnus Cephalanthero-Fagenion-Gesellschaft";"missing";"missing";"missing";99
+"sp55";100;0;95;15;100;0;0;10;5;1;0,1;16;16;"F";0;0;"2013-05-16";"48.078341N";"13.842070E";3,8;"unkown";"REK";"unclassified";"missing";"missing";"missing";99
+"sp56";99;0;0;75;98;1;0;0;4;1;0,1;16;16;"F";0;0;"2013-05-16";"48.077843N";"13.842753E";4,6;"unkown";"REK";"Frangula alnus Cephalanthero-Fagenion-Gesellschaft";"missing";"missing";"missing";99
+"sp57";97;50;50;20;80;1;25;20;4,5;0,4;0,2;16;16;"F";0;0;"2013-07-12";"48.074424N";"13.831968E";15;"unkown";"TBW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp58";98;80;40;0;60;1;24;18;0;0,2;0,2;16;16;"F";0;0;"2013-07-12";"48.076460N";"13.827254E";15;"unkown";"EHW";"Stellario-Carpinetum";"missing";"missing";"missing";99
+"sp59";93;0;0;15;80;1;0;0;4;0,8;0,3;16;16;"SW";15;0;"2013-07-12 & 2013-08-28";"48.083177N";"13.841486E";15;"unkown";"REK";"Frangula alnus Cephalanthero-Fagenion-Gesellschaft";"missing";"missing";"missing";99
+"sp60";98;95;10;7;90;1;25;20;3,5;0,6;0,3;16;16;"F";0;0;"2013-07-12";"48.071648N";"13.837227E";15;"unkown";"TBW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp61";98;85;15;10;25;1;26;22;4;0,3;0,2;16;16;"F";0;0;"2013-07-12";"48.070798N";"13.837619E";15;"unkown";"TBW";"Helleboro nigri-Fagetum";"missing";"missing";"missing";99
+"sp62";75;0;0;65;73;1;0;0;3;1,2;0,5;32;8;"SW";25;0;"2013-07-16";"48.083168N";"13.842189E";10;"unkown";"REK";"Frangula alnus Cephalanthero-Fagenion-Gesellschaft";"missing";"missing";"missing";99
