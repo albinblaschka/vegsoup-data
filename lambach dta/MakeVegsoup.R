@@ -12,4 +12,4 @@ XZ <- SpeciesTaxonomy(x = X, file.y = file)
 lb <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
 save(lb, file = "~/Documents/vegsoup-data/lambach dta/lb.rda")
-rm(X, Y, XZ, file)
+rm(list = ls()[-grep("lb", ls())])

@@ -17,4 +17,4 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 rx <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
 save(rx, file = "~/Documents/vegsoup-data/rax dta/rx.rda")
-rm(X, Y, XZ, file)
+rm(list = ls()[-grep("rx", ls())])

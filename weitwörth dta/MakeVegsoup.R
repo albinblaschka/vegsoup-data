@@ -17,5 +17,5 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 ww <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
 save(ww, file = "~/Documents/vegsoup-data/weitwörth dta/ww.rda")
-rm(X, Y, XZ, file)
+rm(list = ls()[-grep("ww", ls(), fixed = TRUE)])
 

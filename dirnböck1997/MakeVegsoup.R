@@ -20,7 +20,7 @@ file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian stan
 # promote to class "SpeciesTaxonomy"
 XZ <- SpeciesTaxonomy(X, file.y = file)
 # promote to class "Vegsoup"
-db97 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
+dirnböck1997 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
-save(db97, file = "~/Documents/vegsoup-data/dirnböck1997/db97.rda")
-rm(x ,x.df, X, Y, XZ, file)
+save(dirnböck1997, file = "~/Documents/vegsoup-data/dirnböck1997/dirnböck1997.rda")
+rm(list = ls()[-grep("dirnböck1997", ls(), fixed = TRUE)])

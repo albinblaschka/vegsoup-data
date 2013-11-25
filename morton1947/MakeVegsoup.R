@@ -16,5 +16,5 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 # promote to class "Vegsoup"
 morton1947 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
-save(morton1947, file = "~/Documents/vegsoup-data/schmiederer2002/morton1947.rda")
+save(morton1947, file = "~/Documents/vegsoup-data/morton1947/morton1947.rda")
 rm(list = ls()[-grep("morton1947", ls(), fixed = TRUE)])

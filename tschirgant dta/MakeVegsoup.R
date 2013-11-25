@@ -19,4 +19,4 @@ tsg <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
 rownames(tsg) <- gsub("tg", "tsg", rownames(tg))
 save(tsg, file = "~/Documents/vegsoup-data/tschirgant dta/tsg.rda")
-rm(X, Y, XZ, file)
+rm(list = ls()[-grep("tsg", ls(), fixed = TRUE)])

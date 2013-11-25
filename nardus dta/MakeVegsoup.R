@@ -17,4 +17,4 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 nardus <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
 save(nardus, file = "~/Documents/vegsoup-data/nardus dta/nardus.rda")
-rm(X, Y, XZ, file)
+rm(list = ls()[-grep("nardus", ls())])

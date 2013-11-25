@@ -17,4 +17,4 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 kn <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
 save(kn, file = "~/Documents/vegsoup-data/kniestichkogel dta/kn.rda")
-rm(X, Y, XZ, file)
+rm(list = ls()[-grep("kn", ls())])

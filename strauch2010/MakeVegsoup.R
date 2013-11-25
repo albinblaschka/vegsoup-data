@@ -28,7 +28,7 @@ XZ <- SpeciesTaxonomy(x = X, file.y = file)
 strauch2010 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
 rownames(strauch2010) <- paste("strauch2010", rownames(strauch2010), sep = ":")
-rm(list = ls()[-grep("strauch2010", ls())])
 
 save(strauch2010, file = "~/Documents/vegsoup-data/strauch2010/strauch2010.rda")
-#	QuickMap(strauch2010)
+
+rm(list = ls()[-grep("strauch2010", ls())])

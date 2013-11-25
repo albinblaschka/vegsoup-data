@@ -18,5 +18,5 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 bb <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
 save(bb, file = "~/Documents/vegsoup-data/bad bruck dta/bb.rda")
-rm(list = ls()[-grep("aa", ls(), fixed = TRUE)])
+rm(list = ls()[-grep("bb", ls(), fixed = TRUE)])
 

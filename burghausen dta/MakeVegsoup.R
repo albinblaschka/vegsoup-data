@@ -17,6 +17,6 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 # promote to class "Vegsoup"
 bh <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
-save(bh, file = "~/Documents/vegsoup-data/burghausen dta/ga.rda")
-rm(list = ls()[-grep("ba", ls(), fixed = TRUE)])
+save(bh, file = "~/Documents/vegsoup-data/burghausen dta/bh.rda")
+rm(list = ls()[-grep("bh", ls(), fixed = TRUE)])
 

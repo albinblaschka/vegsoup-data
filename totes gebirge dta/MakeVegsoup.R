@@ -17,4 +17,4 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 tg <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
 save(tg, file = "~/Documents/vegsoup-data/totes gebirge dta/tg.rda")
-rm(X, Y, XZ, file)
+rm(list = ls()[-grep("tg", ls(), fixed = TRUE)])
