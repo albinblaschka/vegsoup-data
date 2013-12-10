@@ -296,7 +296,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 34;hypn cupr;ml;10;;;
 34;thui tama;ml;1;;;
 35;grap scri;ll;42;;;
-35;hafe disc;ll;6;;;
+35;hafe disc disc;ll;6;;;
 35;leca chla;ll;9,5;;;
 35;leca subr;ll;2;;;
 35;lecl elae;ll;2;;;
@@ -2118,7 +2118,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 394;parm saxa;ll;42;6;4;
 394;plat glau;ll;12;5;4;
 395;hypc scal;ll;56;;;
-396;hafe disc;ll;0,5;;;
+396;hafe disc disc;ll;0,5;;;
 396;hypo phys;ll;1;1;1;
 396;leca intu;ll;1;;;
 396;paop ambi;ll;0,5;1;1;
@@ -2126,7 +2126,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 396;plat glau;ll;80;6;2;
 396;psev furf;ll;2;3;1;
 397;calo herb;ll;2;;;
-397;hafe disc;ll;4;;;
+397;hafe disc disc;ll;4;;;
 397;hypo phys;ll;23,5;2;1;
 397;leca arge;ll;0,5;;;
 397;leca intu;ll;2;;;
