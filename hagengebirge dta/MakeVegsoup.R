@@ -4,7 +4,7 @@ file <- "~/Documents/vegsoup-data/hagengebirge dta/species.csv"
 # promote to class "Species"
 
 X <- species(file, sep = ";")
-X <- X[, 1:4]
+X <- X[, c(1:4, grep("voucher", names(X@data)))]
 file <- "~/Documents/vegsoup-data/hagengebirge dta/sites wide.csv"
 
 # promote to class "Sites"
@@ -17,4 +17,5 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 hg <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
 save(hg, file = "~/Documents/vegsoup-data/hagengebirge dta/hg.rda")
+Species(hg)
 rm(X, Y, XZ, file)
