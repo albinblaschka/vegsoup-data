@@ -18,4 +18,5 @@ hg <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
 save(hg, file = "~/Documents/vegsoup-data/hagengebirge dta/hg.rda")
 Species(hg)
+
 rm(X, Y, XZ, file)
