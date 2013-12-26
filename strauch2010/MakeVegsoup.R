@@ -20,7 +20,7 @@ y <- y[, -grep("slope.str", names(y))]
 y <- y[, -grep("code", names(y))]
 y <- y[, -grep("tms", names(y))]
 
-Y <- stack.sites(y)
+Y <- stackSites(y)
 
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 XZ <- SpeciesTaxonomy(x = X, file.y = file)

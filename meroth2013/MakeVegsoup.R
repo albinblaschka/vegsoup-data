@@ -4,7 +4,7 @@ file <- "~/Documents/vegsoup-data/meroth2013/species wide.csv"
 X <- stack.species(file = file)[, 1:4]
 
 file <- "~/Documents/vegsoup-data/meroth2013/sites wide.csv"
-Y <- stack.sites(file = file)
+Y <- stackSites(file = file)
 
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 XZ <- SpeciesTaxonomy(x = X, file.y = file)

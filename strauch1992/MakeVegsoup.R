@@ -23,7 +23,7 @@ Y <- read.delim("~/Documents/vegsoup-data/strauch1992/Strauch1992Tab2Locations.t
 names(Y) <- c("plot", "location", "tms")
 
 Y <- data.frame(Y, t(sapply(Y[,3], str2latlng, USE.NAMES = FALSE)))
-Y <- stack.sites(Y)
+Y <- stackSites(Y)
 
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 Z <- SpeciesTaxonomy(X, file.y = file)

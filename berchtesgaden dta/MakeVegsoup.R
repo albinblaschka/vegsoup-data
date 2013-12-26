@@ -9,7 +9,8 @@ X <- X[, 1:4]
 
 file <- "~/Documents/vegsoup-data/berchtesgaden dta/sites.csv"
 # promote to class "Sites"
-Y <- sites(read.csv2(file)[, 1:3])
+Y <- sites(file, sep = ";")
+Y$value <- gsub(",", ".", Y$value)
 
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 # promote to class "SpeciesTaxonomy"
@@ -29,6 +30,9 @@ bg$longitude <- pt[, 1]
 bg$latitude <-  pt[, 2]
 	
 coordinates(bg) <- ~longitude+latitude
+proj4string(bg) <- CRS("+init=epsg:4326")
+
+bg@taxonomy <- Taxonomy(bg)[, c(1,2,4)]
 
 save(bg, file = "~/Documents/vegsoup-data/berchtesgaden dta/bg.rda")
 rm(list = ls()[-grep("bg", ls(), fixed = TRUE)])

@@ -7,7 +7,7 @@ X <- stack.species(file = file, sep = ";")[, 1:4]
 
 file <- "~/Documents/vegsoup-data/cape hallet lichen dta/sites wide.csv"
 # promote to class "Sites"
-Y <- stack.sites(file = file, sep = ";")
+Y <- stackSites(file = file, sep = ";")
 
 file <- "~/Documents/vegsoup-data/cape hallet lichen dta/taxonomy.csv"
 # promote to class "SpeciesTaxonomy"

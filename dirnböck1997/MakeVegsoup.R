@@ -14,7 +14,7 @@ names(Y)[grep("Längengrad", names(Y))] <- "longitude"
 names(Y)[grep("Breitengrad", names(Y))] <- "latitude"
 
 # promote to class "Sites"
-Y <- stack.sites(Y)
+Y <- stackSites(Y)
 
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 # promote to class "SpeciesTaxonomy"

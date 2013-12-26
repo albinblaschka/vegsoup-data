@@ -18,7 +18,7 @@ names(Y) <- c("plot", "location.short", "location", "tms")
 Y$plot <- type.convert(Y$plot)	
 
 Y <- data.frame(Y, t(sapply(Y[,4], str2latlng, USE.NAMES = FALSE)))
-Y <- stack.sites(Y)
+Y <- stackSites(Y)
 
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 Z <- SpeciesTaxonomy(X, file.y = file)

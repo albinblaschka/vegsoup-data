@@ -29,7 +29,7 @@ Y$scov <- yy$"Deckung SS"
 Y$hcov <- yy$"Deckung KS"
 Y$mcov <- yy$"Deckung MS"
 Y$pls <- yy$"Aufnahmefl. (m²x100)" * 100
-Y <- stack.sites(Y)
+Y <- stackSites(Y)
 
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 # promote to class "SpeciesTaxonomy"

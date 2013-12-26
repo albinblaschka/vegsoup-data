@@ -30,7 +30,7 @@ file <- "~/Documents/vegsoup-data/Erschbamer1992/Erschbamer1992Tab4Locations.txt
 Y <- read.delim(file, colClasses = "character")
 names(Y)[1] <- "plot"
 # promote to class "Sites"
-Y <- stack.sites(Y)
+Y <- stackSites(Y)
 
 # taxonomy reference list
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
