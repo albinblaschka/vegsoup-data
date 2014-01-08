@@ -15,7 +15,7 @@ x.df <- data.frame(
 	comment = NA,
 	x,
 	check.names = FALSE)
-X <- stack.species(x.df)
+X <- stackSpecies(x.df)
 X <- X[, 1:4]
 
 Y <- read.delim("~/Documents/vegsoup-data/strauch1992/Strauch1992Tab2Locations.txt",

@@ -2,7 +2,7 @@ require(vegsoup)
 
 #	species
 file = "~/Documents/vegsoup-data/strauch2010/Strauch2010SupplementTabT16-19-20-21.csv"
-X <- stack.species(file = file)
+X <- stackSpecies(file = file)
 
 #	sites
 df <- read.delim("~/Documents/vegsoup-data/strauch2010/Strauch2010SupplementTabT16-19-20-21Locations.csv",
