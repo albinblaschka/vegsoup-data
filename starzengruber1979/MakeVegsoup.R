@@ -10,7 +10,7 @@ abbr <- unlist(lapply(strsplit(rownames(x), "@"), "[[", 1))
 layer <- unlist(lapply(strsplit(rownames(x), "@"), "[[", 2))
 x.df <- data.frame(abbr = abbr, layer = layer, comment = "", x,
 	check.names = FALSE)
-X <- stack.species(x.df)
+X <- stackSpecies(x.df)
 
 #	sites data also including coordinates
 file <- "~/Documents/vegsoup-data/starzengruber1979/Starzengruber1979Tab1Locations.txt"
