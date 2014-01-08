@@ -10,7 +10,7 @@ x <- read.verbatim.append(x, file, "plots", abundance = TRUE)
 
 x.df <- data.frame(abbr = rownames(x), layer = "hl", comment = NA, x,
 	check.names = FALSE)
-X <- stack.species(x.df)
+X <- stackSpecies(x.df)
 
 Y <- read.delim("~/Documents/vegsoup-data/isda1986/Isda1986Tab1Locations.txt",
 	header = FALSE, colClasses = "character")

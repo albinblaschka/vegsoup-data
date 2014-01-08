@@ -18,7 +18,7 @@ x.df <- data.frame(abbr = rownames(x),
 			comment = NA, x,
 			check.names = FALSE)
 # promote to class "Species"
-X <- stack.species(x.df)
+X <- stackSpecies(x.df)
 # groome abundance scale codes to fit the standard
 # of the extended Braun-Blanquet scale used in the original publication
 X$cov <- gsub("m", "2m", X$cov)

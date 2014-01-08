@@ -5,7 +5,7 @@ x <- read.verbatim(file, "Aufnahmenummer")
 x.df <- data.frame(abbr = rownames(x),
 	layer = "hl", comment = NA, x,	check.names = FALSE)
 # promote to class "Species"
-X <- stack.species(x.df)
+X <- stackSpecies(x.df)
 
 file <- "~/Documents/vegsoup-data/dirnböck1997/Dirnböck1997Tab3Locations.txt"
 Y <- read.delim(file, colClasses = "character")

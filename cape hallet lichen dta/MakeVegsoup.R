@@ -3,7 +3,7 @@ library(vegsoup)
 file <- "~/Documents/vegsoup-data/cape hallet lichen dta/species wide.csv"
 # promote to class "Species"
 
-X <- stack.species(file = file, sep = ";")[, 1:4]
+X <- stackSpecies(file = file, sep = ";")[, 1:4]
 
 file <- "~/Documents/vegsoup-data/cape hallet lichen dta/sites wide.csv"
 # promote to class "Sites"

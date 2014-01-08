@@ -1,7 +1,7 @@
 require(vegsoup)
 
 file <- "~/Documents/vegsoup-data/meroth2013/species wide.csv"
-X <- stack.species(file = file)[, 1:4]
+X <- stackSpecies(file = file)[, 1:4]
 
 file <- "~/Documents/vegsoup-data/meroth2013/sites wide.csv"
 Y <- stackSites(file = file)
