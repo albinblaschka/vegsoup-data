@@ -5,6 +5,6 @@
 103: Rume cong +, agro stol +
 105: cala epig +, care elon +, care echi +
 106: lyco anno +
-108: cala epig +, lyco anno 3, plag undu 1, spha comp +
-113: plag undu 1
+108: cala epig +, lyco anno 3, plag cium undu 1, spha comp +
+113: plag cium undu 1
 114: sali cine + (sl), ulmu laev + (tl), hede heli +, vero becc +
