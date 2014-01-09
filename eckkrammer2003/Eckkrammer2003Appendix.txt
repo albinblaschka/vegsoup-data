@@ -1,0 +1,73 @@
+1 Gebersberg, Klettersteig, Ende der Seilsicherung unten, grusiger Dolomitfels, umgeben von Latschengebüsch	31.7.02
+2 Gebersberg, Klettersteig, unterhalb Ende der Seilsicherung oben, Felsen mit längs verlaufenden Simsen, neben Weg, umgeben von Latschen	31.7.02
+3 Gebersberg, Klettersteig Mitte, direkt neben Weg, Felsrinne, starke Beschattung	31.7.02
+4 Gebersberg, Klettersteig Mitte, direkt neben Weg, Fels, sehr feuchte Wasserinne, umgeben von Latschen	31.7.02
+5 Gebersberg, Klettersteig, Beginn der Seilsicherung, Felssims, schottrig, feucht, grusig	31.7.02
+6 Gebersberg, Klettersteig, Beginn der Seilsicherung, Wegkurve, Fels mit Schotterbänken	31.7.02
+7 Gebersberg, Reibwände, ca. 30 m östlich der Seilsicherung, Fels mit zahlreichen humösen Simsen, treppenförmig, grusig	31.7.02
+8 Gebersberg, Reibwände, direkt neben Weg zum Klettersteig, junge Schuttrinne	31.7.02
+9 Gebersberg, 100m östlich des Klettersteiges, alte Schuttrinne	31.7.02
+10 Gebersberg, oberhalb Parkplatz, Fels mit Humusauflage	18.9.02
+11 Gebersberg, Reibwände beim Klettersteig, 1m unterhalb der Felswand, humöser Schutt	18.9.02
+12 Gebersberg, 10m westlich Aufnahme 11, unter der Felswand, grobe Steinblöcke	18.9.02
+13 Gebersberg, oberhalb Aufnahme 11, am Fels	18.9.02
+14 Gebersberg, Felsschuttgesellschaft innerhalb Aufnahme 12	18.9.02
+15 Gebersberg, westlich Aufnahme 14, neben Schuttrinne, unterhalb der Felswand	18.9.02
+16 Gebersberg, östlich 15 neben Schuttrinne, direkt unter der Felswand, Felsschutt	18.9.02
+17 Gebersberg, Reibwände, 50 m vor der Seilsicherung, 3m oberhalb des Weges, grusiger Schutt und Humus	18.9.02
+18 Gebersberg, Reibwände, 10 m oberhalb des Weges, östlich Aufnahme 17	18.9.02
+19 Gebersberg, Schuttkegel östlich des Parkplatzes, ruhender Schutt	18.9.02
+20 Großer Barmstein, Südwand, Südspitze, Felssims, Beschattung durch Picea abies	29.7.02
+21 Kleiner Barmstein, Felskuppe 10 m nördlich des Gipfels, Kalkfels	3.8.02
+22 Kleiner Barmstein, Felskuppe 5 m nördlich des Gipfels, Kalkfels mit Humusauflage	3.8.02
+23 Kleiner Barmstein, außerhalb Seilsicherung, grobe Kalk-Felsblöcke mit Ritzen und Treppen	3.8.02
+24 Kleiner Barmstein, bei Seilsicherung, große grobe Kalk-Felsblöcke	3.8.02
+25 Kleiner Barmstein, neben Weg, Kalk-Felsblöcke	3.8.02
+26 Kienberg, Kalkfels nördlich des Weißbaches, oberhalb des Weges, Simse im Molinetum	16.8.02
+27 Kienberg, Kalkfels nördlich des Weißbaches, oberhalb des Weges, schattige Nische	16.8.02
+28 Kienberg, neben Aufnahme 27, Kalkfelsblöcke (20 cm), Beschattung durch Picea abies und Übergang	16.8.02
+29 Kienberg, westlich der Aufnahme 28, Kalkfels mit Humusauflage	16.8.02
+30 Kienberg, nördlich des Weißbaches, direkt neben dem Weg, humöser Schutt, Beschattung durch Pinus sylvestris im Westen	16.8.02
+31 Kienberg, 5 m unterhalb des Weges, Schutt, kleinflächig umgeben von Pinus sylvestris und Molinia caerulea agg.	16.8.02
+32 Kienberg, 8 m oberhalb des Weges, Schutt mit Humus	16.8.02
+33 Kienberg, 10 m oberhalb des Weges, relativ glatter Fels mit wenig schmalen Simsen	16.8.02
+34 Kienberg, Weg zum Drachenloch, direkt neben dem Weg vor Felsbrocken, Schotter mit Humusauflage	16.8.02
+35 Nocksteingipfel, direkt beim Gipfelkreuz, blockartiger Fels	30.7.02
+36 Nocksteingipfel, 3 m unterhalb des Gipfelkreuzes	30.7.02
+37 Nocksteingipfel, grusiger Fels in Magerwiese 10 m östlich des Gipfels	30.7.02
+38 Nockstein, unterhalb des Gipfels, stark grusiger Fels	30.7.02
+39 Nockstein, östlich Wanderweg 10, östliches Flussufer, direkt neben Weg, Beschattung durch Fagus sylvatica	9.8.02
+40 Nockstein, östlich Wanderweg 10, östliches Flussufer, nördlich Aufnahme 39, stark grusiger Felssims	9.8.02
+41 Nockstein, östlich Wanderweg 10, östliches Flussufer, Fels oberhalb des Weges	9.8.02
+42 Nockstein, östlich Wanderweg 10, östliches Flussufer, Fels 20 m östlich des Weges, viel Schutt, sehr feucht	9.8.02
+43 Nockstein, östlich Wanderweg 10, östliches Flussufer, grusige Felssimse, Beschattung durch Sorbus aria	9.8.02
+44 Nockstein, westliches Ufer, Weg kreuzt Bach, am Fuße eines ca. 20 m hohen Felsen, Felssimse mit Grus	9.8.02
+45 Nockstein, unterhalb Aufnahme 44	9.8.02
+46 Nockstein, nahe Aufnahme 45	9.8.02
+47 Nockstein, Felswand 500 m westlich der Gipfelkuppe, stark grusiger Fels, Simse	9.8.02
+48 Nockstein, Felswand 500 m westlich der Gipfelkuppe, Fels Quersimse, dichte Vegetations-Polster	9.8.02
+49 Schober, Wanderweg von Wartenfels zum Gipfel, kalkiger Fels aus groben Blöcken und vielen Simsen	5.8.02
+50 Schober, Beginn der Gipfelkuppe, Fels mit Humusgefüllten Ritzen und Simsen, leicht grusig	5.8.02
+51 Schober, Beginn der Gipfelkuppe, nordöstlich der Seilsicherung, glatte Felswand aus Kalk	5.8.02
+52 Schober, Beginn der Gipfelkuppe, nordöstlich der Seilsicherung, schattige Rinne neben Aufnahme 51	5.8.02
+53 Schober, Beginn der Gipfelkuppe, nordöstlich der Seilsicherung, stark zerklüfteter Fels neben Aufnahme 52	5.8.02
+54 Schober, Beginn der Gipfelkuppe, 2 m nordöstlich der Aufnahme 51, Kalkfels	5.8.02
+55 Schober, Gipfelkuppe, nördlich Aufnahme 54, Kalkfels mit Rinnen	5.8.02
+56 Schober, Gipfelkuppe, direkt neben Weg, relativ glatter Kalkfels	5.8.02
+57 Schober, Gipfelkuppe, direkt neben Weg, Kalkfels, dicht bepolstert	5.8.02
+58 Schober, Gipfelkuppe, neben Seilsicherung, Fels	5.8.02
+59 Schober, Gipfelkuppe, Fels, stark kluftig, viele Simse, Beschattung durch Fels und Fichte	5.8.02
+60 Schober, Wanderweg von Wartenfels aus, bei Schutthalde, Fels: schichtig, treppig, sehr scharfkantig	5.8.02
+61 Schober, neben Aufnahme 60, scharfkantiger schichtiger Fels	5.8.02
+62 Schober, bei Schutthalde, Fels, blockig, scharfkantig, Beschattung	5.8.02
+63 Schober, bei Schutthalde, Kalkschutt mit Humusauflage	5.8.02
+64 Schoberstein, markierter Weg von Weißenbach zum Gipfelkreuz, humöser Schutt, oberhalb des Weges	9.9.02
+65 Schoberstein, nahe Aufnahme 64, 10 m oberhalb des Wanderweges, Fels mit zahlreichen Spalten und Simse, in denen sich bereits viel Kies und Humus angelagert hat	9.9.02
+66 Schoberstein, Beginn der waldfreien Gipfelregion, stufiger Felsen und kalkiger Schutt oberhalb des Wanderweges	9.9.02
+
+67 BK 56102/0130 Felswände ca. 250 m SW des Schobergipfels, Kalkfelsspaltenges., Kalk, Dolomit, Hangschutt	4.8.1993 und 18.8.1998, Eichberger, Frank	23.7.2001
+68 BK 56602/0057 Kalkfelsen Schober, 100 m SW des Gipfels (Frauenkopf)	23.7.2001, Eichberger 1993, Nowotny 2000
+69 BK 56602/0058 Kalkfelsen Schober, 100 m SW des Gipfels (Biotop 0057)	23.7.2001, Eichberger 1993
+70 BK 56602/0073 Kalkfelsen Wartenfels, Felsbereich im Westen	23.7.2001, Eichberger 1993
+71 BK 56109/0034 westliche Steilhänge der Burggrabenklamm, an der N-Grenze zum Kiefernwald, 20 m oberhalb Wanderweg, Dolomit	23.7.2001, Grabner, Heiselmayer 1994, Arming 1998
+72 BK 56109/0036 Burggrabenklamm, südlich des Sturzbaches beim Magdalenenbrünnel, Kalk	23.7.2001, Grabner, Heiselmayer 1994, Arming 1998
