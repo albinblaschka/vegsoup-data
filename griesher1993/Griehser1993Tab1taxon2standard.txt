@@ -1,0 +1,78 @@
+BEGIN HEAD
+Aufnahmenummer                                        1 1 1 1 1 1 1 1
+                                    1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7
+
+Höhe über dem Meer in Meter         2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+                                    4 5 5 4 4 3 3 6 4 5 5 5 5 5 5 5 5
+                                    3 0 3 9 4 8 2 2 8 5 3 6 3 3 5 5 4
+                                    0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+Exposition                                    S           S          
+                                    S         S   S   S S S S S   S S
+                                    W N W W W W S E S W W W W W S W W
+Neigung in Grad                     3 3 0 2 2 4 4 3 1 3 2 1 2 2 3 2 2
+                                    0 0 3 0 0 0 0 5 5 0 0 0 0 0 5 5 5
+Groesse in Quadratmeter             7 8 8 6 8 2 3 6 1 6 4 3 9 4 6 1 2
+                                    0 0 0 0 0 0 0 0 5 0 0 0 5 0 0 6 0
+Deckung in %                        6 3 4 5 4 3 3 8 7 5 7 9 8 8 5 5 6
+                                    0 0 5 5 0 0 0 0 0 0 0 5 0 0 0 0 0
+END HEAD
+
+BEGIN TABLE
+bray alpi                           + + + + + + + + + + + + + + + + +
+
+care firm                           2 + 1 2 3 2 1 2 3 . . . . . . . .
+saxi caes                           1 + 1 1 + 1 1 . + . . . . . . . .
+
+pers vivi                           1 1 1 + + + . . . . + . . 1 . . .
+prim mini                           . + + + + . + + + . . 1 . . . . .
+sesl ovat                           . 1 + + + . . . . . . . . + . . .
+euph mini                           + . + + + + . . . . . . . . . . .
+ranu alpe                           1 + + . . . . . + . . + . . . . .
+care orni                           . . + + . . . . + . . . . . . . .
+care parv                           . 1 . + . . . . . . . . . . . . .
+sali reti                           . + + 1 . . . . . . . . . . . . .
+sali retu                           + 2 + + . . . . . . . . . . . . .
+saxi aizo                           + + . + . . . . . . . . . . . . .
+
+kobr myos                           + + + . . + 1 3 1 2 3 2 2 3 3 2 3
+oxyt camp slat                      . . . . . . . 1 1 + 1 2 1 + 1 + 2
+gent orbi                           . . . . . . . + . + + . + . + . +
+pach mute                           . . . . . . . . . . + + + + + + +
+aren cili                           . . . + . . . . . + + + . . + + +
+
+heli alpe                           1 . . . 1 1 1 3 1 1 2 3 2 1 2 2 2
+gyps repe                           + . + + + 1 1 + + + 1 + 2 + 2 2 3
+pedi rost tata                      + . + . . . + + + 1 1 1 + 1 1 1 1
+sesl caer                           1 . . . . 1 . . + + + + + 1 + + +
+thym prae poly                      + . . . . . . + . + + . + + + + +
+bart alpi                           + . . + + . . + + . . + + + . . .
+drab aizo aizo                      + . . . . . . . . + . + + + + . +
+achi clav                           . . . . . . . . . . + . + + + + +
+sedu atra slat                      + . . . . . . . . . . . . . + + +
+
+euph sali                           . . . . . . . + + + 1 1 + + + + +
+leon alpi                           . . . . . . + + + + + + + + + . +
+camp coch                           . . . . . + + . . + + . + + + 1 +
+gali anis                           + . . . . . + . . + . . + + + + +
+erys sylv                           . . . . . . . . . + . + + . + + +
+tort tort                           + + . . . . . . . + + + + + + + +
+aste alpi                           . . . . . . + + + . + . + + + + +
+gent rhae                           . . . . . . . . . . + . + + . . +
+lina alpi alpi                      . . . . . . . . . . . + . + + + +
+arte mute                           . . . . . . . . . . . . + + + + +
+dist capi                           . . . . . . . 1 1 . . . . + + . +
+tham verm verm                      . . . . + . . . 1 + + + . + + . .
+vulp tubu                           . . . . . . . + 1 + + + . . . . .
+allo madr                           . . . . + . . 1 + + + + . . . . .
+
+fest pumi                           1 1 . + + 1 1 2 + 1 1 1 1 1 2 3 2
+care rupe                           1 . 2 1 1 1 . 1 1 2 2 1 1 1 1 + 1
+sali serp                           . + 1 + 1 2 . + 2 3 + 1 1 + 1 . .
+minu gera                           + + . + . . . . + + . + + + + + +
+
+sile acau slat                      + 1 1 + + . . . 1 1 + 2 1 . 2 2 1
+saxi oppo oppo                      + 1 1 + 1 1 . 1 1 2 + 2 + + 1 1 +
+minu sedo                           + + + + + . . 1 + + + + + . 2 2 +
+cetr isla isla                      + + . + + . . . . . . + . + + . +
+drya octo                           2 2 3 3 1 . . + . . 1 2 2 4 . . .
+END TABLE
