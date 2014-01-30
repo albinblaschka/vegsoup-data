@@ -2,6 +2,7 @@ require(vegsoup)
 
 ###	NOT RUN
 #	assign taxon abbreviations
+#	files prepared by linktaxa.R
 
 if (FALSE) {
 	file <- "~/Documents/vegsoup-data/griesher1993/Griehser1993Tab1.txt"
@@ -81,13 +82,17 @@ griesher1993$hcov <- griesher1993$hcov <- df.attr$"Deckung.in.."
 
 rownames(griesher1993) <- paste0("griesher1993:",
 	gsub(" ", "0", format(rownames(griesher1993), width = 2, justify = "right")))
+require(naturalsort)
+griesher1993 <- griesher1993[naturalorder(rownames(griesher1993)), ]
+
 
 griesher1993$syntaxon <- ""
 griesher1993$syntaxon[1:7] <- "Caricetum firmae"
 griesher1993$syntaxon[8:17] <- "Elynetum seslerietosum variae"
 
-Sites(griesher1993)		
-save(griesher1993, file = "~/Documents/vegsoup-data/springer1990/springer1990.rda")
+
+		
+save(griesher1993, file = "~/Documents/vegsoup-data/griesher1993/griesher1993.rda")
 
 rm(list = ls()[-grep("griesher1993", ls(), fixed = TRUE)])
 
