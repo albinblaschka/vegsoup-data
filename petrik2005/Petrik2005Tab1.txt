@@ -3,7 +3,7 @@ Releve number                                                        1
 
 Elyna myosuroides                3   3   4   1   b   4   a   a   b   b
 Campanula tatrae                 +   +   +   +   +   +   .   +   +   .
-Dactylina madreporiformis (E0)   1   +   +   +   +   .   a   .   +   1
+Dactylina madreporiformis        1   +   +   +   +   .   a   .   +   1
 Rhodiola rosea                   +   +   +   +   r   .   .   r   r   +
 Oxytropis halleri                +   .   b   b   .   .   a   1   +   +
 Primula minima                   +   .   +   +   1   m   .   1   .   +
@@ -44,10 +44,10 @@ Dryas octopetala                 .   .   .   .   .   .   .   .   .   r
 
 Bistorta vivipara                +   +   b   a   1   1   +   1   +   +
 Silene acaulis                   b   a   a   3   b   b   a   .   a   1
-Thamnolia vermicularis (E0)      +   .   +   +   +   a   1   +   +   +
+Thamnolia vermicularis           +   .   +   +   +   a   1   +   +   +
 Rhodax alpestris                 .   +   .   +   .   .   1   +   .   +
-Vulpicida tubulosus (E0)         +   .   +   +   +   .   .   .   .   +
-Alectoria ochroleuca (E0)        +   .   .   .   +   1   .   .   .   .
+Vulpicida tubulosus              +   .   +   +   +   .   .   .   .   +
+Alectoria ochroleuca             +   .   .   .   +   1   .   .   .   .
 Carex firma                      +   +   .   .   .   .   .   .   .   .
 Ranunculus alpestris             +   .   .   .   .   .   .   .   .   .
 Saxifraga aizoides               +   .   .   .   .   .   .   .   .   .
@@ -64,7 +64,7 @@ Gentianella tatrae               .   .   .   .   .   .   .   r   r   +
 Carex tatrorum                   1   .   .   +   .   .   .   .   .   .
 Phyteuma orbiculare              .   .   .   +   +   .   .   .   .   .
 Tephroseris capitata             .   .   r   +   .   .   .   .   .   .
-As tragalus frigi dus            .   +   .   .   .   .   .   .   .   .
+Astragalus frigidus              .   +   .   .   .   .   .   .   .   .
 Sesleria tatrae                  .   .   .   +   .   .   .   .   .   .
 Selaginella selaginoides         .   .   .   .   .   .   .   .   .   r
 Thymus sudeticus                 .   .   .   .   .   .   .   .   .   +
@@ -77,11 +77,11 @@ Leontodon pseudotaraxaci         .   .   .   .   .   .   .   .   .   +
 
 Festuca supina                   .   1   1   .   +   1   .   .   .   .
 Oreochloa disticha               .   .   +   .   .   1   .   .   .   .
-Cetraria cucullata (E0)          .   .   +   .   .   .   .   +   .   .
-Cetraria islandica (E0)          .   .   .   +   .   +   .   .   .   .
+Cetraria cucullata               .   .   +   .   .   .   .   +   .   .
+Cetraria islandica               .   .   .   +   .   +   .   .   .   .
 Cladonia gracilis                .   .   .   +   .   .   .   .   .   .
 Juncus trifidus                  .   .   .   +   .   .   .   .   .   .
-Cetraria nivalis (E0)            .   .   .   .   .   1   .   .   .   .
+Cetraria nivalis                 .   .   .   .   .   1   .   .   .   .
 Avenula versicolor               .   .   .   .   .   +   .   .   .   .
 Campanula alpina                 .   .   .   .   .   +   .   .   .   .
 
@@ -92,8 +92,8 @@ Leontopodium alpinum             .   .   .   .   .   .   1   .   1   +
 Androsace lactea                 +   .   .   .   .   .   .   .   r   .
 Draba tomentosa                  .   .   .   +   .   .   .   .   .   .
 
-Tortella tortuosa (E0)           1   +   +   +   .   +   +   +   +   .
-Ditrichum flexicaule (E0)        b   +   1   +   .   .   .   .   .   +
+Tortella tortuosa                1   +   +   +   .   +   +   +   +   .
+Ditrichum flexicaule             b   +   1   +   .   .   .   .   .   +
 
 Viola biflora                    .   +   .   .   1   .   .   .   .   .
 Draba siliquosa                  .   .   .   .   .   .   1   1   .   .
@@ -140,7 +140,7 @@ Caloplaca sp.                    .   .   .   +   .   .   .   +   .   .
 Cladonia furcata                 .   .   .   +   .   +   .   .   .   .
 Anaptychia bryorum               .   .   .   .   +   +   .   .   .   .
 Hypogymnia physodes              .   .   .   .   +   1   .   .   .   .
-Polytrichum alp'mum              .   .   .   .   +   1   .   .   .   .
+Polytrichum alpinum              .   .   .   .   +   1   .   .   .   .
 Pseudevernia furfuracea          .   .   .   .   1   .   +   .   .   .
 Grimmia funalis                  .   .   .   .   +   .   .   1   .   .
 Hypnum cupressiforme             .   .   .   .   +   .   .   .   +   .
@@ -185,6 +185,6 @@ Pseudoleskeella catenulata       .   .   .   .   .   .   .   +   .   .
 Myurella tenerrima               .   .   .   .   .   .   .   +   .   .
 Collema sp.                      .   .   .   .   .   .   .   .   +   .
 Dermatocarpon sp.                .   .   .   .   .   .   .   .   +   .
-Cladonia pocillum               .   .   .   .   .   .   .   .   .   1
+Cladonia pocillum                .   .   .   .   .   .   .   .   .   1
 Toninia sedifolia                .   .   .   .   .   .   .   .   .   +
 Xanthoria elegans                .   .   .   .   .   .   .   .   .   +
