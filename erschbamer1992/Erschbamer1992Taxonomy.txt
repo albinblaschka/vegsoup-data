@@ -34,7 +34,7 @@ sold alpi	Soldanella alpina
 anth vuln alpi	Anthyllis vulneraria subsp. alpicola
 achi oxyl	Achillea oxyloba
 phyt hemi	Phyteuma hemisphaericum
-heli alpe	Helianthemum alpestre s.str.
+heli alpe	Helianthemum alpestre
 minu gera	Minuartia gerardii
 care semp semp	Carex sempervirens subsp. sempervirens
 leon hisp slat	Leontodon hispidus s.lat.
