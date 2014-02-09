@@ -1,0 +1,192 @@
+BEGIN HEAD
+Aufnahmenummer                 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+                               1 1 1 1 1 2 2 2 2 2 2 2 2 2 2
+                               6 7 8 8 9 0 1 2 3 4 5 6 7 8 9
+                               . . . A . . . . . . . . . . .
+Seehöhe in 10 m                1 1 1 1 1 1 1 2 2 2 2 2 1 2 2
+                               6 4 9 9 6 8 8 2 2 0 0 3 9 2 2
+                               2 6 2 2 5 8 3 0 0 1 3 2 0 0 2
+                               . . . . . . . . . . . . . . .
+Neigung in Grad                1 1 1 5 2 2 2 0 0 5 2 0 5 0 0
+                               0 5 0 . 5 0 5 . . . . . . . .
+                               . . . . . . . . . . . . . . .
+Exposition                     E S W S W S S F F E N F N F F
+                               N E . W . . . . . . . . . . .
+                               E . . . . . . . . . . . . . .
+                               . . . . . . . . . . . . . . .
+Aufnahmefläche in 10 qm        2 3 1 1 2 2 5 2 2 2 1 1 1 1 1
+                               0 0 . . 0 . . . . . 0 . . . .
+                               . . . . . . . . . . . . . . .
+Deckung in %                   9 9 9 9 8 9 9 9 8 9 7 8 5 6 8
+                               5 9 5 0 5 0 0 0 5 0 5 5 0 0 5
+Ausbildung                     a a b b c c c d d d d d e e f
+END HEAD
+
+BEGIN TABLE
+fest nori                      . . 5 3 . 1 2 . . . . . . . .
+achi clav                      . . . + . 1 . . . . . . . . .
+clin alpi alpi                 . r . + + + . . . . . . . . .
+alch anis                      . r . . 2 . . . . . . . . . .
+anem narc                      . + . . . . + . . . . . . . .
+bell mich                      r r . . r + . . . . . . . . +
+beto alop                      . 2 . . + . 1 . . . . . . . .
+camp sche                      r + . 1 r . . . r . . . . . .
+card defl viri                 + r . 2 + + . . . . . . . . .
+carl acau acau                 . . . 3 r . . . . . . . . . .
+crep alpe                      . . . . . . r . . . . . . . .
+dian alpi                      . r . . r . r . . . . . . . .
+eric carn                      + . . 1 . 2 . . . . . . . . .
+erig glab glab                 . . . . r . . . . . . . . . .
+euph offi pict                 . . 1 1 . . . . . . . . . . .
+gali anis                      . + + 1 + + . . . . . r . . .
+heli numm gran                 + + r 3 3 3 . . . . . . . . .
+hera aust aust                 1 1 r r . . + . . . . . . . .
+hier vill                      . . . + . . . . . . . . . . .
+hipp como                      . r . . 1 . . . . . . . . . .
+leuc atra                      . + . . + . + . . . . . . . .
+linu alpi                      . + . . . . . . . . . . . . .
+lotu corn slat                 + 2 . . + + . . . . . . . . .
+myos alpe                      . . r . . . . r . . . . . . .
+nigr mini                      . . . . . r . . . . . . . . .
+nigr nigr aust                 . . . . r . . . . . . . . . .
+pedi vert                      . . . . r . r r . . . . . . .
+phle hirs                      . + + . + . . . . . . . . . .
+phyt orbi                      r + . + + r . . . . . . . . .
+poly amar brac                 . r . + . r . . . . . . . . .
+ranu hybr                      + . . . . . . . . . . . . . .
+ranu mont                      1 . . . . 1 . r . . . . . . .
+ranu nemo                      . + . . . . 2 . . . . . . . .
+scab luci luci                 . + . 2 r . r . . . . . . . .
+teph long                      . . . . . . r . . . . . . . .
+sile vulg vulg                 . + . . . . + . . . . . . . .
+thes alpi                      . . . . r r . . . . . . . . .
+nocc cran                      . . . . . + . . . . . . . . .
+thym prae poly                 . . . . r + . . . . r . . . .
+
+care ferr                      4 3 . 1 1 . . . . . . . . . .
+buph sali                      . 2 . . . . r . . . . . . . .
+crep pyre                      . + . . . . . . . . . . . . .
+daph meze                      . r . . . . . . . . . . . . .
+gera sylv                      r r . . . . . . . . . . . . .
+glob nudi                      . r . 2 . . . . . . . . . . .
+gymn cono cono                 r + . . . . . . . . . . . . .
+hell nige                      . 2 . . . . . . . . . . . . .
+hype macu                      . r . 1 . . . . . . . . . . .
+lase lati lati                 . r . . . . . . . . . . . . .
+lili mart                      + r . . . . . . . . . . . . .
+luzu sylv slat                 + . . . . . . . . . . . . . .
+meli nuta                      . r . . . . . . . . . . . . .
+
+merc pere                      r 2 . . . . . . . . . . . . .
+meum atha                      . 3 . . . . . . . . . . . . .
+myos sylv                      . r . r . . . . . . . . . . .
+phyt spic                      r . . . . . . . . . . . . . .
+pinu mugo                      r + + . . . . . . . . . . . .
+puls alpi alpi                 + . . . . . . . . . . . . . .
+ranu lanu                      . r . . . . . . . . . . . . .
+rosa pend                      r . . . . . . . . . . . . . .
+rubu saxa                      r . . . . . . . . . . . . . .
+sali alpi                      r . . . . . . . . . . . . . .
+pimp majo slat                 + 2 . . . . . . . . . . . . .
+sali appe                      . r . . . . . . . . . . . . .
+sali glab                      + . . . . . . . . . . . . . .
+soli virg minu                 r r . r . . . . . . . . . . .
+sorb cham                      . r . . . . . . . . . . . . .
+thal aqui                      r r . . . . . . . . . . . . .
+trau glob                      . r . . . . . . . . . . . . .
+trol euro                      3 . . . . . . . . . . + . . .
+vacc myrt                      2 . . . . . . . . . . . . . .
+vale offi slat                 . r . . . . . . . . . . . . .
+vale trip                      r . . . . . . . . . . . . . .
+vera albu albu                 r r r . . . + . . . . . . . .
+verb alpi                      . + . . . . . . . . . . . . .
+viol bifl                      + . . . . . . . . . . . . . .
+
+briz medi                      . . . . + . . . . . . . . . .
+care flac                      . . . . 1 . . . . . . . . . .
+crep aure aure                 . . r . r . . . . . . . . . .
+desc cesp                      . + . . + . . . . . . . . . 1
+fest rubr slat                 . . . . 1 . . . . . . . . . .
+
+care semp semp                 . . + . 2 3 3 . . . . . . . .
+heli parl                      + + . . . 3 4 . . . . . . . .
+sesl caer                      + . . . 1 2 1 . r + . . . . .
+
+anth vuln alpi                 + + . 2 2 r . . . r r . . . .
+pedi rost tata                 r . . . r . r + . r + . . . .
+
+care firm                      . . . . . . . 1 2 4 4 4 . . .
+drya octo                      . . . . . . . 4 2 3 3 1 . . .
+fest pumi                      . . . . . . . 3 + + + 1 . . .
+sile acau long                 . . . . + . . 1 2 + 1 1 . . .
+care atra                      . . . . . . . 2 1 . r r . . .
+agro alpi                      . . . . . . . . 1 2 + . . . .
+andr cham                      . . . . . . . . . + . . . . .
+aren cili                      . . . . . . . r . . r + . . .
+arme alpi                      . . . . . . . . . . r r . . .
+care capi                      . . . . + . . 1 + + r . . . .
+care parv                      . . . . . . . . r . . r + . .
+cera alpi alpi                 . . . . . . . r . . . . . . .
+cham alpi                      . . . . . . . . . + . . . . .
+doro glac glac                 . . . . . . . r . . . . . . .
+cetr isla isla                 . . . . . . . . . r . r . . .
+tham verm verm                 . . . . . . . r . r + . . . .
+gent clus clus                 . . . . . . . . . r r . . . .
+gent pumi                      . . . . . . . . . . + 1 . . .
+hedy hedy hedy                 . . . . . . . + . . r . . . .
+heli alpe                      . . . . . . . + . . + . . . .
+homo disc                      1 . . . . . . + 1 . + 1 . . .
+kobr simp                      . . . . . . . . r 1 + . . . .
+pach mute                      . . . . . . . . + . . . . r .
+oxyt mont                      . . . . . . . . . 1 + . . . .
+ping alpi                      . . . . . . . . . . + . . . .
+pers vivi                      . . . . + . . 1 + + + + 1 + .
+prim clus                      + . . . . . . . . 1 1 1 . . .
+sali serp                      . . . . . . . . 1 . . 4 . . .
+saxi pani                      . . . . . + . . . . + . . . .
+saus pygm                      . . . . . . . . . . + . . . .
+sela sela                      . . . . . . . . r r r r . . .
+
+ante carp                      . . . . . . . . r . r . . . .
+camp barb barb                 . . . . . . . . . . + . . . .
+empe herm                      . . . . . . . . . . + . . . .
+
+care fuli                      . . . . . . . . . . + . . . .
+euph mini                      . . . . . . . r + . r + . . .
+hupe sela                      . . . . . . . . . . r . . . .
+lois proc                      . . . . . . . 2 1 + 2 . . . .
+dicr scop                      . . . . . . . r . . . . . . .
+poly alpi                      . . . . . . . + . . . . . . .
+prim mini                      . . . . . . . . 3 1 . . . . .
+sene carn                      . . . . . . . . . . . r . . .
+vacc gaul                      . . . . . . . . + . . . . . .
+vacc viti                      . . . . . . . . . r . . . . .
+para ener                      . . . . . . . + . . . . . . .
+vale celt nori                 . . . . . . . 2 . . 1 4 . . .
+
+achi atra                      . . . . . . . . . . . . r 1 .
+arab caer                      . . . . . . . . . . . . . + .
+epil anag                      . . . . . . . . . . . . . r .
+gali nori                      . . . . . . . . . . . . + r .
+gent bava                      . . . . . . . . . . . . r + .
+gnap supi                      . . . . . . . . . . . . . 3 .
+horn alpi alpi                 . . . . . . . . . . . . . r .
+pote brau                      . . . . . . . . . . . . . r .
+ranu alpe                      . . . . . . . r + . . r 2 1 .
+sagi sagi ides                 . . . . . . . . . . . . . r .
+sali herb                      . . . . . . . . . . . . . 2 .
+sali retu                      . . . . . . . 1 . . . . 2 1 .
+saxi andr                      . . . . . . . . . . . . 1 + .
+sibb proc                      . . . . . . . . . . . . . 2 .
+
+alch crin                      . . . . . . . . . . . . . . 2
+alch fiss                      . . . . . . . . . . . . r + 2
+cirs spin                      . . . . . . . . . . . . . . 4
+phle rhae                      . . . . . . . . . . . . . . r
+tara sect alpi                 . . . . . . . . . . . . . + 2
+vero alpi                      . . . . . . . . . . . . + 1 1
+
+minu gera                      . . . . 1 . . r . . . r . . .
+poa alpi                       . . + r + . . r r . . r r + 3
+rhod hirs                      1 . . . . . + . . + 1 . . . .
+END TABLE
