@@ -34,6 +34,14 @@ proj4string(bg) <- CRS("+init=epsg:4326")
 
 bg@taxonomy <- Taxonomy(bg)[, c(1,2,4)]
 
+bg$plsx <- 2
+bg$plsy <- 2
+
 save(bg, file = "~/Documents/vegsoup-data/berchtesgaden dta/bg.rda")
 rm(list = ls()[-grep("bg", ls(), fixed = TRUE)])
+
+#	vegsoup test data
+#	berchtesgaden <- bg
+#	save(barmstein, file = "berchtesgaden.rda")
+
 
