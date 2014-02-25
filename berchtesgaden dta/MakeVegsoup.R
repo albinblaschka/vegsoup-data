@@ -42,6 +42,6 @@ rm(list = ls()[-grep("bg", ls(), fixed = TRUE)])
 
 #	vegsoup test data
 #	berchtesgaden <- bg
-#	save(barmstein, file = "berchtesgaden.rda")
+#	save(berchtesgaden, file = "berchtesgaden.rda")
 
 
