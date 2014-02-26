@@ -1,7 +1,8 @@
 library(vegsoup)
 
 file <- "~/Documents/vegsoup-data/hohewand dta/species.csv"
-X <- species(file, sep = ";")[, 1:4]
+X <- species(file, sep = ";")
+X <- X[, c(1:4, grep("voucher", names(species(X))))]
 
 file <- "~/Documents/vegsoup-data/hohewand dta/sites.csv"
 Y <- sites(read.csv2(file))
