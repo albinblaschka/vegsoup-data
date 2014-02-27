@@ -24,8 +24,11 @@ rm(list = ls()[-grep("bs", ls(), fixed = TRUE)])
 
 #	vegsoup test data
 #	barmstein <- bs
-#	barmstein@sites <- bs@sites[, -grep("comment", names(bs))]
+#	barmstein@sites <- barmstein@sites[, -grep("comment", names(barmstein))]
+#	barmstein@sites <- barmstein@sites[, -grep("description", names(barmstein))]
+#	barmstein@sites <- barmstein@sites[, -grep("location", names(barmstein))]
 #	barmstein@taxonomy <- barmstein@taxonomy[, c(1,2,4)]
+#	Sites(barmstein)
 #	save(barmstein, file = "barmstein.rda")
 
 
