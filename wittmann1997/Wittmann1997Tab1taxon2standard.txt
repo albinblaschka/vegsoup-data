@@ -1,0 +1,49 @@
+Aufnahmenummer     1 1 9 1 4 2 8 3 5 6 7
+                   . 1 . 0 . . . . . . .
+
+limo aqua      @hl 2 1 1 1 2 1 2 . . . +
+agro stol      @hl 1 3 + 2 1 3 1 3 4 1 2
+cype fusc      @hl 3 2 . . . 2 3 + . . 1
+junc bufo      @hl . + 2 2 + 2 1 . + . 3
+alis plan      @hl + . 2 . + . . 1 . . .
+alop aequ      @hl . 2 . 2 . . . . . . .
+char spec ies  @hl . 1 2 . + . . . . . .
+ranu scel      @hl . . + . . . . . . . .
+glyc nota      @hl . . 1 . . . . . . . .
+gnap ulig      @hl . . + . . . . . . . .
+eleo palu palu @hl . + . . . . . . + . .
+rori palu      @hl . . + + . . . . . . +
+bide trip trip @hl . . + . + . . + . . +
+trif hybr slat @hl . . . 1 . . . + + + +
+prun vulg      @hl . . . . . + . + + + +
+cent pulc      @hl . . . . . . . + + + .
+lyth hyss      @hl . . . . + + + 3 3 3 .
+junc arti      @hl . . + + + 1 + 1 + 1 .
+junc infl      @hl . . + . . . . 1 . 1 .
+plan majo majo @hl . . . . . . + . + + +
+poly avic slat @hl . . . . . . + . . + +
+erig annu sept @hl . . . . . . + . + . +
+ranu repe      @hl . . . + . + . . . + +
+trip inod      @hl . . . + . . . . + 1 .
+pers hydr      @hl . . . . . . . . + . +
+vero becc      @hl . . . . . + . . . . +
+desc cesp      @hl . . . . . . + . . . +
+echi crus slat @hl . . . . . . . . . . +
+lyco euro euro @hl . . . . . . . . + . .
+epil tetr slat @hl . . . . . . . . . + .
+junc effu      @hl . + . . . . . . . . .
+eleo mami aust @hl . . . . 3 . . . . . .
+junc comp      @hl . . . . . . . . . + .
+plan lanc      @hl . . . . . . . + . + .
+pers macu      @hl . . . + . . . . . + .
+sali purp      @hl . . . . . . . . . + .
+anag arve      @hl . . . . . . + . . . .
+matr disc      @hl . . . . . . . . . + .
+micr minu      @hl . . . . . . . . . + .
+rume cris      @hl . . . + . . . . . . .
+scor autu      @hl . . . . . . . . . . +
+lotu corn      @hl . . . + . . . . . + .
+fest prat prat @hl . . . + . . . . . . .
+loli pere      @hl . . + + . . . . . . .
+phle prat      @hl . . + + . . . . . . .
+poa annu       @hl . + . . . . . . . . .
