@@ -16,5 +16,9 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 # promote to class "Vegsoup"
 sr <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
+Layers(sr) <- c("hl", "sl", "tl2", "tl1")
+
 save(sr, file = "~/Documents/vegsoup-data/sankt radegund dta/sr.rda")
 rm(list = ls()[-grep("sr", ls())])
+
+#	QuickMap(sr)
