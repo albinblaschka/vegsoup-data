@@ -1,11 +1,21 @@
-plot;date;plsx;plsy;expo;slope;cov;t1cov;t2cov;scov;hcov;mcov;rock;stones;bare;htl1;htl2;hsl;hhl1;hhl2;longitude;latitude;accuracy;location;comment;soil;physiognomy
-ts01;2011-09-11;8;8;W;50;75;0;15;30;70;5;0;30;1;0;10;4,5;1;0,3;13.816559;47.865654;10;Traunstein;talus;Rendzina;semidry open mixed forest
-ts02;2011-09-11;8;8;W;50;97;20;0;50;90;5;0;2;1;10;0;5;1;0,3;13.816623;47.865542;10;Traunstein;talus;Rendzina;semidry open mixed forest
-ts03;2011-09-11;8;8;W;55;70;40;0;40;55;1;0;45;1;10;0;4;1,1;0,3;13.816906;47.865303;10;Traunstein;talus;Rendzina;semidry open mixed forest
-ts04;2011-09-11;8;8;W;50;90;25;0;10;90;2;0;10;0;12;0;4;1;0,5;13.817526;47.865755;10;Traunstein;talus;Rendzina;semidry open mixed forest
-ts05;2011-09-11;4;4;W;30;98;0;0;0;98;3;1;0;1;0;0;0;1,2;0,35;13.817727;47.865987;10;Traunstein;talus, near cliff;Rendzina;rocky calcareous garssland
-ts06;2011-09-11;8;8;W;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;13.801306;47.819484;10;Karbach;;Mull-Renbzina;thermophilous decidous elfin-forest
-ts07;2011-09-11;8;8;SW;80;85;0;10;50;15;5;85;0;1;0;6;3;1;0,2;13.801068;47.819374;10;Karbach;rockwall;rock, Proto-Rendzina;calcareous rock shrubbery
-ts08;2011-09-11;2,5;8;W;35;95;0;35;80;45;10;3;0;1;0;10;4;1;0,25;13.800961;47.819201;10;Karbach;rockwall;Mull-Renbzina;thermophilous decidous elfin-forest
-ts09;2011-09-11;8;8;W;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;13.801379;47.819198;10;Karbach;;Mull-Renbzina;thermophilous decidous elfin-forest
-ts13;2014-05-22;;;;;;;;;;;;;;;;;;;13.799399;47.815124;10;;rockwall;Rendzina;calcareous rock shrubbery
+plot;date;plsx;plsy;expo;slope;cov;t1cov;t2cov;scov;hcov;mcov;rock;stones;bare;htl1;htl2;hsl;hhl1;hhl2;latitude;longitude;accuracy;location;comment;soil;physiognomy
+ts01;2011-09-11;8;8;W;50;75;0;15;30;70;5;0;30;1;0;10;4,5;1;0,3;47.865654N;13.816559E;10;Traunstein;talus;Rendzina;semidry open mixed forest
+ts02;2011-09-11;8;8;W;50;97;20;0;50;90;5;0;2;1;10;0;5;1;0,3;47.865542N;13.816623E;10;Traunstein;talus;Rendzina;semidry open mixed forest
+ts03;2011-09-11;8;8;W;55;70;40;0;40;55;1;0;45;1;10;0;4;1,1;0,3;47.865303N;13.816906E;10;Traunstein;talus;Rendzina;semidry open mixed forest
+ts04;2011-09-11;8;8;W;50;90;25;0;10;90;2;0;10;0;12;0;4;1;0,5;47.865755N;13.817526E;10;Traunstein;talus;Rendzina;semidry open mixed forest
+ts05;2011-09-11;4;4;W;30;98;0;0;0;98;3;1;0;1;0;0;0;1,2;0,35;47.865987N;13.817727E;10;Traunstein;talus, near cliff;Rendzina;rocky calcareous garssland
+ts06;2011-09-11;8;8;W;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;47.819484N;13.801306E;10;Spitzlstein;;Mull-Renzina;thermophilous decidous elfin-forest
+ts07;2011-09-11;8;8;SW;80;85;0;10;50;15;5;85;0;1;0;6;3;1;0,2;47.819374N;13.801068E;10;Spitzlstein;rockwall;rock, Proto-Rendzina;calcareous rock shrubbery
+ts08;2011-09-11;2,5;8;W;35;95;0;35;80;45;10;3;0;1;0;10;4;1;0,25;47.819201N;13.800961E;10;Spitzlstein;rockwall;Mull-Renzina;thermophilous decidous elfin-forest
+ts09;2011-09-11;8;8;W;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;47.819198N;13.801379E;10;Spitzlstein;;Mull-Renzina;thermophilous decidous elfin-forest
+ts10;2014-05-22;;;;;;;;;;;;;;;;;;;47.858571N;13.814897E;9;Schönberg;;;
+ts11;2014-05-22;;;;;;;;;;;;;;;;;;;47.840871N;13.810502E;14;Hochlindach;;;
+ts12;2014-05-22;;;;;;;;;;;;;;;;;;;47.840451N;13.810129E;10;Hochlindach;;;
+ts13;2014-05-22;;;;;;;;;;;;;;;;;;;47.815124N;13.799399E;10;Spitzlstein;rockwall;Rendzina;calcareous rock shrubbery
+ts14;2014-05-26;;;;;;;;;;;;;;;;;;;47.819238N;13.803875E;20;Spitzlstein;;;Tilietum platiphylli
+ts15;2014-05-26;;;;;;;;;;;;;;;;;;;47.819350N;13.806419E;20;Spitzlstein;;Rohumus-Rendzina;FiTaBu
+ts16;2014-05-26;;;;;;;;;;;;;;;;;;;47.817247N;13.804240E;20;Spitzlstein;;Rendzina;Fagion
+ts17;2014-05-26;;;;;;;;;;;;;;;;;;;47.816573N;13.802363E;20;Spitzlstein;precipice;Mull-Renzina;Cephalanthero Fagenion
+ts18;2014-05-26;;;;;;;;;;;;;;;;;;;47.816867N;13.801368E;20;Spitzlstein;precipice;Mull-Renzina;
+ts19;2014-05-26;;;;;;;;;;;;;;;;;;;47.816920N;13.800440E;20;Spitzlstein;precipice;Mull-Renzina;
+ts20;2014-05-26;;;;;;;;;;;;;;;;;;;47.822671N;13.805885E;20;Spitzlstein;;Rohumus-Rendzina;
