@@ -1,21 +1,21 @@
-plot;date;plsx;plsy;expo;slope;cov;t1cov;t2cov;scov;hcov;mcov;rock;stones;bare;htl1;htl2;hsl;hhl1;hhl2;latitude;longitude;accuracy;location;comment;soil;physiognomy
-ts01;2011-09-11;8;8;W;50;75;0;15;30;70;5;0;30;1;0;10;4,5;1;0,3;47.865654N;13.816559E;10;Traunstein;talus;Rendzina;semidry open mixed forest
-ts02;2011-09-11;8;8;W;50;97;20;0;50;90;5;0;2;1;10;0;5;1;0,3;47.865542N;13.816623E;10;Traunstein;talus;Rendzina;semidry open mixed forest
-ts03;2011-09-11;8;8;W;55;70;40;0;40;55;1;0;45;1;10;0;4;1,1;0,3;47.865303N;13.816906E;10;Traunstein;talus;Rendzina;semidry open mixed forest
-ts04;2011-09-11;8;8;W;50;90;25;0;10;90;2;0;10;0;12;0;4;1;0,5;47.865755N;13.817526E;10;Traunstein;talus;Rendzina;semidry open mixed forest
-ts05;2011-09-11;4;4;W;30;98;0;0;0;98;3;1;0;1;0;0;0;1,2;0,35;47.865987N;13.817727E;10;Traunstein;talus, near cliff;Rendzina;rocky calcareous garssland
-ts06;2011-09-11;8;8;W;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;47.819484N;13.801306E;10;Spitzlstein;;Mull-Renzina;thermophilous decidous elfin-forest
-ts07;2011-09-11;8;8;SW;80;85;0;10;50;15;5;85;0;1;0;6;3;1;0,2;47.819374N;13.801068E;10;Spitzlstein;rockwall;rock, Proto-Rendzina;calcareous rock shrubbery
-ts08;2011-09-11;2,5;8;W;35;95;0;35;80;45;10;3;0;1;0;10;4;1;0,25;47.819201N;13.800961E;10;Spitzlstein;rockwall;Mull-Renzina;thermophilous decidous elfin-forest
-ts09;2011-09-11;8;8;W;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;47.819198N;13.801379E;10;Spitzlstein;;Mull-Renzina;thermophilous decidous elfin-forest
-ts10;2014-05-22;;;;;;;;;;;;;;;;;;;47.858571N;13.814897E;9;Schönberg;;;
-ts11;2014-05-22;;;;;;;;;;;;;;;;;;;47.840871N;13.810502E;14;Hochlindach;;;
-ts12;2014-05-22;;;;;;;;;;;;;;;;;;;47.840451N;13.810129E;10;Hochlindach;;;
-ts13;2014-05-22;;;;;;;;;;;;;;;;;;;47.815124N;13.799399E;10;Spitzlstein;rockwall;Rendzina;calcareous rock shrubbery
-ts14;2014-05-26;;;;;;;;;;;;;;;;;;;47.819238N;13.803875E;20;Spitzlstein;;;Tilietum platiphylli
-ts15;2014-05-26;;;;;;;;;;;;;;;;;;;47.819350N;13.806419E;20;Spitzlstein;;Rohumus-Rendzina;FiTaBu
-ts16;2014-05-26;;;;;;;;;;;;;;;;;;;47.817247N;13.804240E;20;Spitzlstein;;Rendzina;Fagion
-ts17;2014-05-26;;;;;;;;;;;;;;;;;;;47.816573N;13.802363E;20;Spitzlstein;precipice;Mull-Renzina;Cephalanthero Fagenion
-ts18;2014-05-26;;;;;;;;;;;;;;;;;;;47.816867N;13.801368E;20;Spitzlstein;precipice;Mull-Renzina;
-ts19;2014-05-26;;;;;;;;;;;;;;;;;;;47.816920N;13.800440E;20;Spitzlstein;precipice;Mull-Renzina;
-ts20;2014-05-26;;;;;;;;;;;;;;;;;;;47.822671N;13.805885E;20;Spitzlstein;;Rohumus-Rendzina;
+plot;date;plsx;plsy;expo;slope;cov;t1cov;t2cov;scov;hcov;mcov;rock;stones;bare;htl1;htl2;hsl;hhl1;hhl2;latitude;longitude;accuracy;location;comment;soil;alliance;suballiance;association
+ts01;2011-09-11;8;8;W;50;75;0;15;30;70;5;0;30;1;0;10;4,5;1;0,3;47.865654N;13.816559E;10;Traunstein;talus;Rendzina;Abieti-Piceion (Br.-Bl. 1939) Soó 1963 s.l.;Calamagrostio variae-Abietnion (Horvat 1962) Willner 2007 ;Calamagrostio variae-Piceetum Schweingruber 1972
+ts02;2011-09-11;8;8;W;50;97;20;0;50;90;5;0;2;1;10;0;5;1;0,3;47.865542N;13.816623E;10;Traunstein;talus;Rendzina;Abieti-Piceion (Br.-Bl. 1939) Soó 1963 s.l.;Calamagrostio variae-Abietnion (Horvat 1962) Willner 2007 ;Calamagrostio variae-Piceetum Schweingruber 1972
+ts03;2011-09-11;8;8;W;55;70;40;0;40;55;1;0;45;1;10;0;4;1,1;0,3;47.865303N;13.816906E;10;Traunstein;talus;Rendzina;Abieti-Piceion (Br.-Bl. 1939) Soó 1963 s.l.;Calamagrostio variae-Abietnion (Horvat 1962) Willner 2007 ;Calamagrostio variae-Piceetum Schweingruber 1972
+ts04;2011-09-11;8;8;W;50;90;25;0;10;90;2;0;10;0;12;0;4;1;0,5;47.865755N;13.817526E;10;Traunstein;talus;Rendzina;Abieti-Piceion (Br.-Bl. 1939) Soó 1963 s.l.;Calamagrostio variae-Abietnion (Horvat 1962) Willner 2007 ;Calamagrostio variae-Piceetum Schweingruber 1972
+ts05;2011-09-11;4;4;W;30;98;0;0;0;98;3;1;0;1;0;0;0;1,2;0,35;47.865987N;13.817727E;10;Traunstein;talus, near cliff;Proto-Rendzina;Seslerion coerulae Br.-Bl. in Br.-Bl. & Jenny 1926;;Caricetum mucronatae (Br.-Bl. in B
+ts06;2011-09-11;8;8;W;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;47.819484N;13.801306E;10;Spitzlstein;;Mull-Renzina;Tilio-Acerion Klika 1955;Tilenion platyphylli (Moor 1973) Müller 1192;Aceri-Tilietum platyphylli Faber 1936 s.l. -seslerietosum prov.
+ts07;2011-09-11;8;8;SW;80;85;0;10;50;15;5;85;0;1;0;6;3;1;0,2;47.819374N;13.801068E;10;Spitzlstein;rockwall;Proto-Rendzina;Berberidion Br.-Bl. ex Tx. 1952;;Cotoneastro amelanchieretum Faber ex Müller 1966
+ts08;2011-09-11;2,5;8;W;35;95;0;35;80;45;10;3;0;1;0;10;4;1;0,25;47.819201N;13.800961E;10;Spitzlstein;rockwall;Mull-Renzina;Tilio-Acerion Klika 1955;Tilenion platyphylli (Moor 1973) Müller 1192;Aceri-Tilietum platyphylli Faber 1936 s.l. -seslerietosum prov.
+ts09;2011-09-11;8;8;W;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;47.819198N;13.801379E;10;Spitzlstein;;Mull-Renzina;Tilio-Acerion Klika 1955;Tilenion platyphylli (Moor 1973) Müller 1192;Aceri-Tilietum platyphylli Faber 1936 s.l. -seslerietosum prov.
+ts10;2014-05-22;;;;;;;;;;;;;;;;;;;47.858571N;13.814897E;9;Schönberg;;Mull-Renzina;Tilio-Acerion Klika 1955;Tilenion platyphylli (Moor 1973) Müller 1192;Aceri-Tilietum platyphylli Faber 1936 s.l. -seslerietosum prov.
+ts11;2014-05-22;;;;;;;;;;;;;;;;;;;47.840871N;13.810502E;14;Hochlindach;;Rendzina;Tilio-Acerion Klika 1955;Tilenion platyphylli (Moor 1973) Müller 1192;Aceri-Tilietum platyphylli Faber 1936 s.l. -seslerietosum prov.
+ts12;2014-05-22;;;;;;;;;;;;;;;;;;;47.840451N;13.810129E;10;Hochlindach;;Rendzina;Tilio-Acerion Klika 1955;Tilenion platyphylli (Moor 1973) Müller 1192;Aceri-Tilietum platyphylli Faber 1936 s.l. -seslerietosum prov.
+ts13;2014-05-22;;;;;;;;;;;;;;;;;;;47.815124N;13.799399E;10;Spitzlstein;rockwall;Proto-Rendzina;Berberidion Br.-Bl. ex Tx. 1952;;Cotoneastro amelanchieretum Faber ex Müller 1966
+ts14;2014-05-26;;;;;;;;;;;;;;;;;;;47.819238N;13.803875E;20;Spitzlstein;;Rendzina;Tilio-Acerion Klika 1955;Tilenion platyphylli (Moor 1973) Müller 1192;Aceri-Tilietum platyphylli Faber 1936 s.l. -seslerietosum prov.
+ts15;2014-05-26;;;;;;;;;;;;;;;;;;;47.819350N;13.806419E;20;Spitzlstein;;Rohumus-Rendzina;Fagion sylvaticae Luquet 1926;Lonicero alpigenae-Fagenion Borhidi ex Soó 1964;Cardamine trifoliae-Fagetum Oberd. 1987
+ts16;2014-05-26;;;;;;;;;;;;;;;;;;;47.817247N;13.804240E;20;Spitzlstein;;Rendzina;Fagion sylvaticae Luquet 1926;Eu-Fagenion Oberd. 1957;Mercuriali-Fagetum Scamoni 1935 -tilietosum (Moor 1945) Willner 2007
+ts17;2014-05-26;;;;;;;;;;;;;;;;;;;47.816573N;13.802363E;20;Spitzlstein;precipice;Mull-Renzina;Fagion sylvaticae Luquet 1926;Eu-Fagenion Oberd. 1957;Mercuriali-Fagetum Scamoni 1935 -tilietosum (Moor 1945) Willner 2007
+ts18;2014-05-26;;;;;;;;;;;;;;;;;;;47.816867N;13.801368E;20;Spitzlstein;precipice;Mull-Renzina;Tilio-Acerion Klika 1955;Tilenion platyphylli (Moor 1973) Müller 1192;Aceri-Tilietum platyphylli Faber 1936 s.l. -seslerietosum prov.
+ts19;2014-05-26;;;;;;;;;;;;;;;;;;;47.816920N;13.800440E;20;Spitzlstein;precipice;Mull-Renzina;Tilio-Acerion Klika 1955;Tilenion platyphylli (Moor 1973) Müller 1192;Aceri-Tilietum platyphylli Faber 1936 s.l. -seslerietosum prov.
+ts20;2014-05-26;;;;;;;;;;;;;;;;;;;47.822671N;13.805885E;20;Spitzlstein;;Rohumus-Rendzina;Fagion sylvaticae Luquet 1926;Lonicero alpigenae-Fagenion Borhidi ex Soó 1964;Cardamine trifoliae-Fagetum Oberd. 1987
