@@ -1,29 +1,29 @@
-plot;date;plsx;plsy;expo;slope;cov;t1cov;t2cov;scov;hcov;mcov;rock;stones;bare;htl1;htl2;hsl;hhl1;hhl2;latitude;longitude;accuracy;elevation;location;comment;soil;alliance
-et01;2014-05-19;;;;;;;;;;;;;;;;;;;47.842626N;14.597421E;14;;;;;
-et02;2014-05-19;;;;;;;;;;;;;;;;;;;47.843594N;14.598447E;12;;;;;
-et03;2014-05-19;;;;;;;;;;;;;;;;;;;47.821533N;14.645763E;11;;;;;
-et04;2014-05-20;;;;;;;;;;;;;;;;;;;47.913103N;14.517429E;9;;;;;
-et05;2014-05-20;;;;;;;;;;;;;;;;;;;47.912542N;14.519298E;6;;;;;
-et06;2014-05-21;;;;;;;;;;;;;;;;;;;47.913278N;14.321912E;6;;;;;
-et07;2014-05-21;;;;;;;;;;;;;;;;;;;47.912921N;14.321630E;12;;;;;
-et08;2014-05-21;;;;;;;;;;;;;;;;;;;47.913643N;14.323348E;9;;;;;
-et09;2014-05-21;;;;;;;;;;;;;;;;;;;47.915092N;14.324439E;7;;;;;
-et10;2014-05-21;;;;;;;;;;;;;;;;;;;47.917085N;14.325832E;8;;;;;
-et11;2014-06-03;;;;;;;;;;;;;;;;;;;47.840119N;14.552208E;14;990;;en1;;
-et12;2014-06-03;;;;;;;;;;;;;;;;;;;47.841536N;14.550832E;7;945;;en2;;
-et13;2014-06-03;;;;;;;;;;;;;;;;;;;47.840935N;14.547066E;15;865;;en3;;
-et14;2014-06-03;;;;;;;;;;;;;;;;;;;47.824737N;14.539011E;7;780;;en4;;
-et15;2014-06-03;;;;;;;;;;;;;;;;;;;47.823412N;14.537894E;10;720;;en5;;
-et16;2014-06-03;;;;;;;;;;;;;;;;;;;47.922776N;14.377096E;5;560;;en6;;
-et17;2014-06-04;;;;;;;;;;;;;;;;;;;47.924280N;14.375198E;10;500;;en7;;
-et18;2014-06-04;;;;;;;;;;;;;;;;;;;47.924739N;14.374959E;11;450;;en8;;
-et19;2014-06-04;;;;;;;;;;;;;;;;;;;47.926107N;14.378949E;7;445;;en09;;
-et20;2014-06-04;;;;;;;;;;;;;;;;;;;47.926418N;14.378846E;10;400;;en10;;
-et21;2014-06-04;;;;;;;;;;;;;;;;;;;47.925879N;14.375147E;12;440;;en11;;
-et22;2014-06-04;;;;;;;;;;;;;;;;;;;47.924799N;14.373312E;15;;;en12;;Tilio-Acerion
-et23;2014-06-04;;;;;;;;;;;;;;;;;;;47.925119N;14.373536E;15;;;en13;;Tilio-Acerion
-et24;2014-06-04;;;;;;;;;;;;;;;;;;;47.921016N;14.374348E;15;;;en14;;Tilio Acerion
-et25;2014-06-05;;;;;;;;;;;;;;;;;;;47.920037N;14.373975E;15;;;en15;;Carpinion betuli
-et26;2014-06-05;;;;;;;;;;;;;;;;;;;47.924212N;14.372364E;15;;;en16;;Festucion pallentis
-et27;2014-06-05;;;;;;;;;;;;;;;;;;;47.923925N;14.372142E;15;;;en17;;Tilio-Acerion
-et28;2014-06-05;;;;;;;;;;;;;;;;;;;47.917959N;14.369310E;15;;;en18;;Tilio Acerion
+plot;date;plsx;plsy;expo;slope;cov;t1cov;t2cov;scov;hcov;mcov;rock;stones;bare;htl1;htl2;hsl;hhl1;hhl2;latitude;longitude;accuracy;elevation;location;comment;soil;alliance;suballiance;association
+et01;2014-05-19;;;;;;;;;;;;;;;;;;;47.842626N;14.597421E;14;;;;;Tilio-Acerion Klika 1955;Lunario-Acerenion pseudoplatani (Moor 1973) Müller 1992;Phyllitido-Aceretum Moor 1945
+et02;2014-05-19;;;;;;;;;;;;;;;;;;;47.843594N;14.598447E;12;;;;;Tilio-Acerion Klika 1955;Lunario-Acerenion pseudoplatani (Moor 1973) Müller 1992;Phyllitido-Aceretum Moor 1945
+et03;2014-05-19;;;;;;;;;;;;;;;;;;;47.821533N;14.645763E;11;;;;;Tilio-Acerion Klika 1955;Lunario-Acerenion pseudoplatani (Moor 1973) Müller 1992;Acrunco-Aceretum Moor 1952
+et04;2014-05-20;;;;;;;;;;;;;;;;;;;47.913103N;14.517429E;9;;;;;Tilio-Acerion Klika 1955;Tilenion platyphylli (Moor 1973) Müller 1192;Aceri-Tilietum platyphylli Faber 1936 s.l. -seslerietosum prov.
+et05;2014-05-20;;;;;;;;;;;;;;;;;;;47.912542N;14.519298E;6;;;;;Tilio-Acerion Klika 1955;Tilenion platyphylli (Moor 1973) Müller 1192;Aceri-Tilietum platyphylli Faber 1936 s.l. -seslerietosum prov.
+et06;2014-05-21;;;;;;;;;;;;;;;;;;;47.913278N;14.321912E;6;;;;;Tilio-Acerion Klika 1955;Tilenion platyphylli (Moor 1973) Müller 1192;Aceri-Tilietum platyphylli Faber 1936 s.l. -seslerietosum prov.
+et07;2014-05-21;;;;;;;;;;;;;;;;;;;47.912921N;14.321630E;12;;;;;Tilio-Acerion Klika 1955;Lunario-Acerenion pseudoplatani (Moor 1973) Müller 1992;Phyllitido-Aceretum Moor 1945
+et08;2014-05-21;;;;;;;;;;;;;;;;;;;47.913643N;14.323348E;9;;;;;Fagion sylvaticae Luquet 1926;Eu-Fagenion Oberd. 1957;Mercuriali-Fagetum Scamoni 1935 -tilietosum (Moor 1945) Willner 2007
+et09;2014-05-21;;;;;;;;;;;;;;;;;;;47.915092N;14.324439E;7;;;;;Tilio-Acerion Klika 1955;Tilenion platyphylli (Moor 1973) Müller 1192;Aceri-Tilietum platyphylli Faber 1936 s.l. -seslerietosum prov.
+et10;2014-05-21;;;;;;;;;;;;;;;;;;;47.917085N;14.325832E;8;;;;;Tilio-Acerion Klika 1955;Tilenion platyphylli (Moor 1973) Müller 1192;Aceri-Tilietum platyphylli Faber 1936 s.l. -typicum
+et11;2014-06-03;;;;;;;;;;;;;;;;;;;47.840119N;14.552208E;14;990;;;;Fagion sylvaticae Luquet 1926;Lonicero alpigenae-Fagenion Borhidi ex Soó 1964;Adenostylo glabrae-Fagetum Moor 1970 -calamagrostietosum variae (Zukrigl 1973) Willner 2007
+et12;2014-06-03;;;;;;;;;;;;;;;;;;;47.841536N;14.550832E;7;945;;;;Fagion sylvaticae Luquet 1926;Lonicero alpigenae-Fagenion Borhidi ex Soó 1964;Adenostylo glabrae-Fagetum Moor 1970 -helleboretosum nigri Willner 2007
+et13;2014-06-03;;;;;;;;;;;;;;;;;;;47.840935N;14.547066E;15;865;;;;Tilio-Acerion Klika 1955;Lunario-Acerenion pseudoplatani (Moor 1973) Müller 1992;Phyllitido-Aceretum Moor 1945
+et14;2014-06-03;;;;;;;;;;;;;;;;;;;47.824737N;14.539011E;7;780;;;;Tilio-Acerion Klika 1955;Lunario-Acerenion pseudoplatani (Moor 1973) Müller 1992;Carici pendulae-Aceretum (Etter 1947) Oberd. 1957
+et15;2014-06-03;;;;;;;;;;;;;;;;;;;47.823412N;14.537894E;10;720;;;;Tilio-Acerion Klika 1955;Lunario-Acerenion pseudoplatani (Moor 1973) Müller 1992;Carici pendulae-Aceretum (Etter 1947) Oberd. 1957
+et16;2014-06-03;;;;;;;;;;;;;;;;;;;47.922776N;14.377096E;5;560;;;;Carpinion betuli Issler 1931;;Galio sylvatici-Carpinetum Oberd. 1957 -brachypodietosum sylvatici Mayer 1974
+et17;2014-06-04;;;;;;;;;;;;;;;;;;;47.924280N;14.375198E;10;500;;;;Carpinion betuli Issler 1931;;Galio sylvatici-Carpinetum Oberd. 1957 -brachypodietosum sylvatici Mayer 1974
+et18;2014-06-04;;;;;;;;;;;;;;;;;;;47.924739N;14.374959E;11;450;;;;Tilio-Acerion Klika 1955;Tilenion platyphylli (Moor 1973) Müller 1192;Aceri-Tilietum platyphylli Faber 1936 s.l. -seslerietosum prov.
+et19;2014-06-04;;;;;;;;;;;;;;;;;;;47.926107N;14.378949E;7;445;;;;Fagion sylvaticae Luquet 1926;Cephalanthero-Fagenion Tx. & Oberd. 1958;Helleboro nigri-Fagetum Zukrigl 1973 s.str.
+et20;2014-06-04;;;;;;;;;;;;;;;;;;;47.926418N;14.378846E;10;400;;;;Tilio-Acerion Klika 1955;Lunario-Acerenion pseudoplatani (Moor 1973) Müller 1992;Phyllitido-Aceretum Moor 1945
+et21;2014-06-04;;;;;;;;;;;;;;;;;;;47.925879N;14.375147E;12;440;;;;Fagion sylvaticae Luquet 1926;Cephalanthero-Fagenion Tx. & Oberd. 1958;Helleboro nigri-Fagetum Zukrigl 1973 s.str.
+et22;2014-06-04;;;;;;;;;;;;;;;;;;;47.924799N;14.373312E;15;;;;;Tilio-Acerion Klika 1955;Lunario-Acerenion pseudoplatani (Moor 1973) Müller 1992;Acrunco-Aceretum Moor 1952
+et23;2014-06-04;;;;;;;;;;;;;;;;;;;47.925119N;14.373536E;15;;;;;Tilio-Acerion Klika 1955;Lunario-Acerenion pseudoplatani (Moor 1973) Müller 1992;Acrunco-Aceretum Moor 1952
+et24;2014-06-04;;;;;;;;;;;;;;;;;;;47.921016N;14.374348E;15;;;;;Tilio-Acerion Klika 1955;Lunario-Acerenion pseudoplatani (Moor 1973) Müller 1992;Phyllitido-Aceretum Moor 1945
+et25;2014-06-05;;;;;;;;;;;;;;;;;;;47.920037N;14.373975E;15;;;;;Carpinion betuli Issler 1931;;Stellario-Carpinetum Oberd. 1957
+et26;2014-06-05;;;;;;;;;;;;;;;;;;;47.924212N;14.372364E;15;;;;;Festucion pallentis;Seslerio-Festucion pallentis Willner 2013;Teucrio montani-Seselietum austriaci Niklfeld 1979
+et27;2014-06-05;;;;;;;;;;;;;;;;;;;47.923925N;14.372142E;15;;;;;Tilio-Acerion Klika 1955;Tilenion platyphylli (Moor 1973) Müller 1192;Aceri-Tilietum platyphylli Faber 1936 s.l. -seslerietosum prov.
+et28;2014-06-05;;;;;;;;;;;;;;;;;;;47.917959N;14.369310E;15;;;;;Tilio-Acerion Klika 1955;Tilenion platyphylli (Moor 1973) Müller 1192;Aceri-Tilietum platyphylli Faber 1936 s.l. -seslerietosum prov.
