@@ -8,7 +8,7 @@ x <- read.verbatim(file, "Aufnahmenummer")
 file <- "~/Documents/vegsoup-data/isda1986/Isda1986Tab1TableFooter.txt"
 x <- read.verbatim.append(x, file, "plots", abundance = TRUE)
 
-x.df <- data.frame(abbr = rownames(x), layer = "hl", comment = NA, x,
+x.df <- data.frame(abbr = rownames(x), layer = "hl", taxon = NA, x,
 	check.names = FALSE)
 X <- stackSpecies(x.df)
 
@@ -44,9 +44,15 @@ dta$elevation <- df.attr$"Seehöhe...100." * 100
 dta$block <- df.attr$Block
 dta$altitude <- df.attr$Seehöhe
 
-rm <- ls()
 isda1986 <- dta
-rm(list = rm)
-rm(rm)
+
+rownames(isda1986) <- paste0("isda1986:",
+	gsub(" ", "0", format(rownames(isda1986), width = 2, justify = "right")))
+require(naturalsort)
+isda1986 <- isda1986[naturalorder(rownames(isda1986)), ]
+
+rm(list = ls()[-grep("isda1986", ls(), fixed = TRUE)])	
 
 save(isda1986, file = "~/Documents/vegsoup-data/isda1986/isda1986.rda")
+
+KML(isda1986, "~/Documents/vegsoup-data/isda1986/ida1986.kml")
