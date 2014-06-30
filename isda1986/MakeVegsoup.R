@@ -55,4 +55,4 @@ rm(list = ls()[-grep("isda1986", ls(), fixed = TRUE)])
 
 save(isda1986, file = "~/Documents/vegsoup-data/isda1986/isda1986.rda")
 
-KML(isda1986, "~/Documents/vegsoup-data/isda1986/ida1986.kml")
+KML(isda1986, "~/Documents/vegsoup-data/isda1986/isda1986.kml")
