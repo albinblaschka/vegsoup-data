@@ -1,0 +1,75 @@
+plot;cov;t1cov;t2cov;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;latitude;longitude;accuracy;date;alliance;location;soil;rock.type;soil.depth;dung.rupi;dung.ibex
+hw01;20;0;0;0;20;2;0;0;0;0,3;0;5;5;SE;40;50;30;0;47.83536N;16.05698E;10;2008-05-13;Seslerio-Festucion pallentis;bei WH Almfrieden, unterhalb kl. Ueberhang;Felshang, Rendzina;precipice;shallow;yes;yes
+hw02;25;0;0;0;25;8;0;0;0;0,4;0;3;6;S;55;60;15;0;47.83517N;16.05674E;10;2008-05-13;Seslerio-Festucion pallentis;NA;Felshang, Rendzina;precipice;shallow;yes;yes
+hw03;30;0;0;5;25;2;0;0;2,5;0,5;0;0;0;SE;90;65;5;0;47.83525N;16.05557E;10;2008-05-13;Seslerio-Festucion pallentis;Felswand;NA;bank;deep;no;no
+hw04;30;0;0;0;30;3;0;0;0;0,5;0;10;15;S;40;50;20;0;47.83538N;16.05600E;10;2008-05-13;Seslerio-Festucion pallentis;Überbrücklsteig;Felshang, Rendzina, Substrateinschwemmungen und -taschen;precipice;shallow;yes;yes
+hw05;20;0;0;2;20;2;0;0;2;0,5;0;4;5;S;35;50;30;0;47.83472N;16.05737E;10;2008-05-14;Seslerio-Festucion pallentis;Überbrücklsteig, Wandfuß;Felshang, Schutt-ueberlagert, feinsubstratreich;headwall;shallow;yes;yes
+hw06;80;0;0;2;80;2;0;0;2,5;0,5;0;6;4;SE;20;15;5;0;47.83578N;16.05856E;10;2008-05-14;Geranion sanguinei ;Mittelhang, Verebnung oberhalb Felswand;Rendzina;topwall;shallow;yes;yes
+hw07;35;0;0;1;35;1;0;0;1,5;1;0;10;10;SE;55;25;40;0;47.83570N;16.05846E;10;2008-05-14;Seslerio-Festucion pallentis;NA;Felshang, plattig, Feinsubstrateinschwemmungen;precipice;shallow;yes;yes
+hw08;20;0;0;1;20;1;0;0;1,5;0,3;0;4;7;S;50;40;40;0;47.83615N;16.05879E;10;2008-05-14;Seslerio-Festucion pallentis;Oberkante Felswand;Felsrücken, Fels, Rendzina;precipice;shallow;yes;yes
+hw09;85;0;0;1;85;5;0;0;1,5;0,3;0;5;6;SE;20;5;10;0;47.83619N;16.05865E;10;2008-05-14;Geranion sanguinei ;Rücken;Rendzina;topwall;shallow;yes;yes
+hw10;25;0;0;0;25;12;0;0;0;0,5;0;7;5;SE;40;55;20;0;47.82990N;16.04716E;20;2008-05-14;Seslerio-Festucion pallentis;unterhalb Klettergarten beim Skywalk, Lage unsicher;Felshang, Feinsubstratreich, Bodenerrosion;precipice;shallow;yes;yes
+hw11;45;0;0;0;45;2;0;0;0;0,5;1;8;6;SE;30;5;10;40;47.82973N;16.04888E;10;2008-06-09;Seslerio-Festucion pallentis;Postl Steig, 20m unterhalb Wandfuß, bei Lägerflur;erdreiche Schuttflur;scree;shallow;yes;yes
+hw12;35;0;0;0;35;5;0;0;0;0,3;0;6;6;S;45;40;10;15;47.82983N;16.04928E;10;2008-06-09;Seslerio-Festucion pallentis;NA;Felshang mit Geroell, Protorendzina;precipice;shallow;yes;no
+hw13;45;0;0;0;45;0;0;0;0;0,2;0;10;1,5;SE;5;5;50;0;47.83009N;16.04888E;10;2008-06-09;Sisymbrion officinalis;NA;Balme unter Ueberhang;balme;shallow;yes;yes
+hw14;60;0;0;7;60;3;0;0;2,5;0,4;0;8;6;SE;30;0;5;35;47.82944N;16.04881E;10;2008-06-09;Rumicetum scutati;NA;NA;scree;shallow;yes;yes
+hw15;50;0;0;3;45;3;0;0;2;1;0;7;4;E;80;45;5;0;47.82918N;16.04838E;10;2008-06-09;Seslerio-Festucion pallentis;direkt E HTL-Steig, oberhalb ÖTK-Klettergarten;Felshang, humoes;precipice;deep;no;no
+hw16;10;0;0;0;10;0;0;0;0;0;0;2;6;SE;30;25;5;60;47.82903N;16.04858E;10;2008-06-09;Sisymbrion officinalis;Balme;Geröll, feinerdearm;balme;shallow;yes;yes
+hw17;50;0;0;0;50;2;0;0;0;0,8;0;3;6;SE;60;20;30;0;47.83548N;16.05879E;10;2008-06-10;Seslerio-Festucion pallentis;"Strasse HW, Kehre; uhalb Steinschlagnetz";gestufter Felshang, humoes, feinsubstratreich;precipice;deep;no;no
+hw18;40;0;0;3;40;2;0;0;2;0,5;0;6;3;null;40;30;25;5;47.83095N;16.05043E;10;2008-06-10;Seslerio-Festucion pallentis;gestufte Hangleiste;Substraterrosion, Bodenverwundung;precipice;shallow;yes;yes
+hw19;25;0;0;3;25;0;0;0;2;0,7;0;6;5;SW;80;75;0;0;47.83103N;16.05068E;10;2008-06-10;Seslerio-Festucion pallentis;NA;Felsbank, sehr humoes;bank;deep;no;no
+hw20;40;0;0;0;40;5;0;0;0;0,5;0,7;7;7;SE;40;20;40;0;47.82977N;16.04795E;10;2008-06-10;Seslerio-Festucion pallentis;HTL-Steig, direkt unterhalb Querung im oberen Bereich;Felshang, humoes, Humuserrosion;precipice;deep;yes;yes
+hw21;75;0;0;3;75;2;0;0;0;0,7;0;4;2;E;85;15;10;0;47.82947N;16.04811E;10;2008-06-10;Seslerio-Festucion pallentis;Felsabsatz in Wand, neben großer Linde;Felsband, humoes;bank;deep;no;no
+hw22;30;0;0;0;30;10;0;0;0;0,1;0,7;2;5;S;40;20;40;10;47.82931N;16.04769E;10;2008-06-10;Seslerio-Festucion pallentis;kurz W des HTL-Steigs;Felshang, humoes, Humuseinschwemmung;precipice;shallow;yes;yes
+hw23;40;0;0;0;40;2;0;0;0;0,2;0,6;6;5;SE;35;10;45;5;47.83412N;16.05559E;10;2008-06-11;Seslerio-Festucion pallentis;W Stollhofer Steilanstieg, unterhalb Überhang, oberhalb Felswand;Felshang, humoes, Humuserrosion;precipice;shallow;yes;yes
+hw24;60;0;0;10;60;3;0;0;3;0,5;1;4;6;SE;35;5;35;0;47.83400N;16.05573E;10;2008-06-11;Seslerio-Festucion pallentis;direkt W hw23;Felshang, humoes, Humuserrosion;precipice;shallow;yes;yes
+hw25;50;0;0;5;50;2;0;0;1,5;0,7;0;4;5;SE;80;45;5;0;47.83401N;16.05598E;10;2008-06-11;Seslerio-Festucion pallentis;liegt unerhalb 23 und 24, 10m unterhalb im kronenschatten der Bäume deutlich mehr Bewuchs von Sesleria;2-3 fast verbundene Rasenbaender in Felswand;bank;deep;no;no
+hw26;45;0;0;0;45;20;0;0;0;0,3;0,5;4;3;SE;30;0;0;55;47.82800N;16.04755E;10;2008-06-12;Rumicetum scutati;oberhalb Parkplatz Landeplatz, E Völlerin Steig, Umfeld Gebüsch;Ruhschutt;scree;shallow;no;no
+hw27;70;0;0;25;50;35;0;0;3;0,4;0;10;5;SE;35;0;0;30;47.82759N;16.04704E;10;2008-06-12;Rumicetum scutati;oberhalb Landewiese bei Völlerin Steig, Waldbestand;Ruhschutt, feinstubtrat reich;scree;shallow;yes;no
+hw28;45;0;0;5;40;10;0;0;3;0,2;0,8;8;6;SE;40;0;10;45;47.82737N;16.04668E;10;2008-06-12;Rumicetum scutati;50m W hw27;Ruhschutt, wo Schutt fehlt ist lehmige Erde, Braunlehm-Rendzina;scree;shallow;yes;no
+hw29;55;0;0;5;40;10;0;0;3;0,3;0,6;8;4;SE;40;10;10;25;47.82702N;16.04638E;10;2008-06-12;Seslerio-Festucion pallentis;wenig W hw27;Schutt, viel lehmige Anteile;precipice;shallow;no;no
+hw30;30;0;0;5;25;5;0;0;3;0,7;0;6;5;SE;40;35;35;0;47.82683N;16.04530E;10;2008-06-12;Seslerio-Festucion pallentis;Steig E Tirolersteig, Freibereich innerhalb Flaumeichenbestand;Felshang, humoes, Humuserrosion;precipice;shallow;yes;yes
+hw31;65;0;0;1;65;5;0;0;2;0,4;0;3;7;E;30;25;10;0;47.82902N;16.04495E;10;2008-06-12;Seslerio-Festucion pallentis;direkt rechts (E) Völlerin Steig, danben Halbtrockenrasen durch Verbiss frei;Rendsina;topwall;shallow;yes;yes
+hw32;80;0;0;0;80;15;0;0;0;0,1;0;5;4;SE;10;0;5;0;47.82425N;16.04085E;10;2008-06-12;Seslerio-Festucion pallentis;direkt bei Kreuz am Ende des Eisenbahnersteiges;Felshang, Rendsina, durchgehend homös;topwall;deep;yes;yes
+hw33;65;0;0;25;60;2;0;0;5;1;0;5;10;SE;65;30;5;0;47.83026N;16.04915E;10;2008-08-03;Seslerio-Festucion pallentis;direkt rechts (NE) Skywalk, ca. 45m unterhalb Oberkante;Felshang, Rendsina, homös mit Substrattaschen;precipice;deep;no;no
+hw34;50;0;0;1;50;2;0;0;5;1;0;5;7;SE;75;40;10;0;47.83020N;16.04914E;10;2008-08-03;Seslerio-Festucion pallentis;10m unterhalb hw33;Felshang, Rendsina, homös mit Substrattaschen;precipice;deep;no;no
+hw35;60;0;0;0;60;1;0;0;0;1;0;5;5;SE;75;35;5;0;47.83017N;16.04915E;10;2008-08-03;Seslerio-Festucion pallentis;8m unterhalb hw34;Felshang, Rendsina, homös mit Substrattaschen;precipice;deep;no;no
+hw36;95;0;0;10;95;5;0;0;5;0,5;0;6;4;SE;10;5;0;0;47.83038N;16.04899E;10;2008-08-03;Geranion sanguinei ;Gebüschsaum oberhalb 33 bis 35, direkt Wandabbruch;flachgründig, Bodenauflage nahezu 100 %;topwall;shallow;yes;no
+hw37;20;0;0;0;20;5;0;0;0;0,3;0;6;5;S;45;45;35;0;47.81099N;16.01463E;10;2008-08-04;Seslerio-Festucion pallentis;Wagnersteig, 150m E großem Felsaufbau zum Gipfelbereich Felsfuß;offener, stark verbissener Felshang, erdig;precipice;shallow;yes;yes
+hw38;20;0;0;0;20;3;0;0;0;0,3;0;6;5;S;35;30;50;0;47.81085N;16.01408E;10;2008-08-04;Seslerio-Festucion pallentis;ca. 250m westlich hw37, unterhalb Kreuz große Kanzel;Felshang, verbissen, offen, Wandfuß bei Felswand;precipice;shallow;yes;yes
+hw39;75;0;0;0;75;1;0;0;0;0,2;0;7;4;S;15;5;20;0;47.81100N;16.01368E;10;2008-08-04;Seslerio-Festucion pallentis;ca. 50m E und 50m unterhalb Kreuz große Kanzel, Absatz am Wandfuß;Felshang, feinsubstratreich, erodiert, eutroph;precipice;shallow;yes;yes
+hw40;50;0;0;3;50;0;0;0;2;0,8;0;2;3;S;90;45;5;0;47.81105N;16.01310E;10;2008-08-04;Seslerio-Festucion pallentis;NA;Rasenband, feinsubstratreich;bank;deep;no;no
+hw41;50;0;0;0;50;0;0;0;0;0,3;0;5;1,5;S;5;10;40;0;47.81093N;16.01678E;10;2008-08-04;Sisymbrion officinalis;ca. 500m E und 100m unterhalb Kreuz Große Kanzel;flachgründig über solidem Fels, vollgeschissen;balme;shallow;yes;yes
+hw42;60;0;0;0;60;1;0;0;0;0,5;0;5;6;S;25;5;35;0;47.81097N;16.01660E;10;2008-08-04;Seslerio-Festucion pallentis;neben Balme an Rand verbissene Corylus, Amelanchier, Sorbus, Wildfütterung in der Nähe;Felshang, Substraterosion;precipice;shallow;yes;yes
+hw43;50;0;0;0;45;0;0;0;0;0,8;0;3;7;S;80;45;5;0;47.81116N;16.01661E;10;2008-08-04;Seslerio-Festucion pallentis;Unterhalb Gedenkkreuz, Große Kanzel;Rasenband, getreppt, feinsubstratreich;bank;deep;no;no
+hw44;60;0;0;0;60;2;0;0;0;0,6;0;2;6;S;10;20;20;0;47.81130N;16.01670E;10;2008-08-04;Seslerio-Festucion pallentis;breites Felsband (ca. 2-3 m) E Kreuz 20m unterhalb Abseilstand direkt an Kante;Felshang, Rendsina, feinsubstrat arm;bank;shallow;yes;yes
+hw45;40;0;0;0;40;2;0;0;0;0,7;0;6;4;S;30;15;45;0;47.82240N;16.03801E;10;2008-08-05;Seslerio-Festucion pallentis;direkt neben Weg Krumme Rieß;Felshang, Feinsubstratreich, Bodenerrosion;precipice;shallow;yes;no
+hw46;75;0;0;10;70;1;0;0;1,2;0,8;0;5;1,5;SE;80;15;5;0;47.82431N;16.04105E;10;2008-08-05;Seslerio-Festucion pallentis;in Wand 100m NE Gipfel Krumme Rieß, ca. 20m unterhalb Wandkante, direkt neben Gebüsch mit Evonymus verrucosa und Fraxinus excelsior;Rasenband, feinsubstratreich, getreppt;bank;deep;no;no
+hw47;75;0;0;5;80;1;0;0;2;0,8;0;3;5;SE;75;20;5;0;47.82434N;16.04105E;10;2008-08-05;Seslerio-Festucion pallentis;ca. 15m unterhalb hw46, blockartige Felsnase;Felsnase, feinsubstratreich;bank;deep;no;no
+hw48;70;0;0;40;50;2;0;0;2,5;0,8;0;10;10;E;85;20;10;0;47.82349N;16.04031E;10;2008-08-05;Berberidion;20m NW hw49;Felshang, superhomös;precipice;deep;no;no
+hw49;50;0;0;0;50;1;0;0;0;0,8;0;4;5;E;80;45;5;0;47.82349N;16.03986E;10;2008-08-05;Seslerio-Festucion pallentis;Felswand nordwestlich Gipfel krumme Rieß, ca. 50m unter Felsoberkante;Felshang, superhomös;precipice;deep;no;no
+hw50;20;0;0;0;20;4;0;0;0;0,6;0;10;10;SE;30;40;40;0;47.82388N;16.04092E;10;2008-08-05;Seslerio-Festucion pallentis;unterhalb Balme in Felswand unterhalb Gipfel Krumme Rieß, Hardcore Verbissfläche;Felshang, Substraterosion;precipice;shallow;yes;yes
+hw51;50;0;0;3;50;0;0;0;1,5;0,8;0;1;2,5;SE;85;40;10;0;47.82307N;16.04031E;10;2008-08-05;Seslerio-Festucion pallentis;Wand 25m über Wandfußsteig, auf Höhe Maiersdorf;Felshang, Feinsubstratreich;precipice;deep;no;no
+hw52;35;0;0;2;35;4;0;0;2,5;0,7;0;6;7;S;25;10;55;0;47.81111N;16.02472E;10;2008-08-06;Seslerio-Festucion pallentis;anbei Steig zum Hubertushaus am Ostende des Wandfuß markante Wand;Felshang;precipice;shallow;yes;yes
+hw53;5;0;0;2;5;0;0;0;1,5;0,3;0;4;1,5;S;10;94;1;0;47.81100N;16.02431E;10;2008-08-06;Sisymbrion officinalis;30m westlich hw52;Balme;balme;shallow;yes;yes
+hw54;45;0;0;0;45;2;0;0;0;0,8;0;8;5;SW;40;30;25;0;47.81287N;16.02882E;10;2008-08-06;Seslerio-Festucion pallentis;Felskopf ca. 500m E Hubertushaus, ca 25 m  unterhalb Betonstempen am Felskopf (Gipfel);Felshang, Substraterosion;precipice;shallow;yes;yes
+hw55;45;0;0;0;45;2;0;0;0;0,5;0;2;4;S;80;50;5;0;47.81289N;16.02885E;10;2008-08-06;Seslerio-Festucion pallentis;NA;Rasenband, getreppt, aufgelöst, kleine Substrattaschen und Humusploster;bank;deep;no;no
+hw56;65;0;0;0;65;1;0;0;0;0,8;0;5;1;SE;85;15;20;0;47.81311N;16.02903E;10;2008-08-06;Seslerio-Festucion pallentis;NA;Rasenband, feinsubstratreich, kleine Substrattaschen;bank;deep;no;no
+hw57;45;0;0;2;40;10;0;0;2;0,5;0;6;3;SE;30;0;0;55;47.82963N;16.05117E;10;2008-08-20;Rumicetum scutati;direkt oberhalb Weg vom Parkplatz (Landewiese) Richtung NE;Schutt;scree;shallow;no;no
+hw58;85;0;0;60;50;35;0;0;3,5;0,5;1;15;5;SE;30;0;0;15;47.82968N;16.05127E;10;2008-08-20;Berberidion;bei hw57;Schutt;scree;shallow;no;no
+hw59;90;0;0;0;85;25;0;0;0;0,3;0;5;6;SE;30;0;10;0;47.82938N;16.04939E;10;2008-08-20;Cirsio-Brachypodion pinnati;NA;sekundärer Trockenrasen, Rensina, Substrat stabil, freie Bodenstellen;headwall;shallow;no;no
+hw60;75;0;0;1;75;10;0;0;0;0,8;0;8;6;SE;35;5;0;20;47.82946N;16.04875E;10;2008-08-20;Rumicetum scutati;unterhalb Skywalk;Schutt, feinsubstratreich;scree;deep;no;no
+hw61;95;5;0;80;75;30;9;0;5;0,3;0,6;15;5;SE;30;0;0;5;47.82856N;16.04765E;10;2008-08-20;Berberidion;SW unterhalb Skywalk;Schutt, gefestigt;scree;shallow;no;no
+hw62;95;5;0;90;80;25;9,5;0;5;0,4;0,8;8;15;SE;15;0;0;5;47.82812N;16.04712E;10;2008-08-20;Berberidion;Nordöstlich einer markanten Schuttrinne;Schutt, gefestigt;scree;shallow;no;no
+hw63;80;0;0;0;80;5;0;0;0;0,5;0;5;5;SE;30;0;10;10;47.83457N;16.05732E;10;2008-08-20;Geranion sanguinei ;Am Begin des Weg zm Almfrieden, Überbrückl Steig;Schutt, gefestigt, feinsubstratreich;headwall;shallow;yes;no
+hw64;;;;;;;;;;;;;;;;;;;47.82912N;16.04779E;10;2014-07-04;Seslerio-Festucion pallentis;Auschlussfläche HTL-Steig;;;;;
+hw65;;;;;;;;;;;;;;;;;;;47.82200N;16.03825E;10;2014-07-05;Seslerio-Festucion pallentis;Auschlussfläche Krumme Ries;;;;;
+hw66;;;;;;;;;;;;;;;;;;;47.818547N;16.034283E;10;2014-07-05;Tilio-Acerion;hwx3;;;;;
+hw67;;;;;;;;;;;;;;;;;;;47.818978N;16.034085E;10;2014-07-05;Tilio-Acerion;hwx4;;;;;
+hw68;;;;;;;;;;;;;;;;;;;47.827080N;16.043452E;10;2014-07-06;Quercion pubescentis-petreae;hwx5;;;;;
+hw69;;;;;;;;;;;;;;;;;;;47.827754N;16.044292E;10;2014-07-06;Quercion pubescentis-petreae;hwx6;;;;;
+hw70;;;;;;;;;;;;;;;;;;;47.827742N;16.044846E;10;2014-07-06;Quercion pubescentis-petreae;hwx7;;;;;
+hw71;;;;;;;;;;;;;;;;;;;47.827488N;16.045296E;10;2014-07-06;Quercion pubescentis-petreae;hwx8;;;;;
+hw72;;;;;;;;;;;;;;;;;;;47.827247N;16.045637E;10;2014-07-06;Quercion pubescentis-petreae;hwx9;;;;;
+hw73;;;;;;;;;;;;;;;;;;;47.827222N;16.045917E;10;2014-07-06;Quercion pubescentis-petreae;hw10;;;;;
+hw74;;;;;;;;;;;;;;;;;;;47.834410N;16.055487E;10;2014-07-06;Tilio-Acerion;hw11;;;;;
