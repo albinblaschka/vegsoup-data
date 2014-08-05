@@ -35,7 +35,7 @@ sp33;97;93;30;10;90;1;30;20;5;0,5;0,1;16;16;W;20;0;2013-05-15;48.080600N;13.8324
 sp34;97;50;0;45;95;1;23;0;4;0,7;0,1;16;16;F;0;0;2013-05-15;48.082848N;13.835721E;7,1;Braunerde;FF;unclassified;unclassified
 sp35;99;0;25;75;97;20;0;8;6;0,5;0,25;16;16;F;0;0;2013-05-15;48.084436N;13.839819E;3,9;Braunerde;VW;Cephalanthero-Fagenion;Helleboro nigri-Fagetum
 sp36;98;0;97;15;30;1;0;8;4;0,3;0,1;16;16;N;15;0;2013-05-15;48.084630N;13.839150E;9,2;Braunerde;VW;Cephalanthero-Fagenion;Helleboro nigri-Fagetum
-sp37;93;85;15;35;65;20;27;15;5,5;0,4;0,2;16;16;N;50;7;2013-05-15;48.085028N;13.839754E;11,8;Braunerde;LW;unclassified;unclassified
+sp37;93;85;15;35;65;20;27;15;5,5;0,4;0,2;16;16;N;50;7;2013-05-15;48.084980N;13.839780E;11,8;Braunerde;LW;unclassified;unclassified
 sp38;98;95;30;7;33;1;30;20;4;0,5;0,1;16;16;N;40;2;2013-05-15 & 2013-08-28;48.084823N;13.837539E;13,2;Braunerde;LW;unclassified;unclassified
 sp39;95;0;80;20;75;0;0;13;4,5;0,25;0,1;16;16;F;0;0;2013-05-15;48.084152N;13.838544E;4,4;Braunerde;TBW;Cephalanthero-Fagenion;Helleboro nigri-Fagetum
 sp40;92;90;10;0;70;1;27;18;0;0,3;0,1;16;16;F;0;0;2013-05-15;48.083299N;13.837099E;6,2;Braunerde;TBW;Cephalanthero-Fagenion;Helleboro nigri-Fagetum
@@ -67,4 +67,4 @@ sp65;;;;;;;;;;;;;;;;;2014-03-20 & 2014-07-31;48.087037N;13.839813E;10;Braunerde;
 sp66;;;;;;;;;;;;;;;;;2014-07-31;48.087659N;13.841848E;10;Braunerde;EHW;Carpinion betuli;
 sp67;;;;;;;;;;;;;;;;;2014-07-01 & 2014-07-31;48.081770N;13.843750E;10;Braunerde;EHW;Carpinion betuli;
 sp68;;;;;;;;;;;;;;;;;2014-07-31;48.085376N;13.839136E;20;Mull;AW;Alnenion glutinoso-incanae;
-sp69;;;;;;;;;;;;;;;;;2014-07-31;48.085550N;13.839450E;20;Mull & Ausand;AW;Alnenion glutinoso-incanae;
+sp69;;;;;;;;;;;;;;;;;2014-07-31;48.085560N;13.839680E;20;Mull & Ausand;AW;Alnenion glutinoso-incanae;
