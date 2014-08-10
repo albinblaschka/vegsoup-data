@@ -1,10 +1,14 @@
-plot;cov;tcov;scov;hcov;mcov;hsl;hhl1;hhl2;plsx;plsy;rock;bare;slope;date;comment;location;expo;latitude;longitude;accuracy;elevation;alliance
-ws01;80;0;0;80;5;0;0,5;0,15;2;2;20;5;40;2009-04-29;;Falkensteinwand;SW;47.758507N;13.395419E;20;540;Berberidion
-ws02;90;0;0;90;25;0;0,6;0,15;2;4;10;1;40;2009-04-29;;Falkensteinwand;SW;47.758556N;13.395987E;20;550;Berberidion
-ws03;80;0;0;80;20;0;0,6;0,15;1;2;20;1;35;2009-04-29;;Falkensteinwand;SW;47.758574N;13.396223E;20;560;Berberidion
-ws04;75;0;0;75;3;2,5;0,7;0,3;4;5;35;0;85;2009-04-29;;Hochwand;S;47.757401N;13.417807E;20;880;Berberidion
-ws05;90;0;0;90;1;2,5;0,7;0,2;2;5;10;0;85;2009-04-29;;Falkensteinwand;SW;47.758408N;13.395330E;20;540;Berberidion
-ws06;90;0;3;90;2;0;0,6;0,25;4;5;10;0;75;2009-05-03;;Plombergstein, bei Standplatz 2. Seillänge der Tour Juniperus;SE;47.777211N;13.360779E;20;720;Berberidion
-ws07;;;;;;;;;;;;;;2014-06-22;;Falkensteinwand;;47.758635N;13.395110E;20;;Tilio-Acerion
-ws08;;;;;;;;;;;;;;2014-06-22;;Falkensteinwand;;47.758602N;13.395365E;10;;Cephalanthero Fagenion
-ws09;;;;;;;;;;;;;;2014-06-22;;Fürberg;;47.759643N;13.391328E;20;;Cephalanthero Fagenion
+plot;cov;tcov;scov;hcov;mcov;hsl;hhl1;hhl2;plsx;plsy;rock;bare;slope;date;comment;location;expo;latitude;longitude;accuracy;elevation;alliance;rope
+ws01;80;0;0;80;5;0;0,5;0,15;2;2;20;5;40;2009-04-29;;Falkensteinwand;SW;47.758507N;13.395419E;20;540;Berberidion;
+ws02;90;0;0;90;25;0;0,6;0,15;2;4;10;1;40;2009-04-29;;Falkensteinwand;SW;47.758556N;13.395987E;20;550;Berberidion;
+ws03;80;0;0;80;20;0;0,6;0,15;1;2;20;1;35;2009-04-29;;Falkensteinwand;SW;47.758574N;13.396223E;20;560;Berberidion;
+ws04;75;0;0;75;3;2,5;0,7;0,3;4;5;35;0;85;2009-04-29;;Hochwand;S;47.757401N;13.417807E;20;880;Berberidion;
+ws05;90;0;0;90;1;2,5;0,7;0,2;2;5;10;0;85;2009-04-29;;Falkensteinwand;SW;47.758408N;13.395330E;20;540;Berberidion;
+ws06;90;0;3;90;2;0;0,6;0,25;4;5;10;0;75;2009-05-03;;Plombergstein, bei Standplatz 2. Seillänge der Tour Juniperus;SE;47.777211N;13.360779E;20;720;Berberidion;
+ws07;;;;;;;;;;;;;;2014-06-22;;Falkensteinwand;;47.758635N;13.395110E;20;;Tilio-Acerion;
+ws08;;;;;;;;;;;;;;2014-06-22;;Falkensteinwand;;47.758602N;13.395365E;10;;Cephalanthero Fagenion;
+ws09;;;;;;;;;;;;;;2014-06-22;;Fürberg;;47.759643N;13.391328E;20;;Cephalanthero Fagenion;
+ws10;;;;;; ;;;;;;;;2014-08-10;wsx1;Falkensteinwand;;47.758834N;13.392712E;10;;Fagion;
+ws11;;;;;;;;;;;;;;2014-08-10;wsx2;;;47.758130N;13.398586E;10;;Tilio-Acerion;rope betray (wsx2-3'): 47.758251N,13.398779E, rope range (wsx2-3'' ±100m): 47.757841N,13.398364E
+ws12;;;;;;;;;;;;;;2014-08-10;wsx3;Falkensteinwand;;47.757948N;13.398468E;10;;Tilio-Acerion;rope betray (wsx2-3'): 47.758251N,13.398779E, rope range (wsx2-3'' ±100m): 47.757841N,13.398364E
+ws13;;;;;;;;;;;;;;2014-08-10;wsx4;Falkensteinwand;;47.758417N;13.398614E;10;;unclassified;
