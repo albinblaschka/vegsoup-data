@@ -1,0 +1,9 @@
+plot;cov;tcov1;tcov2;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;date;location;comment;altitude;latitude;longitude;accuracy;alliance;soil;bedrock;rope
+lp01;;;;;;;;;;;;;;;;;;;2014-08-29;Luegpalfen, E Eisenbahntunnel;;;;;10;Tilio-Acerion;;;
+lp02;;;;;;;;;;;;;;;;;;;2014-08-29;Luegpalfen, E Eisenbahntunnel;;;47.569205;13.183323;10;Fagion sylvaticae;;;
+lp03;;;;;;;;;;;;;;;;;;;2014-08-29;Luegpalfen, E Eisenbahntunnel;;;47.569551;13.183672;10;Fagion sylvaticae;;;
+lp04;;;;;;;;;;;;;;;;;;;2014-08-29;Luegpalfen, W Eisenbahntunnel;;;47.568867;13.179888;10;Fagion sylvaticae;;;
+lp05;;;;;;;;;;;;;;;;;;;2014-08-29;Luegpalfen, W Eisenbahntunnel;;;47.568638;13.177233;10;Fagion sylvaticae;;;
+lp06;;;;;;;;;;;;;;;;;;;2014-08-29;Luegpalfen, W Eisenbahntunnel;;;47.568166;13.176443;10;Fagion sylvaticae;;;
+lp07;;;;;;;;;;;;;;;;;;;2014-08-29;Luegpalfen, W Eisenbahntunnel;;;47.567721;13.176145;10;unclassified;;;
+lp08;;;;;;;;;;;;;;;;;;;2014-08-29;Luegpalfen, W Eisenbahntunnel;;;47.567098;13.177215;10;Tilio-Acerion;;;rope betray (lp08-lp08'): 47.567279N, 13.177232E, rope range (lp08-lp08'' 90m): 47.566986N, 13.177189E
