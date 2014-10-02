@@ -1,0 +1,1 @@
+This is data downloaded from the **Czech National Phytosociological Database** under Term 1) Free data available online and simply mirrored here. The file `chytry-vicherek-1996-prirod-sborn-zapadomorav-muz-trebic.csv` is unmodified, except that it is saved with LF line endings and UTF-8 with character encoding.
