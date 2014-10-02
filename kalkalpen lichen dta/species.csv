@@ -68,7 +68,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 7;phly arge;ll;0,1;;;
 7;hypn cupr;ml;14;;;
 8;clad fimb;ll;1;;;
-8;clad squa;ll;10;5;;
+8;clad squa squa;ll;10;5;;
 8;hypo phys;ll;10;3;3;
 8;paop ambi;ll;0,5;1,5;1;
 8;paop hype;ll;1;6;1;
@@ -182,7 +182,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 19;ulot cris;ml;1;;;
 20;clad digi;ll;0,5;;;
 20;clad maci;ll;0,5;;;
-20;clad squa;ll;0,1;;;
+20;clad squa squa;ll;0,1;;;
 20;hypc scal;ll;1;;;
 20;imsh aleu;ll;4;2,5;2;
 20;paop ambi;ll;3;;;
@@ -1333,7 +1333,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 236;plag pore;ml;33;;;
 236;rhyt triq;ml;4;;;
 237;clad digi;ll;1;;;
-237;clad squa;ll;59;3;1;
+237;clad squa squa;ll;59;3;1;
 237;dicr scop;ll;16;;;
 237;hypn cupr;ll;4;;;
 238;lepr spec;ll;1;;;
@@ -1610,7 +1610,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 287;clad digi;ll;56;;;
 287;hypn cupr;ml;5;;;
 288;clad digi;ll;5;;;
-288;clad squa;ll;29;;;
+288;clad squa squa;ll;29;;;
 288;paop ambi;ll;4;;;
 288;hypn cupr;ml;18;;;
 289;cala xant;ll;0,5;;;
@@ -1642,7 +1642,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 293;paop ambi;ll;6;1,5;1;
 294;bryo fusc;ll;0,5;2;1;
 294;clad coni;ll;26;;;
-294;clad squa;ll;7;;;
+294;clad squa squa;ll;7;;;
 294;hypc scal;ll;3;;;
 294;hypo phys;ll;13;2;1;
 294;imsh aleu;ll;3;1,5;1;
@@ -2091,7 +2091,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 388;hypo phys;ll;8;3;2;
 389;clad digi;ll;74;;;
 390;clad ceno;ll;35;;;
-390;clad squa;ll;52;;;
+390;clad squa squa;ll;52;;;
 390;hypo vitt;ll;0,5;;;
 390;ptil pulc;ml;2,5;;;
 391;clad coni;ll;4,5;;;
@@ -2420,7 +2420,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 450;leuc sciu;ml;9;;;
 450;orth spec;ml;4;;;
 451;clad coni;ll;45;;;
-451;clad squa;ll;5;;;
+451;clad squa squa;ll;5;;;
 451;hypo phys;ll;3;2;2;
 451;melx fuli glab;ll;4;2;1;
 451;parm sulc;ll;9;3;2;
