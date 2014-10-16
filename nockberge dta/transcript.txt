@@ -36,7 +36,7 @@ stones                                              00000000000000
 accuracy                                            11    11111111
                                                     00555500000000
 richness                                            1 123321122312
-                                                    87841186028843
+                                                    87841196028843
 END HEAD
 BEGIN TABLE
 Bryum sp.                                        ml 1.............
@@ -55,12 +55,12 @@ Warnstorfia exannulata                              ....1.........
 Bryum pseudotriquetrum s.lat.                       ......+.......
 Agrostis stolonifera s.str.                      hl 1.+1+.++...+.+
 Cardamine amara ssp. austriaca                      r..+.++.......
-Cardamine pratensis agg.                            +.+++++..+2+++
+Cardamine „rivularis“                               +.+++++..+2+++
 Carex nigra                                         2.232211.23312
 Cerastium fontanum s.str.                           r....+r...+...
 Deschampsia cespitosa                               +.1121111+1111
 Epilobium alsinifolium                              +...+11....+1+
-Juncus castaneus                                    2.2rr+.22+1+11
+Juncus castaneus                                    2.2rr++22+1+11
 Juncus triglumis ssp. triglumis                     +1+rr+++211+..
 Saxifraga stellaris ssp. prolifera                  +.1+1+2.......
 Saxifraga stellaris ssp. robusta                    2....1+.1+++11
