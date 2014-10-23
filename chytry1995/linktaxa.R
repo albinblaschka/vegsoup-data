@@ -2,7 +2,7 @@ library(linktaxa)
 library(stringr)
 
 #	read data
-path <- "/Users/roli/Documents/vegsoup-data/chytry vicherek 1995"
+path <- "/Users/roli/Documents/vegsoup-data/chytry1995"
 file <- file.path(path, "Chytry1995.csv")
 
 x <- read.csv2(file, stringsAsFactors = FALSE)
@@ -39,7 +39,7 @@ if (FALSE) {
 		stop()	
 	}
 #	overwrite file
-	write.csv2(x, file.path(path, "translate.csv"),	row.names = FALSE)
+	write.csv2(x, file.path(path, "translate.csv"),	row.names = FALSE, quote = FALSE)
 }
 
 #	tidy up

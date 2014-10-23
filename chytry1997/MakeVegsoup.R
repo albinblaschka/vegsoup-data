@@ -1,8 +1,9 @@
 require(vegsoup)
 require(naturalsort)
 require(bibtex)
+require(stringr)
 
-path <- "~/Documents/vegsoup-data/chytry sadlo 1997"
+path <- "~/Documents/vegsoup-data/chytry1997"
 key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
 #	taxon translation
@@ -23,10 +24,11 @@ X <- x[(i + 1):nrow(x), ]
 names(X)[ 1:2 ] <- c("taxon", "layer")
 
 #	relevee names
-p1 <- x[grep("No. table in publ.", x[, 1]), -(1:2)]
-p2 <- x[grep("No. releve in table", x[, 1]), -(1:2)]
-p <- paste(paste0("Tab", p1), p2, sep = ":")
-
+p1 <- str_trim(unlist( x[grep("No. table in publ.", x[, 1]), -(1:2)] ))
+p2 <- str_trim(unlist( x[grep("No. releve in table", x[, 1]), -(1:2)] ))
+if (any(p2 == "")) p2[p2 == ""] <- 1
+p <- paste(paste("Tab", p1, sep = "."), p2, sep = ":")
+stopifnot(!any(duplicated(p)))
 names(X)[ -(1:2) ] <- p
 
 #	join taxa translation with abbreviations
