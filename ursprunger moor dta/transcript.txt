@@ -6,71 +6,99 @@ plot                            uuuuuu
 cov                              1    
                                 309899
                                 509532
+                                      
 t1cov                           000000
+                                      
 t2cov                           000000
+                                      
 scov                            001000
+                                      
 hcov                            399469
                                 055050
+                                      
 mcov                            389868
-                                057000
+                                050000
+                                      
 htl1                            000000
+                                      
 htl2                            000000
+                                      
 hsl                             003000
+                                      
 hhl1                            100  1
                                 ...  .
                                 644114
+                                      
 hhl2                            000000
                                 ......
                                 212333
+                                      
 plsx                            444444
+                                      
 plsy                            444444
+                                      
 slope                           000000
+                                      
 rock                            000000
+                                      
 bare                               1  
                                 000500
+                                      
 stones                          000000
+                                      
 water                           1     
                                 500054
+                                      
 accuracy                        111111
                                 000000
-richness                        111111
-                                569362
+                                      
+richness                        112121
+                                895825
+                                      
 END HEAD
 BEGIN TABLE
 Pinus sylvestris             sl ..1...
-Molinia caerulea agg.        hl 2.2222
+Betula pubescens s.lat.      hl +..rrr
+Calluna vulgaris                154+34
+Molinia caerulea agg.           2.2222
+Pinus sylvestris                r...rr
 Rhynchospora alba               2r122r
 Vaccinium myrtillus             2+...2
-Betula pubescens s.lat.         +..rrr
-Calluna vulgaris                154+34
-Pinus sylvestris                r...rr
-Eriophorum vaginatum            .222..
-Drosera rotundifolia            .++.+.
 Andromeda polifolia             .22...
-Vaccinium oxycoccos s.str.      .11+1.
-Pinus mugo s.str.               .+....
-Melampyrum pratense             .r....
 Drosera anglica                 .r....
+Drosera rotundifolia            .++.+.
+Eriophorum vaginatum            .222..
+Melampyrum pratense             .r....
+Pinus mugo s.str.               .+....
+Vaccinium oxycoccos s.str.      .11+1.
 Vaccinium corymbosum            ..r...
 Vaccinium uliginosum s.str.     ..r++2
-Picea abies                     ....r.
 Frangula alnus                  ....r.
-Pleurozium schreberi         ml 1.2++3
-Dicranodontium denudatum        1.....
-Calliergonella cuspidata        +.....
+Picea abies                     ....r.
+Campylopus flexuosus         ml +.....
+Dicranodontium denudatum        1.+++.
 Hylocomium splendens            +.....
-Sphagnum cuspidatum             r.r21+
-Sphagnum magellanicum           +4113.
-Sphagnum rubellum               ++2+..
-Sphagnum Sectio Subsecunda      +.13+.
-Polytrichum commune             +.....
-Sphagnum Sectio Sphagnum        .+..1.
-Sphagnum Sectio Cuspidata       .21...
-Aulacomnium palustre            .r11..
+Hypnum jutlandicum              1+1.12
+Mylia anomala                   r.r...
+Pleurozium schreberi            1.1++2
+Polytrichum formosum            +..+..
+Polytrichum longisetum          +.....
+Sphagnum angustifolium          ++12..
+Sphagnum cuspidatum             r+121+
+Sphagnum magellanicum           +4223r
+Sphagnum rubellum               +121+.
+Aulacomnium palustre            .r21..
+Cephalozia connivens            .rr+++
 Polytrichum strictum            .+....
+Sphagnum papillosum             .+....
+Cephalozia bicuspidata          ..+...
+Cephaloziella sp.               ..r.r.
+Leucobryum glaucum              ..r.r.
 Sphagnum capillifolium          ..1...
-Eurhynchium striatum            ..+..+
-Cladonia sp.                    ....+.
-Dicranella cerviculata          .....1
-Dicranum scoparium              .....+
+Sphagnum tenellum               ..++..
+Kurzia sp.                      ...r..
+Campylopus pyriformis           ....r2
+Cephalozia macrostachya         ....r.
+Cladonia sp.                    ....++
+Dicranum polysetum              .....+
 END TABLE

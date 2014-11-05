@@ -28,7 +28,7 @@ assign(key, obj)
 
 #	save to disk
 do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
-write.verbatim(obj, file.path(path, "transcript.txt"), sep = "")
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
 
 #	tidy up
 rm(list = ls()[-grep(key, ls())])
