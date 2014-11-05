@@ -52,8 +52,8 @@ water                           1
 accuracy                        111111
                                 000000
                                       
-richness                        112121
-                                895825
+richness                        122221
+                                805035
                                       
 END HEAD
 BEGIN TABLE
@@ -75,7 +75,7 @@ Vaccinium corymbosum            ..r...
 Vaccinium uliginosum s.str.     ..r++2
 Frangula alnus                  ....r.
 Picea abies                     ....r.
-Campylopus flexuosus         ml +.....
+Campylopus flexuosus         ml +...+.
 Dicranodontium denudatum        1.+++.
 Hylocomium splendens            +.....
 Hypnum jutlandicum              1+1.12
@@ -88,16 +88,18 @@ Sphagnum cuspidatum             r+121+
 Sphagnum magellanicum           +4223r
 Sphagnum rubellum               +121+.
 Aulacomnium palustre            .r21..
+Cephaloziella elachista         .+..r.
 Cephalozia connivens            .rr+++
 Polytrichum strictum            .+....
-Sphagnum papillosum             .+....
+Sphagnum capillifolium          .+....
 Cephalozia bicuspidata          ..+...
-Cephaloziella sp.               ..r.r.
+Cephaloziella sp.               ..r...
+Dicranum undulatum              ..r...
 Leucobryum glaucum              ..r.r.
-Sphagnum capillifolium          ..1...
 Sphagnum tenellum               ..++..
-Kurzia sp.                      ...r..
-Campylopus pyriformis           ....r2
+Campylopus pyriformis           ...rr2
+Kurzia pauciflora               ...r..
+Odontoschisma sphagni           ...r..
 Cephalozia macrostachya         ....r.
 Cladonia sp.                    ....++
 Dicranum polysetum              .....+
