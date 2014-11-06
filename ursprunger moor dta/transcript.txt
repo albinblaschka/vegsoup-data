@@ -1,4 +1,3 @@
-
 BEGIN HEAD
 plot                            uuuuuu
                                 mmmmmm
@@ -53,8 +52,8 @@ water                           1
 accuracy                        111111
                                 000000
                                       
-richness                        122221
-                                805035
+richness                        112221
+                                896025
                                       
 END HEAD
 BEGIN TABLE
@@ -89,18 +88,18 @@ Sphagnum cuspidatum             r+121+
 Sphagnum magellanicum           +4223r
 Sphagnum rubellum               +121+.
 Aulacomnium palustre            .r21..
-Cephaloziella elachista         .+r.r.
 Cephalozia connivens            .rr+++
 Polytrichum strictum            .+....
 Sphagnum capillifolium          .+....
 Cephalozia bicuspidata          ..+...
+Cephaloziella elachista         ..r.r.
+Cephalozia macrostachya         ..r...
 Dicranum undulatum              ..r...
 Leucobryum glaucum              ..r.r.
 Sphagnum tenellum               ..++..
 Campylopus pyriformis           ...rr2
 Kurzia pauciflora               ...r..
 Odontoschisma sphagni           ...r..
-Cephalozia macrostachya         ....r.
 Cladonia sp.                    ....++
 Dicranum polysetum              .....+
 END TABLE
