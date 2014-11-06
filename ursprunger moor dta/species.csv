@@ -1,4 +1,4 @@
-plot;abbr;layer;cover;voucher;comment;history
+c;abbr;layer;cover;voucher;comment;history
 um01;betu pube slat;hl;+;;;
 um01;call vulg;hl;1;;;
 um01;moli caer aggr;hl;2b;;;
@@ -28,7 +28,7 @@ um02;rhyn alba;hl;r;;;
 um02;vacc myrt;hl;+;;;
 um02;vacc oxyc;hl;1;;;
 um02;aula palu;ml;r;det. C. Schröck;;
-um02;ceph elas;ml;+;det. C. Schröck;;
+um02;ceph elac;ml;+;det. C. Schröck;;
 um02;ceph conn;ml;r;det. C. Schröck;;
 um02;hypn jutl;ml;+;det. C. Schröck;;
 um02;poly stri;ml;+;;;
@@ -49,7 +49,7 @@ um03;vacc ulig;hl;r;;;
 um03;aula palu;ml;2a;det. C. Schröck;;
 um03;ceph bicu;ml;+;det. C. Schröck;;
 um03;ceph conn;ml;r;det. C. Schröck;;
-um03;ceph ella spec ies;ml;r;det. C. Schröck;;
+um03;ceph elac;ml;r;det. C. Schröck;;
 um03;dicr denu;ml;+;det. C. Schröck;;
 um03;dicr undu;ml;r;det. C. Schröck;;
 um03;hypn jutl;ml;1;det. C. Schröck;;
@@ -95,7 +95,7 @@ um05;vacc ulig;hl;+;;;
 um05;camp pyri;ml;r;det. C. Schröck;;
 um05;camp flex;ml;+;det. C. Schröck;;
 um05;ceph conn;ml;+;det. C. Schröck;;
-um05;ceph elas;ml;r;det. C. Schröck;;
+um05;ceph elac;ml;r;det. C. Schröck;;
 um05;ceph macr;ml;r;det. C. Schröck;;
 um05;clad spec ies;ml;+;;;
 um05;dicr denu;ml;+;det. C. Schröck;;
