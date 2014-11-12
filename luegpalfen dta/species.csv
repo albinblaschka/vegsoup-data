@@ -1,6 +1,6 @@
 plot;abbr;layer;cover;voucher;comment;history
 lp01;acer pseu;hl;+;;;
-lp01;acon lyco lyco;hl;+;;;
+lp01;acon lyco vulp;hl;+;;;
 lp01;acon vari vari;hl;1;;;
 lp01;aden alpi;hl;+;;;
 lp01;ange sylv sylv;hl;+;;;
@@ -89,7 +89,7 @@ lp01;fagu sylv;tl2;2b;;;
 lp01;frax exce;tl2;2b;;;
 lp01;tili plat;tl2;2a;;;
 lp02;acer pseu;hl;+;;;
-lp02;acon lyco lyco;hl;+;;;
+lp02;acon lyco vulp;hl;+;;;
 lp02;acon vari vari;hl;+;;;
 lp02;acta spic;hl;r;;;
 lp02;aden alpi;hl;+;;;
