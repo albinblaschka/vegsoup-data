@@ -1,18 +1,18 @@
-plot;cov;tcov1;tcov2;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;date;location;comment;altitude;precision.vertical;precision.horizontal;latitude;longitude;accuracy;description
-kb01;87;0;0;5;85;1;0;0;2;1;0,3;2;8;S;40;10;3;0;2012-05-28;Kapuzinerberg, Äußererstein;;9999;;5;47.800789N;13.053389E;10;Felsflur mit Peucedanum cervaria
-kb02;70;0;0;0;69;1;0;0;0;0,75;0,1;4;4;SW;50;20;10;0;2012-05-28;Kapuzinerberg, Äußererstein;;9999;;5;47.800305N;13.052978E;10;Felsflur mit Peucedanum cervaria
-kb03;97;45;60;10;80;3;16;9;2,5;1;0,15;10;25;E;40;3;0;1;2012-05-30;Kapuzinerberg, Ostgrat;;9999;;;47.806484N;13.064587E;10;
-kb04;69;0;0;45;69;5;0;0;4,5;0,8;0,2;8;8;SE;70;15;15;1;2012-05-30;Kapuzinerberg, Ostgrat;;9999;;;47.806646N;13.065086E;10;
-kb05;50;0;5;40;19;1;0;5;3;0,7;0,15;8;8;SE;80;75;5;1;2012-05-30;Kapuzinerberg, Ostgrat;;9999;;;47.806533N;13.065083E;10;
-kb06;60;0;25;20;30;2;0;6;3;0,8;0,1;8;8;SE;20;25;2;53;2012-05-30;Kapuzinerberg, Ostgrat;;9999;;;47.806324N;13.065096E;10;
-kb07;;;;;;;;;;;;;;;;;;;2014-05-24;Kupuzinerberg, Anfang Steingasse ;;;;;47.800773N;13.052131E;10;Carpinion
-kb08;;;;;;;;;;;;;;;;;;;2014-05-24;Kupuzinerberg, Anfang Steingasse ;;;;;47.800662N;13.052086E;10;Carpinion
-kb09;;;;;;;;;;;;;;;;;;;2014-05-24;Kupuzinerberg, W Haus Kapuzinerberg 8 ;;;;;47.801142N;13.052713E;10;Carici albae-Fagetum
-kb10;;;;;;;;;;;;;;;;;;;2014-05-24;Kapuzinerberg, oberhalb steile Holzstiege am Basteiweg;;;;;47.801301N;13.056586E;10;Carpinion
-kb11;;;;;;;;;;;;;;;;;;;2014-05-24;Kapuzinerberg, Südseite oberhalb Arenbergstraße;;;;;47.801093N;13.059049E;10;Carpinion
-kb12;;;;;;;;;;;;;;;;;;;2014-05-24;Kapuzinerberg, Südseite oberhalb Arenbergstraße;;;;;47.801105N;13.058600E;10;Carpinion
-kb13;;;;;;;;;;;;;;;;;;;2014-07-19;Kapuzinerberg, Nord-Seite;kbx1;;;;47.806452N;13.062846E;10;Helleboro nigri-Fagetum
-kb14;;;;;;;;;;;;;;;;;;;2014-07-19;Kapuzinerberg, Nord-Seite;kbx2;;;;47.805537N;13.058405E;10;Tilio-Acerion
-kb15;;;;;;;;;;;;;;;;;;;2014-07-19;Kapuzinerberg, Nord-Seite;kbx3;;;;47.805691N;13.059315E;20;Tilio-Acerion
-kb16;;;;;;;;;;;;;;;;;;;2014-07-19;Kapuzinerberg, Nord-Seite;kbx4;;;;47.805774N;13.056309E;20;Tilio-Acerion
-kb17;;;;;;;;;;;;;;;;;;;2014-07-19;Kapuzinerberg, Nord-Seite;kbx5;;;;47.805931N;13.056950E;20;Sorbo-Aceretum
+plot;cov;tcov1;tcov2;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;date;soil;location;comment;latitude;longitude;accuracy;alliance;author
+kb01;87;0;0;5;85;1;0;0;2;1;0,3;2;8;S;40;10;3;0;2012-05-28;Rendzina;Kapuzinerberg, Äußererstein;;47.800789N;13.053389E;10;Berberidion;R. Kaiser
+kb02;70;0;0;0;69;1;0;0;0;0,75;0,1;4;4;SW;50;20;10;0;2012-05-28;Rendzina;Kapuzinerberg, Äußererstein;;47.800305N;13.052978E;10;Berberidion;R. Kaiser
+kb03;97;45;60;10;80;3;16;9;2,5;1;0,15;10;25;E;40;3;0;1;2012-05-30;Rendzina;Kapuzinerberg, Ostgrat;;47.806484N;13.064587E;10;Berberidion;R. Kaiser
+kb04;69;0;0;45;69;5;0;0;4,5;0,8;0,2;8;8;SE;70;15;15;1;2012-05-30;Rendzina;Kapuzinerberg, Ostgrat;;47.806646N;13.065086E;10;Berberidion;R. Kaiser
+kb05;50;0;5;40;19;1;0;5;3;0,7;0,15;8;8;SE;80;75;5;1;2012-05-30;Rendzina;Kapuzinerberg, Ostgrat;;47.806533N;13.065083E;10;Berberidion;R. Kaiser
+kb06;60;0;25;20;30;2;0;6;3;0,8;0,1;8;8;SE;20;25;2;53;2012-05-30;Rendzina;Kapuzinerberg, Ostgrat;;47.806324N;13.065096E;10;Berberidion;R. Kaiser
+kb07;85;55;60;15;20;2;13;10;2,5;0,5;0,25;16;16;SW;60;75;10;0;2014-05-24;Rendzina;Kupuzinerberg, Anfang Steingasse ;ca. 20m nördlich der Mauerplakette mit der Beschriftung 630 ;47.800773N;13.052131E;10;Carpinion betuli;R. Kaiser
+kb08;95;50;65;35;30;1;12;9;3;0,5;0,2;16;16;SW;40;15;0;0;2014-05-24;Rendzina;Kupuzinerberg, Anfang Steingasse ;direkt unterhalb von kb07;47.800662N;13.052086E;10;Carpinion betuli;R. Kaiser
+kb09;97;75;20;50;70;1;24;18;3;0,5;0,2;16;16;SW;15;3;0;0;2014-05-24;Rendzina;Kupuzinerberg, W Haus Kapuzinerberg 8 ;;47.801142N;13.052713E;10;Cephalanthero Fagenion;R. Kaiser
+kb10;99;50;65;10;93;1;25;20;5;0,5;0,2;25;10;SW;40;5;0;0;2014-05-24;Rendzina;Kapuzinerberg, oberhalb steile Holzstiege am Basteiweg;an der Kante eienr Feslstufe oberhalb des Basteiweges bei der Holzstiege;47.801301N;13.056586E;10;Carpinion betuli;R. Kaiser
+kb11;95;35;70;45;80;5;14;10;2,5;0,7;0,3;10;25;S;40;15;0;0;2014-05-24;Rendzina;Kapuzinerberg, Südseite oberhalb Arenbergstraße;;47.801093N;13.059049E;10;Carpinion betuli;R. Kaiser
+kb12;90;25;65;50;75;2;15;12;4;0,5;0,25;16;16;S;60;10;0;0;2014-05-24;Rendzina;Kapuzinerberg, Südseite oberhalb Arenbergstraße;;47.801105N;13.058600E;10;Carpinion betuli;R. Kaiser
+kb13;98;70;60;50;80;1;25;10;5;0,8;0,2;16;16;N;30;0;0;0;2014-07-19;Rendzina;Kapuzinerberg, Nord-Seite;am beginn der Eisenbahnschienen, von da nach oben;47.806452N;13.062846E;10;Cephalanthero Fagenion;R. Kaiser
+kb14;98;80;60;25;35;1;27;16;8;0,8;0,3;16;16;N;35;1;0;2;2014-07-19;verbraunte Rendzina;Kapuzinerberg, Nord-Seite;oberhalb und unterhalb Weg;47.805537N;13.058405E;10;Tilio-Acerion;R. Kaiser
+kb15;99;55;35;45;80;1;27;22;5;0,9;0,3;16;16;N;55;3;0;0;2014-07-19;Mull-Rendzina;Kapuzinerberg, Nord-Seite;kbx3;47.805691N;13.059315E;20;Tilio-Acerion;R. Kaiser
+kb16;70;50;40;3;7;0;20;17;4;0,5;0,15;16;16;N;45;1;0;0;2014-07-19;verbraunte Rendzina;Kapuzinerberg, Nord-Seite;feingrusig und skelettreiche, verbraunte Renzina;47.805774N;13.056309E;20;Tilio-Acerion;R. Kaiser
+kb17;93;50;15;40;90;3;12;8;5;0,9;0,5;16;16;N;50;5;0;0;2014-07-19;verbraunte Rendzina;Kapuzinerberg, Nord-Seite;an Felskanzel;47.805931N;13.056950E;20;Tilio-Acerion;R. Kaiser
