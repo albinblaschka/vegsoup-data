@@ -25,4 +25,6 @@ there are two homonymous instances, `bryo unde` and `unde bryu`, keep only one
 there are two homonymous instances in standard list for *Polypodium vulgare*
 
 > `poly vule` Polypodium vulgare  
-> `poly vulg` Polypodium vulgare s.str.  
+> `poly vulg` Polypodium vulgare s.str.
+
+instances with `euph dulc` should be replaced with `euph dulc dulc` 
