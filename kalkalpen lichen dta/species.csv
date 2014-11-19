@@ -52,7 +52,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 6;pert albe;ll;0,2;;;
 6;pert amar;ll;10;;;
 6;phly arge;ll;1;;;
-6;dido denu;ml;1;;;
+6;dicr denu;ml;1;;;
 6;hypn cupr;ml;30;;;
 6;plat repe;ml;11,5;;;
 6;radu comp;ml;0,5;;;
@@ -92,7 +92,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 9;hypn mami;ml;1;;;
 10;grap scri;ll;45;;;
 10;phly arge;ll;7;;;
-10;dido denu;ml;4;;;
+10;dicr denu;ml;4;;;
 10;hypn cupr;ml;5;;;
 10;ulot cris;ml;0,1;;;
 11;baci rube;ll;2;;;
@@ -1321,7 +1321,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 234;lepr spec;ll;7;;;
 234;pala trip;ll;13,5;;;
 234;phly arge;ll;2;;;
-234;dido denu;ml;4;;;
+234;dicr denu;ml;4;;;
 234;frul frag;ml;2;;;
 234;leje cavi;ml;10;;;
 234;metz furc;ml;8;;;
@@ -1455,7 +1455,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 255;pter fili;ll;4;;;
 255;pyre niti;ll;23;;;
 256;coll flac;ll;13,5;1,5;1;
-256;dido denu;ll;14;;;
+256;dicr denu;ml;14;;;
 256;leuc sciu;ll;41;;;
 256;phly arge;ll;1,5;;;
 257;clad pyxi;ll;0,5;;;
@@ -1521,7 +1521,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 268;pann cono;ll;1;1;1;
 268;phly arge;ll;7;;;
 268;phyc peri;ll;4;;;
-268;dido denu;ml;5;;;
+268;dicr denu;ml;5;;;
 268;leuc sciu;ml;8;;;
 268;pter fili;ml;8;;;
 268;radu comp;ml;3;;;
@@ -1683,7 +1683,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 302;frul dila;ml;11;;;
 302;pter fili;ml;3;;;
 303;pelt hori;ll;81;10;1;
-303;dido denu;ml;1;;;
+303;dicr denu;ml;1;;;
 303;frul dila;ml;3;;;
 303;isot alop;ml;15;;;
 305;hytr revo;ll;31;2;2;
@@ -1799,7 +1799,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 335;phly arge;ll;4;;;
 336;clad coni;ll;1;;;
 336;pelt cani;ll;82;15;1;
-336;dido denu;ml;1;;;
+336;dicr denu;ml;1;;;
 336;hypn cupr;ml;4;;;
 336;mniu spin;ml;1,5;;;
 337;melx fuli glab;ll;2;2;1;
