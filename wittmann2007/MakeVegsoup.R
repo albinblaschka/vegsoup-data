@@ -1,5 +1,4 @@
 require(vegsoup)
-require(naturalsort)
 require(bibtex)
 
 path <- "~/Documents/vegsoup-data/wittmann2007"
