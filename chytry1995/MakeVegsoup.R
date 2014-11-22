@@ -82,13 +82,17 @@ xy <- t(apply(xy, 1, string2dd))
 obj$Longitude <- xy[, 1]
 obj$Latitude <- xy[, 2]
 coordinates(obj) <- ~Longitude+Latitude
-proj4string(obj) <- CRS("+init=EPSG:4326")
+proj4string(obj) <- CRS("+init=epsg:4326")
 
-#	assign rownames and groome data structure
+#	assign rownames
 rownames(obj) <- paste(key, rownames(obj), sep = ":")
-obj <- Layers(obj, collapse = c("hl", "t1", "hl", "s1", "ml"))
-obj <- Layers(obj, collapse = c("hl", "tl", "sl", "ml"))
-Layers(obj) <- c("tl", "sl", "hl", "ml")
+rownames(obj) <- gsub("Tab.", "Tab", rownames(obj), fixed = TRUE)
+
+#	groome strata
+obj <- Layers(obj, collapse = c("hl", "s1", "ml", "t1", "hl"))
+obj <- Layers(obj, collapse = c("hl", "sl", "ml", "tl"))
+Layers(obj) <- c("tl", "sl", "hl", "ml" )
+
 obj <- obj[naturalorder(rownames(obj)), ]
 
 #	assign result object

@@ -82,14 +82,39 @@ xy <- t(apply(xy, 1, string2dd))
 obj$Longitude <- xy[, 1]
 obj$Latitude <- xy[, 2]
 coordinates(obj) <- ~Longitude+Latitude
-proj4string(obj) <- CRS("+init=EPSG:4326")
+proj4string(obj) <- CRS("+init=epsg:4326")
 
 #	assign rownames and groome data structure
 rownames(obj) <- paste(key, rownames(obj), sep = ":")
+rownames(obj) <- gsub("Tab.", "Tab", rownames(obj), fixed = TRUE)
+
 obj <- Layers(obj, collapse = c("hl", "t1", "hl", "s1", "ml"))
 obj <- Layers(obj, collapse = c("hl", "tl", "sl", "ml"))
 Layers(obj) <- c("tl", "sl", "hl", "ml")
-obj <- obj[naturalorder(rownames(obj)), ]
+
+#	Chytrý & Vicherek 1996, tab 16: 5-9
+load("~/Documents/vegsoup-data/chytry1996/Chytry1996.rda")
+Chytry1996 <- Chytry1996[grep("Chytry1996:Tab16", rownames(Chytry1996)), ]
+Chytry1996 <- Chytry1996[match(paste("Chytry1996:Tab16", 5:9, sep = ":"), rownames(Chytry1996)), ]
+
+#	Chytrý & Vicherek 1995, tab. 8: 2-4, 6
+load("~/Documents/vegsoup-data/chytry1995/Chytry1995.rda")
+Chytry1995 <- Chytry1995[grep("Chytry1995:Tab8", rownames(Chytry1995)), ]
+Chytry1995 <- Chytry1995[match(paste("Chytry1995:Tab8", c(2:4, 6), sep = ":"), rownames(Chytry1995)), ]
+
+#	bind data sets
+obj <- bind(obj, Chytry1995, Chytry1996)
+Layers(obj) <- c("tl", "sl", "hl", "ml")
+
+#	assign syntaxa
+obj$alliance <- "Tilio-Acerion"
+obj$association <- "Seslerio albicantis-Tilietum cordatae"
+obj$subassociation <- ""
+
+#	20.	Klika 1942, tab. 1, rel. 20 is missing
+obj$subassociation[1:19] <- "Seslerio albicantis-Tilietum cordatae -campanuletosa rapunculoides"
+
+obj$subassociation[20:30] <- "Seslerio albicantis-Tilietum cordatae -euphorbietosum cyparissiae"
 
 #	assign result object
 assign(key, obj)
@@ -99,3 +124,4 @@ do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
 write.verbatim(obj, file.path(path, "transcript.txt"), sep = "")
 
 rm(list = ls()[-grep(key, ls())])
+
