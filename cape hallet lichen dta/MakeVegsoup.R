@@ -1,22 +1,41 @@
 library(vegsoup)
+require(bibtex)
 
-file <- "~/Documents/vegsoup-data/cape hallet lichen dta/species wide.csv"
-# promote to class "Species"
+path <- "~/Documents/vegsoup-data/cape hallet lichen dta"
+key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
-X <- stackSpecies(file = file, sep = ";")[, 1:4]
+file <- file.path(path, "species wide.csv")
+#	promote to class "Species"
+X <- stackSpecies(file = file, sep = ";")
+X <- X[, 1:4]
 
-file <- "~/Documents/vegsoup-data/cape hallet lichen dta/sites wide.csv"
-# promote to class "Sites"
-Y <- stackSites(file = file, sep = ";")
+file <- file.path(path, "sites wide.csv")
+#	promote to class "Sites"
+Y <- stackSites(file = file)
 
 file <- "~/Documents/vegsoup-data/cape hallet lichen dta/taxonomy.csv"
-# promote to class "SpeciesTaxonomy"
+#	promote to class "SpeciesTaxonomy"
 XZ <- SpeciesTaxonomy(X, file.y = file)
-# promote to class "Vegsoup"
-chl <- Vegsoup(XZ, Y, coverscale = "percentage")
-coordinates(chl) <- ~x+y
 
-save(chl, file = "~/Documents/vegsoup-data/cape hallet lichen dta/chl.rda")
-rm(list = ls()[-grep("chl", ls(), fixed = TRUE)])
+#	build "Vegsoup" object
+obj <- Vegsoup(XZ, Y, coverscale = "percentage")
 
-is.continuous(chl)
+#	assign result object
+assign(key, obj)
+
+#	richness
+obj$richness <- richness(obj, "sample")
+
+#	save to disk
+do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
+#write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+
+if (FALSE) {
+	decostand(obj) <- "pa"
+	vegdist(obj) <- "bray"
+	write.verbatim(seriation(obj), file.path(path, "seriation.txt"),
+	sep = "", add.lines = TRUE)
+	KML(obj)
+}
+#	tidy up
+rm(list = ls()[-grep(key, ls())])

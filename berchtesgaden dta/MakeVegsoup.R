@@ -1,5 +1,8 @@
 library(vegsoup)
-require(rgdal)
+require(bibtex)
+
+path <- "~/Documents/vegsoup-data/barmstein dta"
+key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
 file <- "~/Documents/vegsoup-data/berchtesgaden dta/species.csv"
 # promote to class "Species"
@@ -16,7 +19,7 @@ file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian stan
 # promote to class "SpeciesTaxonomy"
 XZ <- SpeciesTaxonomy(X, file.y = file)
 # promote to class "Vegsoup"
-bg <- Vegsoup(XZ, Y, coverscale = "domin")
+obj <- Vegsoup(XZ, Y, coverscale = "domin")
 
 #	add coordinates from polygon
 pg <- readOGR("/Users/roli/Documents/vegsoup-data/berchtesgaden dta/",
@@ -24,24 +27,37 @@ pg <- readOGR("/Users/roli/Documents/vegsoup-data/berchtesgaden dta/",
 r <- rep(1:nrow(pg), each = 10)
 pt <- coordinates(pg)[r, ]
 plots <-  paste(pg$SITE[r], sprintf("%02d", 1:10), sep = "-")
-pt <- pt[match(rownames(bg), plots), ]
+pt <- pt[match(rownames(obj), plots), ]
 
-bg$longitude <- pt[, 1]
-bg$latitude <-  pt[, 2]
+obj$longitude <- pt[, 1]
+obj$latitude <-  pt[, 2]
 	
-coordinates(bg) <- ~longitude+latitude
-proj4string(bg) <- CRS("+init=epsg:4326")
+coordinates(obj) <- ~longitude+latitude
+proj4string(obj) <- CRS("+init=epsg:4326")
 
-bg@taxonomy <- Taxonomy(bg)[, c(1,2,4)]
+obj$plsx <- 2
+obj$plsy <- 2
 
-bg$plsx <- 2
-bg$plsy <- 2
+#	order layer
+Layers(obj)	 <- c("sl", "hl")
 
-save(bg, file = "~/Documents/vegsoup-data/berchtesgaden dta/bg.rda")
-rm(list = ls()[-grep("bg", ls(), fixed = TRUE)])
+#	assign result object
+assign(key, obj)
 
-#	vegsoup test data
-#	berchtesgaden <- bg
-#	save(berchtesgaden, file = "berchtesgaden.rda")
+#	richness
+obj$richness <- richness(obj, "sample")
 
+#	save to disk
+do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
 
+if (FALSE) {
+	decostand(obj) <- "pa"
+	vegdist(obj) <- "bray"
+	write.verbatim(seriation(obj), file.path(path, "seriation.txt"),
+	sep = "", add.lines = TRUE)
+	KML(obj)
+}
+
+#	tidy up
+rm(list = ls()[-grep(key, ls())])

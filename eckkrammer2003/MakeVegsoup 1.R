@@ -9,13 +9,10 @@ X1 <- X1[, -grep("taxon", names(X1))]
 X1 <- species(X1)
 X <- rbind(X0, X1)
 
-#
 file <- "~/Documents/vegsoup-data/eckkrammer2003/sites wide 1.csv"
 Y <- stackSites(file = file)
 
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 XZ <- SpeciesTaxonomy(x = X, file.y = file)
 
-eckkrammer2003tab1 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
-
-rm(list = ls()[-grep("eckkrammer2003", ls())])
+tab1 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")

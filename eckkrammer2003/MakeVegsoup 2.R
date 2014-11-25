@@ -16,6 +16,4 @@ Y <- stackSites(file = file)
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 XZ <- SpeciesTaxonomy(x = X, file.y = file)
 
-eckkrammer2003tab2 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
-
-rm(list = ls()[-grep("eckkrammer2003", ls())])
+tab2 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")

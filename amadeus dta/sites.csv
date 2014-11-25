@@ -56,25 +56,25 @@ aa03e;cov;100
 aa04a;cov;100
 aa04b;cov;100
 aa04c;cov;100
-aa01a;date;11.05.2010
-aa01b;date;11.05.2010
-aa01c;date;11.05.2010
-aa01d;date;18.05.2010
-aa01e;date;18.05.2010
-aa02a;date;11.05.2010
-aa02b;date;11.05.2010
-aa02c;date;11.05.2010
-aa02d;date;11.05.2010
-aa02e;date;11.05.2010
-aa02f;date;11.05.2010
-aa03a;date;11.05.2010
-aa03b;date;11.05.2010
-aa03c;date;11.05.2010
-aa03d;date;18.05.2010
-aa03e;date;18.05.2010
-aa04a;date;11.05.2010
-aa04b;date;11.05.2010
-aa04c;date;11.05.2010
+aa01a;date;2010-05-11
+aa01b;date;2010-05-11
+aa01c;date;2010-05-11
+aa01d;date;2010-05-18
+aa01e;date;2010-05-18
+aa02a;date;2010-05-11
+aa02b;date;2010-05-11
+aa02c;date;2010-05-11
+aa02d;date;2010-05-11
+aa02e;date;2010-05-11
+aa02f;date;2010-05-11
+aa03a;date;2010-05-11
+aa03b;date;2010-05-11
+aa03c;date;2010-05-11
+aa03d;date;2010-05-18
+aa03e;date;2010-05-18
+aa04a;date;2010-05-11
+aa04b;date;2010-05-11
+aa04c;date;2010-05-11
 aa01a;expo;F
 aa01b;expo;F
 aa01c;expo;F
@@ -417,22 +417,22 @@ aa03e;t2cov;0
 aa04a;t2cov;0
 aa04b;t2cov;0
 aa04c;t2cov;0
-aa01a;syntaxon;Lolietum multiflorae Dietl et Lehmann 1975
-aa01b;syntaxon;Lolietum multiflorae Dietl et Lehmann 1975
-aa01c;syntaxon;Lolietum multiflorae Dietl et Lehmann 1975
-aa01d;syntaxon;Pastinaco-Arrhenatheretum Passarge 1964
-aa01e;syntaxon;Pastinaco-Arrhenatheretum Passarge 1964
-aa02a;syntaxon;Lolietum multiflorae Dietl et Lehmann 1975
-aa02b;syntaxon;Lolietum multiflorae Dietl et Lehmann 1975
-aa02c;syntaxon;keine Zuordnung möglich/sinnvoll
-aa02d;syntaxon;Galio sylvatici-Carpinetum Oberd. 1957 p.p.
-aa02e;syntaxon;Pastinaco-Arrhenatheretum Passarge 1964
-aa02f;syntaxon;Pastinaco-Arrhenatheretum Passarge 1964
-aa03a;syntaxon;Pastinaco-Arrhenatheretum Passarge 1964 p.p.
-aa03b;syntaxon;Pastinaco-Arrhenatheretum Passarge 1964 p.p.
-aa03c;syntaxon;Trifolio repentis-Veronicetum filiformis N. Müller 1988
-aa03d;syntaxon;Pastinaco-Arrhenatheretum Passarge 1964 p.p.
-aa03e;syntaxon;Pastinaco-Arrhenatheretum Passarge 1964 p.p.
-aa04a;syntaxon;Ranunculo repentis-Alopecuretum pratensis Ellmauer 1993
-aa04b;syntaxon;Ranunculo repentis-Alopecuretum pratensis Ellmauer 1993
-aa04c;syntaxon;Ranunculo repentis-Alopecuretum pratensis Ellmauer 1993
+aa01a;association;Lolietum multiflorae Dietl et Lehmann 1975
+aa01b;association;Lolietum multiflorae Dietl et Lehmann 1975
+aa01c;association;Lolietum multiflorae Dietl et Lehmann 1975
+aa01d;association;Pastinaco-Arrhenatheretum Passarge 1964
+aa01e;association;Pastinaco-Arrhenatheretum Passarge 1964
+aa02a;association;Lolietum multiflorae Dietl et Lehmann 1975
+aa02b;association;Lolietum multiflorae Dietl et Lehmann 1975
+aa02c;association;keine Zuordnung möglich/sinnvoll
+aa02d;association;Galio sylvatici-Carpinetum Oberd. 1957 p.p.
+aa02e;association;Pastinaco-Arrhenatheretum Passarge 1964
+aa02f;association;Pastinaco-Arrhenatheretum Passarge 1964
+aa03a;association;Pastinaco-Arrhenatheretum Passarge 1964 p.p.
+aa03b;association;Pastinaco-Arrhenatheretum Passarge 1964 p.p.
+aa03c;association;Trifolio repentis-Veronicetum filiformis N. Müller 1988
+aa03d;association;Pastinaco-Arrhenatheretum Passarge 1964 p.p.
+aa03e;association;Pastinaco-Arrhenatheretum Passarge 1964 p.p.
+aa04a;association;Ranunculo repentis-Alopecuretum pratensis Ellmauer 1993
+aa04b;association;Ranunculo repentis-Alopecuretum pratensis Ellmauer 1993
+aa04c;association;Ranunculo repentis-Alopecuretum pratensis Ellmauer 1993
