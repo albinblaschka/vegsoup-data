@@ -1,9 +1,12 @@
 require(vegsoup)
+require(bibtex)
+
+path <- "~/Documents/vegsoup-data/erschbamer1992"
+key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
 #	read digitized table 
 file <- "~/Documents/vegsoup-data/Erschbamer1992/Erschbamer1992Tab4.txt"
 x <- read.verbatim(file, "Aufnahme Nr.", verbose = T)
-
 
 # add species from table footer
 file <- "~/Documents/vegsoup-data/Erschbamer1992/Erschbamer1992Tab4Tablefooter.txt"
@@ -37,7 +40,7 @@ file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian stan
 XZ <- SpeciesTaxonomy(X, file.y = file)
 
 # promote to class "Vegsoup"
-eb92 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
+obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
 # assign header data stored as attributes in
 # imported original community table
@@ -45,19 +48,27 @@ eb92 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 df.attr <- as.data.frame(attributes(x)[-c(1:4)])
 rownames(df.attr) <- colnames(x)
 # reorder by plot
-df.attr <- df.attr[match(rownames(eb92), rownames(df.attr)), ] 
+df.attr <- df.attr[match(rownames(obj), rownames(df.attr)), ] 
 
 # give names and assign sites variables
-eb92$block <- df.attr$Block
-eb92$altitude <- df.attr$Seehöhe
-eb92$expo <- df.attr$Exposition
-eb92$cov <- df.attr$"Deckung...."
-eb92$ph <- df.attr$"ph...10.2."
+obj$block <- df.attr$Block
+obj$altitude <- df.attr$Seehöhe
+obj$expo <- df.attr$Exposition
+obj$cov <- df.attr$"Deckung...."
+obj$ph <- df.attr$"ph...10.2."
 
-rownames(eb92) <- paste0("Erschbamer1992",
-	gsub(" ", "0", format(rownames(eb92), width = 3, justify = "right")))
+rownames(obj) <- paste0("Erschbamer1992",
+	gsub(" ", "0", format(rownames(obj), width = 3, justify = "right")))
 	
-Erschbamer1992 <- eb92	
-save(Erschbamer1992, file = "~/Documents/vegsoup-data/Erschbamer1992/Erschbamer1992.rda")
+#	assign result object
+assign(key, obj)
 
-rm(list = ls()[-grep("Erschbamer1992", ls(), fixed = TRUE)])
+#	richness
+obj$richness <- richness(obj, "sample")
+
+#	save to disk
+do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+
+#	tidy up
+rm(list = ls()[-grep(key, ls())])
