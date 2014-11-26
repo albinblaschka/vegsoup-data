@@ -43,6 +43,9 @@ obj$alliance <- "Oxytropido-Elynion"
 #	order layer
 Layers(obj)	 <- c("hl", "ml")
 
+#	unique rownames
+rownames(obj) <- paste(key, "Tab5", sprintf("%01d", as.numeric(rownames(obj))), sep = ":")
+
 #	assign result object
 assign(key, obj)
 
@@ -51,7 +54,8 @@ obj$richness <- richness(obj, "sample")
 
 #	save to disk
 do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
-write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "",
+	add.lines = TRUE, table.nr = TRUE)
 
 #	tidy up
 rm(list = ls()[-grep(key, ls())])

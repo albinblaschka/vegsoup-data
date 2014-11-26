@@ -20,6 +20,9 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 #	build "Vegsoup" object
 obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
+#	unique rownames
+#	we don't change what we have in the files
+
 #	assign result object
 assign(key, obj)
 
@@ -28,7 +31,8 @@ obj$richness <- richness(obj, "sample")
 
 #	save to disk
 do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
-write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "",
+	add.lines = TRUE, table.nr = TRUE)
 
 #	tidy up
 rm(list = ls()[-grep(key, ls())])

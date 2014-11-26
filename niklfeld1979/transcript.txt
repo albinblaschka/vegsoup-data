@@ -1,22 +1,6 @@
 BEGIN HEAD
-plot                                            NNNNNNNNNNNNNNNN
-                                                iiiiiiiiiiiiiiii
-                                                kkkkkkkkkkkkkkkk
-                                                llllllllllllllll
-                                                ffffffffffffffff
-                                                eeeeeeeeeeeeeeee
-                                                llllllllllllllll
-                                                dddddddddddddddd
-                                                1111111111111111
-                                                9999999999999999
-                                                7777777777777777
-                                                9999999999999999
-                                                ::::::::::::::::
-                                                IIIIIIIIIIIIIIII
-                                                XXXXXXXXXXXXXXXX
-                                                ::::::::::::::::
-                                                1111111233333339
-                                                012345690123456 
+plot                                            0000000001111111
+                                                1234567890123456
 cov                                             1634752442221331
                                                 0000500005055000
                                                                 

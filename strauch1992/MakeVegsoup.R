@@ -48,6 +48,9 @@ obj$association <- "Stellario-Carpinetum Oberd. 1957"
 #	order layres
 Layers(obj) <- c("tl", "sl", "hl")
 
+#	unique rownames
+rownames(obj) <- paste(key, "Tab2", rownames(obj), sep = ":")
+
 #	assign result object
 assign(key, obj)
 
@@ -56,7 +59,8 @@ obj$richness <- richness(obj, "sample")
 
 #	save to disk
 do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
-write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "",
+	add.lines = TRUE, table.nr = TRUE)
 
 #	tidy up
 rm(list = ls()[-grep(key, ls())])

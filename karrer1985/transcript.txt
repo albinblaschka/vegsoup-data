@@ -1,19 +1,5 @@
 BEGIN HEAD
-plot                                        KKKK
-                                            aaaa
-                                            rrrr
-                                            rrrr
-                                            eeee
-                                            rrrr
-                                            1111
-                                            9999
-                                            8888
-                                            5555
-                                            ::::
-                                            IIII
-                                            ::::
-                                            7891
-                                               0
+plot                                        1234
 cov                                           6 
                                             5303
                                                 

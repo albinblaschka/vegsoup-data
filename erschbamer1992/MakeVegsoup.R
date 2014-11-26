@@ -57,9 +57,8 @@ obj$expo <- df.attr$Exposition
 obj$cov <- df.attr$"Deckung...."
 obj$ph <- df.attr$"ph...10.2."
 
-rownames(obj) <- paste0("Erschbamer1992",
-	gsub(" ", "0", format(rownames(obj), width = 3, justify = "right")))
-	
+#	unique rownames
+rownames(obj) <- paste(key, "Tab4", sprintf("%03d", as.numeric(rownames(obj))), sep = ":")	
 #	assign result object
 assign(key, obj)
 
@@ -68,7 +67,8 @@ obj$richness <- richness(obj, "sample")
 
 #	save to disk
 do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
-write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "",
+	add.lines = TRUE, table.nr = TRUE)
 
 #	tidy up
 rm(list = ls()[-grep(key, ls())])

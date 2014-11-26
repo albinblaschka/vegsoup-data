@@ -24,6 +24,9 @@ obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 Layers(obj)	 <- c("sl", "hl", "ml", "ll")
 obj <- Layers(obj, collapse = c("sl", "hl", "ml", "ml"))
 
+#	unique rownames
+rownames(obj) <- paste(key, "Tab1-5", gsub("ga", "", rownames(obj)), sep = ":")
+
 #	assign result object
 assign(key, obj)
 
@@ -32,14 +35,8 @@ obj$richness <- richness(obj, "sample")
 
 #	save to disk
 do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
-write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "",
+	add.lines = TRUE, table.nr = TRUE)
 
-if (FALSE) {
-	decostand(obj) <- "pa"
-	vegdist(obj) <- "bray"
-	write.verbatim(seriation(obj), file.path(path, "seriation.txt"),
-	sep = "", add.lines = TRUE)
-	KML(obj)
-}
 #	tidy up
 rm(list = ls()[-grep(key, ls())])

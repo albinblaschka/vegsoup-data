@@ -31,20 +31,23 @@ obj <- Vegsoup(X, Y, Z, coverscale = "braun.blanquet2")
 # imported original community table
 # omit dimnames, class and plot id
 
-df.attr <- as.data.frame(attributes(x)[-c(1:3)])
-rownames(df.attr) <- colnames(x)
+a <- as.data.frame(attributes(x)[-c(1:3)])
+rownames(a) <- colnames(x)
 # reorder by plot
-df.attr <- df.attr[match(rownames(obj), rownames(df.attr)), ]
+a <- a[match(rownames(obj), rownames(a)), ]
 # give names and assign
-obj$block <- df.attr$"block"
-obj$ph <- as.character(df.attr$"pH..10..1.")
+obj$block <- a$"block"
+obj$ph <- as.character(a$"pH..10..1.")
 obj$ph[obj$ph == ".."] <- 0
 obj$ph <- as.numeric(obj$ph) /10
-obj$expo <- toupper(gsub("[[:punct:]]", "", as.character(df.attr$Exposition)))
-obj$slope <- df.attr$Hangneigung
-obj$elevation <- df.attr$"Seehöhe...100." * 100
-obj$block <- df.attr$Block
-obj$altitude <- df.attr$Seehöhe
+obj$expo <- toupper(gsub("[[:punct:]]", "", as.character(a$Exposition)))
+obj$slope <- a$Hangneigung
+obj$elevation <- a$"Seehöhe...100." * 100
+obj$block <- a$Block
+obj$altitude <- a$Seehöhe
+
+#	unique rownames
+rownames(obj) <- paste(key, "Tab1", sprintf("%03d", as.numeric(rownames(obj))), sep = ":")
 
 #	assign result object
 assign(key, obj)
@@ -54,7 +57,8 @@ obj$richness <- richness(obj, "sample")
 
 #	save to disk
 do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
-write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "",
+	add.lines = TRUE, table.nr = TRUE)
 
 #	tidy up
 rm(list = ls()[-grep(key, ls())])

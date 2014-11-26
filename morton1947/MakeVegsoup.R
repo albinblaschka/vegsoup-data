@@ -21,7 +21,10 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
 #	order layer
-Layers(obj)	 <- c("tl1", "sl", "hl", "ml")
+Layers(obj)	 <- c("tl1", "sl", "hl")
+
+#	unique rownames
+#	we don't change what we have in the files, Morton's numbering is complex
 
 #	assign result object
 assign(key, obj)
@@ -31,7 +34,8 @@ obj$richness <- richness(obj, "sample")
 
 #	save to disk
 do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
-write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "",
+	add.lines = TRUE, table.nr = TRUE)
 
 #	tidy up
 rm(list = ls()[-grep(key, ls())])

@@ -1,21 +1,6 @@
 BEGIN HEAD
-plot                                                   EEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-                                                       rrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-                                                       sssssssssssssssssssssssssssss
-                                                       ccccccccccccccccccccccccccccc
-                                                       hhhhhhhhhhhhhhhhhhhhhhhhhhhhh
-                                                       bbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                                                       aaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                                                       mmmmmmmmmmmmmmmmmmmmmmmmmmmmm
-                                                       eeeeeeeeeeeeeeeeeeeeeeeeeeeee
-                                                       rrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-                                                       11111111111111111111111111111
-                                                       99999999999999999999999999999
-                                                       99999999999999999999999999999
-                                                       22222222222222222222222222222
-                                                       00000000100000001101110100011
-                                                       67799859057795200300012022533
-                                                       98912028034331657218908323413
+plot                                                   00000000011111111112222222222
+                                                       12345678901234567890123456789
 block                                                  11111111111111222222222333333
                                                                                     
 altitude                                               22222222222222222222222222222

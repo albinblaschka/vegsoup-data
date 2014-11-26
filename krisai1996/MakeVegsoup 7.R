@@ -40,9 +40,7 @@ obj$tcov <- a$"Baumschicht..Deckung.."
 obj$scov <- a$"Strauchschicht..Deckung.."
 obj$hcov <- a$"Krautschicht..Deckung.."
 
-rownames(obj) <- paste0("Tab7:",
-	gsub(" ", "0", format(rownames(obj), width = 2, justify = "right")))
+#	unique rownames
+rownames(obj) <- paste(key, "Tab7", sprintf("%02d", as.numeric(rownames(obj))), sep = ":")
 
-require(naturalsort)
-obj <- obj[naturalorder(rownames(obj)), ]
 tab7 <- obj

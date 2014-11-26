@@ -1,20 +1,6 @@
 BEGIN HEAD
-plot                                         MMMMMMMMMMMMMM
-                                             oooooooooooooo
-                                             rrrrrrrrrrrrrr
-                                             tttttttttttttt
-                                             oooooooooooooo
-                                             nnnnnnnnnnnnnn
-                                             11111111111111
-                                             99999999999999
-                                             55555555555555
-                                             00000000000000
-                                             ::::::::::::::
-                                             11111111112569
-                                             0333333333////
-                                             /2222234444544
-                                             42347804459669
-                                             9       a     
+plot                                         00000000011111
+                                             12345678901234
 cov                                          11111111111111
                                              00000000000000
                                                            

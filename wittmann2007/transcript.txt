@@ -1,25 +1,6 @@
 BEGIN HEAD
-plot                                                   WWWWWWWWWWWWWWWWWWWW
-                                                       iiiiiiiiiiiiiiiiiiii
-                                                       tttttttttttttttttttt
-                                                       tttttttttttttttttttt
-                                                       mmmmmmmmmmmmmmmmmmmm
-                                                       aaaaaaaaaaaaaaaaaaaa
-                                                       nnnnnnnnnnnnnnnnnnnn
-                                                       nnnnnnnnnnnnnnnnnnnn
-                                                       22222222222222222222
-                                                       00000000000000000000
-                                                       00000000000000000000
-                                                       77777777777777777777
-                                                       TTTTTTTTTTTTTTTTTTTT
-                                                       aaaaaaaaaaaaaaaaaaaa
-                                                       bbbbbbbbbbbbbbbbbbbb
-                                                       11111222222222222222
-                                                       ::::::::::::::::::::
-                                                       44344944414411111444
-                                                       13311541173344578111
-                                                       38248269599768837127
-                                                        A    B     A       
+plot                                                   00000000011111111112
+                                                       12345678901234567890
 accurancy                                                   1  2           
                                                        35277052055323325357
                                                        00055000000000000005

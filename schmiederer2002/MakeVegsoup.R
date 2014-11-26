@@ -22,6 +22,9 @@ obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 #	order layers
 Layers(obj) <- c("hl", "ml")
 
+#	unique rownames
+#	we don't change what we have in the files
+
 #	assign result object
 assign(key, obj)
 

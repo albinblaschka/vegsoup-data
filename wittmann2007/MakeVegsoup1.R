@@ -4,9 +4,6 @@ require(bibtex)
 require(stringr)
 
 path <- "~/Documents/vegsoup-data/wittmann2007"
-key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
-tab <- "Tab1"
-key <- paste0(key, tab)
 
 #	taxon translation
 file <- file.path(path, "translate1.csv")
@@ -37,8 +34,7 @@ XZ <- SpeciesTaxonomy(x = X, file.y = file)
 #	build vegsoup object
 obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
-#	assign rownames
-rownames(obj) <- paste(key, rownames(obj), sep = ":")
+#	unique rownames
+rownames(obj) <- paste(key, "Tab1", rownames(obj), sep = ":")
 
-#	assign result object
-assign(key, obj)
+tab1 <- obj

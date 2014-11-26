@@ -1,11 +1,6 @@
 BEGIN HEAD
-plot                                         TTTTTTTTTTTTTTTTTTTTTTTTT
-                                             aaaaaaaaaaaaaaaaaaaaaaaaa
-                                             bbbbbbbbbbbbbbbbbbbbbbbbb
-                                             7777777777777777888888888
-                                             :::::::::::::::::::::::::
-                                             1111222255556669156667777
-                                             4567234556781473343594678
+plot                                         0000000001111111111222222
+                                             1234567890123456789012345
 accuracy                                             2222             
                                              2225555500005552225555555
                                              0000000000000000000000000

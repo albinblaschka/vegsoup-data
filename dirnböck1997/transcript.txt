@@ -1,5 +1,24 @@
 BEGIN HEAD
-plot                                                   222222222222222222
+plot                                                   DDDDDDDDDDDDDDDDDD
+                                                       iiiiiiiiiiiiiiiiii
+                                                       rrrrrrrrrrrrrrrrrr
+                                                       nnnnnnnnnnnnnnnnnn
+                                                       bbbbbbbbbbbbbbbbbb
+                                                       oooooooooooooooooo
+                                                       eeeeeeeeeeeeeeeeee
+                                                       cccccccccccccccccc
+                                                       kkkkkkkkkkkkkkkkkk
+                                                       111111111111111111
+                                                       999999999999999999
+                                                       999999999999999999
+                                                       777777777777777777
+                                                       ::::::::::::::::::
+                                                       TTTTTTTTTTTTTTTTTT
+                                                       aaaaaaaaaaaaaaaaaa
+                                                       bbbbbbbbbbbbbbbbbb
+                                                       333333333333333333
+                                                       ::::::::::::::::::
+                                                       222222222222222222
                                                        222222222122111111
                                                        010031122122343001
                                                        332807912436956865

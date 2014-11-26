@@ -1,15 +1,5 @@
 BEGIN HEAD
-plot                                             EEEEEEEEEEEEEEEEEEEE
-                                                 xxxxxxxxxxxxxxxxxxxx
-                                                 nnnnnnnnnnnnnnnnnnnn
-                                                 eeeeeeeeeeeeeeeeeeee
-                                                 rrrrrrrrrrrrrrrrrrrr
-                                                 22222222222222222222
-                                                 00000000000000000000
-                                                 00000000000000000000
-                                                 44444444444444444444
-                                                 ::::::::::::::::::::
-                                                 00000000011111111112
+plot                                             00000000011111111112
                                                  12345678901234567890
 altitude                                         11111111111111111111
                                                  23320211554335443344
@@ -208,5 +198,5 @@ Tortella tortuosa                                .........1111++2121.
 Abietinella abietina var. abietina               ..........+++++1++++
 Racomitrium canescens s.lat.                     ............+.....+.
 Schistidium apocarpum                            ..................1.
-Tortella ruralis                                 ..................+.
+Syntrichia ruralis                               ..................+.
 END TABLE
