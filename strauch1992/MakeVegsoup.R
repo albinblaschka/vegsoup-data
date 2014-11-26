@@ -1,55 +1,64 @@
 library(vegsoup)
+require(bibtex)
 
-#setwd("~/Dropbox/vegsoup prj/strauch1992")
+path <- "~/Documents/vegsoup-data/strauch1992"
+key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
-file <- "~/Documents/vegsoup-data/strauch1992/Strauch1992Tab2.txt"
-l = c("hl", "sl", "tl")
-x <- read.verbatim(file = file, colnames = "Aufnahme Nr.", layers = l)
+#	main table
+file <- file.path(path, "Strauch1992Tab2.txt")
+x <- xx <- read.verbatim(file = file, colnames = "Aufnahme Nr.", layers = "a")
 
-file <- "~/Documents/vegsoup-data/strauch1992/Strauch1992Tab2FooterSpecies.txt"
+#	additional species
+file <- file.path(path, "Strauch1992Tab2FooterSpecies.txt")
 x <- read.verbatim.append(x, file, "plots")
 
-x.df <- data.frame(
-	abbr = sapply(strsplit(rownames(x), "@"), "[", 1),
-	layer = sapply(strsplit(rownames(x), "@"), "[", 2),
-	comment = NA,
-	x,
-	check.names = FALSE)
-X <- stackSpecies(x.df)
-X <- X[, 1:4]
+X <- species(x)[, 1:4]
 
+#	sites
 Y <- read.delim("~/Documents/vegsoup-data/strauch1992/Strauch1992Tab2Locations.txt",
 	header = FALSE, colClasses = "character")
 names(Y) <- c("plot", "location", "tms")
 
 Y <- data.frame(Y, t(sapply(Y[,3], str2latlng, USE.NAMES = FALSE)))
-Y <- stackSites(Y)
+Y <- stackSites(Y[, -grep("tms", names(Y))])
 
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 Z <- SpeciesTaxonomy(X, file.y = file)
 
-strauch1992 <- Vegsoup(X, Y, Z, coverscale = "braun.blanquet2")
+obj <- Vegsoup(X, Y, Z, coverscale = "braun.blanquet2")
 
 # assign header data stored as attributes in
 # imported original community table
 # omit dimnames, class and plot id
 
-df.attr <- as.data.frame(attributes(x)[-c(1:3)])
-rownames(df.attr) <- df.attr$Aufnahme.Nr
+ii <- c("Ausbildungen", "Aufnahme Nr.", "Deck. BS", "Deck. SS", "Deck. KS")
+a <- as.data.frame(attributes(xx)[ii])
+rownames(a) <- a$Aufnahme.Nr
 # reorder by plot
-df.attr <- df.attr[match(rownames(strauch1992), rownames(df.attr)), ]
+a <- a[match(rownames(obj), rownames(a)), ]
 #	identical(rownames(strauch1992), rownames(df.attr))
 # give names and assign
-strauch1992$block <- as.character(df.attr$"Ausbildungen")
-strauch1992$tcov <- df.attr$"Deck..BS"
-strauch1992$scov <- df.attr$"Deck..SS"
-strauch1992$hcov <- df.attr$"Deck..KS"
-strauch1992$syntaxon <- "Stellario-Carpinetum Oberd. 1957"
+obj$block <- as.character(a$"Ausbildungen")
+obj$tcov <- a$"Deck..BS"
+obj$scov <- a$"Deck..SS"
+obj$hcov <- a$"Deck..KS"
+obj$alliance <- "Carpinion betuli"
+obj$association <- "Stellario-Carpinetum Oberd. 1957"
 
-Layers(strauch1992) <- c("tl", "sl", "hl")
+#	order layres
+Layers(obj) <- c("tl", "sl", "hl")
 
-rownames(strauch1992) <- paste("strauch1992", rownames(strauch1992), sep = ":")
+#	assign result object
+assign(key, obj)
 
-save(strauch1992, file = "~/Documents/vegsoup-data/strauch1992/strauch1992.rda")
+#	richness
+obj$richness <- richness(obj, "sample")
 
-rm(list = ls()[-grep("strauch1992", ls())])
+#	save to disk
+do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+
+#	tidy up
+rm(list = ls()[-grep(key, ls())])
+
+

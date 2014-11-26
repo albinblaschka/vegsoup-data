@@ -1,12 +1,17 @@
-require(vegsoup)
+library(vegsoup)
+require(bibtex)
+
+path <- "~/Documents/vegsoup-data/strauch2010"
+key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
 #	species
-file = "~/Documents/vegsoup-data/strauch2010/Strauch2010SupplementTabT16-19-20-21.csv"
-X <- stackSpecies(file = file)
+file <- file.path(path, "Strauch2010SupplementTabT16-19-20-21.csv")
+X <- stackSpecies(file = file)[, 1:4]
 
 #	sites
-df <- read.delim("~/Documents/vegsoup-data/strauch2010/Strauch2010SupplementTabT16-19-20-21Locations.csv",
-	header = TRUE, colClasses = "character")
+file <- file.path(path, "Strauch2010SupplementTabT16-19-20-21Locations.csv")
+
+df <- read.delim(file, header = TRUE, colClasses = "character")
 	
 df <- data.frame(df, t(sapply(df[,4], str2latlng, USE.NAMES = FALSE)))
 
@@ -25,10 +30,22 @@ Y <- stackSites(y)
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 XZ <- SpeciesTaxonomy(x = X, file.y = file)
 
-strauch2010 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
+obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
-rownames(strauch2010) <- paste("strauch2010", rownames(strauch2010), sep = ":")
+#	order layers
+Layers(obj) <- c("tl", "sl", "hl")
 
-save(strauch2010, file = "~/Documents/vegsoup-data/strauch2010/strauch2010.rda")
+#	assign result object
+assign(key, obj)
 
-rm(list = ls()[-grep("strauch2010", ls())])
+#	richness
+obj$richness <- richness(obj, "sample")
+
+#	save to disk
+do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+
+#	tidy up
+rm(list = ls()[-grep(key, ls())])
+
+

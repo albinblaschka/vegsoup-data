@@ -1,36 +1,45 @@
 require(vegsoup)
+require(bibtex)
 require(naturalsort)
 
-#	read prepared digitized table
-file <- "~/Documents/vegsoup-data/wittmann1997/Wittmann1997Tab1taxon2standard.txt"
-x <- read.verbatim(file, "Aufnahmenummer", layers = "@")
-# promote to class "Species"
-X <- species(x)
+path <- "~/Documents/vegsoup-data/hörandl1991"
+key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
-#   sites data including coordinates
-file <- "~/Documents/vegsoup-data/wittmann1997/Wittmann1997Tab1Locations.csv"
-Y <- read.csv2(file, colClasses = "character")
-# promote to class "Sites"
-Y <- stackSites(Y)
+#	main table
+file <- file.path(path, "Hörandl1991Tab1.txt")
+x <- read.verbatim(file, colnames = "Aufnahmenummer")
 
-# taxonomy reference list
+a <- read.csv2(file.path(path, "translate.csv"),
+		colClasses = "character")
+a <- a$abbr[match(rownames(x), a$taxon)]
+
+x <- data.frame(abbr = a, layer = "hl", x, check.names = FALSE, stringsAsFactors = FALSE)
+x$layer[c(33:48,59)] <- "ml"
+X <- stackSpecies(x)[, 1:4]
+
+#	sites
+file <- file.path(path, "Hörandl1991Tab1Locations.csv")
+Y <- stackSites(file = file, schema = "plot")
+
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
+#	promote to class "SpeciesTaxonomy"
 XZ <- SpeciesTaxonomy(X, file.y = file)
 
-# promote to class "Vegsoup"
-wittmann1997 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
+#	build "Vegsoup" object
+obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
-# assign plot names	
-rownames(wittmann1997) <- paste0("wittmann1997:",
-	sprintf("%02d", as.numeric(rownames(wittmann1997))))
+#	order layer
+Layers(obj)	 <- c("hl", "ml")
 
-wittmann1997 <- wittmann1997[naturalorder(rownames(wittmann1997)), ]
+#	assign result object
+assign(key, obj)
 
-#	syntaxa assigment missing
-wittmann1997$syntaxon <- ""
-		
-save(wittmann1997, file = "~/Documents/vegsoup-data/wittmann1997/wittmann1997.rda")
+#	richness
+obj$richness <- richness(obj, "sample")
 
-rm(list = ls()[-grep("wittmann1997", ls(), fixed = TRUE)])
+#	save to disk
+do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
 
-#QuickMap(wittmann1997)
+#	tidy up
+rm(list = ls()[-grep(key, ls())])

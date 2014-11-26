@@ -1,15 +1,44 @@
-require(vegsoup)
+library(vegsoup)
+require(bibtex)
 
-file <- "~/Documents/vegsoup-data/lambach dta/species wide.csv"
-X <- stackSpecies(file = file)
+path <- "~/Documents/vegsoup-data/lambach dta"
+key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
-file <- "~/Documents/vegsoup-data/lambach dta/sites wide.csv"
+file <- file.path(path, "species wide.csv")
+#	promote to class "Species"
+X <- stackSpecies(file = file, sep = ";")
+X <- X[, 1:4]
+
+file <- file.path(path, "sites wide.csv")
+#	promote to class "Sites"
 Y <- stackSites(file = file)
 
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
-XZ <- SpeciesTaxonomy(x = X, file.y = file)
+#	promote to class "SpeciesTaxonomy"
+XZ <- SpeciesTaxonomy(X, file.y = file)
 
-lb <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
+#	build "Vegsoup" object
+obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
-save(lb, file = "~/Documents/vegsoup-data/lambach dta/lb.rda")
-rm(list = ls()[-grep("lb", ls())])
+#	order layer
+Layers(obj)	 <- c("tl1", "tl2", "sl", "hl")
+
+#	assign result object
+assign(key, obj)
+
+#	richness
+obj$richness <- richness(obj, "sample")
+
+#	save to disk
+do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+
+if (FALSE) {
+	decostand(obj) <- "pa"
+	vegdist(obj) <- "bray"
+	write.verbatim(seriation(obj), file.path(path, "seriation.txt"),
+	sep = "", add.lines = TRUE)
+	KML(obj)
+}
+#	tidy up
+rm(list = ls()[-grep(key, ls())])

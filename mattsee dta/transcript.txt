@@ -62,6 +62,43 @@ richness                                        3444
                                                     
 END HEAD
 BEGIN TABLE
+Fagus sylvatica                             tl1 2...
+Pinus sylvestris                                2...
+Fraxinus excelsior                              .1..
+Quercus robur                                   .3.2
+Tilia cordata                                   .2..
+Betula pendula                              tl2 1...
+Fagus sylvatica                                 4...
+Fraxinus excelsior                              .2.2
+Hedera helix                                    .+.+
+Tilia cordata                                   .3.2
+Ulmus glabra                                    .2..
+Pinus sylvestris                                ...1
+Quercus robur                                   ...2
+Tilia platyphyllos                              ...2
+Cornus sanguinea s.lat.                      sl +2.2
+Fagus sylvatica                                 22..
+Lonicera xylosteum                              +..1
+Sorbus aria s.str.                              2...
+Sorbus aucuparia ssp. aucuparia                 +.+.
+Corylus avellana                                .2+2
+Crataegus monogyna                              .22+
+Euonymus europaeus                              .+1.
+Fraxinus excelsior                              .+..
+Hedera helix                                    .+++
+Ligustrum vulgare                               .121
+Prunus spinosa                                  .++.
+Rhamnus cathartica                              .12+
+Rosa canina s.str.                              .12.
+Tilia cordata                                   .21+
+Tilia platyphyllos                              .+21
+Ulmus glabra                                    .1..
+Berberis vulgaris                               ..2.
+Cotoneaster divaricatus                         ..1+
+Quercus robur                                   ..21
+Rosa corymbifera                                ..1.
+Crataegus laevigata ssp. laevigata              ...+
+Prunus avium s.lat.                             ...1
 Aesculus hippocastanum                       hl r...
 Anemone nemorosa                                +...
 Campanula persicifolia                          +221
@@ -142,42 +179,5 @@ Lathyrus pratensis ssp. pratensis               ...1
 Lotus corniculatus s.str.                       ...+
 Veronica chamaedrys ssp. chamaedrys             ...+
 Vicia cracca s.str.                             ...+
-Cornus sanguinea s.lat.                      sl +2.2
-Fagus sylvatica                                 22..
-Lonicera xylosteum                              +..1
-Sorbus aria s.str.                              2...
-Sorbus aucuparia ssp. aucuparia                 +.+.
-Corylus avellana                                .2+2
-Crataegus monogyna                              .22+
-Euonymus europaeus                              .+1.
-Fraxinus excelsior                              .+..
-Hedera helix                                    .+++
-Ligustrum vulgare                               .121
-Prunus spinosa                                  .++.
-Rhamnus cathartica                              .12+
-Rosa canina s.str.                              .12.
-Tilia cordata                                   .21+
-Tilia platyphyllos                              .+21
-Ulmus glabra                                    .1..
-Berberis vulgaris                               ..2.
-Cotoneaster divaricatus                         ..1+
-Quercus robur                                   ..21
-Rosa corymbifera                                ..1.
-Crataegus laevigata ssp. laevigata              ...+
-Prunus avium s.lat.                             ...1
-Fagus sylvatica                             tl1 2...
-Pinus sylvestris                                2...
-Fraxinus excelsior                              .1..
-Quercus robur                                   .3.2
-Tilia cordata                                   .2..
-Betula pendula                              tl2 1...
-Fagus sylvatica                                 4...
-Fraxinus excelsior                              .2.2
-Hedera helix                                    .+.+
-Tilia cordata                                   .3.2
-Ulmus glabra                                    .2..
-Pinus sylvestris                                ...1
-Quercus robur                                   ...2
-Tilia platyphyllos                              ...2
 Rhytidium rugosum                            ml ...4
 END TABLE

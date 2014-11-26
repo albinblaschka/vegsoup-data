@@ -1,7 +1,11 @@
-require(vegsoup)
+library(vegsoup)
+require(bibtex)
+
+path <- "~/Documents/vegsoup-data/Petrik2005"
+key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
 #	read digitized table 
-file <- "~/Documents/vegsoup-data/Petrik2005/Petrik2005Tab1taxon2standard.txt"
+file <- file.path(path, "Petrik2005Tab1taxon2standard.txt")
 x <- read.verbatim(file, "Releveé number", verbose = T)
 
 #	assign moss layers
@@ -22,7 +26,7 @@ X$cov <- gsub("a", "2a", X$cov)
 X$cov <- gsub("b", "2b", X$cov)
 
 #   sites data including coordinates
-file <- "~/Documents/vegsoup-data/Petrik2005/Petrik2005Tab1TLocations.csv"
+file <- file.path(path, "Petrik2005Tab1TLocations.csv")
 Y <- read.csv2(file, colClasses = "character")
 names(Y)[1] <- "plot"
 # promote to class "Sites"
@@ -33,13 +37,21 @@ file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian stan
 XZ <- SpeciesTaxonomy(X, file.y = file)
 
 # promote to class "Vegsoup"
-Petrik2005 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
+obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 #	grome names
-names(Petrik2005)[1:9] <- c("pls", "expo", "slope", "elevation",
+names(obj)[1:9] <- c("pls", "expo", "slope", "elevation",
 	"hcov", "mcov", "cov", "bedrock", "date")
-Petrik2005$syntaxon <- "Oxytropido carpaticae-Elynetum"		
-save(Petrik2005, file = "~/Documents/vegsoup-data/Petrik2005/Petrik2005.rda")
+obj$alliance <- "Oxytropido carpaticae-Elynetum"		
 
-rm(list = ls()[-grep("Petrik2005", ls(), fixed = TRUE)])
+#	assign result object
+assign(key, obj)
 
-#QuickMap(Petrik2005)
+#	richness
+obj$richness <- richness(obj, "sample")
+
+#	save to disk
+do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+
+#	tidy up
+rm(list = ls()[-grep(key, ls())])

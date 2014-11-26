@@ -1,76 +1,66 @@
-require(vegsoup)
+library(vegsoup)
+require(bibtex)
+
+path <- "~/Documents/vegsoup-data/roithinger1996"
+key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
 #	read prepared digitized table 
-file <- "~/Documents/vegsoup-data/roithinger1996/Roithinger1996TabAtaxon2standard.txt"
-l <- rep("hl", times = 159)
-l[3] <- "sl"
-x <- read.verbatim(file, "Aufnahmenummer", verbose = T, layers = l)
-
+file <- file.path(path, "Roithinger1996TabAtaxon2standard.txt")
+x <- xx <- read.verbatim(file, "Aufnahmenummer", layers = "@")
 # promote to class "Species"
-x.df <- data.frame(abbr = rownames(x),
-			layer = NA,
-			taxon = NA, x,
-			check.names = FALSE, stringsAsFactors = FALSE)
-tmp <- strsplit(as.character(x.df$abbr), "@")			
-x.df$abbr <- sapply(tmp, "[[", 1)		
-x.df$layer <- sapply(tmp, "[[", 2)
-
-X0 <- stackSpecies(x.df)
-X0@data <- X0@data[, -5]
+X1 <- species(x)
 
 #	and footer taxa
-file <- "~/Documents/vegsoup-data/roithinger1996/Roithinger1996TabAFooterSpecies.csv"
-X1 <- read.csv2(file, colClasses = "character")
-X1 <- X1[, -grep("taxon", names(X1))]
-X1 <- species(X1)
-X <- rbind(X0, X1)
+file <- file.path(path, "Roithinger1996TabAFooterSpecies.csv")
+X2 <- species(file, sep = ";")[, 1:4]
+X <- rbind(X1, X2)
 
 #   sites data including coordinates
-file <- "~/Documents/vegsoup-data/roithinger1996/Roithinger1996TabALocations.csv"
-Y <- read.csv2(file, colClasses = "character")
-names(Y)[1] <- "plot"
+file <- file.path(path, "Roithinger1996TabALocations.csv")
 # promote to class "Sites"
-Y <- stackSites(Y)
+Y <- stackSites(file = file)
 
 # taxonomy reference list
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 XZ <- SpeciesTaxonomy(X, file.y = file)
 
 # promote to class "Vegsoup"
-roithinger1996 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
+obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
-
+Layers(obj) <- c("sl", "hl")
 # assign header data stored as attributes in
 # imported original community table
 # omit dimnames, plot id (Releveé number) and class
-df.attr <- as.data.frame(attributes(x)[- c(1:3, length(attributes(x)))])
-rownames(df.attr) <- colnames(x)
+a <- as.data.frame(attributes(xx)[- c(1:3, length(attributes(x)))])
+rownames(a) <- colnames(x)
 # reorder by plot
-df.attr <- df.attr[match(rownames(roithinger1996), rownames(df.attr)), ] 
+a <- a[match(rownames(obj), rownames(a)), ] 
 
 # give names and assign variables
-roithinger1996$elevation <- df.attr$"Meereshöhe.in.m"
-roithinger1996$expo <- as.character(df.attr$Exposition)
-roithinger1996$slope <- df.attr$"Inklination.in.Grad"
-roithinger1996$pls <- df.attr$"Größe.der.Aufnahmefläche.in.m2"
-roithinger1996$cov <- roithinger1996$cov <- df.attr$"Gesamtdeckung.in.."
-roithinger1996$hcov <- roithinger1996$hhl <- df.attr$"Höhe.der.Vegetationsdecke.in.cm"
-names(roithinger1996)[3] <- "scov"
-names(roithinger1996)[4] <- "hsl"
-names(roithinger1996)[5] <- "zcov"
-names(roithinger1996)[6] <- "hzl"
-names(roithinger1996)[7] <- "mcov"
-
-rownames(roithinger1996) <- paste0("roithinger1996:",
-	gsub(" ", "0", format(rownames(roithinger1996), width = 2, justify = "right")))
-require(naturalsort)
-roithinger1996 <- roithinger1996[naturalorder(rownames(roithinger1996)), ]
+obj$elevation <- a$"Meereshöhe.in.m"
+obj$expo <- as.character(a$Exposition)
+obj$slope <- a$"Inklination.in.Grad"
+obj$pls <- a$"Größe.der.Aufnahmefläche.in.m2"
+obj$cov <- obj$cov <- a$"Gesamtdeckung.in.."
+obj$hcov <- obj$hhl <- a$"Höhe.der.Vegetationsdecke.in.cm"
+names(obj)[3] <- "scov"
+names(obj)[4] <- "hsl"
+names(obj)[5] <- "zcov"
+names(obj)[6] <- "hzl"
+names(obj)[7] <- "mcov"
 
 #	syntaxa assigment missing
-roithinger1996$syntaxon <- ""
+obj$alliance <- ""
 		
-save(roithinger1996, file = "~/Documents/vegsoup-data/roithinger1996/roithinger1996.rda")
+#	assign result object
+assign(key, obj)
 
-rm(list = ls()[-grep("roithinger1996", ls(), fixed = TRUE)])
+#	richness
+obj$richness <- richness(obj, "sample")
 
-#QuickMap(roithinger1996)
+#	save to disk
+do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+
+#	tidy up
+rm(list = ls()[-grep(key, ls())])

@@ -1,4 +1,8 @@
-require(vegsoup)
+library(vegsoup)
+require(bibtex)
+
+path <- "~/Documents/vegsoup-data/pils1994"
+key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
 #	read prepared digitized table 
 file <- "~/Documents/vegsoup-data/pils1994/Pils1994Tab8taxon2standard.txt"
@@ -27,8 +31,7 @@ file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian stan
 XZ <- SpeciesTaxonomy(X, file.y = file)
 
 # promote to class "Vegsoup"
-pils1994 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
-Sites(pils1994)
+obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
 # assign header data stored as attributes in
 # imported original community table
@@ -36,23 +39,24 @@ Sites(pils1994)
 df.attr <- header(x)
 
 # reorder by plot
-df.attr <- df.attr[match(rownames(pils1994), rownames(df.attr)), ] 
+df.attr <- df.attr[match(rownames(obj), rownames(df.attr)), ] 
 
 # give names and assign variables
-pils1994$elevation <- df.attr$"Seehöhe.in.10.m" * 10
-pils1994$expo <- as.character(df.attr$Exposition)
-pils1994$slope <- df.attr$"Neigung.in.Grad"
-pils1994$pls <- df.attr$"Aufnahmefläche.in.10.qm" * 10
-pils1994$cov <- pils1994$cov <- df.attr$"Deckung.in.."
+obj$elevation <- df.attr$"Seehöhe.in.10.m" * 10
+obj$expo <- as.character(df.attr$Exposition)
+obj$slope <- df.attr$"Neigung.in.Grad"
+obj$pls <- df.attr$"Aufnahmefläche.in.10.qm" * 10
+obj$cov <- obj$cov <- df.attr$"Deckung.in.."
 
-rownames(pils1994) <- paste0("pils1994:",
-	gsub(" ", "0", format(rownames(pils1994), width = 2, justify = "right")))
-require(naturalsort)
-pils1994 <- pils1994[naturalorder(rownames(pils1994)), ]
+#	assign result object
+assign(key, obj)
 
-		
-save(pils1994, file = "~/Documents/vegsoup-data/pils1994/pils1994.rda")
+#	richness
+obj$richness <- richness(obj, "sample")
 
-rm(list = ls()[-grep("pils1994", ls(), fixed = TRUE)])
+#	save to disk
+do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
 
-#QuickMap(pils1994)
+#	tidy up
+rm(list = ls()[-grep(key, ls())])

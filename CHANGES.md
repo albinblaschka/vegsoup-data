@@ -19,8 +19,8 @@ Bryopyhtes
 
 there are two homonymous instances, `bryo unde` and `unde bryu`, keep only one
 
-> ./hüttschlag dta  
-> ./wolfgangsee dta  
+> ./hüttschlag dta
+> ./wolfgangsee dta
 
 there are two homonymous instances in standard list for *Polypodium vulgare*
 
@@ -28,3 +28,9 @@ there are two homonymous instances in standard list for *Polypodium vulgare*
 > `poly vulg` Polypodium vulgare s.str.
 
 instances with `euph dulc` should be replaced with `euph dulc dulc` 
+
+there are two homonymous instances in standard list for *Hypnum cupressiforme*
+
+instances with `hypn cupr` should be replaced with `hypn cupr slat`
+
+> ./* many data sets 

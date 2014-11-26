@@ -43,6 +43,10 @@ obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 #	order layer
 Layers(obj)	 <- c("hl", "ml")
 
+#	
+obj$alliance <- "Loiseleurio-Vaccinion"
+obj$association <- "Carici bigelowii-Loiseleurietum procumbentis"
+
 #	assign result object
 assign(key, obj)
 

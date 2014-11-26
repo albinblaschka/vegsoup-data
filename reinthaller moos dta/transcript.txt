@@ -1,0 +1,36 @@
+taxon                                        layer cov
+Alnus glutinosa                              hl    r  
+Betula pendula                                     +  
+Carex davalliana                                   1  
+Carex flava var. flava                             +  
+Drosera anglica                                    +  
+Drosera rotundifolia                               +  
+Epipactis palustris                                +  
+Equisetum palustre                                 +  
+Eupatorium cannabinum                              1  
+Frangula alnus                                     +  
+Fraxinus excelsior                                 +  
+Gentiana asclepiadea                               +  
+Gymnadenia conopsea ssp. conopsea                  r  
+Molinia caerulea s.str.                            2a 
+Parnassia palustris                                +  
+Phragmites australis ssp. australis                +  
+Picea abies                                        +  
+Pinguicula vulgaris                                +  
+Potentilla erecta                                  +  
+Primula farinosa                                   1  
+Schoenus nigricans                                 5  
+Succisa pratensis                                  +  
+Tofieldia calyculata                               +  
+Utricularia minor s.str.                           +  
+Bryum pseudotriquetrum var. pseudotriquetrum ml    1  
+Campylium stellatum                                1  
+Cratoneuron filicinum                              +  
+Palustriella commutata s.lat.                      2b 
+Philonotis calcarea                                +  
+Polytrichum sp.                                    +  
+Sphagnum magellanicum                              1  
+undetermined bryophyte(s)                          +  
+Picea abies                                  sl    +  
+ 
+longitude: 13.52611, latitude: 47.91597, cov: 97, tcov: 0, scov: 0, hcov: 95, mcov: 35, rock: 0, bare: 0, debris: 0, htl: 0, hsl: 0, hhl1: 0,45, hhl2: 0,3, expo: S, slope: 35, plsx: 4, plsy: 4, date: 2012-08-16, altitude: 9999, location: Attersee, reintahller Moos, alliance: Caricion davallianae, syntaxon: Junco obtusiflori-Schoenetum nigricantis Allorge 1921, comment: Ausbildung mit Torfmoosen, author: R. Kaiser, richness: 32

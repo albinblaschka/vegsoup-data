@@ -1,53 +1,29 @@
 require(vegsoup)
+require(bibtex)
+require(naturalsort)
 
-###	NOT RUN
-#	assign taxon abbreviations
-#	files prepared by linktaxa.R
+path <- "~/Documents/vegsoup-data/griesher1993"
+key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
-if (FALSE) {
-	file <- "~/Documents/vegsoup-data/griesher1993/Griehser1993Tab1.txt"
-	con <- file(file)
-	x <- readLines(con)
-	close(con)
-	
-	xx <- read.csv2("~/Documents/vegsoup-data/griesher1993/taxon2standard.csv",
-		stringsAsFactors = FALSE)	
-	xx <- xx[!is.na(xx[,1]),]
-	
-	#	width: number of letters of taxon names 
-	width = 36
-	for (i in 1:nrow(xx)) {
-		x <- gsub(xx[i, 1], format(xx[i, 3],
-			width = width - (width - nchar(xx[i, 1])), justiy = "left"), x)	
-	}
-	
-	#	save to disk
-	file <- "~/Documents/vegsoup-data/griesher1993/Griehser1993Tab1taxon2standard.txt"
-	con <- file(file)
-	x <- writeLines(x, con)
-	close(con)
-	#	and add KEYWORDS
-}
+#	main table
+file <- file.path(path, "Griehser1993Tab1.txt")
+x <- xx <- read.verbatim(file, colnames = "Aufnahmenummer")
 
-#	read prepared digitized table 
-file <- "~/Documents/vegsoup-data/griesher1993/Griehser1993Tab1taxon2standard.txt"
-x <- read.verbatim(file, "Aufnahmenummer", verbose = T)
+a <- read.csv2(file.path(path, "translate.csv"),
+		colClasses = "character")
+a <- a$abbr[match(rownames(x), a$taxon)]
 
-# promote to class "Species"
-x.df <- data.frame(abbr = rownames(x),
-			layer = "hl",
-			taxon = NA, x,
-			check.names = FALSE)
+x <- data.frame(abbr = a, layer = "hl", x, check.names = FALSE, stringsAsFactors = FALSE)
 
-X0 <- stackSpecies(x.df)
-X0@data <- X0@data[, -5]
+x$layer[c(38,39,40,41,49)] <- "ml"
+X <- stackSpecies(x)[, 1:4]
 
-#	and footer taxa
-file <- "~/Documents/vegsoup-data/griesher1993/footer species.csv"
-X1 <- read.csv2(file, colClasses = "character")
-X1 <- X1[, -grep("taxon", names(X1))]
-X1 <- species(X1)
-X <- rbind(X0, X1)
+#	read prepared digitized table
+file <- "~/Documents/vegsoup-data/griesher1993/Griehser1993Tab1FooterSpecies.csv"
+x <- read.csv2(file, colClasses = "character")
+x <- x[, -grep("taxon", names(x))]
+XX <- species(x)
+X <- rbind(X, XX)
 
 #   sites data including coordinates
 file <- "~/Documents/vegsoup-data/griesher1993/Griehser1993Tab1Locations.csv"
@@ -61,39 +37,46 @@ file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian stan
 XZ <- SpeciesTaxonomy(X, file.y = file)
 
 # promote to class "Vegsoup"
-griesher1993 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
-
+obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
 # assign header data stored as attributes in
 # imported original community table
 # omit dimnames, plot id (Releveé number) and class
-df.attr <- as.data.frame(attributes(x)[- c(1:3, 9)])
-rownames(df.attr) <- colnames(x)
+df.attr <- as.data.frame(attributes(xx)[- c(1:3, 9)])
+rownames(df.attr) <- colnames(xx)
 # reorder by plot
-df.attr <- df.attr[match(rownames(griesher1993), rownames(df.attr)), ] 
+df.attr <- df.attr[match(rownames(obj), rownames(df.attr)), ] 
 
 # give names and assign variables
-griesher1993$elevation <- df.attr$"Höhe.über.dem.Meer.in.Meter"
-griesher1993$expo <- as.character(df.attr$Exposition)
-griesher1993$slope <- df.attr$"Neigung.in.Grad"
-griesher1993$pls <- df.attr$"Groesse.in.Quadratmeter"
-griesher1993$cov <- griesher1993$hcov <- df.attr$"Deckung.in.."
-griesher1993$hcov <- griesher1993$hcov <- df.attr$"Deckung.in.."
+obj$elevation <- df.attr$"Höhe.über.dem.Meer.in.Meter"
+obj$expo <- as.character(df.attr$Exposition)
+obj$slope <- df.attr$"Neigung.in.Grad"
+obj$pls <- df.attr$"Groesse.in.Quadratmeter"
+obj$cov <- obj$hcov <- df.attr$"Deckung.in.."
+obj$hcov <- obj$hcov <- df.attr$"Deckung.in.."
 
-rownames(griesher1993) <- paste0("griesher1993:",
-	gsub(" ", "0", format(rownames(griesher1993), width = 2, justify = "right")))
-require(naturalsort)
-griesher1993 <- griesher1993[naturalorder(rownames(griesher1993)), ]
+rownames(obj) <- paste0(key, ":",
+	gsub(" ", "0", format(rownames(obj), width = 2, justify = "right")))
 
+obj <- obj[naturalorder(rownames(obj)), ]
 
-griesher1993$syntaxon <- ""
-griesher1993$syntaxon[1:7] <- "Caricetum firmae"
-griesher1993$syntaxon[8:17] <- "Elynetum seslerietosum variae"
-
+obj$alliance <- ""
+obj$association <- ""
+obj$association[1:7] <- "Caricetum firmae"
+obj$alliance[1:7] <- "Caricion firmae"
+obj$association[8:17] <- "Elynetum seslerietosum variae"
+obj$alliance[8:17] <- "Oxytropido-Elynion"
 
 		
-save(griesher1993, file = "~/Documents/vegsoup-data/griesher1993/griesher1993.rda")
+#	assign result object
+assign(key, obj)
 
-rm(list = ls()[-grep("griesher1993", ls(), fixed = TRUE)])
+#	richness
+obj$richness <- richness(obj, "sample")
 
-#QuickMap(griesher1993)
+#	save to disk
+do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+
+#	tidy up
+rm(list = ls()[-grep(key, ls())])

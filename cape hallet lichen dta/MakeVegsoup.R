@@ -28,14 +28,9 @@ obj$richness <- richness(obj, "sample")
 
 #	save to disk
 do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
-#write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
 
-if (FALSE) {
-	decostand(obj) <- "pa"
-	vegdist(obj) <- "bray"
-	write.verbatim(seriation(obj), file.path(path, "seriation.txt"),
-	sep = "", add.lines = TRUE)
-	KML(obj)
-}
+coverscale(obj) <- "domin"
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+
 #	tidy up
 rm(list = ls()[-grep(key, ls())])

@@ -16,7 +16,7 @@ ri01a;expo;F
 ri01a;slope;0
 ri01a;plsx;5
 ri01a;plsy;5
-ri01a;date;15.05.09
+ri01a;date;2009-05-15
 ri01a;soil;
 ri01a;comment;
 ri01b;cov;98
@@ -36,7 +36,7 @@ ri01b;expo;F
 ri01b;slope;0
 ri01b;plsx;5
 ri01b;plsy;5
-ri01b;date;15.05.09
+ri01b;date;2009-05-15
 ri01b;soil;
 ri01b;comment;
 ri02a;cov;100
@@ -56,7 +56,7 @@ ri02a;expo;F
 ri02a;slope;0
 ri02a;plsx;10
 ri02a;plsy;10
-ri02a;date;15.05.09
+ri02a;date;2009-05-15
 ri02a;soil;
 ri02a;comment;
 ri03a;cov;100
@@ -76,7 +76,7 @@ ri03a;expo;F
 ri03a;slope;0
 ri03a;plsx;8
 ri03a;plsy;8
-ri03a;date;15.05.09
+ri03a;date;2009-05-15
 ri03a;soil;
 ri03a;comment;
 ri04a;cov;100
@@ -96,7 +96,7 @@ ri04a;expo;F
 ri04a;slope;0
 ri04a;plsx;15
 ri04a;plsy;20
-ri04a;date;15.05.09
+ri04a;date;2009-05-15
 ri04a;soil;
 ri04a;comment;
 ri05a;cov;100
@@ -116,7 +116,7 @@ ri05a;expo;F
 ri05a;slope;0
 ri05a;plsx;15
 ri05a;plsy;20
-ri05a;date;15.05.09
+ri05a;date;2009-05-15
 ri05a;soil;
 ri05a;comment;
 ri05b;cov;100
@@ -136,7 +136,7 @@ ri05b;expo;F
 ri05b;slope;0
 ri05b;plsx;20
 ri05b;plsy;20
-ri05b;date;15.05.09
+ri05b;date;2009-05-15
 ri05b;soil;
 ri05b;comment;
 ri06a;cov;98
@@ -156,7 +156,7 @@ ri06a;expo;F
 ri06a;slope;0
 ri06a;plsx;10
 ri06a;plsy;10
-ri06a;date;15.05.09
+ri06a;date;2009-05-15
 ri06a;soil;
 ri06a;comment;
 ri07a;cov;100
@@ -176,7 +176,7 @@ ri07a;expo;F
 ri07a;slope;0
 ri07a;plsx;10
 ri07a;plsy;10
-ri07a;date;15.05.09
+ri07a;date;2009-05-15
 ri07a;soil;
 ri07a;comment;
 ri09a;cov;80
@@ -196,7 +196,7 @@ ri09a;expo;F
 ri09a;slope;0
 ri09a;plsx;3
 ri09a;plsy;6
-ri09a;date;15.05.09
+ri09a;date;2009-05-15
 ri09a;soil;
 ri09a;comment;seichte Mulde
 ri09b;cov;85
@@ -216,7 +216,7 @@ ri09b;expo;F
 ri09b;slope;0
 ri09b;plsx;5
 ri09b;plsy;5
-ri09b;date;15.05.09
+ri09b;date;2009-05-15
 ri09b;soil;
 ri09b;comment;
 ri10a;cov;100
@@ -236,7 +236,7 @@ ri10a;expo;F
 ri10a;slope;0
 ri10a;plsx;15
 ri10a;plsy;20
-ri10a;date;15.05.09
+ri10a;date;2009-05-15
 ri10a;soil;
 ri10a;comment;
 ri11a;cov;100
@@ -256,7 +256,7 @@ ri11a;expo;F
 ri11a;slope;0
 ri11a;plsx;10
 ri11a;plsy;10
-ri11a;date;20.05.09
+ri11a;date;2009-05-20
 ri11a;soil;
 ri11a;comment;
 ri12a;cov;100
@@ -276,7 +276,7 @@ ri12a;expo;F
 ri12a;slope;0
 ri12a;plsx;5
 ri12a;plsy;5
-ri12a;date;15.05.09
+ri12a;date;2009-05-15
 ri12a;soil;
 ri12a;comment;
 ri12b;cov;100
@@ -296,7 +296,7 @@ ri12b;expo;F
 ri12b;slope;0
 ri12b;plsx;5
 ri12b;plsy;5
-ri12b;date;15.05.09
+ri12b;date;2009-05-15
 ri12b;soil;
 ri12b;comment;
 ri13a;cov;100
@@ -316,7 +316,7 @@ ri13a;expo;F
 ri13a;slope;0
 ri13a;plsx;20
 ri13a;plsy;20
-ri13a;date;20.05.09
+ri13a;date;2009-05-20
 ri13a;soil;
 ri13a;comment;
 ri13b;cov;100
@@ -336,7 +336,7 @@ ri13b;expo;F
 ri13b;slope;0
 ri13b;plsx;10
 ri13b;plsy;25
-ri13b;date;20.05.09
+ri13b;date;2009-05-20
 ri13b;soil;
 ri13b;comment;
 ri13c;cov;98
@@ -356,7 +356,7 @@ ri13c;expo;F
 ri13c;slope;0
 ri13c;plsx;20
 ri13c;plsy;20
-ri13c;date;20.05.09
+ri13c;date;2009-05-20
 ri13c;soil;
 ri13c;comment;
 ri14a;cov;90
@@ -376,7 +376,7 @@ ri14a;expo;F
 ri14a;slope;0
 ri14a;plsx;20
 ri14a;plsy;20
-ri14a;date;20.05.09
+ri14a;date;2009-05-20
 ri14a;soil;
 ri14a;comment;
 ri15a;cov;100
@@ -396,7 +396,7 @@ ri15a;expo;F
 ri15a;slope;0
 ri15a;plsx;20
 ri15a;plsy;20
-ri15a;date;20.05.09
+ri15a;date;2009-05-20
 ri15a;soil;
 ri15a;comment;
 ri16a;cov;98
@@ -416,7 +416,7 @@ ri16a;expo;F
 ri16a;slope;0
 ri16a;plsx;40
 ri16a;plsy;3
-ri16a;date;20.05.09
+ri16a;date;2009-05-20
 ri16a;soil;
 ri16a;comment;
 ri17a;cov;100
@@ -436,7 +436,7 @@ ri17a;expo;F
 ri17a;slope;0
 ri17a;plsx;20
 ri17a;plsy;10
-ri17a;date;20.05.09
+ri17a;date;2009-05-20
 ri17a;soil;
 ri17a;comment;
 ri17b;cov;100
@@ -456,7 +456,7 @@ ri17b;expo;F
 ri17b;slope;0
 ri17b;plsx;20
 ri17b;plsy;20
-ri17b;date;20.05.09
+ri17b;date;2009-05-20
 ri17b;soil;
 ri17b;comment;
 ri18a;cov;100
@@ -476,7 +476,7 @@ ri18a;expo;SW
 ri18a;slope;40
 ri18a;plsx;10
 ri18a;plsy;25
-ri18a;date;20.05.09
+ri18a;date;2009-05-20
 ri18a;soil;
 ri18a;comment;
 ri19a;cov;100
@@ -496,7 +496,7 @@ ri19a;expo;SW
 ri19a;slope;50
 ri19a;plsx;20
 ri19a;plsy;20
-ri19a;date;20.05.09
+ri19a;date;2009-05-20
 ri19a;soil;
 ri19a;comment;
 ri19b;cov;95
@@ -516,7 +516,7 @@ ri19b;expo;SW
 ri19b;slope;40
 ri19b;plsx;20
 ri19b;plsy;15
-ri19b;date;20.05.09
+ri19b;date;2009-05-20
 ri19b;soil;
 ri19b;comment;
 ri20a;cov;100
@@ -536,7 +536,7 @@ ri20a;expo;SW
 ri20a;slope;20
 ri20a;plsx;6
 ri20a;plsy;5
-ri20a;date;20.05.09
+ri20a;date;2009-05-20
 ri20a;soil;
 ri20a;comment;
 ri20b;cov;95
@@ -556,7 +556,7 @@ ri20b;expo;SW
 ri20b;slope;25
 ri20b;plsx;6
 ri20b;plsy;5
-ri20b;date;20.05.09
+ri20b;date;2009-05-20
 ri20b;soil;
 ri20b;comment;
 ri21a;cov;100
@@ -576,7 +576,7 @@ ri21a;expo;AW
 ri21a;slope;40
 ri21a;plsx;20
 ri21a;plsy;20
-ri21a;date;20.05.09
+ri21a;date;2009-05-20
 ri21a;soil;
 ri21a;comment;
 ri22a;cov;95
@@ -596,7 +596,7 @@ ri22a;expo;SW
 ri22a;slope;40
 ri22a;plsx;8
 ri22a;plsy;10
-ri22a;date;20.05.09
+ri22a;date;2009-05-20
 ri22a;soil;
 ri22a;comment;
 ri25a;cov;100
@@ -616,7 +616,7 @@ ri25a;expo;F
 ri25a;slope;0
 ri25a;plsx;5
 ri25a;plsy;5
-ri25a;date;20.05.09
+ri25a;date;2009-05-20
 ri25a;soil;
 ri25a;comment;
 ri26a;cov;95
@@ -636,7 +636,7 @@ ri26a;expo;F
 ri26a;slope;0
 ri26a;plsx;3
 ri26a;plsy;20
-ri26a;date;20.05.09
+ri26a;date;2009-05-20
 ri26a;soil;
 ri26a;comment;
 ri27a;cov;98
@@ -656,7 +656,7 @@ ri27a;expo;F
 ri27a;slope;0
 ri27a;plsx;5
 ri27a;plsy;5
-ri27a;date;20.05.09
+ri27a;date;2009-05-20
 ri27a;soil;
 ri27a;comment;
 ri28a;cov;100
@@ -676,7 +676,7 @@ ri28a;expo;SW
 ri28a;slope;45
 ri28a;plsx;4
 ri28a;plsy;30
-ri28a;date;15.05.09
+ri28a;date;2009-05-15
 ri28a;soil;
 ri28a;comment;
 ri28b;cov;100
@@ -696,7 +696,7 @@ ri28b;expo;SW
 ri28b;slope;45
 ri28b;plsx;4
 ri28b;plsy;30
-ri28b;date;15.05.09
+ri28b;date;2009-05-15
 ri28b;soil;
 ri28b;comment;
 ri28c;cov;80
@@ -716,7 +716,7 @@ ri28c;expo;SW
 ri28c;slope;45
 ri28c;plsx;4
 ri28c;plsy;30
-ri28c;date;15.05.09
+ri28c;date;2009-05-15
 ri28c;soil;
 ri28c;comment;
 ri29a;cov;85
@@ -736,7 +736,7 @@ ri29a;expo;F
 ri29a;slope;0
 ri29a;plsx;4
 ri29a;plsy;6
-ri29a;date;15.05.09
+ri29a;date;2009-05-15
 ri29a;soil;
 ri29a;comment;17 blühende Orchis militaris
 ri30a;cov;95
@@ -756,7 +756,7 @@ ri30a;expo;F
 ri30a;slope;0
 ri30a;plsx;6
 ri30a;plsy;4
-ri30a;date;20.05.09
+ri30a;date;2009-05-20
 ri30a;soil;
 ri30a;comment;
 ri30b;cov;100
@@ -776,7 +776,7 @@ ri30b;expo;F
 ri30b;slope;0
 ri30b;plsx;10
 ri30b;plsy;2
-ri30b;date;20.05.09
+ri30b;date;2009-05-20
 ri30b;soil;
 ri30b;comment;
 ri31a;cov;100
@@ -796,7 +796,7 @@ ri31a;expo;W
 ri31a;slope;50
 ri31a;plsx;20
 ri31a;plsy;20
-ri31a;date;20.05.09
+ri31a;date;2009-05-20
 ri31a;soil;
 ri31a;comment;
 ri01a;longitude;12.837934E
@@ -920,9 +920,28 @@ ri30a;altitude;378
 ri30b;altitude;398
 ri31a;altitude;387
 ri32;plot;im17
-ri32;latitude;47.991324
-ri32;longitude;12.890609
+ri32;latitude;47.991324N
+ri32;longitude;12.890609E
 ri32;accuracy;10
 ri32;alliance;Cephalanthero-Fagenion
 ri32;association;Carici albae-Fagetum
 ri32;date;2014-05-05
+ri01a;cov;100
+ri01a;t1cov;90
+ri01a;t2cov;0
+ri01a;scov;3
+ri01a;hcov;20
+ri01a;mcov;1
+ri01a;rock;0
+ri01a;bare;0
+ri01a;htl1;18
+ri01a;htl2;0
+ri01a;hsl;3
+ri01a;hhl1;0,3
+ri01a;hhl2;0,1
+ri01a;expo;S
+ri01a;slope;35
+ri01a;plsx;25
+ri01a;plsy;10
+ri01a;date;2011-05-05
+ri01a;soil;

@@ -1,20 +1,36 @@
 library(vegsoup)
+require(bibtex)
 
-file <- "~/Documents/vegsoup-data/schmiederer2002/species.csv"
-# promote to class "Species"
+path <- "~/Documents/vegsoup-data/schmiederer2002"
+key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
-X <- species(file, sep = ";")
-X <- X[, 1:4]
-file <- "~/Documents/vegsoup-data/schmiederer2002/sites.csv"
+file <- file.path(path, "species.csv")
+#	promote to class "Species"
+X <- species(file, sep = ";")[, 1:4]
 
-# promote to class "Sites"
-Y <- sites(read.csv2(file))
+file <- file.path(path, "sites.csv")
+#	promote to class "Sites"
+Y <- sites(file, sep = ";")
 
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
-# promote to class "SpeciesTaxonomy"
+#	promote to class "SpeciesTaxonomy"
 XZ <- SpeciesTaxonomy(X, file.y = file)
-# promote to class "Vegsoup"
-schmiederer2002 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
-save(schmiederer2002, file = "~/Documents/vegsoup-data/schmiederer2002/schmiederer2002.rda")
-rm(list = ls()[-grep("schmiederer2002", ls(), fixed = TRUE)])
+#	build "Vegsoup" object
+obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
+
+#	order layers
+Layers(obj) <- c("hl", "ml")
+
+#	assign result object
+assign(key, obj)
+
+#	richness
+obj$richness <- richness(obj, "sample")
+
+#	save to disk
+do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+
+#	tidy up
+rm(list = ls()[-grep(key, ls())])

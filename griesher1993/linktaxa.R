@@ -1,46 +1,42 @@
-library(linktaxa)
-library(stringr)
-#	Not run
+require(vegsoup)
+require(linktaxa)
 
-#	match taxa
-file <- "~/Documents/vegsoup-data/griesher1993/Griehser1993Tab1.txt"
-con <- file(file)
-x <- readLines(con)
-close(con)
+path <- "~/Documents/vegsoup-data/griesher1993"
 
-yy <- read.csv2("~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv", colClasses = "character")
+#	main table
+file <- file.path(path, "Griehser1993Tab1.txt")
+X <- read.verbatim(file, colnames = "Aufnahmenummer")
+
+#	species names
+x <- rownames(X)
+
+#	taxonomic reference
+file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
+yy <- read.csv2(file, colClasses = "character")
 y <- yy$taxon
 
 #	NOT RUN:
 if (FALSE) {
-	x <- sapply(x, function (x) substring(x, 1, 36), USE.NAMES = FALSE)
-	x <- x[18:(length(x) -1)]
 	x <- str_trim(x)
-	x[x == ""] <- "BLANK"
+	x[x == ""] <- NA
 
 	xy <- linktaxa(x, y, order = FALSE)
-#	edit results stored as taxon2standard.csv
-	write.csv2(xy, "~/Documents/vegsoup-data/griesher1993/taxon2standard.csv")
-#	read an join abbr
-	x <- read.csv2("~/Documents/vegsoup-data/griesher1993/taxon2standard.csv",
-		colClasses = "character")
-	a <- yy$abbr[match(x$matched.taxon, y)]
-	x$abbr <- a
-#	saved to file
-	write.csv2(x, "~/Documents/vegsoup-data/griesher1993/taxon2standard.csv",
-	row.names = FALSE)
+#	must manually edit results
+	write.csv2(xy, file.path(path, "translate.csv"), row.names = FALSE, quote = FALSE)
+#	backup
 
-	#	footer species
-	zz <- read.csv2("~/Documents/vegsoup-data/griesher1993/footer species.csv",
+#	read and join abbr
+	x <- read.csv2(file.path(path, "translate.csv"),
 		colClasses = "character")
-	x <- zz$taxon
-	xy <- linktaxa(x, y, order = FALSE)
-	#	edited results stored as taxon2standard footer species.csv
-	write.csv2(xy, "~/Documents/vegsoup-data/griesher1993/taxon2standard footer species.csv")
-
-	x <- read.csv2("~/Documents/vegsoup-data/griesher1993/taxon2standard footer species.csv",
-		colClasses = "character")
-	a <- yy$abbr[match(x$matched.taxon, y)]
-	#	saved and pasted into table
-	write.csv2(a, "~/Documents/vegsoup-data/griesher1993/tmp.csv")
+	x$abbr <- yy$abbr[match(x$matched.taxon, y)]
+	nas <- is.na(x$abbr)
+	if (any(nas)) {
+		x[nas, ]
+		stop()	
+	}
+#	overwrite file
+	write.csv2(x, file.path(path, "translate.csv"),	row.names = FALSE, quote = FALSE)
 }
+
+#	additional species were manually assigend
+#	see 'Griehser1993Tab1FooterSpecies.csv'

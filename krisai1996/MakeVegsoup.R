@@ -1,20 +1,28 @@
 library(vegsoup)
+library(bibtex)
 
-#	change directory
-setwd("~/Documents/vegsoup-data/krisai1996")
+path <- "~/Documents/vegsoup-data/krisai1996"
+key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
+key <- key[[1]]
 
-source("MakeVegsoupTab7.R")
-source("MakeVegsoupTab8.R")
+source(file.path(path, "MakeVegsoup 7.R"))
+source(file.path(path, "MakeVegsoup 8.R"))
 
-krisai1996 <- bind(krisai1996tab7, krisai1996tab8)
-Layers(krisai1996)
-save(krisai1996, file = "~/Documents/vegsoup-data/krisai1996/krisai1996.rda")
+obj <- bind(tab7, tab8)
 
-Layers(krisai1996) <- rev(c("ml", "hl", "sl", "tl"))
+#	order layer
+Layers(obj)	 <- c("tl", "sl", "hl", "ml")
 
-rm(list = ls()[-grep("krisai1996", ls(), fixed = TRUE)])
+#	assign result object
+assign(key, obj)
 
-#	QuickMap(krisai1996)
-#	vp <- VegsoupPartition(krisai1996, clustering = "syntaxon")
-#	Latex(Fidelity(vp, "TCR"), stat.min  = 0.3)
-#	
+#	richness
+obj$richness <- richness(obj, "sample")
+
+#	save to disk
+do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+
+#	tidy up
+rm(list = ls()[-grep(key, ls())])
+

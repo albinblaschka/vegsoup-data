@@ -16,7 +16,7 @@ assign(key, obj)
 do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
 
 #	save to disk
-write.verbatim(obj, file.path(path, "transcript2.txt"), sep = "", add.lines = TRUE)
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
 
 rm(list = ls()[-grep(key, ls())])
 rm(Wittmann2007Tab1, Wittmann2007Tab2)

@@ -1,4 +1,10 @@
-require(vegsoup)
+library(vegsoup)
+require(bibtex)
+
+path <- "~/Documents/vegsoup-data/meroth2013"
+bib <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")
+key <- bib$key
+key <- key[[1]]
 
 file <- "~/Documents/vegsoup-data/meroth2013/species wide.csv"
 X <- stackSpecies(file = file)[, 1:4]
@@ -9,7 +15,23 @@ Y <- stackSites(file = file)
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 XZ <- SpeciesTaxonomy(x = X, file.y = file)
 
-meroth2013 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
+obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
+obj$author <- as.character(bib$author[[1]])
 
-save(meroth2013, file = "~/Documents/vegsoup-data/meroth2013/meroth2013.rda")
-rm(list = ls()[-grep("meroth2013", ls())])
+#	order layer
+Layers(obj)	 <- c("tl", "sl", "hl", "ml")
+
+#	assign result object
+assign(key, obj)
+
+#	richness
+obj$richness <- richness(obj, "sample")
+
+#	save to disk
+do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+
+#	tidy up
+rm(list = ls()[-grep(key, ls())])
+
+

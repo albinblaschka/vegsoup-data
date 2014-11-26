@@ -1,16 +1,32 @@
-require(vegsoup)
+library(vegsoup)
+require(bibtex)
 
-file <- "~/Documents/vegsoup-data/sonnberger2009/species wide.csv"
+path <- "~/Documents/vegsoup-data/sonnberger2009"
+key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
+
+file <- file.path(path, "species wide.csv")
 X <- stackSpecies(file = file)[, 1:4]
 
-file <- "~/Documents/vegsoup-data/sonnberger2009/sites wide.csv"
+file <- file.path(path, "sites wide.csv")
 Y <- stackSites(file = file)
 
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 XZ <- SpeciesTaxonomy(x = X, file.y = file)
 
-sonnberger2009 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
-#	QuickMap(sonnberger2009)
+obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
-save(sonnberger2009, file = "~/Documents/vegsoup-data/sonnberger2009/sonnberger2009.rda")
-rm(list = ls()[-grep("sonnberger2009", ls())])
+#	order layer
+Layers(obj)	 <- c("tl", "sl", "hl")
+
+#	assign result object
+assign(key, obj)
+
+#	richness
+obj$richness <- richness(obj, "sample")
+
+#	save to disk
+do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+
+#	tidy up
+rm(list = ls()[-grep(key, ls())])

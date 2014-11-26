@@ -1,6 +1,0 @@
-plot;cov;tcov1;tcov2;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;date;latitude;longitude;horizontal precision;soil;syntaxon;comment
-sm01;95;0;0;0;85;25;0;0;0;0,1;0,01;4;4;NW;20;0;5;0;2012-07-27;47.516605;12.851431;10;;;Caricetum curvulae
-sm02;98;0;0;0;95;5;0;0;0;0,2;0,05;4;4;NW;10;0;2;0;2012-07-27;47.516596;12.852639;10;;;Festucetum picturatae
-sm03;97;0;0;0;93;10;0;0;0;0,15;0,02;4;4;NW;30;0;3;0;2012-07-27;47.518033;12.851907;10;;;Caricetum curvulae
-sm04;85;0;0;0;75;20;0;0;0;0,2;0,02;4;4;F;0;0;15;0;2012-07-27;47.515276;12.869304;10;;;Caricetum nigrae
-sm05;85;0;0;0;80;5;0;0;0;0,1;0,02;4;4;F;0;0;15;0;2012-07-27;47.515286;12.869184;10;;;Trichophoretum

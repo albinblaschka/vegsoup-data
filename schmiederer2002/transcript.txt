@@ -1,0 +1,36 @@
+taxon                                    layer cov
+Agrostis rupestris                       hl    1  
+Antennaria carpatica                           +  
+Anthoxanthum alpinum                           +  
+Campanula scheuchzeri                          1  
+Carex atrata                                   +  
+Carex curvula ssp. curvula                     1  
+Coeloglossum viride                            +  
+Euphrasia minima s.str.                        2m 
+Festuca picturata                              +  
+Festuca varia                                  2b 
+Homogyne discolor                              2a 
+Juncus jacquinii                               2m 
+Juncus trifidus s.str.                         1  
+Kobresia myosuroides                           +  
+Leontodon hispidus s.lat.                      +  
+Leucanthemopsis alpina                         +  
+Luzula alpinopilosa s.str.                     +  
+Myosotis alpestris                             1  
+Pachypleurum mutellinoides                     2a 
+Pedicularis verticillata                       2a 
+Persicaria vivipara                            2b 
+Phyteuma confusum                              1  
+Phyteuma globulariifolium                      +  
+Poa alpina                                     +  
+Potentilla aurea                               +  
+Primula minima                                 1  
+Salix retusa s.str.                            3  
+Silene acaulis ssp. exscapa                    1  
+Valeriana celtica ssp. norica                  1  
+Veronica aphylla                               +  
+Cetraria islandica ssp. islandica        ml    1  
+Flavocetraria nivalis                          +  
+Thamnolia vermicularis var. vermicularis       1  
+ 
+longitude: 14.12872, latitude: 47.28061, cov: 95, hcov: 90, mcov: 5, hhl1: 7, hhl2: 7, plsx: 4, plsy: 2, expo: SE, slope: 20, date: 2001-08-08, altitude: 2330, precision.vertical: 20, precision.horizontal: 20, comment: basenreicher niedriger Rasen von Salix retusa dominiert, trocken bis frisch, SSO des Melleck, nördlichster großer Marmorzug, , location: Melleck, geology: Marmor, geomorphology: Rücken (flache Rippe), richness: 33

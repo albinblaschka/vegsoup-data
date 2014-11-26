@@ -17,51 +17,51 @@ Deckungsgrad %                  6   9   8   9   9   8   9
 END HEAD
 
 BEGIN TABLE
-junc trif                       3   4   3   4   2   3   2
-prim mini                       2   2   3   3   4   4   3
-agro rupe rupe                  1   .   +   .   3   .   3
-euph mini                       +   .   +   .   .   .   +
+junc trif                   @hl 3   4   3   4   2   3   2
+prim mini                   @hl 2   2   3   3   4   4   3
+agro rupe rupe              @hl 1   .   +   .   3   .   3
+euph mini                   @hl +   .   +   .   .   .   +
 
-camp alpi                       +   +   +   +   +   +   1
-tris spic ovat                  +   +   +   +   .   +   .
-hupe sela                       +   +   +   .   .   +   .
-scor helv                       1   .   .   .   2   1   .
-junc jacq                       +   +   .   +   .   .   .
-aven flex flex                  1   .   +   .   1   .   .
-hier alpi                       .   .   .   .   2   +   .
-care capi                       .   .   .   .   .   .   2
+camp alpi                   @hl +   +   +   +   +   +   1
+tris spic ovat              @hl +   +   +   +   .   +   .
+hupe sela                   @hl +   +   +   .   .   +   .
+scor helv                   @hl 1   .   .   .   2   1   .
+junc jacq                   @hl +   +   .   +   .   .   .
+aven flex flex              @hl 1   .   +   .   1   .   .
+hier alpi                   @hl .   .   .   .   2   +   .
+care capi                   @hl .   .   .   .   .   .   2
 
-care atra                       +   +   +   +   +   +   1
-pers vivi                       +   1   +   +   +   +   +
-anth odor                       +   +   +   1   +   +   .
-vacc myrt                       +   +   +   +   .   1   .
-sile acau slat                  +   +   +   +   .   +   +
-drya octo                       +   +   +   .   .   .   .
-luzu glab                       +   +   .   +   .   .   .
-vacc viti                       +   .   +   +   .   .   .
-fest rubr aggr                  +   .   .   +   +   .   .
-homo alpi                       .   +   +   +   .   .   .
-mute adon                       .   +   .   +   .   .   +
-vacc ulig                       .   .   .   +   +   +   
-sali retu                       +   .   +   .   .   .   .
-bart alpi                       .   +   .   +   .   .   +
-arct alpi                       .   +   .   .   .   +   .
+care atra                   @hl +   +   +   +   +   +   1
+pers vivi                   @hl +   1   +   +   +   +   +
+anth odor                   @hl +   +   +   1   +   +   .
+vacc myrt                   @hl +   +   +   +   .   1   .
+sile acau slat              @hl +   +   +   +   .   +   +
+drya octo                   @hl +   +   +   .   .   .   .
+luzu glab                   @hl +   +   .   +   .   .   .
+vacc viti                   @hl +   .   +   +   .   .   .
+fest rubr aggr              @hl +   .   .   +   +   .   .
+homo alpi                   @hl .   +   +   +   .   .   .
+mute adon                   @hl .   +   .   +   .   .   +
+vacc ulig                   @hl .   .   .   +   +   +   
+sali retu                   @hl +   .   +   .   .   .   .
+bart alpi                   @hl .   +   .   +   .   .   +
+arct alpi                   @hl .   +   .   .   .   +   .
 
-care firm                       1   .   .   .   .   .   .
-sesl caer                       .   +   .   .   .   .   . 
-minu sedo                       .   +   .   .   .   .   . 
-leon hisp slat                  .   .   +   .   .   .   . 
-doro glac glac                  .   .   .   +   .   .   . 
-pote aure                       .   .   .   .   +   .   . 
-care semp semp                  .   .   .   .   +   .   . 
-pach mute                       .   .   .   .   .   +   . 
-kobr myos                       .   .   .   .   .   .   1 
-camp sche                       .   .   .   .   .   .   + 
-luzu mult                       .   .   +   .   .   .   + 
-andr cham                       .   .   .   .   .   .   + 
-tham verm verm                  .   .   .   .   .   .   + 
-sela sela                       .   .   .   .   .   .   + 
-fest pumi                       .   .   .   .   .   .   + 
-gent vern vern                  .   .   .   .   .   .   + 
-erig unif                       .   .   .   .   .   .   + 
+care firm                   @hl 1   .   .   .   .   .   .
+sesl caer                   @hl .   +   .   .   .   .   . 
+minu sedo                   @hl .   +   .   .   .   .   . 
+leon hisp slat              @hl .   .   +   .   .   .   . 
+doro glac glac              @hl .   .   .   +   .   .   . 
+pote aure                   @hl .   .   .   .   +   .   . 
+care semp semp              @hl .   .   .   .   +   .   . 
+pach mute                   @hl .   .   .   .   .   +   . 
+kobr myos                   @hl .   .   .   .   .   .   1 
+camp sche                   @hl .   .   .   .   .   .   + 
+luzu mult                   @hl .   .   +   .   .   .   + 
+andr cham                   @hl .   .   .   .   .   .   + 
+tham verm verm              @ml .   .   .   .   .   .   + 
+sela sela                   @hl .   .   .   .   .   .   + 
+fest pumi                   @hl .   .   .   .   .   .   + 
+gent vern vern              @hl .   .   .   .   .   .   + 
+erig unif                   @hl .   .   .   .   .   .   + 
 END TABLE

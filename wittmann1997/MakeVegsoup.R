@@ -1,36 +1,39 @@
-require(vegsoup)
-require(naturalsort)
+library(vegsoup)
+require(bibtex)
+
+path <- "~/Documents/vegsoup-data/wittmann1997"
+key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
 #	read prepared digitized table
-file <- "~/Documents/vegsoup-data/wittmann1997/Wittmann1997Tab1taxon2standard.txt"
-x <- read.verbatim(file, "Aufnahmenummer", layers = "@")
-# promote to class "Species"
+file <- file.path(path, "Wittmann1997Tab1taxon2standard.txt")
+x <- read.verbatim(file, colnames = "Aufnahmenummer", layers = "@")
+#	promote to class "Species"
 X <- species(x)
 
 #   sites data including coordinates
-file <- "~/Documents/vegsoup-data/wittmann1997/Wittmann1997Tab1Locations.csv"
-Y <- read.csv2(file, colClasses = "character")
-# promote to class "Sites"
-Y <- stackSites(Y)
+file <- file.path(path, "Wittmann1997Tab1Locations.csv")
+#	promote to class "Sites"
+Y <- stackSites(file = file)
 
-# taxonomy reference list
+#	taxonomy reference list
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 XZ <- SpeciesTaxonomy(X, file.y = file)
 
-# promote to class "Vegsoup"
-wittmann1997 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
-
-# assign plot names	
-rownames(wittmann1997) <- paste0("wittmann1997:",
-	sprintf("%02d", as.numeric(rownames(wittmann1997))))
-
-wittmann1997 <- wittmann1997[naturalorder(rownames(wittmann1997)), ]
+#	promote to class "Vegsoup"
+obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
 #	syntaxa assigment missing
-wittmann1997$syntaxon <- ""
+obj$alliance <- "Nanocyperion"
 		
-save(wittmann1997, file = "~/Documents/vegsoup-data/wittmann1997/wittmann1997.rda")
+#	assign result object
+assign(key, obj)
 
-rm(list = ls()[-grep("wittmann1997", ls(), fixed = TRUE)])
+#	richness
+obj$richness <- richness(obj, "sample")
 
-#QuickMap(wittmann1997)
+#	save to disk
+do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+
+#	tidy up
+rm(list = ls()[-grep(key, ls())])

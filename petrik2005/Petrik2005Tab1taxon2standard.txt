@@ -125,7 +125,7 @@ fulg brac brac                   +   .   .   .   .   .   .   +   +   +
 brac tomm                        1   .   .   .   .   .   1   .   +   +
 calo ammi                        +   .   .   .   1   +   +   .   .   .
 rhyt rugo                        1   1   .   +   .   .   .   .   .   .
-ento conn                        1   +   .   +   .   .   .   .   .   .
+ento conc                        1   +   .   +   .   .   .   .   .   .
 hypn revo                        +   .   .   +   .   +   .   .   .   .
 mniu thom                        +   .   .   +   .   .   .   .   +   .
 dist incl                        +   .   .   .   .   +   +   .   .   .

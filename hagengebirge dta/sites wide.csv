@@ -1,4 +1,4 @@
-plot;cov;tcov1;tcov2;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;date;soil;comment;latitude;longitude;horizontal precision;elevation;syntaxon;habitat;locality.description;observer
+plot;cov;tcov1;tcov2;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;date;soil;comment;latitude;longitude;accuracy;elevation;syntaxon;habitat;location;author
 hg01;98;0;0;0;96;2;0;0;0;0,15;0,04;4;4;W;15;1;1;0;2013-08-21;Pechrendzina;;47.507001N;13.113866E;8;2092;Caricion firmae;Polsterseggenrasen über Pechrendzina;Hagengebirge;R. Kaiser
 hg02;98;0;0;0;93;5;0;0;0;0,15;0,03;4;4;W;20;1;1;0;2013-08-21;Pechrendzina;;47.502437N;13.093143E;8;2188;Caricion firmae;Polsterseggenrasen über Pechrendzina;Hagengebirge;R. Kaiser
 hg03;88;0;0;0;83;7;0;0;0;0,15;0,02;4;4;N;7;2;3;7;2013-08-22;Pechrendzina;;47.502637N;13.092859E;20;2167;Caricion firmae;Polsterseggenrasen über Pechrendzina;Hagengebirge;R. Kaiser

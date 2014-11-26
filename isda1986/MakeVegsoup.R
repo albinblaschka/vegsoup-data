@@ -1,6 +1,8 @@
 library(vegsoup)
+require(bibtex)
 
-#setwd("~/Dropbox/vegsoup prj/isda1986")
+path <- "~/Documents/vegsoup-data/isda1986"
+key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
 file <- "~/Documents/vegsoup-data/isda1986/Isda1986Tab1.txt"
 x <- read.verbatim(file, "Aufnahmenummer")
@@ -23,7 +25,7 @@ Y <- stackSites(Y)
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 Z <- SpeciesTaxonomy(X, file.y = file)
 
-dta <- Vegsoup(X, Y, Z, coverscale = "braun.blanquet2")
+obj <- Vegsoup(X, Y, Z, coverscale = "braun.blanquet2")
 
 # assign header data stored as attributes in
 # imported original community table
@@ -32,27 +34,27 @@ dta <- Vegsoup(X, Y, Z, coverscale = "braun.blanquet2")
 df.attr <- as.data.frame(attributes(x)[-c(1:3)])
 rownames(df.attr) <- colnames(x)
 # reorder by plot
-df.attr <- df.attr[match(rownames(dta), rownames(df.attr)), ]
+df.attr <- df.attr[match(rownames(obj), rownames(df.attr)), ]
 # give names and assign
-dta$block <- df.attr$"block"
-dta$ph <- as.character(df.attr$"pH..10..1.")
-dta$ph[dta$ph == ".."] <- 0
-dta$ph <- as.numeric(dta$ph) /10
-dta$expo <- toupper(gsub("[[:punct:]]", "", as.character(df.attr$Exposition)))
-dta$slope <- df.attr$Hangneigung
-dta$elevation <- df.attr$"Seehöhe...100." * 100
-dta$block <- df.attr$Block
-dta$altitude <- df.attr$Seehöhe
+obj$block <- df.attr$"block"
+obj$ph <- as.character(df.attr$"pH..10..1.")
+obj$ph[obj$ph == ".."] <- 0
+obj$ph <- as.numeric(obj$ph) /10
+obj$expo <- toupper(gsub("[[:punct:]]", "", as.character(df.attr$Exposition)))
+obj$slope <- df.attr$Hangneigung
+obj$elevation <- df.attr$"Seehöhe...100." * 100
+obj$block <- df.attr$Block
+obj$altitude <- df.attr$Seehöhe
 
-isda1986 <- dta
+#	assign result object
+assign(key, obj)
 
-rownames(isda1986) <- paste0("isda1986:",
-	gsub(" ", "0", format(rownames(isda1986), width = 2, justify = "right")))
-require(naturalsort)
-isda1986 <- isda1986[naturalorder(rownames(isda1986)), ]
+#	richness
+obj$richness <- richness(obj, "sample")
 
-rm(list = ls()[-grep("isda1986", ls(), fixed = TRUE)])	
+#	save to disk
+do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
 
-save(isda1986, file = "~/Documents/vegsoup-data/isda1986/isda1986.rda")
-
-KML(isda1986, "~/Documents/vegsoup-data/isda1986/isda1986.kml")
+#	tidy up
+rm(list = ls()[-grep(key, ls())])

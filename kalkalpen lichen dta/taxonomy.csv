@@ -57,7 +57,7 @@ dicr denu;Dircranodontium denudatum;;bryophytes;
 dime lute;Dimerella lutea;(DICKS.) TREVISAN;lichen;
 dime pine;Dimerella pineti;(SCHRADER ex  ACH.) VEZDA;lichen;
 dipl musc;Diploschistes muscorum;(SCOP.) R. SANT.;lichen;
-drep unci;Drepanocladus uncinatus;;bryophytes;
+sani unci;Drepanocladus uncinatus;;bryophytes;
 eurh angu;Eurhynchium angustirete;;bryophytes;
 ever prun;Evernia prunastri;(L.) Ach.;lichen;
 flav cape;Flavoparmelia caperata;;lichen;
@@ -71,7 +71,7 @@ hete spec;Heterodermia speciosa;(WULFEN) TREVISAN;lichen;
 homa tric;Homalia trichomanoides;;bryophytes;
 hypc scal;Hypocenomyce scalaris;(ACH.) CHOISY;lichen;
 hypn cupr;Hypnum cupressiforme;;bryophytes;
-hypn mami;Hypnum mamillatum;;bryophytes;
+hypn ando;Hypnum mamillatum;;bryophytes;
 hypo bitt;Hypogymnia bitteri;(LYNGE) AHTI;lichen;
 hypo fari;Hypogymnia farinacea;ZOPF;lichen;
 hypo phys;Hypogymnia physodes;(L.) NYL.;lichen;
@@ -80,7 +80,7 @@ hypo vitt;Hypogymnia vittata s.lat.;(ACH.) PARR;lichen;incl. var. alpestris ZAHL
 hytr revo;Hypotrachyna revoluta;;lichen;
 imsh aleu;Imshaugia aleurites;(ACH.) S. F. MEYER;lichen;
 isot alop;Isothecium alopecuroides;;bryophytes;
-isot myos;Isothecium myosuroides;;bryophytes;
+isot myos myos;Isothecium myosuroides;;bryophytes;
 leca albl;Lecanora albella ;(PERS.) ACH.;lichen;syn: Lecanora pallida (SCHREBER) RABENH.
 leca arge;Lecanora argentata;(ACH.) MALME;lichen;
 leca cadu;Lecanora cadubriae;(MASSAL.) HEDL.;lichen;
@@ -108,11 +108,11 @@ lepr inca;Lepraria incana;(L.) ACH.;lichen;
 lepr jack;Lepraria jackii;TÖNSBERG;lichen;
 lepr lobi;Lepraria lobificans;NYL.;lichen;
 lepr rigi;Lepraria rigidula;(B. de LESD.) TÖNSBERG;lichen;
-lepr spec;Lepraria sp.;;lichen;
+lepr spec ies;Lepraria sp.;;lichen;
 lept cyan;Leptogium cyanescens;(RABENH.) KOERBER;lichen;
 lept lich;Leptogium lichenoides var. lichenoides;(L.) ZAHLBR.;lichen;
 lept satu;Leptogium saturninum;(DICKSON) NYL.;lichen;
-leub juni;Leucobryum juniperoideum;;bryophytes;
+leuc juni;Leucobryum juniperoideum;;bryophytes;
 leuc sciu;Leucodon sciuroides;;bryophytes;
 loba ampl;Lobaria amplissima;(SCOP.) FORSS.;lichen;
 loba pulm;Lobaria pulmonaria;(L.) HOFFMANN;lichen;
@@ -149,7 +149,7 @@ opeg rufe;Opegrapha rufescens;PERS.;lichen;
 opeg vari;Opegrapha varia;PERS.;lichen;
 opeg viri;Opegrapha viridis;(PERS. ex ACH.) BEHLEN & DESBERGER;lichen;
 opeg vulg;Opegrapha vulgata var. Vulgata;ACH.;lichen;
-orth mont;Orthodicranum montanum;;bryophytes;
+dicr mont;Orthodicranum montanum;;bryophytes;
 ortt lyel;Orthotrichum lyellii;;bryophytes;
 ortt obtu;Orthotrichum obtusifolium;;bryophytes;
 ortt pall;Orthotrichum pallens;;bryophytes;
@@ -197,7 +197,7 @@ psev furf;Pseudevernia furfuracea;(L.) ZOPF;lichen;
 psev furf cera;Pseudevernia furfuracea var. ceratea ;(L.) ZOPF, (ACH.) D. HAWKSW.;lichen;
 psev furf furf;Pseudevernia furfuracea var. furfuracea;(L.) ZOPF;lichen;
 psog stig;Psoroglaena stigonemoides;(ORANGE) HENSSEN;lichen;
-pter fili;Pterigynandrum filiforme;;bryophytes;
+pter fili slat;Pterigynandrum filiforme;;bryophytes;
 ptil pulc;Ptilidium pulcherrimum;;bryophytes;
 punc subr;Punctelia subrudecta;(NYL.) Krog.;lichen;
 pyla poly;Pylaisia polyantha;;bryophytes;
@@ -226,7 +226,7 @@ xant pari;Xanthoria parietina;(L.) TH. FR.;lichen;
 xant poly;Xanthoria polycarpa;(HOFFMANN) RIEBER;lichen;
 xylo para;Xylographa parallela;;lichen;
 xylo viti;Xylographa vitiligo;(ACH.) LAUNDON;lichen;
-orth spec;Orthodicranum sp1;;bryophytes;missing key
+orth spec ies;Orthodicranum sp1;;bryophytes;missing key
 orth stra;Orthodicranum sp2;;bryophytes;missing key
 orth pall;Orthodicranum sp3;;bryophytes;missing key
 orth lyel;Orthodicranum sp4;;bryophytes;missing key
