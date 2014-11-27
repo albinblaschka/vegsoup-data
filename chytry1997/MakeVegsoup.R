@@ -92,30 +92,6 @@ obj <- Layers(obj, collapse = c("hl", "t1", "hl", "s1", "ml"))
 obj <- Layers(obj, collapse = c("hl", "tl", "sl", "ml"))
 Layers(obj) <- c("tl", "sl", "hl", "ml")
 
-#	Chytrý & Vicherek 1996, tab 16: 5-9
-load("~/Documents/vegsoup-data/chytry1996/Chytry1996.rda")
-Chytry1996 <- Chytry1996[grep("Chytry1996:Tab16", rownames(Chytry1996)), ]
-Chytry1996 <- Chytry1996[match(paste("Chytry1996:Tab16", 5:9, sep = ":"), rownames(Chytry1996)), ]
-
-#	Chytrý & Vicherek 1995, tab. 8: 2-4, 6
-load("~/Documents/vegsoup-data/chytry1995/Chytry1995.rda")
-Chytry1995 <- Chytry1995[grep("Chytry1995:Tab8", rownames(Chytry1995)), ]
-Chytry1995 <- Chytry1995[match(paste("Chytry1995:Tab8", c(2:4, 6), sep = ":"), rownames(Chytry1995)), ]
-
-#	bind data sets
-obj <- bind(obj, Chytry1995, Chytry1996)
-Layers(obj) <- c("tl", "sl", "hl", "ml")
-
-#	assign syntaxa
-obj$alliance <- "Tilio-Acerion"
-obj$association <- "Seslerio albicantis-Tilietum cordatae"
-obj$subassociation <- ""
-
-#	20.	Klika 1942, tab. 1, rel. 20 is missing
-obj$subassociation[1:19] <- "Seslerio albicantis-Tilietum cordatae -campanuletosa rapunculoides"
-
-obj$subassociation[20:30] <- "Seslerio albicantis-Tilietum cordatae -euphorbietosum cyparissiae"
-
 #	assign result object
 assign(key, obj)
 
@@ -125,3 +101,30 @@ write.verbatim(obj, file.path(path, "transcript.txt"), sep = "")
 
 rm(list = ls()[-grep(key, ls())])
 
+#	table in Chytrý & Sádlo
+if (FALSE) {
+	obj <- Chytry1997
+	
+	#	Chytrý & Vicherek 1996, tab 16: 5-9
+	load("~/Documents/vegsoup-data/chytry1996/Chytry1996.rda")
+	Chytry1996 <- Chytry1996[grep("Chytry1996:Tab16", rownames(Chytry1996)), ]
+	Chytry1996 <- Chytry1996[match(paste("Chytry1996:Tab16", 5:9, sep = ":"), rownames(Chytry1996)), ]
+	
+	#	Chytrý & Vicherek 1995, tab. 8: 2-4, 6
+	load("~/Documents/vegsoup-data/chytry1995/Chytry1995.rda")
+	Chytry1995 <- Chytry1995[grep("Chytry1995:Tab8", rownames(Chytry1995)), ]
+	Chytry1995 <- Chytry1995[match(paste("Chytry1995:Tab8", c(2:4, 6), sep = ":"), rownames(Chytry1995)), ]
+	
+	#	bind data sets
+	obj <- bind(obj, Chytry1995, Chytry1996)
+	Layers(obj) <- c("tl", "sl", "hl", "ml")
+	
+	#	assign syntaxa
+	obj$alliance <- "Tilio-Acerion"
+	obj$association <- "Seslerio albicantis-Tilietum cordatae"
+	obj$subassociation <- ""
+	
+	#	20.	Klika 1942, tab. 1, rel. 20 is missing
+	obj$subassociation[1:19] <- "Seslerio albicantis-Tilietum cordatae -campanuletosa rapunculoides"
+	obj$subassociation[20:30] <- "Seslerio albicantis-Tilietum cordatae -euphorbietosum cyparissiae"
+}
