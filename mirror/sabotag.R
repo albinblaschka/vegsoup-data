@@ -2,6 +2,9 @@ library(mapdata)
 
 source("~/Documents/vegsoup-data/mirror/mirror.R")
 
+z <- Taxonomy(X)
+z$abbr <- gsub(".", " ", z$abbr, fixed = TRUE)
+
 x <- as.data.frame(X)[c("abbr", "taxon", "family", "latitude", "longitude", "plot")]
 x$abbr <- gsub(".", " ", x$abbr, fixed = TRUE)
 
@@ -36,6 +39,9 @@ writeOGR(x2, "/Users/roli/Dropbox/sabotag/res/shp/vegsoup-data",
 write.csv2(x1, "/Users/roli/Dropbox/sabotag/res/csv/vegsoup-data/all.csv",
 	row.names = FALSE, quote = FALSE)
 write.csv2(x2, "/Users/roli/Dropbox/sabotag/res/csv/vegsoup-data/sbg.csv",
-	row.names = FALSE, quote = FALSE)	
+	row.names = FALSE, quote = FALSE)
+	
+write.csv2(z, "/Users/roli/Dropbox/sabotag/res/csv/vegsoup-data/std.csv",
+	row.names = FALSE, quote = FALSE)		
 	
 	
