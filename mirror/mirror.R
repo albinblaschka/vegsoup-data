@@ -1,15 +1,17 @@
 library(vegsoup)
+library(bibtex)
 
 path <- "~/Documents/vegsoup-data"
 
 x <- list.files(path)
 
-#	unfished data sets
+
 ii <- c(
+#	other fieles
 	"CHANGES.md",
 	"README.md",
 	"mirror",
-	
+#	unfished data sets	
 	"dirnböck1999",
 	"dunzendorfer1980",
 	"ewald2013",
@@ -26,6 +28,7 @@ ii <- c(
 	"pflugbeil2012",
 	"prebersee dta",
 	"rinnkogel dta",
+	"ruttner1994",
 	"salzkammergut lichen dta",
 	"schwarz1989",
 	"stadler1991",
@@ -33,13 +36,42 @@ ii <- c(
 	"stadler2011",
 	"surina2004",
 	"urban1992",
-	"urban2008"
+	"urban2008",
+#	non conforming coverscale
+	"berchtesgaden dta",
+#	exotic	
+	"cape hallet lichen dta",
+	"crete dta",
+	"javakheti dta",
+	"chytry1995",
+	"chytry1996",
+	"chytry1997"
 )
 
 x <- x[-match(ii, x)]
 
-file.path(path, x)
+x <- sapply(file.path(path, x), function (x) {
+	read.bib(file.path(x, "references.bib"), encoding = "UTF-8")$key[[1]]	
+})
+
+for (i in file.path(names(x), paste0(x, ".rda"))) {
+	load(i)
+}
+
+sapply(sapply(mget(x), coverscale), slot, "name")
+
+l <- sapply(mget(x), "BraunBlanquetReduce")
+sapply(sapply(l, coverscale), slot, "name")
+
+X <- do.call("bind", l)
+
+X <- Layers(X, collapse = "0l")
+
+df <- as.data.frame(X)
+
+pt <- SpatialPointsVegsoup(X)
+
+writeOGR(pt, "foo.kml", "foo", driver = "KML")
 
 
-#	unique rownames
-rownames(obj) <- paste(key, "Tab1", sprintf("%02d", as.numeric(rownames(obj))), sep = ":")
+write.csv2(X, "foo.csv")
