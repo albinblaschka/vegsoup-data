@@ -52,4 +52,4 @@ Acer pseudoplatanus                        tl2   2b
 Quercus robur                                    2a 
 Tilia cordata                                    3  
  
-longitude: 48.48537, latitude: 13.44464, cov: 95, t1cov: 40, t2cov: 60, scov: 15, hcov: 80, mcov: 1, htl1: 22, htl2: 18, hsl: 4, hhl1: 0.4, hhl2: 0.15, plsx: 16, plsy: 16, expo: FALSE, slope: 0, rock: 0, bare: 3, stones: 0, date: 2014-09-06, accuracy: 5, alliane: Alnion incanae, association: NA, soil: alluvial sand, comment: NA, location: Vorbacher Enge, Bernascheck-Insel, richness: 41
+longitude: 13.44464, latitude: 48.48537, cov: 95, t1cov: 40, t2cov: 60, scov: 15, hcov: 80, mcov: 1, htl1: 22, htl2: 18, hsl: 4, hhl1: 0.4, hhl2: 0.15, plsx: 16, plsy: 16, expo: FALSE, slope: 0, rock: 0, bare: 3, stones: 0, date: 2014-09-06, accuracy: 5, alliane: Alnion incanae, association: NA, soil: alluvial sand, comment: NA, location: Vorbacher Enge, Bernascheck-Insel, richness: 41
