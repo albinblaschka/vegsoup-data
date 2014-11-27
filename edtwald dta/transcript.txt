@@ -57,10 +57,7 @@ altitude                                555555555555555555
                                         553434333642432424
                                         920517799298355126
                                                           
-precision.vertical                        11111  111111 1 
-                                        870072397131143808
-                                                          
-precision.horizontal                          1           
+accuracy                                      1           
                                         555596055878996377
                                                           
 richness                                111111111211112211
@@ -132,7 +129,7 @@ Leucobryum glaucum                      .++1+.+.122211+.+1
 Scleropodium purum                      .+................
 Dicranum sp.                            ..1...............
 undetermined bryophyte(s)               ..2...............
-Sphagnum girgensonii                    ...12..1+21.....+.
+Sphagnum girgensohnii                   ...12..1+21.....+.
 Polytrichum commune                     ...++.+..++.+.....
 Plagiothecium laetum var. secundum      ...112.2311+131112
 Sphagnum capillifolium                  ......3..+....2...

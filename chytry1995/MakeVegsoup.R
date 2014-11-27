@@ -27,7 +27,7 @@ names(X)[ 1:2 ] <- c("taxon", "layer")
 p1 <- str_trim(unlist( x[grep("No. table in publ.", x[, 1]), -(1:2)] ))
 p2 <- str_trim(unlist( x[grep("No. releve in table", x[, 1]), -(1:2)] ))
 if (any(p2 == "")) p2[p2 == ""] <- 1
-p <- paste(paste("Tab", p1, sep = "."), p2, sep = ":")
+p <- paste(paste0("Tab", p1), p2, sep = ":")
 stopifnot(!any(duplicated(p)))
 names(X)[ -(1:2) ] <- p
 
@@ -86,7 +86,6 @@ proj4string(obj) <- CRS("+init=epsg:4326")
 
 #	assign rownames
 rownames(obj) <- paste(key, rownames(obj), sep = ":")
-rownames(obj) <- gsub("Tab.", "Tab", rownames(obj), fixed = TRUE)
 
 #	groome strata
 obj <- Layers(obj, collapse = c("hl", "s1", "ml", "t1", "hl"))
@@ -100,6 +99,7 @@ assign(key, obj)
 
 #	save to disk
 do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
-write.verbatim(obj, file.path(path, "transcript.txt"), sep = "")
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "",
+	add.lines = TRUE, table.nr = TRUE)
 
 rm(list = ls()[-grep(key, ls())])

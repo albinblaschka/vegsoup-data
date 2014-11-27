@@ -9,10 +9,9 @@ x <- read.verbatim(file, "Aufnahmenummer")
 
 file <- "~/Documents/vegsoup-data/isda1986/Isda1986Tab1TableFooter.txt"
 x <- read.verbatim.append(x, file, "plots", abundance = TRUE)
-
 x.df <- data.frame(abbr = rownames(x), layer = "hl", taxon = NA, x,
 	check.names = FALSE)
-X <- stackSpecies(x.df)
+X <- stackSpecies(x.df)[, 1:4]
 
 Y <- read.delim("~/Documents/vegsoup-data/isda1986/Isda1986Tab1Locations.txt",
 	header = FALSE, colClasses = "character")

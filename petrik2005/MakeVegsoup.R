@@ -18,7 +18,8 @@ x.df <- data.frame(abbr = rownames(x),
 			layer = "hl",
 			taxon = NA, x,
 			check.names = FALSE)
-X <- stackSpecies(x.df)
+X <- stackSpecies(x.df)[, 1:4]
+
 # groome abundance scale codes to fit the standard
 # of the extended Braun-Blanquet scale used in the original publication
 X$cov <- gsub("m", "2m", X$cov)
@@ -42,6 +43,9 @@ obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 names(obj)[1:9] <- c("pls", "expo", "slope", "elevation",
 	"hcov", "mcov", "cov", "bedrock", "date")
 obj$alliance <- "Oxytropido carpaticae-Elynetum"		
+
+#	unique rownames
+rownames(obj) <- paste(key, "Tab1", sprintf("%02d", as.numeric(rownames(obj))), sep = ":")
 
 #	assign result object
 assign(key, obj)

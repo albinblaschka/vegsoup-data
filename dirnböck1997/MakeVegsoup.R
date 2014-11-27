@@ -10,7 +10,7 @@ x <- read.verbatim(file, "Aufnahmenummer")
 x <- data.frame(abbr = rownames(x),
 	layer = "hl", x, check.names = FALSE)
 # promote to class "Species"
-X <- stackSpecies(x)
+X <- stackSpecies(x)[, 1:4]
 
 file <- "~/Documents/vegsoup-data/dirnböck1997/Dirnböck1997Tab3Locations.csv"
 Y <- stackSites(file = file, sep = ";", schema = "Aufahmenummer")
@@ -35,14 +35,8 @@ obj$richness <- richness(obj, "sample")
 
 #	save to disk
 do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
-write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "",
+	add.lines = TRUE, table.nr = TRUE)
 
-if (FALSE) {
-	decostand(obj) <- "pa"
-	vegdist(obj) <- "bray"
-	write.verbatim(seriation(obj), file.path(path, "seriation.txt"),
-	sep = "", add.lines = TRUE)
-	KML(obj)
-}
 #	tidy up
 rm(list = ls()[-grep(key, ls())])

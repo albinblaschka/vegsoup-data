@@ -6,8 +6,7 @@ key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
 file <- file.path(path, "species wide.csv")
 #	promote to class "Species"
-X <- stackSpecies(file = file, sep = ";")
-X <- X[, 1:4]
+X <- stackSpecies(file = file, sep = ";")[, 1:4]
 
 file <- file.path(path, "sites wide.csv")
 #	promote to class "Sites"
@@ -30,7 +29,8 @@ obj$richness <- richness(obj, "sample")
 do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
 
 coverscale(obj) <- "domin"
-write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "",
+	add.lines = TRUE, table.nr = TRUE)
 
 #	tidy up
 rm(list = ls()[-grep(key, ls())])

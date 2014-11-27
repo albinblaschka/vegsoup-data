@@ -1,27 +1,6 @@
 BEGIN HEAD
-plot                                                   DDDDDDDDDDDDDDDDDD
-                                                       iiiiiiiiiiiiiiiiii
-                                                       rrrrrrrrrrrrrrrrrr
-                                                       nnnnnnnnnnnnnnnnnn
-                                                       bbbbbbbbbbbbbbbbbb
-                                                       oooooooooooooooooo
-                                                       eeeeeeeeeeeeeeeeee
-                                                       cccccccccccccccccc
-                                                       kkkkkkkkkkkkkkkkkk
-                                                       111111111111111111
-                                                       999999999999999999
-                                                       999999999999999999
-                                                       777777777777777777
-                                                       ::::::::::::::::::
-                                                       TTTTTTTTTTTTTTTTTT
-                                                       aaaaaaaaaaaaaaaaaa
-                                                       bbbbbbbbbbbbbbbbbb
-                                                       333333333333333333
-                                                       ::::::::::::::::::
-                                                       222222222222222222
-                                                       222222222122111111
-                                                       010031122122343001
-                                                       332807912436956865
+plot                                                   000000000111111111
+                                                       123456789012345678
 Höhe                                                   111111111111111111
                                                        797786888999888888
                                                        414598628014813783

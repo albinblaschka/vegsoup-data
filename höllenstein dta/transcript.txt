@@ -201,7 +201,7 @@ Polytrichum commune                                  ..+.+..+..
 Rhizomnium punctatum                                 ..+....+..
 Rhytidiadelphus loreus                               ..21.r.1..
 Rhytidiadelphus triquetrus                           ..132..2..
-Sphagnum girgensonii                                 ..++3..2..
+Sphagnum girgensohnii                                ..++3..2..
 undetermined bryophyte(s)                            ..1++..+..
 Cetraria islandica ssp. islandica                    ...r......
 Calliergonella cuspidata                             ......2.3.

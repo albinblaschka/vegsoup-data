@@ -25,9 +25,11 @@ names(X)[ 1:2 ] <- c("taxon", "layer")
 
 #	relevee names
 p1 <- str_trim(unlist( x[grep("No. table in publ.", x[, 1]), -(1:2)] ))
+p1 <- gsub("[[:punct:]]", "", p1)
 p2 <- str_trim(unlist( x[grep("No. releve in table", x[, 1]), -(1:2)] ))
 if (any(p2 == "")) p2[p2 == ""] <- 1
-p <- paste(paste("Tab", p1, sep = "."), p2, sep = ":")
+p <- paste(paste0("Tab", p1), p2, sep = ":")
+p <- gsub("Tabp", "p", p)
 stopifnot(!any(duplicated(p)))
 names(X)[ -(1:2) ] <- p
 
@@ -84,9 +86,8 @@ obj$Latitude <- xy[, 2]
 coordinates(obj) <- ~Longitude+Latitude
 proj4string(obj) <- CRS("+init=epsg:4326")
 
-#	assign rownames and groome data structure
+#	assign rownames
 rownames(obj) <- paste(key, rownames(obj), sep = ":")
-rownames(obj) <- gsub("Tab.", "Tab", rownames(obj), fixed = TRUE)
 
 obj <- Layers(obj, collapse = c("hl", "tl", "sl", "ml", "hl"))
 Layers(obj) <- c("tl", "sl", "hl", "ml")
@@ -97,6 +98,7 @@ assign(key, obj)
 
 #	save to disk
 do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
-write.verbatim(obj, file.path(path, "transcript.txt"), sep = "")
+write.verbatim(obj, file.path(path, "transcript.txt"), sep = "",
+	add.lines = TRUE, table.nr = TRUE)
 
 rm(list = ls()[-grep(key, ls())])

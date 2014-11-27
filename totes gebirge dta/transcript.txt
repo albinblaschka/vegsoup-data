@@ -1,4 +1,4 @@
- BEGIN HEAD
+BEGIN HEAD
 plot                                                   ttttttttttttttt
                                                        ggggggggggggggg
                                                        000000000111111
