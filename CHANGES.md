@@ -1,9 +1,15 @@
-Abbreviaton clash
-=================
+CSV schema
+==========
+
+Github offer nice CSV rendering, however, only for comma separated files. Up to now everything is semi-colon separated. This may change?
+
+
+Abbreviatons
+============
 
 Lichens
---------
-rename `clad rang` (*Cladonia rangiferina*) to `clad rang rina` beacause of addition of *Cladonia rangiformis* with abbreviation `clad rang rmis`
+-------
+rename `clad rang` (*Cladonia rangiferina*) to `clad rang rina` because of addition of *Cladonia rangiformis* with abbreviation `clad rang rmis`
 
 > ./windsfeld dta  
 > ./hauser kaibling dta  
