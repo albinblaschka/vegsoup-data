@@ -36,16 +36,11 @@ ii <- c(
 	"stadler2011",
 	"surina2004",
 	"urban1992",
-	"urban2008",
-#	non conforming coverscale
-	"berchtesgaden dta",
+	"urban2008"
 #	exotic	
-	"cape hallet lichen dta",
-	"crete dta",
-	"javakheti dta",
-	"chytry1995",
-	"chytry1996",
-	"chytry1997"
+#	"cape hallet lichen dta",
+#	"crete dta",
+#	"javakheti dta"
 )
 
 x <- x[-match(ii, x)]
@@ -60,12 +55,13 @@ for (i in file.path(names(x), paste0(x, ".rda"))) {
 
 sapply(sapply(mget(x), coverscale), slot, "name")
 
-l <- sapply(mget(x), "BraunBlanquetReduce")
-sapply(sapply(l, coverscale), slot, "name")
+l <- sapply(mget(x), compress)
+
+sapply(l, is.occurence)
 
 X <- do.call("bind", l)
 
-X <- Layers(X, collapse = "0l")
+
 
 df <- as.data.frame(X)
 
