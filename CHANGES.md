@@ -1,15 +1,24 @@
 CSV schema
 ==========
 
-Github offer nice CSV rendering, however, only for comma separated files. Up to now everything is semi-colon separated. This may change?
+Github offers nice CSV rendering, however, only for comma separated files. Up to now everything is separated with semi-colons. This may change?
+
 
 Interpreted taxa from literature
 ================================
+
+Vascular plants
+---------------
 
 Pre 2000 determinations of Nigritella nigra are likely to belong to N. rhelicanii (P. Pilsl)
 
 > ./isda1989
 > ./erschbamer1992
+
+A single observation of Medicago minima belongs to M. lupulina (P. Pilsl)
+
+> ./eckkrammer2003
+
 
 Abbreviatons
 ============
