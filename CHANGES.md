@@ -3,6 +3,13 @@ CSV schema
 
 Github offer nice CSV rendering, however, only for comma separated files. Up to now everything is semi-colon separated. This may change?
 
+Interpreted taxa from literature
+================================
+
+Pre 2000 determinations of Nigritella nigra are likely to belong to N. rhelicanii (P. Pilsl)
+
+> ./isda1989
+> ./erschbamer1992
 
 Abbreviatons
 ============
