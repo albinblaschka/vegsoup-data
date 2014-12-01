@@ -1,5 +1,5 @@
 library(vegsoup)
-library(bibtex)
+library(RefManageR)
 
 path <- "~/Documents/vegsoup-data"
 
@@ -18,7 +18,6 @@ ii <- c(
 	"grims1982",
 	"hohewand fence dta",
 	"hohewand transect dta",
-	"ibmermoos dta",
 	"jakubowsky1996",
 	"monte negro dta",
 	"nußbaumer2000",
@@ -45,15 +44,27 @@ ii <- c(
 x <- x[-match(ii, x)]
 
 x <- sapply(file.path(path, x), function (x) {
-	read.bib(file.path(x, "references.bib"), encoding = "UTF-8")$key[[1]]	
-})
+	ReadBib(file.path(x, "references.bib"))	
+}, simplify = FALSE)
 
-for (i in file.path(names(x), paste0(x, ".rda"))) {
-	load(i)
+f <- names(x)
+k <- sapply(x, function (x) x[[1]]$key)
+a <- sapply(x, function (x) x[[1]]$author)
+a <- sapply(a, function (x) {
+	l <- length(x)
+	if (l > 1)
+		paste(paste(x[1:l - 1], collapse = ", "), x[l], sep = " & ")
+	else
+		as.character(x)})
+
+for (i in seq_along(f)) {
+	load(file.path(f[i], paste0(k[i], ".rda")))
+	ii <- get(k[i])
+	ii$author = a[i]
+	assign(k[i], ii)
 }
 
-sapply(sapply(mget(x), coverscale), slot, "name")
-l <- sapply(mget(x), compress)
+sapply(sapply(mget(k), coverscale), slot, "name")
+l <- sapply(mget(k), function (x) compress(x, retain = c("author", "accuracy")))
 
 X <- do.call("bind", l)
-
