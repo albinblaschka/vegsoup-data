@@ -49,6 +49,7 @@ x <- sapply(file.path(path, x), function (x) {
 
 f <- names(x)
 k <- sapply(x, function (x) x[[1]]$key)
+n <- sapply(x, function (x) x[[1]]$title)
 a <- sapply(x, function (x) x[[1]]$author)
 a <- sapply(a, function (x) {
 	l <- length(x)
@@ -60,11 +61,13 @@ a <- sapply(a, function (x) {
 for (i in seq_along(f)) {
 	load(file.path(f[i], paste0(k[i], ".rda")))
 	ii <- get(k[i])
+	ii$key = k[i]
 	ii$author = a[i]
+	ii$title = n[i]
 	assign(k[i], ii)
 }
 
 sapply(sapply(mget(k), coverscale), slot, "name")
-l <- sapply(mget(k), function (x) compress(x, retain = c("author", "accuracy")))
+l <- sapply(mget(k), function (x) compress(x, retain = c("author", "title", "accuracy")))
 
 X <- do.call("bind", l)
