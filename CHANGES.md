@@ -3,6 +3,8 @@ CSV schema
 
 Github offers nice CSV rendering, however, only for comma separated files. Up to now everything is separated with semi-colons. This may change?
 
+`./oberndorf dta` is the first data that has file `species.csv` seperated with comma.
+
 
 Interpreted taxa from literature
 ================================
