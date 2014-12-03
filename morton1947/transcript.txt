@@ -43,7 +43,7 @@ altitude                                           1
 precision.vertical                               555555
                                                  000000
                                                        
-precision.horizontal                             222222
+accuracy                                         222222
                                                  000000
                                                  000000
                                                        

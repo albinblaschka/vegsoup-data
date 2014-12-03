@@ -1,4 +1,4 @@
-"plot";"cov";"t1cov";"t2cov";"scov";"hcov";"mcov";"bare";"stones";"rock";"htl1";"htl2";"hsl";"hhl1";"hhl2";"plsx";"plsy";"expo";"slope";"date";"soil";"comment";"altitude";"longitude";"latitude";"horizontal.precision";"vertical.precision"
+"plot";"cov";"t1cov";"t2cov";"scov";"hcov";"mcov";"bare";"stones";"rock";"htl1";"htl2";"hsl";"hhl1";"hhl2";"plsx";"plsy";"expo";"slope";"date";"soil";"comment";"altitude";"longitude";"latitude";"accuracy";"vertical.precision"
 "el01";50;0;0;0;50;0;20;30;0;0;0;0;0,5;0,1;2;8;"S";5;"2011-11-06";"kiesiger Sand";;345;"13.900509E";"48.083153N";5;10
 "el02";96;92;10;35;90;5;4;0;0;22;12;4;0,5;0,05;16;16;"F";0;"2011-11-06";"grauer Auenboden";;345;"13.899124E";"48.084197N";5;10
 "el03";96;60;20;80;80;5;4;0;0;23;12;4;0,5;0,1;16;16;"F";0;"2011-11-06";"grauer Auenboden";;345;"13.899005E";"48.084108N";5;10

@@ -41,6 +41,9 @@ plsy                                    555555
 slope                                       1 
                                         305503
                                               
+accuracy                                111111
+                                        000000
+                                              
 richness                                312313
                                         582983
                                               

@@ -33,4 +33,4 @@ Sphagnum magellanicum                              1
 undetermined bryophyte(s)                          +  
 Picea abies                                  sl    +  
  
-longitude: 13.52611, latitude: 47.91597, cov: 97, tcov: 0, scov: 0, hcov: 95, mcov: 35, rock: 0, bare: 0, debris: 0, htl: 0, hsl: 0, hhl1: 0,45, hhl2: 0,3, expo: S, slope: 35, plsx: 4, plsy: 4, date: 2012-08-16, altitude: 9999, location: Attersee, reintahller Moos, alliance: Caricion davallianae, syntaxon: Junco obtusiflori-Schoenetum nigricantis Allorge 1921, comment: Ausbildung mit Torfmoosen, author: R. Kaiser, richness: 32
+longitude: 13.52611, latitude: 47.91597, cov: 97, tcov: 0, scov: 0, hcov: 95, mcov: 35, rock: 0, bare: 0, debris: 0, htl: 0, hsl: 0, hhl1: 0,45, hhl2: 0,3, expo: S, slope: 35, plsx: 4, plsy: 4, date: 2012-08-16, accuracy: 5, location: Attersee, reintahller Moos, alliance: Caricion davallianae, syntaxon: Junco obtusiflori-Schoenetum nigricantis Allorge 1921, comment: Ausbildung mit Torfmoosen, observer: R. Kaiser, richness: 32

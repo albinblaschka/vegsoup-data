@@ -29,7 +29,7 @@ plsx                                              8888888
                                                          
 plsy                                              8888888
                                                          
-precision.horizontal                              1112222
+accuracy                                          1112222
                                                   0000000
                                                          
 precision.vertical                                   1111

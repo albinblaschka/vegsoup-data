@@ -27,6 +27,8 @@ obj <- Layers(obj, collapse = c("sl", "hl", "ml", "ml"))
 #	unique rownames
 rownames(obj) <- paste(key, "Tab1-5", gsub("ga", "", rownames(obj)), sep = ":")
 
+obj$accuracy <- 10
+
 #	assign result object
 assign(key, obj)
 

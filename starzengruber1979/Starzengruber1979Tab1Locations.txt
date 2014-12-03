@@ -1,4 +1,4 @@
-plot	date	location	syntaxon	longitude	latitude	precision
+plot	date	location	syntaxon	longitude	latitude	accuracy
 1	1977-07-13	Steinberg, Schottergrube/Rainbach	Myrtillo-Pinetum	13.5E	48.5N	15000
 2	1977-01-01	Ringlholz Oberzeilberg auf Hügelkuppe neben Schottergrube/Esternberg	Myrtillo-Pinetum	13.5E	48.5N	15000
 3	1979-01-01	Ringlholz Oberzeilberg/Esternberg	Myrtillo-Pinetum	13.5E	48.5N	15000

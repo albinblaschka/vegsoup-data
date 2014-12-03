@@ -18,7 +18,7 @@ rm01;plsy;4
 rm01;date;2012-08-16
 rm01;longitude;13.526112E
 rm01;latitude;47.915968N
-rm01;altitude;9999
+rm01;accuracy;5
 rm01;location;Attersee, reintahller Moos
 rm01;alliance;Caricion davallianae
 rm01;syntaxon;Junco obtusiflori-Schoenetum nigricantis Allorge 1921

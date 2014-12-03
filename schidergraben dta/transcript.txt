@@ -37,7 +37,7 @@ plsy                                       11
                                              
 slope                                      00
                                              
-horizontal.precision                       22
+accuracy                                   22
                                            00
                                              
 richness                                   45

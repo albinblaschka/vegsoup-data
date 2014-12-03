@@ -49,7 +49,7 @@ hhl2                                          000000000
                                               .........
                                               222222222
                                                        
-horizontal.precision                          111111111
+accuracy                                      111111111
                                               000000000
                                                        
 richness                                      441222323

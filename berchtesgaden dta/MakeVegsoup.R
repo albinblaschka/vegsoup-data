@@ -24,13 +24,19 @@ obj <- Vegsoup(XZ, Y, coverscale = "domin")
 #	add coordinates from polygon
 pg <- readOGR("/Users/roli/Documents/vegsoup-data/berchtesgaden dta/",
 	"sites", stringsAsFactors = FALSE)
+pg0 <- spTransform(pg, CRS("+init=epsg:3857"))
+#	calculate accuracy
+pt <- sapply(sapply(pg0@polygons, function (x) slot(x, "Polygons")), slot, "coords")
+pg$accuracy <- round(sapply(pt, function (x) max(dist(x))), 0)
+	
 r <- rep(1:nrow(pg), each = 10)
-pt <- coordinates(pg)[r, ]
+pt <- cbind(coordinates(pg)[r, ], pg$accuracy)
 plots <-  paste(pg$SITE[r], sprintf("%02d", 1:10), sep = "-")
 pt <- pt[match(rownames(obj), plots), ]
 
 obj$longitude <- pt[, 1]
 obj$latitude <-  pt[, 2]
+obj$accuracy <- pt[, 3]
 	
 coordinates(obj) <- ~longitude+latitude
 proj4string(obj) <- CRS("+init=epsg:4326")
@@ -41,6 +47,7 @@ obj$plsy <- 2
 #	order layer
 Layers(obj)	 <- c("sl", "hl")
 
+names(obj)
 #	assign result object
 assign(key, obj)
 

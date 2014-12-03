@@ -24,6 +24,9 @@ obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 coordinates(obj) <- ~Längengrad+Breitengrad
 proj4string(obj) <- CRS("+init=epsg:4326")
 
+#	accuracy
+names(obj)[grep("Unschärfe", names(obj))] <- "accuracy"
+
 #	unique rownames
 rownames(obj) <- paste(key, "Tab3", sprintf("%04d", as.numeric(rownames(obj))), sep = ":")
 

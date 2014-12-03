@@ -25,7 +25,7 @@ plsx                                       44
                                              
 plsy                                       44
                                              
-precision.horizontal                        2
+accuracy                                    2
                                            80
                                              
 altitude                                   11

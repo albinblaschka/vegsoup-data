@@ -20,6 +20,7 @@ Y <- read.delim("~/Documents/vegsoup-data/strauch1992/Strauch1992Tab2Locations.t
 names(Y) <- c("plot", "location", "tms")
 
 Y <- data.frame(Y, t(sapply(Y[,3], str2latlng, USE.NAMES = FALSE)))
+names(Y)[grep("precision", names(Y))] <- "accuracy"
 Y <- stackSites(Y[, -grep("tms", names(Y))])
 
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"

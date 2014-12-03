@@ -20,7 +20,7 @@ Morton1950:10/49;soil;
 Morton1950:10/49;date;12.10.1949
 Morton1950:10/49;altitude;1260
 Morton1950:10/49;precision.vertical;50
-Morton1950:10/49;precision.horizontal;200
+Morton1950:10/49;accuracy;200
 Morton1950:10/49;longitude;13,66815
 Morton1950:10/49;latitude;47,66454
 Morton1950:10/49;comment;J. Pilz
@@ -46,7 +46,7 @@ Morton1950:1322;soil;
 Morton1950:1322;date;08.08.1949
 Morton1950:1322;altitude;1100
 Morton1950:1322;precision.vertical;50
-Morton1950:1322;precision.horizontal;200
+Morton1950:1322;accuracy;200
 Morton1950:1322;longitude;13,952251
 Morton1950:1322;latitude;47,494291
 Morton1950:1322;comment;Nr. 1322
@@ -72,7 +72,7 @@ Morton1950:1323;soil;
 Morton1950:1323;date;22.08.1949
 Morton1950:1323;altitude;820
 Morton1950:1323;precision.vertical;50
-Morton1950:1323;precision.horizontal;200
+Morton1950:1323;accuracy;200
 Morton1950:1323;longitude;14,057188
 Morton1950:1323;latitude;47,5283
 Morton1950:1323;comment;Nr. 1323
@@ -98,7 +98,7 @@ Morton1950:1324;soil;
 Morton1950:1324;date;22.08.1949
 Morton1950:1324;altitude;840
 Morton1950:1324;precision.vertical;50
-Morton1950:1324;precision.horizontal;200
+Morton1950:1324;accuracy;200
 Morton1950:1324;longitude;14,057189
 Morton1950:1324;latitude;47,52839
 Morton1950:1324;comment;Nr. 1324
@@ -124,7 +124,7 @@ Morton1950:1327;soil;
 Morton1950:1327;date;22.08.1949
 Morton1950:1327;altitude;1000
 Morton1950:1327;precision.vertical;50
-Morton1950:1327;precision.horizontal;200
+Morton1950:1327;accuracy;200
 Morton1950:1327;longitude;14,056369
 Morton1950:1327;latitude;47,527721
 Morton1950:1327;comment;Nr. 1327
@@ -150,7 +150,7 @@ Morton1950:1328;soil;
 Morton1950:1328;date;22.08.1949
 Morton1950:1328;altitude;840
 Morton1950:1328;precision.vertical;50
-Morton1950:1328;precision.horizontal;200
+Morton1950:1328;accuracy;200
 Morton1950:1328;longitude;14,057188
 Morton1950:1328;latitude;47,5283
 Morton1950:1328;comment;Nr. 1328
@@ -176,7 +176,7 @@ Morton1950:1330;soil;
 Morton1950:1330;date;27.08.1949
 Morton1950:1330;altitude;1360
 Morton1950:1330;precision.vertical;50
-Morton1950:1330;precision.horizontal;200
+Morton1950:1330;accuracy;200
 Morton1950:1330;longitude;13,69882
 Morton1950:1330;latitude;47,64837
 Morton1950:1330;comment;Nr. 1330
@@ -202,7 +202,7 @@ Morton1950:1344;soil;
 Morton1950:1344;date;05.09.1949
 Morton1950:1344;altitude;1100
 Morton1950:1344;precision.vertical;50
-Morton1950:1344;precision.horizontal;200
+Morton1950:1344;accuracy;200
 Morton1950:1344;longitude;14,065879
 Morton1950:1344;latitude;47,538026
 Morton1950:1344;comment;Nr. 1344
@@ -228,7 +228,7 @@ Morton1950:1344a;soil;
 Morton1950:1344a;date;22.09.1949
 Morton1950:1344a;altitude;1100
 Morton1950:1344a;precision.vertical;50
-Morton1950:1344a;precision.horizontal;200
+Morton1950:1344a;accuracy;200
 Morton1950:1344a;longitude;14,06593
 Morton1950:1344a;latitude;47,537963
 Morton1950:1344a;comment;Nr. 1344a
@@ -254,7 +254,7 @@ Morton1950:1345;soil;
 Morton1950:1345;date;22.09.1949
 Morton1950:1345;altitude;1100
 Morton1950:1345;precision.vertical;50
-Morton1950:1345;precision.horizontal;200
+Morton1950:1345;accuracy;200
 Morton1950:1345;longitude;14,064903
 Morton1950:1345;latitude;47,538608
 Morton1950:1345;comment;Nr. 1345
@@ -280,7 +280,7 @@ Morton1950:2/49;soil;
 Morton1950:2/49;date;17.06.1949
 Morton1950:2/49;altitude;1400
 Morton1950:2/49;precision.vertical;50
-Morton1950:2/49;precision.horizontal;200
+Morton1950:2/49;accuracy;200
 Morton1950:2/49;longitude;13,74431
 Morton1950:2/49;latitude;47,56223
 Morton1950:2/49;comment;Nr. I (J. Pilz)
@@ -306,7 +306,7 @@ Morton1950:5/56;soil;
 Morton1950:5/56;date;03.07.1949
 Morton1950:5/56;altitude;1350
 Morton1950:5/56;precision.vertical;50
-Morton1950:5/56;precision.horizontal;200
+Morton1950:5/56;accuracy;200
 Morton1950:5/56;longitude;13,70459
 Morton1950:5/56;latitude;47,67392
 Morton1950:5/56;comment;Nr. I (J. Pilz)
@@ -332,7 +332,7 @@ Morton1950:6/46;soil;
 Morton1950:6/46;date;03.07.1949
 Morton1950:6/46;altitude;1350
 Morton1950:6/46;precision.vertical;50
-Morton1950:6/46;precision.horizontal;200
+Morton1950:6/46;accuracy;200
 Morton1950:6/46;longitude;13,70634
 Morton1950:6/46;latitude;47,67405
 Morton1950:6/46;comment;Nr. II (J. Pilz)
@@ -358,7 +358,7 @@ Morton1950:9/49;soil;
 Morton1950:9/49;date;12.10.1949
 Morton1950:9/49;altitude;1310
 Morton1950:9/49;precision.vertical;50
-Morton1950:9/49;precision.horizontal;200
+Morton1950:9/49;accuracy;200
 Morton1950:9/49;longitude;13,53196
 Morton1950:9/49;latitude;47,60505
 Morton1950:9/49;comment;J. Pilz

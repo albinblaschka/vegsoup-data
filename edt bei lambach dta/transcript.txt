@@ -59,7 +59,7 @@ altitude                                      33333339
                                               44444449
                                               55555559
                                                       
-horizontal.precision                                 2
+accuracy                                             2
                                               55555550
                                                       
 vertical.precision                                   9

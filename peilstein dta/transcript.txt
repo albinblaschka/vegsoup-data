@@ -40,6 +40,9 @@ altitude                           66
                                    67
                                    84
                                      
+accuracy                           11
+                                   00
+                                     
 richness                           12
                                    54
                                      

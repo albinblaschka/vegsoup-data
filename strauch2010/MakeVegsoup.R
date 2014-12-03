@@ -14,6 +14,7 @@ file <- file.path(path, "Strauch2010SupplementTabT16-19-20-21Locations.csv")
 df <- read.delim(file, header = TRUE, colClasses = "character")
 	
 df <- data.frame(df, t(sapply(df[,4], str2latlng, USE.NAMES = FALSE)))
+names(df)[grep("precision", names(df))] <- "accuracy"
 
 df$slope <- round(unlist(lapply(strsplit(as.character(df$slope.str), "-", fixed = TRUE),
 	function (x) mean(as.numeric(as.character(x))))), 0)

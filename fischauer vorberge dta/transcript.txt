@@ -24,4 +24,4 @@ Seseli austriacum                    1
 Sesleria caerulea s.str.             +  
 Pinus nigra ssp. nigra         tl    3  
  
-longitude: 16.10138, latitude: 47.81845, precision: 20, cov: 80, hcov: 80, tcov: 50, htl: 5, mcov: 1, hhl2: 0,05, hhl1: 0,3, location: Fischauer Vorberge, Burgruine Emmerberg, date: 30.05.2011, syntaxon: Seselietum austriaci, rupi: yes, location.verbose: on top of old limestopne wall, richness: 24
+longitude: 16.10138, latitude: 47.81845, accuracy: 20, cov: 80, hcov: 80, tcov: 50, htl: 5, mcov: 1, hhl2: 0,05, hhl1: 0,3, location: Fischauer Vorberge, Burgruine Emmerberg, date: 30.05.2011, syntaxon: Seselietum austriaci, rupi: yes, location.verbose: on top of old limestopne wall, richness: 24
