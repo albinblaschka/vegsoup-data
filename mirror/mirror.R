@@ -21,10 +21,8 @@ ii <- c(
 	"jakubowsky1996",
 	"monte negro dta",
 	"nußbaumer2000",
-	"oberndorf dta",
 	"pflugbeil2012",
 	"prebersee dta",
-	"rinnkogel dta",
 	"ruttner1994",
 	"schwarz1989",
 	"stadler1991",
@@ -43,6 +41,9 @@ ii <- c(
 
 x <- x[-match(ii, x)]
 
+#	update
+#	sapply(file.path(path, x, "MakeVegsoup.R"), source)
+	
 x <- sapply(file.path(path, x), function (x) {
 	ReadBib(file.path(x, "references.bib"))	
 }, simplify = FALSE)
@@ -68,6 +69,11 @@ for (i in seq_along(f)) {
 }
 
 sapply(sapply(mget(k), coverscale), slot, "name")
-l <- sapply(mget(k), function (x) compress(x, retain = c("author", "title", "accuracy")))
+l <- sapply(mget(k), function (x) compress(x, retain = c("author", "title", "accuracy", "observer")))
 
 X <- do.call("bind", l)
+
+#	test sites consitency
+#test <- X$accuracy
+#write.csv2(cbind(plot = rownames(X), test)[is.na(test), ],
+#	"foo.csv", quote = FALSE, row.names = FALSE)
