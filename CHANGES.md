@@ -12,21 +12,33 @@ Interpreted taxa from literature
 Vascular plants
 ---------------
 
-Pre 2000 determinations of Nigritella nigra are likely to belong to N. rhelicanii (P. Pilsl)
+Pre 2000 determinations of *Nigritella nigra* for Salzburg (Austria) are likely to belong to *N. rhelicanii* (P. Pilsl)
 
 > ./isda1989
 > ./erschbamer1992
 
-A single observation of Medicago minima belongs to M. lupulina (P. Pilsl)
+A single observation of *Medicago minima* belongs to *M. lupulina* (P. Pilsl)
 
 > ./eckkrammer2003
 
 
-Abbreviatons
-============
+Abbreviations
+=============
+
+Vascular plants
+---------------
+
+replace `fest rubr` with `fest rubr slat` and delete from reference list
+
+> ./eckkrammer2003
+> ./hohewand dta
+> ./schleißheim dta
+> ./windsfeld dta
+
 
 Lichens
 -------
+
 rename `clad rang` (*Cladonia rangiferina*) to `clad rang rina` because of addition of *Cladonia rangiformis* with abbreviation `clad rang rmis`
 
 > ./windsfeld dta  
