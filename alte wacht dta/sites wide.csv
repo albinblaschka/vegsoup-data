@@ -1,4 +1,4 @@
-plot;cov;t1cov;t2cov;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;latitude;longitude;accuracy;date;location;alliance;rope;comment;author;soil
+plot;cov;t1cov;t2cov;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;latitude;longitude;accuracy;date;location;alliance;rope;comment;observer;soil
 aw01;40;0;0;1;40;1;0;0;1,5;0,2;0,1;8;8;S;50;46;2;1;47.297483N;13.209362E;20;2011-07-30;Alte Wacht (Steglehen);Seslerion caeruleae;rope betray (aw01-03'): 47.297680E, 13.209360E, rope range (aw01-03'' 100m): 47.29723E, 13.209340E;;R. Kaiser;Rendzina
 aw02;75;0;0;3;75;1;0;0;2;0,5;0,1;8;8;S;70;22;2;1;47.297465N;13.209480E;20;2011-07-30;Alte Wacht (Steglehen);Berberidion;rope betray (aw01-03'): 47.297680E, 13.209360E, rope range (aw01-03'' 100m): 47.29723E, 13.209340E;;R. Kaiser;Rendzina
 aw03;75;0;0;3;70;1;0;0;2;0,5;0,1;8;8;S;70;20;2;2;47.297303N;13.209332E;20;2011-07-30;Alte Wacht (Steglehen);Seslerion caeruleae;rope betray (aw01-03'): 47.297680E, 13.209360E, rope range (aw01-03'' 100m): 47.29723E, 13.209340E;;R. Kaiser;Rendzina

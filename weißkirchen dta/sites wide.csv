@@ -1,4 +1,4 @@
-plot;cov;t1cov;t2cov;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;date;soil;longitude;latitude;accuracy;elevation;alliance;author
+plot;cov;t1cov;t2cov;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;date;soil;longitude;latitude;accuracy;elevation;alliance;observer
 wk01a;98;95;0;3;95;10;7;0;4;1,5;0,5;15;15;F;0;2010-06-11;;14.115485E;48.173083N;10;342;Salicion albae;R. Kaiser & T. Eberl
 wk01b;98;95;0;5;95;15;10;0;5;1,5;0,5;15;15;F;0;2010-06-11;;14.115622E;48.172817N;10;351;Salicion albae;R. Kaiser & T. Eberl
 wk01c;97;95;0;8;90;10;9;0;4;1,5;0,5;20;10;F;0;2010-06-11;;14.116038E;48.172503N;10;353;Salicion albae;R. Kaiser & T. Eberl

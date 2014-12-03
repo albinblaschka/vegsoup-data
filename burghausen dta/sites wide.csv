@@ -1,4 +1,4 @@
-plot;bare;cov;date;expo;hcov;hhl1;hhl2;hsl;htl1;htl2;location;mcov;plsx;plsy;rock;rock.type;scov;slope;soil;t1cov;t2cov;latitude;longitude;description;location;author
+plot;bare;cov;date;expo;hcov;hhl1;hhl2;hsl;htl1;htl2;location;mcov;plsx;plsy;rock;rock.type;scov;slope;soil;t1cov;t2cov;latitude;longitude;description;location;observer
 bh01;2;90;2009-05-07;W;85;0,3;0,6;3;30;12;Duttendorf;15;20;15;2;Konglomerat;8;35;Braunerde;75;15;48.167652N;12.849443E;Konglomeratabbruch;Duttendorf;R. Kaiser & T. Eberl
 bh02;0;80;2009-05-07;W;70;0,2;0,5;0;0;0;Duttendorf;20;0,5;3;0;Konglomerat;0;35;missing;0;0;48.167604N;12.849125E;Konglomeratabbruch;Duttendorf;R. Kaiser & T. Eberl
 bh03;0;50;2009-05-07;S;25;0,2;0,3;0;0;0;Duttendorf;25;1,5;3;0;Konglomerat;0;45;missing;0;0;48.160431N;12.836996E;Konglomeratabbruch;Duttendorf;R. Kaiser & T. Eberl

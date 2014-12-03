@@ -1,4 +1,4 @@
-plot;cov;tcov1;tcov2;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;stones;bare;soil;location;date;altitude;accuracy;longitude;latitude;comment;description;alliance;author
+plot;cov;tcov1;tcov2;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;stones;bare;soil;location;date;altitude;accuracy;longitude;latitude;comment;description;alliance;observer
 gk01;96;0;0;0;90;10;0;0;0;0,15;0,04;4;4;S;15;0;0;4;;Gernkogel;2012-09-11;2019;5;12.194433E;47.264312N;;;Loiseleurio-Vaccinion;R. Kaiser
 gk02;99;0;0;0;95;10;0;0;0;0,15;0,03;4;4;NE;15;0;0;1;;Gernkogel;2012-09-11;2075;7;12.192193E;47.264321N;;Kalk-Gämsheidespalier an Windgasse, Hangrutschung;Caricion firmae;R. Kaiser
 gk03;65;0;0;0;60;7;0;0;0;0,1;0,03;4;4;SE;5;0;20;15;;Gernkogel;2012-09-11;2132;9;12.192611E;47.265704N;;;Loiseleurio-Vaccinion;R. Kaiser

@@ -1,4 +1,4 @@
-plot;cov;t1cov;t2cov;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;date;comment;soil;location;latitude;longitude;accuracy;elevation;soil;alliance;alliance.author;author;rope
+plot;cov;t1cov;t2cov;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;date;comment;soil;location;latitude;longitude;accuracy;elevation;soil;alliance;alliance.author;observer;rope
 ws01;80;0;0;0;80;5;0;0;0;0,5;0,15;2;2;SW;40;20;5;0;2009-04-29;;Rendzina;Falkensteinwand;47.758507N;13.395419E;20;540;Rendzina;Berberidion;Br.-Bl. ex Tx. 1952;R. Kaiser & T. Eberl;
 ws02;90;0;0;0;90;25;0;0;0;0,6;0,15;2;4;SW;40;10;1;0;2009-04-29;;Rendzina;Falkensteinwand;47.758556N;13.395987E;20;550;Rendzina;Berberidion;Br.-Bl. ex Tx. 1952;R. Kaiser & T. Eberl;
 ws03;80;0;0;0;80;20;0;0;0;0,6;0,15;1;2;SW;35;20;1;0;2009-04-29;;Rendzina;Falkensteinwand;47.758574N;13.396223E;20;560;Rendzina;Berberidion;Br.-Bl. ex Tx. 1952;R. Kaiser & T. Eberl;

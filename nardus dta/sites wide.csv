@@ -1,4 +1,4 @@
-plot;cov;tcov1;tcov2;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;date;location;mangement;altitude;accuracy;latitude;longitude;author
+plot;cov;tcov1;tcov2;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;date;location;mangement;altitude;accuracy;latitude;longitude;observer
 E4486N2676-1;94;0;0;0;94;5;0;0;0;0,25;0,1;5;5;N;5;3;1;0;2012-06-19;Söllnalm (Krimmler Achental);pasture;1590;10;47.175996N;12.186099E;R. Kaiser
 E4492N2676-1;94;0;0;0;90;15;0;0;0;0,2;0,1;5;5;W;25;5;1;0;2012-06-19;Poschalm (Obersulzbachtal);pasture;1573;10;47.175903N;12.263135E;R. Kaiser
 E4503N2682-1;93;0;0;0;75;50;0;0;0;0,3;0,05;5;5;NW;5;7;0;0;2012-06-19;Siernerbräualm (Hollersbachtal);pasture;1101;10;47.228589N;12.414368E;R. Kaiser

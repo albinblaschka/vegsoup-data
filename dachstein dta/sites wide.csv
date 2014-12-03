@@ -1,4 +1,4 @@
-plot;cov;tcov1;tcov2;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;ropez;expo;slope;rock;bare;stones;soil;date;comment;location;longitude;latitude;elevation;accuracy;description;author
+plot;cov;tcov1;tcov2;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;ropez;expo;slope;rock;bare;stones;soil;date;comment;location;longitude;latitude;elevation;accuracy;description;observer
 ds01;48;0;0;0;40;10;0;0;0;0,15;0,03;4;4;;N;5;40;2;10;Rendzina;2011-08-31;;Dachstein, Gjaidsteingrube;13.658399E;47.495422N;2086;3;;R. Kaiser
 ds02;90;0;0;0;80;15;0;0;0;0,2;0,03;4;4;;NE;5;3;3;4;Rendzina;2011-08-31;;Dachstein, Gjaidsteingrube;13.657310E;47.496372N;2083;6;;R. Kaiser
 ds03;90;0;0;0;88;3;0;0;0;0,1;0,03;4;4;;N;10;5;2;3;Rendzina;2011-08-31;;Dachstein, Gjaidsteingrube;13.657411E;47.497101N;2087;7;;R. Kaiser

@@ -1,4 +1,4 @@
-plot;cov;t1cov;t2cov;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;date;latitude;longitude;accuracy;alliance;association;soil;comment;site;location;author
+plot;cov;t1cov;t2cov;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;date;latitude;longitude;accuracy;alliance;association;soil;comment;site;location;observer
 nb01;50;0;0;0;35;50;0;0;0;0,2;0,1;2;1;N;7;0;50;0;2014-08-25;46.876220;13.762670;10;Caricion bicoloris-atrofuscae;Juncus castaneus-Gesellschaft;Syrosem;;K14-02;Hoher Steig;R. Kaiser
 nb02;20;0;0;0;18;2;0;0;0;0,15;0,1;1;2;NW;1;0;80;0;2014-08-25;46.880010;13.737690;10;Caricion bicoloris-atrofuscae;Astero bellidiastrum-Kobresietum simpliciusculae;Syrosem;;K14-05;Kalter Keller;R. Kaiser
 nb03;80;0;0;0;15;7;0;0;0;0,2;0,1;1;2;N;5;0;80;0;2014-08-26;46.918550;13.864170;5;Caricion bicoloris-atrofuscae;Juncus castaneus-Gesellschaft;Syrosem;;K18-01;Turracher Höhe;R. Kaiser

@@ -16,7 +16,6 @@ file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian stan
 XZ <- SpeciesTaxonomy(x = X, file.y = file)
 
 obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
-obj$author <- as.character(bib$author[[1]])
 
 #	order layer
 Layers(obj)	 <- c("tl", "sl", "hl", "ml")

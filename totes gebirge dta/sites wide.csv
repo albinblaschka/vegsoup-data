@@ -1,4 +1,4 @@
-plot;cov;tcov1;tcov2;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;soil;date;altitude;accuracy;longitude;latitude;comment;location;description;alliance;author
+plot;cov;tcov1;tcov2;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;soil;date;altitude;accuracy;longitude;latitude;comment;location;description;alliance;observer
 tg01;96;0;0;0;92;5;0;0;0;0,15;0,05;4;4;N;5;3;0;1;Rendzina;2011-09-13;2010;5;13.839530E;47.719910N;;Totesgebirge, Rinnerkogl;bodensaurer Polsterseggenrasen;Caricion firmae;R. Kaiser
 tg02;94;0;0;0;91;4;0;0;0;0,07;0,01;4;4;NE;20;0;3;1;Pechrendzina;2012-08-18;2027;7;14.265364E;47.661335N;mit Deflationsanrissen;Warscheneck, Speikwiese;Kalk-Gämsheidespalier;Caricion firmae;R. Kaiser
 tg03;99;0;0;0;93;10;0;0;0;0,15;0,02;4;4;NE;10;0;1;1;;2012-08-18;2037;7;14.265213E;47.661111N;;Warscheneck, Speikwiese;Kalk-Gämsheidespalier;Caricion firmae;R. Kaiser

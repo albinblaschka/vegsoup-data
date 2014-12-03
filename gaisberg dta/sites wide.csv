@@ -1,4 +1,4 @@
-plot;cov;tcov1;tcov2;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;date;location;alliance;alliance.author;comment;rope;latitude;longitude;accuracy;author
+plot;cov;tcov1;tcov2;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;date;location;alliance;alliance.observer;comment;rope;latitude;longitude;accuracy;observer
 gb01;55;0;0;0;45;10;0;0;0;0,8;0,2;8;8;SW;60;53;2;0;2011-10-06;Gaisberg, obere rechte Kapaunwände Rechts;Seslerion coeruleae;Br.-Bl. in Br.-Bl. & Jenny 1926;;5;47.799759N;13.107848E;20;R. Kaiser
 gb02;83;0;35;10;73;10;0;6;2,5;0,8;0,3;8;8;SW;55;15;2;0;2011-10-06;Gaisberg, obere rechte Kapaunwände Rechts;Cephalanthero Fagenion;Tx. & Oberd. 1958;;20;47.799716N;13.107634E;20;R. Kaiser
 gb03;30;0;0;25;20;10;0;0;2,5;0,4;0,1;8;8;SW;45;70;2;0;2011-10-06;Gaisberg, obere rechte Kapaunwände Rechts;Seslerion coeruleae;Br.-Bl. in Br.-Bl. & Jenny 1926;;45;47.799593N;13.107634E;20;R. Kaiser

@@ -1,4 +1,4 @@
-plot;date;cov;tcov;scov;hcov;mcov;rocks;bare;stones;litter;aspect;slope;conductivity;ph;watertable;wellheight;author;longitude;latitude;altitude
+plot;date;cov;tcov;scov;hcov;mcov;rocks;bare;stones;litter;aspect;slope;conductivity;ph;watertable;wellheight;observer;longitude;latitude;altitude
 f10;2013-06-12;100;0;5;85;40;0;0;0;0;;;NA;NA;NA;NA;Group 0;13,8650878729;47,1895611747;1589,92
 f11;2013-06-12;100;0;20;30;60;0;0;0;5;;;24;6,1;48;50;Group 4;13,865469133;47,1896608038;1590,07
 m01;2013-06-12;90;0;5;65;80;0;10;0;5;;;NA;NA;NA;NA;Group 4;13,8656239646;47,1896781275;1588,14

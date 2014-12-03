@@ -1,4 +1,4 @@
-plot;cov;t1cov;t2cov;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;date;latitude;longitude;horizontal precision;soil;type;alliance;association;author
+plot;cov;t1cov;t2cov;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;date;latitude;longitude;horizontal precision;soil;type;alliance;association;observer
 sp01;95;60;70;25;90;0;25;13;4;0,4;0,25;16;16;F;0;0;2013-04-24 & 2013-05-09 & 2013-05-15 & 2013-07-12 & 2013-08-28;48.079123N;13.832324E;10;Braunerde;EHW;Carpinion betuli;Stellario-Carpinetum;R. Kaiser & T. Eberl
 sp02;90;80;5;10;85;0;23;12;1,5;0,3;0,15;16;16;F;0;0;2013-04-24 & 2013-05-09 & 2013-08-28;48.079998N;13.834100E;10;Braunerde;TBW;Cephalanthero-Fagenion;Helleboro nigri-Fagetum;R. Kaiser & T. Eberl
 sp03;97;45;0;30;95;0;21;0;2,5;0,3;0,1;16;16;F;0;0;2013-04-24 & 2013-05-09;48.080120N;13.835070E;10;Braunerde;TBW;Cephalanthero-Fagenion;Helleboro nigri-Fagetum;R. Kaiser & T. Eberl
