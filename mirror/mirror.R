@@ -32,7 +32,7 @@ ii <- c(
 	"urban1992",
 	"urban2008",
 #	independent taxonomy
-	"crete dta",	
+	"crete dta",
 	"cape hallet lichen dta",
 	"javakheti dta",
 	"salzkammergut lichen dta",
@@ -73,6 +73,7 @@ l <- sapply(mget(k), function (x) compress(x, retain = c("author", "title", "acc
 
 X <- do.call("bind", l)
 
+save(X, file = file.path(path, "mirror", "mirror.rda"))
 #	test sites consitency
 #test <- X$accuracy
 #write.csv2(cbind(plot = rownames(X), test)[is.na(test), ],
