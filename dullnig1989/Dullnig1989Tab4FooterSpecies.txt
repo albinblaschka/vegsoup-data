@@ -1,0 +1,7 @@
+020: Taraxacum sp. +, Homalothecium nitens +, Sphagnum compactum 1.
+007: Cephalanthera damasonium R, Homogyne alpina + , Iiriophorum ccspitosum 1, Callierogon sarmentosum +. Sphagnum Fuscum 1.
+004: Cardamine amara +, Myosotis palustris + , Sedum villosum +, Jungermannia hyalina + , Brachythecium plumosum +, Ditrichum pusillum +
+052: Juncus castaneus +, Saxifraga stellaris ssp. prolifera +, Viola biflora +, Kiaeria starkei +. Dichodontium pellucidum + , Rhizomnium magnifolium +
+033: Saxifraga aizoides 1,Lychnis flos-cuculi +.
+058: Eriophorum scheuchzeri +, Trichophorum alpinum 1, Crepis aurea +, Triglochin pahistre +, Allium schoenoprasum ssp. sibiricum +, Gentiana bavarica +, Cardamine rivulpris +, Euphrasium sp. +, Anthoxanthum alpinum R, Sphagnum girgensohnii 2, Calypogeia trichomanis R, Lophozia sp. R, Pellia epiphylla +, Jungermannia sp. R. Hylocomium splendens 1, Plagiochila asplcnoides R, Dicranum scoparium +, Lophozia obtusa +, Mnium marginatum +
+056: Philonotis seriata +, Racomitrium heterostichum +, Dicranum fuscescens R. Sphagnum squarrosum +.
