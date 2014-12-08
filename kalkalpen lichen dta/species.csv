@@ -45,7 +45,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 6;grap scri;ll;1;;;
 6;leca subr;ll;2;;;
 6;lepr spec ies;ll;0,1;;;
-6;lept lich;ll;0,1;2;1;
+6;lept lich lich;ll;0,1;2;1;
 6;mene tere;ll;1,5;5;3;
 6;norm pulc;ll;0,1;1,5;1;
 6;pelt prae;ll;1,5;15;2;
@@ -241,7 +241,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 28;baci rube;ll;5;;;
 28;coll flac;ll;1;;;
 28;lepr rigi;ll;1;;;
-28;lept lich;ll;1;2;1;
+28;lept lich lich;ll;1;2;1;
 28;loba pulm;ll;5;5;3;
 28;leuc juni;ml;45;;;
 28;metz furc;ml;2;;;
@@ -1378,7 +1378,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 242;ulot cris;ml;1;;;
 243;lepr spec ies;ll;0,5;;;
 243;pelt prae;ll;47;8;1;
-243;bryu flac;ml;1;;;
+243;bryu mora;ml;1;;;
 243;isot alop;ml;29;;;
 243;tort tort;ml;2;;;
 244;lepr spec ies;ll;11;;;
@@ -1619,7 +1619,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 289;phly arge;ll;14;;;
 290;lepr spec ies;ll;2;;;
 290;loba pulm;ll;70;8;1;
-290;bryu flac;ml;1;;;
+290;bryu mora;ml;1;;;
 290;frul dila;ml;3;;;
 290;leuc sciu;ml;12;;;
 290;metz furc;ml;1;;;
@@ -2085,7 +2085,7 @@ plot;abbr;layer;cov;diameter;damage.class;history
 387;norm acro;ll;1;;;
 387;pala trip;ll;11;5;1;
 387;pelt prae;ll;15;10;1;
-387;bryu flac;ml;3;;;
+387;bryu mora;ml;3;;;
 387;pter fili slat;ml;40;;;
 388;chae ferr;ll;22;;;
 388;hypo phys;ll;8;3;2;
