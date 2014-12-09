@@ -1,19 +1,30 @@
+library(vegit)
 library(vegsoup)
 require(bibtex)
 
 path <- "~/Documents/vegsoup-data/wittmann1997"
 key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
+#	reference list
+Z <- read.csv2("~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv",
+	colClasses = "character")
+
+#	 ... and read authored translate list
+zz <- read.csv(file.path(path, "translate.csv"),
+	colClasses = "character")
+zz <- join(zz, Z)
+
 #	read prepared digitized table
-file <- file.path(path, "Wittmann1997Tab1taxon2standard.txt")
+file <- file.path(path, "Wittmann1997Tab1.txt")
 x <- read.verbatim(file, colnames = "Aufnahmenummer", layers = "@")
 #	promote to class "Species"
 X <- species(x)
+species(X) <- zz
 
 #   sites data including coordinates
 file <- file.path(path, "Wittmann1997Tab1Locations.csv")
 #	promote to class "Sites"
-Y <- stackSites(file = file)
+Y <- stackSites(file = file, zeros = TRUE)
 
 #	taxonomy reference list
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
