@@ -10,11 +10,11 @@ Moos: Deckung (%);20;40;40;70;20;30;60
 Artenzahl;4;7;10;13;4;14;8
 ;;;;;;;
 Eriophorum angustifolium;1;1;.;+;+;1;1
-Sphagnum capillifoliun;2;2;2;1;+;2;.
-Sphagnum girgensonii;.;.;.;.;.;2;.
-Sphagnum squarrcsum;.;.;.;.;.;.;+
+Sphagnum capillifolium;2;2;2;1;+;2;.
+Sphagnum girgensohnii;.;.;.;.;.;2;.
+Sphagnum squarrosum;.;.;.;.;.;.;+
 Aulacomnium palustre;.;1;+;+;.;+;+
-Polytrlchum alpinum;.;.;+;+;.;.;.
+Polytrichum alpinum;.;.;+;+;.;.;.
 Carex nigra;.;.;1;1;+;.;+
 Carex limosa;+;+;.;.;+;.;+
 Carex echinata;+;.;1;.;+;.;+
@@ -22,13 +22,13 @@ Trichophorum cespitosum;1;+;.;.;.;.;.
 Potentilla erecta;+;+;1;.;.;+;.
 Pinguicula vulgaris;+;1;+;.;+;+;.
 Calycocorsus stipitatus;.;1;R;.;+;+;.
-Deschampsia cospitosa;.;1;.;1;+;+;1
+Deschampsia cespitosa;.;1;.;1;+;+;1
 Swertia perennis;1;.;.;+;.;+;.
 ;;;;;;;
 Bryum pseudotriquetrum;.;.;+;+;.;.;.
 Racomitrium aciculare;.;.;+;+;.;.;.
 Dicranella palustris;.;.;+;+;.;+;.
-Campylium atallatum;.;+;.;.;3;.;.
+Campylium stellatum;.;+;.;.;3;.;.
 Blindia acuta;.;.;.;.;+;+;.
 Drepanocladus fluitans;+;.;.;.;.;.;2
 Scapania undulata;.;.;.;3;.;.;+
@@ -38,10 +38,10 @@ Drepanocladus exannulatus var. rotae;.;.;+;.;.;.;2
 ;;;;;;;
 Epilobium alsinifolium;.;.;+;.;.;+;+
 Caltha palustris;.;.;+;1;.;+;.
-Drosera rodundifolia;+;+;.;.;+;.;.
+Drosera rotundifolia;+;+;.;.;+;.;.
 Bartsia alpina;+;.;.;.;.;.;.
 Carex flava;+;.;.;.;+;.;.
-Eliocharis quinqueflora;.;.;+;.;.;.;.
+Eleocharis quinqueflora;.;.;+;.;.;.;.
 Luzula alpino-pilosa;+;.;R;.;+;.;.
 Carex davalliana;.;+;+;.;.;.;.
 Saxifraga stellaris;.;.;.;.;.;.;2

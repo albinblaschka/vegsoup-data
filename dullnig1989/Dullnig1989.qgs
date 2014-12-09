@@ -3,19 +3,24 @@
     <title></title>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
         <customproperties/>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="pl_contours20m20141205155942269" name="pl_contours20m">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="pl_contours20m20141205155942269" name="pl_contours20m">
             <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Checked" id="Dullnig198920141205155842623" name="Dullnig1989">
+            <customproperties>
+                <property key="showFeatureCount" value="1"/>
+            </customproperties>
+        </layer-tree-layer>
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20141206132309312" name="OpenStreetMap">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OEK5020141205205346449" name="OEK50">
+        <layer-tree-layer expanded="1" checked="Qt::Checked" id="OEK5020141205205346449" name="OEK50">
             <customproperties/>
         </layer-tree-layer>
         <layer-tree-layer expanded="1" checked="Qt::Checked" id="shp20141205154652908" name="pg_nationalpark">
             <customproperties/>
         </layer-tree-layer>
-        <layer-tree-layer expanded="1" checked="Qt::Checked" id="OpenLayers_plugin_layer20141205154621800" name="Bing Aerial with labels">
+        <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="OpenLayers_plugin_layer20141205154621800" name="Bing Aerial with labels">
             <customproperties/>
         </layer-tree-layer>
     </layer-tree-group>
@@ -23,10 +28,10 @@
     <mapcanvas>
         <units>meters</units>
         <extent>
-            <xmin>1409779.08165925974026322</xmin>
-            <ymin>5855509.85437884461134672</ymin>
-            <xmax>1613155.47075559291988611</xmax>
-            <ymax>5965929.29893591720610857</ymax>
+            <xmin>1523120.85506503144279122</xmin>
+            <ymin>5930092.31182389706373215</ymin>
+            <xmax>1531001.91062862845137715</xmax>
+            <ymax>5933845.86738328263163567</ymax>
         </extent>
         <projections>1</projections>
         <destinationsrs>
@@ -44,7 +49,9 @@
         <layer_coordinate_transform_info>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:31258" srcDatumTransform="-1" destDatumTransform="-1" layerid="shp20141205154652908"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="OEK5020141205155326209"/>
+            <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20141206132309312"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="OEK5020141205205346449"/>
+            <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20141206132224095"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="Dullnig198920141205155842623"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:31258" srcDatumTransform="-1" destDatumTransform="-1" layerid="pl_contours20m20141205155942269"/>
             <layer_coordinate_transform destAuthId="EPSG:3857" srcAuthId="EPSG:4326" srcDatumTransform="-1" destDatumTransform="-1" layerid="tmp20141205155736328"/>
@@ -59,22 +66,28 @@
             <item>Dullnig198920141205155842623</item>
             <item>pl_contours20m20141205155942269</item>
             <item>OEK5020141205205346449</item>
+            <item>OpenLayers_plugin_layer20141206132309312</item>
         </custom-order>
     </layer-tree-canvas>
     <legend updateDrawingOrder="true">
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="pl_contours20m" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="pl_contours20m" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="pl_contours20m20141205155942269" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="pl_contours20m20141205155942269" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Dullnig1989" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Dullnig1989" showFeatureCount="1">
             <filegroup open="true" hidden="false">
                 <legendlayerfile isInOverview="0" layerid="Dullnig198920141205155842623" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OEK50" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="OpenStreetMap" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="OEK5020141205205346449" visible="0"/>
+                <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20141206132309312" visible="0"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="OEK50" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="OEK5020141205205346449" visible="1"/>
             </filegroup>
         </legendlayer>
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="pg_nationalpark" showFeatureCount="0">
@@ -82,16 +95,16 @@
                 <legendlayerfile isInOverview="0" layerid="shp20141205154652908" visible="1"/>
             </filegroup>
         </legendlayer>
-        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Bing Aerial with labels" showFeatureCount="0">
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Bing Aerial with labels" showFeatureCount="0">
             <filegroup open="true" hidden="false">
-                <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20141205154621800" visible="1"/>
+                <legendlayerfile isInOverview="0" layerid="OpenLayers_plugin_layer20141205154621800" visible="0"/>
             </filegroup>
         </legendlayer>
     </legend>
-    <projectlayers layercount="5">
+    <projectlayers layercount="6">
         <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
             <id>Dullnig198920141205155842623</id>
-            <datasource>../../../Desktop/Dullnig1989.shp</datasource>
+            <datasource>./Dullnig1989.shp</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -317,10 +330,10 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -374,7 +387,7 @@
         </maplayer>
         <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
             <id>OpenLayers_plugin_layer20141205154621800</id>
-            <datasource></datasource>
+            <datasource>.</datasource>
             <title></title>
             <abstract></abstract>
             <keywordList>
@@ -395,6 +408,31 @@
             </srs>
             <customproperties>
                 <property key="ol_layer_type" value="Bing Aerial with labels"/>
+            </customproperties>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="plugin" hasScaleBasedVisibilityFlag="0" name="openlayers">
+            <id>OpenLayers_plugin_layer20141206132309312</id>
+            <datasource>.</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>OpenStreetMap</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext  +no_defs</proj4>
+                    <srsid>3857</srsid>
+                    <srid>3857</srid>
+                    <authid>EPSG:3857</authid>
+                    <description>WGS 84 / Pseudo Mercator</description>
+                    <projectionacronym>merc</projectionacronym>
+                    <ellipsoidacronym>WGS84</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="ol_layer_type" value="OpenStreetMap"/>
             </customproperties>
         </maplayer>
         <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
@@ -623,10 +661,10 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -871,10 +909,10 @@
                 <multilineenabled fieldname="" on=""/>
                 <selectedonly on=""/>
             </labelattributes>
-            <editform></editform>
+            <editform>.</editform>
             <editforminit></editforminit>
             <featformsuppress>0</featformsuppress>
-            <annotationform></annotationform>
+            <annotationform>.</annotationform>
             <editorlayout>generatedlayout</editorlayout>
             <excludeAttributesWMS/>
             <excludeAttributesWFS/>
@@ -935,20 +973,20 @@
         </Gui>
         <Digitizing>
             <LayerSnappingList type="QStringList">
+                <value>pl_contours20m20141205155942269</value>
                 <value>shp20141205154652908</value>
                 <value>Dullnig198920141205155842623</value>
-                <value>pl_contours20m20141205155942269</value>
             </LayerSnappingList>
             <LayerSnappingEnabledList type="QStringList">
                 <value>disabled</value>
-                <value>enabled</value>
                 <value>disabled</value>
+                <value>enabled</value>
             </LayerSnappingEnabledList>
             <AvoidIntersectionsList type="QStringList"/>
             <LayerSnappingToleranceUnitList type="QStringList">
                 <value>0</value>
-                <value>1</value>
                 <value>0</value>
+                <value>1</value>
             </LayerSnappingToleranceUnitList>
             <LayerSnapToList type="QStringList">
                 <value>to_vertex</value>

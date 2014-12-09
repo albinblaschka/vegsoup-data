@@ -1,65 +1,65 @@
-Aufnahmenummer                          20    7    4   52   33   58   56
-Flaeche (m2)                            20   10    4   10   10   20   20
-Exposition                               E    E    E    N  SSE    N    W
-Inklination (o)                         10   10    5    5    5   10   10
-Quellwasser: pH-Wert                    55   60   60   60   60   55   60
-Haerte (dH)                              4    4    4    3    4    3    3
-Phanerogamen: Deckung (%)               50   50   40   10   80   60   30
-Artenzahl                               22   29   23   10   21   20    8
-Moos: Deckung (%)                       20   40   40   70   20   30   60
-Artenzahl                                4    7   10   13    4   14    8
-                                                                        
-Eriophorum angustifolium                 1    1    .    +    +    1    1
-Sphagnum capillifoliun                   2    2    2    1    +    2    .
-Sphagnum girgensonii                     .    .    .    .    .    2    .
-Sphagnum squarrcsum                      .    .    .    .    .    .    +
-Aulacomnium palustre                     .    1    +    +    .    +    .
-Polytrlchum alpinum                      .    .    +    +    .    .    .
-Carex nigra                              1    +    1    1    +    .    +
-Carex limosa                             +    +    .    .    +    .    +
-Carex echinata                           +    .    1    .    +    .    +
-Trichophorum cespitosum                  1    +    +    .    .    .    .
-Potentilla erecta                        +    +    1    .    .    +    .
-Pinguicula vulgaris                      +    +    +    .    +    +    .
-Calycocorsus stipitatus                  .    +    R    .    +    +    .
-Deschampsia cospitosa                    .    +    .    1    +    +    1
-Swertia perennis                         1    +    .    +    .    +    .
-                                                                        
-Bryum pseudotriquetrum                   .    .    +    +    .    .    .
-Racomitrium aciculare                    .    .    +    +    .    .    .
-Dicranella palustris                     .    .    +    +    .    +    .
-Campylium atallatum                      .    +    .    .    3    .    .
-Blindia acuta                            .    +    .    .    +    .    .
-Drepanocladus fluitans                   +    .    .    .    .    .    2
-Scapania undulata                        .    .    .    3    .    .    +
-Scorpidium scorpioides                   .    .    .    R    .    +    .
-Diplophyllum taxifolium                  .    .    .    +    .    .    R
+BEGIN HEAD
+Aufnahmenummer                             020  007  004  052  033  058  056
+Flaeche (m2)                                20   10    4   10   10   20   20
+Exposition                                   E    E    E    N  SSE    N    W
+Inklination (o)                             10   10    5    5    5   10   10
+Quellwasser: pH-Wert                        55   60   60   60   60   55   60
+Haerte (dH)                                  4    4    4    3    4    3    3
+Phanerogamen: Deckung (%)                   50   50   40   10   80   60   30
+Artenzahl                                   22   29   23   10   21   20    8
+Moos: Deckung (%)                           20   40   40   70   20   30   60
+Artenzahl                                    4    7   10   13    4   14    8
+END HEAD
 
-Drepanocladus exannulatus var. rotae     .    .    .    .    +    .    2
-                                                                        
-Epilobium alsinifolium                   .    .    +    .    .    +    +
-Caltha palustris                         .    .    +    1    .    +    .
-Drosera rodundifolia                     +    +    .    .    +    .    .
-Bartsia alpina                           +    +    .    .    .    +    .
-Carex flava                              +    +    .    .    +    .    .
-Eliocharis quinqueflora                  .    .    +    .    .    .    .
-Luzula alpino-pilosa                     +    +    R    .    +    .    .
-Carex davalliana                         .    +    +    .    .    .    .
-Saxifraga stellaris                      .    .    +    .    .    .    2
-Poa alpina                               .    +    +    .    .    .    .
-Nardus stricta                           .    +    +    .    .    .    .
-Festuca pulchella                        .    +    +    .    .    .    .
-Valeriana dioica                         .    +    .    .    +    .    .
-Dactylorhiza maculata                    .    R    .    .    .    R    .
-Agrostis canina                          +    +    .    .    .    .    .
-Carex pauciflora                         +    +    .    .    .    .    .
-Alchemilla glabra                        +    +    .    .    .    .    .
-Carex dioica                             .    +    .    .    +    .    .
-Parnassia palustris                      +    .    .    .    +    .    .
-Equisetum variegatum                     +    .    .    .    +    .    .
-Juncus alpinus                           .    .    .    +    +    .    .
-Juncus filiformis                        .    .    .    .    +    .    +
+BEGIN TABLE
+Eriophorum angustifolium               @hl   1    1    .    +    +    1    1
+Sphagnum capillifolium                 @ml   2    2    2    1    +    2    .
+Sphagnum girgensohnii                  @hl   .    .    .    .    .    2    .
+Sphagnum squarrosum                    @ml   .    .    .    .    .    .    +
+Aulacomnium palustre                   @ml   .    1    +    +    .    +    .
+Polytrichum alpinum                    @ml   .    .    +    +    .    .    .
+Carex nigra                            @hl   1    +    1    1    +    .    +
+Carex limosa                           @hl   +    +    .    .    +    .    +
+Carex echinata                         @hl   +    .    1    .    +    .    +
+Trichophorum cespitosum                @hl   1    1    +    .    .    .    .
+Potentilla erecta                      @hl   +    +    1    .    .    +    .
+Pinguicula vulgaris                    @hl   +    +    +    .    +    +    .
+Calycocorsus stipitatus                @hl   .    +    R    .    +    +    .
+Deschampsia cespitosa                  @hl   .    +    .    1    +    +    1
+Swertia perennis                       @hl   1    +    .    +    .    +    .
 
+Bryum pseudotriquetrum                 @ml   .    .    +    +    .    .    .
+Racomitrium aciculare                  @ml   .    .    +    +    .    .    .
+Dicranella palustris                   @ml   .    .    +    +    .    +    .
+Campylium stellatum                    @ml   .    +    .    .    3    .    .
+Blindia acuta                          @ml   .    +    .    .    +    .    .
+Drepanocladus fluitans                 @ml   +    .    .    .    .    .    2
+Scapania undulata                      @ml   .    .    .    3    .    .    +
+Scorpidium scorpioides                 @ml   .    .    .    R    .    +    .
+Diplophyllum taxifolium                @ml   .    .    .    +    .    .    R
 
+Drepanocladus exannulatus var. rotae   @ml   .    .    .    .    +    .    2
 
-
+Epilobium alsinifolium                 @hl   .    .    +    .    .    +    +
+Caltha palustris                       @hl   .    .    +    1    .    +    .
+Drosera rotundifolia                   @hl   +    +    .    .    +    .    .
+Bartsia alpina                         @hl   +    +    .    .    .    +    .
+Carex flava                            @hl   +    +    .    .    +    .    .
+Eleocharis quinqueflora                @hl   .    .    +    .    .    .    .
+Luzula alpino-pilosa                   @hl   +    +    R    .    +    .    .
+Carex davalliana                       @hl   .    +    +    .    .    .    .
+Saxifraga stellaris                    @hl   .    .    +    .    .    .    2
+Poa alpina                             @hl   .    +    +    .    .    .    .
+Nardus stricta                         @hl   .    +    +    .    .    .    .
+Festuca pulchella                      @hl   .    +    +    .    .    .    .
+Valeriana dioica                       @hl   .    +    .    .    +    .    .
+Dactylorhiza maculata                  @hl   .    R    .    .    .    R    .
+Agrostis canina                        @hl   +    +    .    .    .    .    .
+Carex pauciflora                       @hl   +    +    .    .    .    .    .
+Alchemilla glabra                      @hl   +    +    .    .    .    .    .
+Carex dioica                           @hl   .    +    .    .    +    .    .
+Parnassia palustris                    @hl   +    .    .    .    +    .    .
+Equisetum variegatum                   @hl   +    .    .    .    +    .    .
+Juncus alpinus                         @hl   .    .    .    +    +    .    .
+Juncus filiformis                      @hl   .    .    .    .    +    .    +
+END TABLE
