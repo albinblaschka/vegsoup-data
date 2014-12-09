@@ -14,6 +14,17 @@ zz <- read.csv(file.path(path, "translate.csv"),
 	colClasses = "character")
 zz <- join(zz, Z)
 
+#
+alliance <- c("Cratoneurion",
+	"Cardamino-Montio",
+	"Cardamino-Montio",
+	"Caricion fuscae")
+
+association <- c("Cratoneuretum falcati Gams 1927",
+	"Montio-Bryetum schleicheri Br.-Bl. 1925",
+	"Dicranella palustris-Philontis seriata prov. Dullnig 1989",
+	"Caricetum goodenowii Barun 1915")
+
 #	make function for tables 1:4
 make <- function (tab = 1) {
 	file <- file.path(path, paste0("Dullnig1989Tab", tab, ".txt"))
@@ -35,6 +46,8 @@ make <- function (tab = 1) {
 	
 	obj <- Vegsoup(X, Y, Z, coverscale = "braun.blanquet2")
 	obj$tab <- tab
+	obj$alliance <- alliance[tab]
+	obj$association <- association[tab]
 	return(obj)
 }
 
