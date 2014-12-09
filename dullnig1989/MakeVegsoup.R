@@ -48,6 +48,7 @@ obj$latitude <- coordinates(p)[, 2]
 obj$accuracy <- p$ACCURACY
 
 coordinates(obj) <- ~longitude+latitude
+proj4string(obj) <- CRS("+init=epsg:4326")
 
 #	order layer
 Layers(obj)	 <- c("hl", "ml")
