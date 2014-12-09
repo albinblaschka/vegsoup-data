@@ -1,5 +1,22 @@
 BEGIN HEAD
-plot                                                 00000000000000000000000000000000000000000000000000
+plot                                                 DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
+                                                     uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
+                                                     llllllllllllllllllllllllllllllllllllllllllllllllll
+                                                     llllllllllllllllllllllllllllllllllllllllllllllllll
+                                                     nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+                                                     iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
+                                                     gggggggggggggggggggggggggggggggggggggggggggggggggg
+                                                     11111111111111111111111111111111111111111111111111
+                                                     99999999999999999999999999999999999999999999999999
+                                                     88888888888888888888888888888888888888888888888888
+                                                     99999999999999999999999999999999999999999999999999
+                                                     ::::::::::::::::::::::::::::::::::::::::::::::::::
+                                                     TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+                                                     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+                                                     bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+                                                     12424211112112422111131314211231233121132433241412
+                                                     ::::::::::::::::::::::::::::::::::::::::::::::::::
+                                                     00000000000000000000000000000000000000000000000000
                                                      00000001111111222222222333333333444444455555555556
                                                      23457890126789012345689013456789135678901234567893
 pls                                                  11  1122      211     2  1 11211  11111  1 1 2 22 
@@ -20,6 +37,8 @@ hcov                                                  1415267742NN2532N114 42682
 mcov                                                             1    1                               1
                                                      11424244143503231033417142546148623532546721367340
                                                      00000000000000000000000000000000000000000000000000
+                                                                                                       
+tab                                                  12424211112112422111131314211231233121132433241412
                                                                                                        
 accuracy                                             1  11  2 12111 12 111121121 111112 121 1111512111 
                                                      05500550500000500500000000050500002000500000000005

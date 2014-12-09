@@ -33,8 +33,9 @@ make <- function (tab = 1) {
 	y <- cbind(plot = as.character(rownames(y)), y)
 	Y <- stackSites(x = y, zeros = TRUE)
 	
-	r <- Vegsoup(X, Y, Z, coverscale = "braun.blanquet2")
-	return(r)
+	obj <- Vegsoup(X, Y, Z, coverscale = "braun.blanquet2")
+	obj$tab <- tab
+	return(obj)
 }
 
 obj <- sapply(1:4, make)
@@ -51,7 +52,10 @@ coordinates(obj) <- ~longitude+latitude
 proj4string(obj) <- CRS("+init=epsg:4326")
 
 #	order layer
-Layers(obj)	 <- c("hl", "ml")
+Layers(obj)	<- c("hl", "ml")
+
+#	unique rownames
+rownames(obj) <- paste0(key, ":Tab", obj$tab, ":", rownames(obj))
 
 #	assign result object
 assign(key, obj)
