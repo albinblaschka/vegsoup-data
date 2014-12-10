@@ -14,7 +14,7 @@ zz <- read.csv(file.path(path, "translate.csv"),
 	colClasses = "character")
 zz <- join(zz, Z)
 
-#
+#	interpreted classification
 alliance <- c("Cratoneurion",
 	"Cardamino-Montio",
 	"Cardamino-Montio",
@@ -23,7 +23,7 @@ alliance <- c("Cratoneurion",
 association <- c("Cratoneuretum falcati Gams 1927",
 	"Montio-Bryetum schleicheri Br.-Bl. 1925",
 	"Dicranella palustris-Philontis seriata prov. Dullnig 1989",
-	"Caricetum goodenowii Barun 1915")
+	"Caricetum goodenowii Braun 1915")
 
 #	make function for tables 1:4
 make <- function (tab = 1) {
@@ -39,12 +39,18 @@ make <- function (tab = 1) {
 	X$cov[X$cov == "R"] <- "r"
 	species(X) <- zz
 	
-	y <- header(x)
-	names(y) <- c("pls", "expo", "slope", "pH", "dH", "hcov", "mcov")
-	y <- cbind(plot = as.character(rownames(y)), y)
-	Y <- stackSites(x = y, zeros = TRUE)
+	y1 <- header(x)
+	names(y1) <- c("pls", "expo", "slope", "pH", "dH", "hcov", "mcov")
+	y1 <- cbind(plot = as.character(rownames(y1)), y1)
+	y1$pH <- y1$pH / 10
+	y1 <- stackSites(x = y1, zeros = TRUE)
+	
+	file <- file.path(path, paste0("Dullnig1989Tab", tab, "Locations.csv"))
+	y2 <- stackSites(file = file, sep = ",", zeros = TRUE)
+	Y <- rbind(y1, y2)
 	
 	obj <- Vegsoup(X, Y, Z, coverscale = "braun.blanquet2")
+		
 	obj$tab <- tab
 	obj$alliance <- alliance[tab]
 	obj$association <- association[tab]
