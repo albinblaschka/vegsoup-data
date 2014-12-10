@@ -1,24 +1,6 @@
 BEGIN HEAD
-plot                                                 DDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD
-                                                     uuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuuu
-                                                     llllllllllllllllllllllllllllllllllllllllllllllllll
-                                                     llllllllllllllllllllllllllllllllllllllllllllllllll
-                                                     nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
-                                                     iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-                                                     gggggggggggggggggggggggggggggggggggggggggggggggggg
-                                                     11111111111111111111111111111111111111111111111111
-                                                     99999999999999999999999999999999999999999999999999
-                                                     88888888888888888888888888888888888888888888888888
-                                                     99999999999999999999999999999999999999999999999999
-                                                     ::::::::::::::::::::::::::::::::::::::::::::::::::
-                                                     TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
-                                                     aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-                                                     bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
-                                                     12424211112112422111131314211231233121132433241412
-                                                     ::::::::::::::::::::::::::::::::::::::::::::::::::
-                                                     00000000000000000000000000000000000000000000000000
-                                                     00000001111111222222222333333333444444455555555556
-                                                     23457890126789012345689013456789135678901234567893
+plot                                                 00000000011111111112222222222333333333344444444445
+                                                     12345678901234567890123456789012345678901234567890
 pls                                                  11  1122      211     2  1 11211  11111  1 1 2 22 
                                                      24450000585414000242575430660000240005037050709001
                                                                                                        
@@ -154,7 +136,7 @@ Trichophorum alpinum                                 ...........................
 Triglochin palustre                                  ...............................................+..
 Arabis soyeri ssp. subcoriacea                    ml 1........1..........+..........+................+.
 Bryum pseudotriquetrum var. pseudotriquetrum         r2+..++1++1.r1.+...r..+11.1r+...++.++....+....+...
-Bryum schleicheri s.lat.                             1.....+.1..++........................2........+.+.
+Bryum schleicheri var. schleicheri                   1.....+.1..++........................2........+.+.
 Marchantia polymorpha s.lat.                         r.........+..................+..................+1
 Palustriella decipiens                               3.....+1..............1.....2...................1.
 Solorina spongiosa                                   1.................................................
