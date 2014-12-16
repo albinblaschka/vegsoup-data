@@ -1,6 +1,8 @@
 library(vegsoup)
 library(RefManageR)
+library(knitr)
 
+#	
 path <- "~/Documents/vegsoup-data"
 
 x <- list.files(path)
@@ -43,11 +45,16 @@ x <- x[-match(ii, x)]
 
 #	update
 #	sapply(file.path(path, x, "MakeVegsoup.R"), source)
-	
+
+#	biblographic entities	
 x <- sapply(file.path(path, x), function (x) {
 	ReadBib(file.path(x, "references.bib"))	
 }, simplify = FALSE)
 
+#	write bibliography
+b <- do.call("c", x)
+WriteBib(b)
+Cite(b)
 f <- names(x)
 k <- sapply(x, function (x) x[[1]]$key)
 n <- sapply(x, function (x) x[[1]]$title)
