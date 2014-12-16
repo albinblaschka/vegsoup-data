@@ -27,15 +27,6 @@ htl2                                        90
                                               
 hsl                                         32
                                               
-hhl1                                        00
-                                            ..
-                                            93
-                                              
-hhl2                                        00
-                                            ..
-                                            20
-                                            55
-                                              
 plsx                                        2 
                                             58
                                               
@@ -65,7 +56,7 @@ Fagus sylvatica                         tl2 2.
 Prunus avium s.lat.                         1.
 Sorbus aria s.str.                          2.
 Taxus baccata                               2.
-Tilia ✕ europaea                            2.
+Tilia × europaea                            2.
 Tilia platyphyllos                          2.
 Viburnum lantana                         sl 1.
 Amelanchier ovalis                          2+

@@ -26,19 +26,6 @@ htl1                                            112111 112 111  1
 htl2                                            1 1 1  111 1     
                                                 09195970337098557
                                                                  
-hsl                                                       4    22
-                                                          .    ..
-                                                65663655355444355
-                                                                 
-hhl1                                            00000000000000000
-                                                .................
-                                                66655588688677838
-                                                                 
-hhl2                                            0   0    0  00 0 
-                                                .000.0000.00..0.0
-                                                2...2....2..22.0.
-                                                52335344253255353
-                                                                 
 plsx                                            112111111111111 2
                                                 66566660666606685
                                                                  
@@ -67,7 +54,7 @@ BEGIN TABLE
 Fagus sylvatica                             tl1 343253.24.242....
 Acer pseudoplatanus                             .+...........2...
 Fraxinus excelsior                              .......2.....2..2
-Tilia ✕ europaea                                .......1....22..2
+Tilia × europaea                                .......1....22..2
 Larix decidua                                   .........2.......
 Acer platanoides                            tl2 2.2....1+........
 Fagus sylvatica                                 22.2222133232...+
@@ -76,7 +63,7 @@ Tilia platyphyllos                              2.2....2......2..
 Acer pseudoplatanus                             .112.....2.2+2...
 Sorbus aria s.str.                              .12..2121.2.22..+
 Abies alba                                      ..2..............
-Tilia ✕ europaea                                ...2.2......221..
+Tilia × europaea                                ...2.2......221..
 Tilia cordata                                   .......21........
 Ulmus glabra                                    .......1+.......+
 Picea abies                                     .........1......+
@@ -100,7 +87,7 @@ Acer platanoides                                ..+.............+
 Daphne mezereum                                 ..+.....r.+......
 Sorbus aucuparia ssp. aucuparia                 ..1.............+
 Rhamnus cathartica                              ...+...1..+.1+112
-Tilia ✕ europaea                                ...1........1.+..
+Tilia × europaea                                ...1........1.+..
 Frangula alnus                                  ......+.......+..
 Rosa canina s.str.                              ......++....+++11
 Rosa pendulina                                  ......++....++...
@@ -218,7 +205,7 @@ Phyteuma orbiculare s.str.                      ...+.+.rr.+......
 Polygonatum odoratum                            ...r...+r+...+++r
 Primula auricula ssp. auricula                  ...r...r....r++..
 Sorbus aucuparia ssp. aucuparia                 ...+.............
-Tilia ✕ europaea                                ...+........+...+
+Tilia × europaea                                ...+........+...+
 Viola collina                                   ...+....r++.+.+r+
 Cephalanthera rubra                             ....r............
 Gentiana asclepiadea                            ....+............
