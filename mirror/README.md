@@ -3,7 +3,12 @@
 %\VignetteIndexEntry{RMarkdown Citations - Alphabetic Style}
 -->
 
+![](README.png)
 
+What is in this archive
+=======================
+
+This is a mirror of all currently available data sets.
 
 Bibliographic references to data sets
 =====================================
