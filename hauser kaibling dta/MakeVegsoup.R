@@ -2,7 +2,7 @@ library(vegsoup)
 require(bibtex)
 
 path <- "~/Documents/vegsoup-data/hauser kaibling dta"
-key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
+key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key[[1]]
 
 file <- file.path(path, "species.csv")
 #	promote to class "Species"
