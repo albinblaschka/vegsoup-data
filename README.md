@@ -1,9 +1,9 @@
 vegsoup-data Collection of vegetation data
 ==========================================
 
-This is our personal vegetation data base (spatial and temporal explicit species occurrence data). It contains a bunch of unpublished data sets (1469 releveés), as well as data taken from the literature (1890 releveés). The bibtex file `./refernces.bib` that is contained in each project folder gives citation information for a particular data set (see also section licence).
+This is our personal vegetation data base (spatial and temporal explicit species occurrence data). It contains a bunch of unpublished data sets (1469 releveés), as well as data taken from the literature (1890 releveés). The bibtex file `./references.bib` that is contained in each project folder gives citation information for a particular data set (see also section licence).
 
-Data sets containing a file named `transcript.txt` are ready to be used with the available [**vegsoup** *R*-package](http://r-forge.r-project.org/projects/vegsoup/). Just download the corresponding `*.rda` file and load it into your *R* session. Most data sets link to a standard list ([see here)](https://github.com/kardinal-eros/vegsoup-standards/tree/master/austrian%20standard%20list%202008). A summary of all available data is contained in the [./mirror](https://github.com/kardinal-eros/vegsoup-data/blob/master/mirror) folder.
+Data sets containing a file named `transcript.txt` are ready to be used with the available [**vegsoup** *R*-package](http://r-forge.r-project.org/projects/vegsoup/). Just download the corresponding `*.rda` file and load it into your *R* session. Most data sets link to a standard list ([see here)](https://github.com/kardinal-eros/vegsoup-standards/tree/master/austrian%20standard%20list%202008). A summary of all  data available is contained in the [./mirror](https://github.com/kardinal-eros/vegsoup-data/blob/master/mirror) folder.
 
 ![](README.png)
 
@@ -25,28 +25,28 @@ Coordinates are given in decimal degree with 6 significant digits and refer to t
 Sampling protocol and data standards
 ====================================
 
-This is a brief summary of the sampling protocol and descriptive attributes collected with each sampling unit (plot or relevé) as available in the **vegsoup-data** repository. Of course, this does not apply to data sets taken from the literature.
+This is a brief summary of the sampling protocol and descriptive attributes collected with each sampling unit (plot or relevée) as available in the **vegsoup-data** repository. Of course, this does not apply to data sets taken from the literature.
 
 Sampling procedure
 ------------------
 
 Depending on the scope of a particular project, different sampling procedures are applied.
 
-- *Landscape Sampling* uses area stratification. That means, a survey area is divided into strata (forest, meadow, mire, etc.) and samples within a stratum are replicated depending on the areal extent of the stratum. We always aim to sample all vegetation types in a given survey area that are discernible in the field. The size of the surveyed landscape is typically in the range of 5 to 50 hectares.
+- *Landscape Sampling* uses area stratification. That means, a survey area is divided into strata (forest, meadow, mire, etc.) and samples within a stratum are replicated depending on the spatial extent of the stratum. We always aim to sample all vegetation types in a given survey area that are discernible in the field. The size of the landscape surveyed is typically in the range of 5 to 50 hectares.
 
-- In *Type Specific Sampling* we search a possibly large survey area for a specific vegetation type (e.g. ravine forest or rock shrubery).
+- In *Type Specific Sampling* we search a coherent survey area as large as possible for a specific vegetation type (e.g. ravine forest or rock shrubery).
 
 - In *Species Specific Sampling* we sample the vegetation where a particular (rare) species occurs.
 
 - In *Rapid Biodiversity Sampling* we collect instances of (all) vegetation types in an area as we walk (strait) through the landscape. In this way we typically don't collect area-dependent replicates.
 
-- *Rock Vegetation Sampling* is performed by using mountaineering equipment (rope and climbing harness), occasionally be free-climbing. Rock vegetation of any kind or forests of steep slopes are sampled using a rope along a vertical transect. Usually 3 to 4 plots are sampled along a 100 m long rope. The first plot is typically sampled just below the rope betray point. The last relevé is taken at the end of the rope. Depending on how long the rappelling (abseiling) needs to be, non overlapping plots are taken along this line, with gaps between sampling units of at least half the plot size applied.
+- *Rock Vegetation Sampling* is performed by using mountaineering equipment (rope and climbing harness), occasionally by free-climbing. Rock vegetation of any kind or forests of steep slopes are sampled using a rope along a vertical transect. Usually 3 to 4 plots are sampled along a 100 m long rope. The first plot is typically sampled just below the rope betray point. The last relevée is taken at the end of the rope. Depending on how long the rappelling (abseiling) needs to be, non overlapping plots are taken along this line, with gaps between sampling units of at least half the plot size applied.
 
 - *Systematic sampling* is performed by using a rectangular grid or along a transect.
 
 
 We don't (really) care about homogeneity or other subjective criteria concerning a sample plot and sampling locations
-are typically randomly selected. In case of »Rock Vegetation Sampling« the location of the vertical transect is constrained by the presence of a suitable belay point that can be reached with reasonable effort. Additionally, danger by falling rocks are an issue. In this context, the sampled vegetation can not be subjectively chosen, and sampling can be considered random.
+are typically randomly selected. In case of »Rock Vegetation Sampling« the location of the vertical transect is constrained by the presence of a suitable belay point that can be reached with reasonable effort. Additionally, danger by falling rocks is an issue. In this context, the sampled vegetation can not be subjectively chosen, and sampling can be considered random.
 
 
 Estimation scales
@@ -59,21 +59,21 @@ Plot sizes
 ----------
 
 We use strictly equal sized plots with edge lengths that are powers of 2 (e.g. 1 × 1, 2 × 2, 4 × 4, 8 × 8, 16 × 16).
-Grasslands (including alpine vegetation and tundra), marshes, fens and mires are sampled using 16 m² area plots (4m × 4m); scrubs and rock shrubery use 64 m² plots (8m × 8m) and woodlands are sampled within plots of 256 m² (16m × 16m).
+Grasslands (including alpine vegetation and tundra), marshes, fens and mires are sampled using 16 m² area plots (4m × 4m); shrubs and rock shrubery with 64 m² plots (8m × 8m) and woodlands are sampled within plots of 256 m² (16m × 16m).
 Spring vegetation is sampled using small plots of size 1 m² (1m × 1m).
 
 When ever possible we use square plots. In some rare cases (e.g. forest on rock cliffs) it is necessary to switch to elongated plot forms (e.g. 10 × 26 m ≈ 256 m² instead of 16 × 16 m). We record both edge lengths of the plot instead of noting the plot area. The shape of non square plots can then be estimated by dividing *edge max* by *edge min*.
 
 
-Attributes of the sampling units (relevés) that are recored in the field
+Attributes of the sampling units (relevées) that are recored in the field
 ------------------------------------------------------------------------
 
-Principal standards of the phytosociological relevé follow Mucina et al. (2000).
+Basic standards for the phytosociological relevée follow Mucina et al. (2000).
 
 **Data on field record**
 
 > `plot` designation of sample plot (relevé)  
-> ` date` date of sampling (ISO 8601, yyyy-mm-dd)  
+> `date` date of sampling (ISO 8601, yyyy-mm-dd)  
 > `observer` name(s) of the author(s) of the relevé  
 > `alliance` provisional classification into syntaxon  
 > `association`  
@@ -87,7 +87,7 @@ Principal standards of the phytosociological relevé follow Mucina et al. (2000)
 > `expo` exposition, aspect  
 > `slope` slope, inclination  
 
-Other fields, such as, country, province (district), nearest village, and altitude can be obtained with the `reverseGeocode` function.
+Other fields, such as country, province (district), nearest village, and altitude can be obtained with the `reverseGeocode` function.
 
 
 **Geographic coordinates**  
@@ -107,7 +107,7 @@ We supply the stratum/layer notation as defined in Mucina et al. 2000 (E₀, E�
 
 *Cover of tree layer* in % (***E₃***)
 
-> `htl` cover of *tree* layer (***E₃***)  
+> `tcov` cover of *tree* layer (***E₃***)  
 > `t1cov` cover of *canopy* layer (***E₃ γ***)  
 > `t2cov` cover of *sub-canopy* layer (***E₃ β***)  
 
@@ -121,7 +121,7 @@ We supply the stratum/layer notation as defined in Mucina et al. 2000 (E₀, E�
 
 > `hcov` cover of *herb* layer (***E₁***)  
 
-*We don't estimate the cover of any sub-strata in the terrestrial herb layer (upper, middle and lower herb layer ***E₁ α***, ***E₁ β***, and ***E₁ γ***, respectively), but, we do so  for aquatic vegetation:*
+*We don't estimate the cover of any sub-strata in the terrestrial herb layer (upper, middle and lower herb layer ***E₁ α***, ***E₁ β***, and ***E₁ γ***, respectively), but, we do so for aquatic vegetation:*
 
 > `ncov` cover of *natant plants* (***E₁n***)  
 > `scov` cover of *submerged plants* (***E₁s***)  
@@ -156,7 +156,7 @@ We supply the stratum/layer notation as defined in Mucina et al. 2000 (E₀, E�
  
 > `hsl` height of shrub layer (***E₂***), woody plants ranging 0.5 - 6 m.  s
 
-We don't distinguish a lower (***E₂ α***) and upper shrub layer (***E₂ β***)  
+We don't distinguish lower (***E₂ α***) and upper shrub layer (***E₂ β***)  
 
 
 *Height of herb layer* in meters, non-woody phanerogams (***E₁***)
