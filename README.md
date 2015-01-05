@@ -44,7 +44,7 @@ A condensed object containing all available data in this repository is contained
 Species designation and taxonomic concepts
 ------------------------------------------
 
-Most data sets link to a standard list ([see here)](https://github.com/kardinal-eros/vegsoup-standards/tree/master/austrian%20standard%20list%202008). 
+All data sets link to a standard list ([for further details see here)](https://github.com/kardinal-eros/vegsoup-standards/tree/master/austrian%20standard%20list%202008). 
 
 ![](README.png)
 
