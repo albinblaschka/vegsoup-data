@@ -106,7 +106,7 @@ drab dubi                        .   .   .   .   .   .   1   .   +   .
 saxi wahl                        +   .   .   .   .   .   .   .   .   .
 anth alpi                        .   .   .   +   .   .   .   .   .   .
 delp oxys                        .   .   .   +   .   .   .   .   .   .
-drab stur                        .   .   .   r   .   .   .   .   .   .
+drab ×stu                        .   .   .   r   .   .   .   .   .   .
 poa laxa                         .   .   .   .   +   .   .   .   .   .
 poa carp                         .   .   .   .   .   +   .   .   .   .
 sali retu                        .   .   .   .   .   1   .   .   .   .
