@@ -1,9 +1,47 @@
-vegsoup-data Collection of vegetation data
-==========================================
+vegsoup-data
+============
 
-This is our personal vegetation data base (spatial and temporal explicit species occurrence data). It contains a bunch of unpublished data sets (1469 releveés), as well as data taken from the literature (1890 releveés). The bibtex file `./refernces.bib` that is contained in each project folder gives citation information for a particular data set (see also section licence).
+A repository of plant species co-occurrence data (vegetation data, phytosociological relevés).
 
-Data sets containing a file named `transcript.txt` are ready to be used with the available [**vegsoup** *R*-package](http://r-forge.r-project.org/projects/vegsoup/). Just download the corresponding `*.rda` file and load it into your *R* session. Most data sets link to a standard list ([see here)](https://github.com/kardinal-eros/vegsoup-standards/tree/master/austrian%20standard%20list%202008). A summary of all available data is contained in the [./mirror](https://github.com/kardinal-eros/vegsoup-data/blob/master/mirror) folder.
+About
+-----
+
+This is our personal vegetation data base (spatial and temporal explicit species co-occurrence data).
+It can be viewed as an incubator area for the accumulation of vegetation-plot data.
+Currently the repository contains a bunch of unpublished data sets (1469 releveés), as well as computerized data taken from the literature (1890 releveés).
+The bibtex file `./refernces.bib` that is contained in each project folder gives citation information for a particular data set (see also section licence).
+
+How to access and use the data sets
+-----------------------------------
+
+Data sets containing a file named `transcript.txt` are ready to be used with the available [**vegsoup** *R*-package](http://r-forge.r-project.org/projects/vegsoup/).
+To install this package from within *R*, type:
+
+```R
+install.packages("vegsoup", repos="http://R-Forge.R-project.org", type = "source")
+```
+
+To load a data set it into your *R* session, you may download a particular `*.rda` and attach it to your *R*-session.
+In order to do so, first navigate to the respective `*.rda` file (eg. `bs.rda` in subfolder `barmstein dta`).
+Then right-click on the file. A further click on *View Raw* will (automatically) download the file.
+
+To load data directly from inside an R session, use:
+
+```R
+library(vegsoup)
+library(RCurl)  
+URL <- paste0("https://raw.githubusercontent.com/",
+"kardinal-eros/vegsoup-data/master/",  
+"barmstein%20dta/bs.rda")  
+load(rawConnection(getBinaryURL(URL)))
+```
+
+A condensed object containing all available data in this repository is contained in the [./mirror](https://github.com/kardinal-eros/vegsoup-data/blob/master/mirror) folder as `mirror.rda`.
+
+Species designation and taxonomic concepts
+------------------------------------------
+
+Most data sets link to a standard list ([see here)](https://github.com/kardinal-eros/vegsoup-standards/tree/master/austrian%20standard%20list%202008). 
 
 ![](README.png)
 
