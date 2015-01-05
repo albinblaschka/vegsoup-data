@@ -21,7 +21,7 @@ To install this package from within *R*, type:
 install.packages("vegsoup", repos="http://R-Forge.R-project.org", type = "source")
 ```
 
-To load a data set it into an *R* session you may either download a particular `*.rda` and attach it to your *R*-session (first navigate to the respective `*.rda` file, then right-click on the file, a further click on *View Raw* will download the file.) or, more convenient, load the data directly from inside an R session:
+To load a data set it into an *R* session you may either download a particular `*.rda` file and attach it to your *R*-session (first navigate to the respective `*.rda` file, then right-click on the file, a further click on *View Raw* will download the file.), or load the data directly from inside an R session:
 
 ```R
 library(vegsoup)
@@ -161,7 +161,7 @@ We supply the stratum/layer notation as defined in Mucina et al. 2000 (E₀, E�
 *We don't estimate the cover of any sub-strata in the terrestrial herb layer (upper, middle and lower herb layer ***E₁ α***, ***E₁ β***, and ***E₁ γ***, respectively), but, we do so  for aquatic vegetation:*
 
 > `ncov` cover of *natant plants* (***E₁n***)  
-> `scov` cover of *submerged plants* (***E₁s***)  
+> `ucov` cover of *submerged plants* (***E₁s***)  
 
 <!--- *Cover of *emergent plants* (***E₁e***) equals `hcov` (***E₁***) -->
 
