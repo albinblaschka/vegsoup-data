@@ -1,6 +1,8 @@
 library(vegsoup)
 require(bibtex)
 
+#	note, there is a minor leading zero issue with this data set
+
 path <- "~/Documents/vegsoup-data/roithinger1996"
 key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
@@ -13,12 +15,14 @@ X1 <- species(x)
 #	and footer taxa
 file <- file.path(path, "Roithinger1996TabAFooterSpecies.csv")
 X2 <- species(file, sep = ";")[, 1:4]
+X2$plot <- sprintf("%03d", as.numeric(X2$plot))
 X <- rbind(X1, X2)
 
 #   sites data including coordinates
 file <- file.path(path, "Roithinger1996TabALocations.csv")
 # promote to class "Sites"
 Y <- stackSites(file = file)
+Y$plot <- sprintf("%03d", as.numeric(Y$plot))
 
 # taxonomy reference list
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
