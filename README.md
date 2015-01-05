@@ -30,9 +30,12 @@ To load data directly from inside an R session, use:
 ```R
 library(vegsoup)
 library(RCurl)  
-URL <- paste0("https://raw.githubusercontent.com/",
-"kardinal-eros/vegsoup-data/master/",  
-"barmstein%20dta/bs.rda")  
+
+URL <- paste0(
+	"https://raw.githubusercontent.com/",  # to accesses the raw files
+	"kardinal-eros/vegsoup-data/master/",  # this is the repository
+	"barmstein%20dta/bs.rda"               # folder and *.rda file
+)
 load(rawConnection(getBinaryURL(URL)))
 ```
 
