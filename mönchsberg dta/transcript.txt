@@ -26,18 +26,6 @@ htl1                                            112
 htl2                                            111
                                                 208
                                                    
-hsl                                              1 
-                                                 . 
-                                                153
-                                                   
-hhl1                                            0 0
-                                                . .
-                                                617
-                                                   
-hhl2                                            000
-                                                ...
-                                                342
-                                                   
 plsx                                            222
                                                 555
                                                    
@@ -158,7 +146,7 @@ Solidago virgaurea ssp. virgaurea               +1+
 Sorbus aucuparia ssp. aucuparia                 +++
 Symphytum tuberosum s.lat.                      +..
 Taxus baccata                                   +++
-Tilia ✕ europaea                                +..
+Tilia × europaea                                +..
 Tilia cordata                                   112
 Ulmus glabra                                    +.1
 Viburnum lantana                                r11

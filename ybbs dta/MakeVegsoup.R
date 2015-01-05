@@ -7,6 +7,8 @@ key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 file <- file.path(path, "species wide fer.csv")
 X1 <- stackSpecies(file = file)[, c(1:4)]
 
+#sprintf("%03d", as.numeric(Y$plot))
+
 file <- file.path(path, "species wide leu.csv")
 X2 <- stackSpecies(file = file)[, c(1:4)]
 

@@ -114,7 +114,7 @@ Holcus lanatus                                   ........+...........
 Silene vulgaris ssp. vulgaris                    ........+....+....+.
 Veronica chamaedrys s.lat.                       ........+.........++
 Campanula spicata                                .........+...+....+.
-Carduus defloratus s.lat.                        .........+..1...+.+.
+Cardus defloratus s.lat.                         .........+..1...+.+.
 Centaurea pseudophrygia                          .........+..........
 Centaurea scabiosa s.lat.                        .........+...++..+..
 Cerastium arvense s.lat.                         .........++.......++

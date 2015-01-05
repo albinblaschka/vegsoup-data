@@ -47,4 +47,4 @@ Trifolium pratense ssp. pratense             +
 Vincetoxicum hirundinaria                    +  
 Viola rupestris                              +  
  
-longitude: 12.5888, latitude: 47.22713, cov: 40, t1cov: 0, t2cov: 0, scov: 0, hcov: 35, mcov: 20, htl1: 0, htl2: 0, hsl: 0, hhl1: 0.3, hhl2: 0.5, plsx: 4, plsy: 4, expo: SW, slope: 65, rock: 60, bare: 0, soil: 0, date: 2012-06-19, accuracy: 5, syntaxon: unclassified, comment: NA, description: Trockenrasenfragment an Felsen neben der Straße, richness: 47
+longitude: 12.5888, latitude: 47.22713, cov: 40, t1cov: 0, t2cov: 0, scov: 0, hcov: 35, mcov: 20, htl1: 0, htl2: 0, hsl: 0, hhl1: 0,3, hhl2: 0,5, plsx: 4, plsy: 4, expo: SW, slope: 65, rock: 60, bare: 0, soil: 0, date: 2012-06-19, accuracy: 5, syntaxon: unclassified, comment: NA, description: Trockenrasenfragment an Felsen neben der Straße, richness: 47

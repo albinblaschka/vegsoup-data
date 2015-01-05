@@ -29,27 +29,6 @@ htl1                                                           2 2
 htl2                                                           2   
                                                    0000000000000000
                                                                    
-hsl                                                      1         
-                                                         .         
-                                                   0000005000004030
-                                                                   
-hhl1                                               11111 0 00000000
-                                                   ..... . ........
-                                                   5332219178884457
-                                                                   
-hhl2                                                0     000 0    
-                                                   0.00000...0.0000
-                                                   .1.....322.2....
-                                                   2522314555352122
-                                                                   
-plsx                                               6               
-                                                   .    11     1 1 
-                                                   5444466428846468
-                                                                   
-plsy                                               2               
-                                                   .           1 1 
-                                                   5444411482246462
-                                                                   
 slope                                              32 4 4111334113 
                                                    5050505000500507
                                                                    
@@ -241,7 +220,7 @@ Polygala vulgaris ssp. vulgaris                    ..........r.....
 Vicia sepium                                       ..........+.....
 Arabis hirsuta s.str.                              ...........+.2..
 Erigeron annuus s.lat.                             ...........1....
-Oenothera biennis                                  ...........r....
+Oenothera biennis aag.                             ...........r....
 Turritis glabra                                    ...........+....
 Acer campestre                                     ............1...
 Anemone nemorosa                                   ............2...
