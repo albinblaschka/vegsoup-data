@@ -1,6 +1,7 @@
 library(vegsoup)
 require(bibtex)
 
+#	note, minor issue with plot names from read.verabtim
 path <- "~/Documents/vegsoup-data/strauch1992"
 key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
@@ -13,6 +14,7 @@ file <- file.path(path, "Strauch1992Tab2FooterSpecies.txt")
 x <- read.verbatim.append(x, file, "plots")
 
 X <- species(x)[, 1:4]
+X$plot <- gsub(".", "", X$plot, fixed = TRUE)
 
 #	sites
 Y <- read.delim("~/Documents/vegsoup-data/strauch1992/Strauch1992Tab2Locations.txt",
