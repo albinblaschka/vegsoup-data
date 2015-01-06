@@ -6,11 +6,6 @@ table.order                                                                     
                                                    2 2145627787 3 35268 4455763647588376682888355867677732553344443422251  1  118112311661490122000999011111110019919900990
                                                   1225913338957465494066394554884000126658629731237491325767092756188908778893014231745126005901678345901235643486778901122
                                                                                                                                                                            
-pls                                                                                                                                  1                                     
-                                                                                                                                     2                      1 1 1 12 1    1
-                                                         1 1     111122111222222122722232322645222223323222222123222221211 1111121 22.1221246434538736384364642828204484884
-                                                  6469699093999490006585565555455450442510055255544452204654388834584805219522665081152652500080770470400880000000000000000
-                                                                                                                                                                           
 V6                                                              1                                 111    1                                                                 
                                                   67677766777889088786767666998887666668866767555511098890666677886766664555666567666556989                                
                                                   62835048268086611208044896970006422113064070642189384483994322218065459447100511668782224NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
@@ -46,10 +41,6 @@ scov                                              NNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
                                                                                                                                                                            
 htl                                               NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN NNN 11 11 1111 11  11 NN11111
                                                   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8AAA8246208200072289228AA44242
-                                                                                                                                                                           
-hsl                                                                                                                                                                  1     
-                                                  NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN                          .     
-                                                  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA45555445525545555555554455532555
                                                                                                                                                                            
 treediameter                                      NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN3NNN2432721333213224443NN83446
                                                   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0AAA5000005050550050005AA00000

@@ -1,6 +1,7 @@
 library(vegsoup)
 require(bibtex)
 
+#	note, minor issues for plot names in read.verbatim
 path <- "~/Documents/vegsoup-data/pils1994"
 key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
@@ -8,6 +9,7 @@ key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 file <- file.path(path, "Pils1994Tab8taxon2standard.txt")
 x <- read.verbatim(file, "Aufnahmenummer", verbose = T, layers = "@")
 X0 <- species(x)[, 1:4]
+X0$plot <- gsub(".", "", X0$plot, fixed = TRUE)
 
 #	and footer taxa
 file <- file.path(path, "Pils1994Tab8FooterSpecies.csv")

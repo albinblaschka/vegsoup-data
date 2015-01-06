@@ -51,12 +51,6 @@ richness                                         2233331
                                                         
 END HEAD
 BEGIN TABLE
-Betula pendula                                tl ......2
-Picea abies                                      ......2
-Pinus sylvestris                                 ......3
-Frangula alnus                                sl ......3
-Picea abies                                      ......2
-Pinus sylvestris                                 ......1
 Achillea millefolium s.str.                   hl 2......
 Agrostis capillaris                              +....2.
 Anthoxanthum odoratum s.str.                     2.1.1+.
@@ -169,4 +163,10 @@ Dicranum scoparium                               ......2
 Hylocomium splendens                             ......3
 Pleurozium schreberi                             ......2
 Polytrichum formosum                             ......2
+Frangula alnus                                sl ......3
+Picea abies                                      ......2
+Pinus sylvestris                                 ......1
+Betula pendula                                tl ......2
+Picea abies                                      ......2
+Pinus sylvestris                                 ......3
 END TABLE

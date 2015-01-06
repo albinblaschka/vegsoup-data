@@ -1,6 +1,7 @@
 require(vegsoup)
 require(bibtex)
 
+#	note, minor issue with plot names
 path <- "~/Documents/vegsoup-data/franz2000"
 key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
@@ -26,12 +27,14 @@ a <- a$abbr[match(x$taxon, a$taxon)]
 x <- data.frame(plot = x$plot, abbr = a, layer = "hl", cov = x$cov, stringsAsFactors = FALSE)
 x$layer[c(1,2,10,17,23:26)] <- "ml"
 XX <- species(x)
+XX$plot <- sprintf("%02d", as.numeric(XX$plot))
 
 X <- rbind(X, XX)
 
 #	sites
 file <- file.path(path, "Franz2000Tab1Locations.csv")
 Y <- stackSites(file = file, schema = "Laufende Nr.")
+Y$plot <- sprintf("%02d", as.numeric(Y$plot))
 
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 #	promote to class "SpeciesTaxonomy"

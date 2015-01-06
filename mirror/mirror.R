@@ -11,6 +11,7 @@ ii <- c(
 #	other files
 	"CHANGES.md",
 	"README.md",
+	"README.png",	
 	"mirror",
 #	unfished data sets	
 	"dirnböck1999",
@@ -44,7 +45,10 @@ ii <- c(
 x <- x[-match(ii, x)]
 
 #	update
-#	sapply(file.path(path, x, "MakeVegsoup.R"), source)
+#sapply(file.path(path, x, "MakeVegsoup.R"), function (x) {
+#	cat(x, "\n")
+#	source(x)
+#	})
 
 #	biblographic entities	
 x <- sapply(file.path(path, x), function (x) {
@@ -81,6 +85,13 @@ l <- sapply(mget(k), function (x) compress(x, retain = c("author", "title", "acc
 X <- do.call("bind", l)
 
 save(X, file = file.path(path, "mirror", "mirror.rda"))
+
+#	literature data
+length(grep(":", rownames(X), fixed = TRUE))
+
+#	own data
+nrow(X) - length(grep(":", rownames(X), fixed = TRUE))
+
 #	test sites consitency
 #test <- X$accuracy
 #write.csv2(cbind(plot = rownames(X), test)[is.na(test), ],
