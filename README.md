@@ -13,6 +13,7 @@ About
 This is our personal vegetation data base (spatial and temporal explicit species co-occurrence data).
 It can be viewed as an incubator area for the accumulation of vegetation-plot data.
 Currently the repository contains a bunch of unpublished data sets (1545 relevés), as well as computerized data taken from the literature (1940 relevés), in sum 3485 relevés involving 2369 taxa (species).
+
 The bibtex file `./references.bib` that is contained in each project folder gives citation information for a particular data set (see also section license).
 
 How to access and use the data sets
@@ -45,7 +46,6 @@ Species designation and taxonomic concepts
 ------------------------------------------
 
 All data sets link to a standard list ([for further details see here)](https://github.com/kardinal-eros/vegsoup-standards/tree/master/austrian%20standard%20list%202008). 
->>>>>>> upstream/master
 
 ![](README.png)
 
