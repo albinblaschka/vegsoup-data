@@ -1,167 +1,167 @@
 plot;abbr;layer;cov;source.taxon
-1;geum riva;hl;1;Geum rivale
-2;agro giga;hl;+;Agrostis gigantea
-3;alch fiss;hl;+;Alchemilla fissa
-3;heli alpe;hl;+;Helianthemum alpestre
-3;pach mute;hl;+;Ligusticum mutellinoides
-3;luzu camp;hl;+;Luzula campestris
-3;gnap hopp;hl;+;Gnaphalium hoppeanum
-3;minu aust;hl;+;Minuartia austriaca
-4;alch fiss;hl;+;Alchemilla fissa
-4;cera font;hl;+;Cerastium fontanum
-5;agro giga;hl;+;Agrostis gigantea
-6;epil alsi;hl;2;Epilobium alsinifolium
-7;gnap hopp;hl;1;Gnaphalium hoppeanum
-7;care orni;hl;+;Carex omithopodoides
-7;ping alpi;hl;+;Pinguicula alpina
-7;heli alpe;hl;+;Helianthemum alpestre
-9;card defl viri;hl;+;Carduus defioratus
-10;alch fiss;hl;+;Alchemilla fissa
-10;ping alpi;hl;+;Pinguicula alpina
-13;epil alsi;hl;+;Epilobium alsinifolium
-13;junc jacq;hl;+;Juncus jacquinii
-15;gnap hopp;hl;+;Gnaphalium hoppeanum
-15;luzu camp;hl;+;Luzula campestris
-16;pyro mino;hl;+;Pyrola minor
-17;cera font;hl;+;Cerastium fontanum
-17;hier muro;hl;+;Hieracium sylvaticum
-17;camp barb barb;hl;+;Campanula barbata
-17;pyro mino;hl;+;Pyrola minor
-17;loni caer caer;hl;1;Lonicera caerulea
-17;pice abie;hl;+;Picea abies
-17;empe nigr;hl;+;Empetrum nigrum ssp. hermaphroditum
-17;sagi sagi ides;hl;+;Sagina saginoides
-18;cera cera;hl;+;Cerastium cerastoides
-18;tara sect rude;hl;+;Taraxacum officinale agg.
-19;alch fiss;hl;+;Alchemilla fissa
-20;sorb cham;hl;1;Sorbus chamae-mespilus
-20;rubu saxa;hl;2;Rubus saxatilis
-20;saxi rotu;hl;1;Saxifraga rotundifolia
-20;knau maxi;hl;+;Knautia dipsacifolia
-20;oxal acet;hl;+;Oxalis acetosella
-20;heli pusi pusi;hl;+;Silene pusilla
-20;soli virg virg;hl;+;Solidago virgaurea
-20;vale trip;hl;+;Valeriana tripteris ssp. austriaca
-21;luzu camp;hl;+;Luzula campestris
-21;hera aust aust;hl;+;Heracleum austria-cum
-22;alch fiss;hl;+;Alchemilla fissa
-22;luzu camp;hl;+;Luzula campestris
-25;sali reti;hl;+;Salix reticulata
-25;pach mute;hl;1;Ligusticum mutellinoides
-25;pyro mino;hl;+;Pyrola minor
-26;pote cran;hl;+;Potentilla crantzii
-27;hier muro;hl;+;Hieracium sylvaticum
-27;mela sylv;hl;+;Melampyrum sylvaticum
-29;sagi sagi ides;hl;+;Sagina saginoides
-30;empe nigr;hl;1;Empetrum nigrum ssp. hermaphroditum
-30;arab cili;hl;+;Arabis ciliata
-30;luzu camp;hl;+;Luzula campestris
-31;heli alpe;hl;+;Helianthemum alpestre
-32;botr luna;hl;+;Botrychium lunaria
-32;luzu camp;hl;+;Luzula campestris
-32;prim elat;hl;+;Primula elatior agg.
-33;botr luna;hl;+;Botrychium lunaria
-33;luzu camp;hl;+;Luzula campestris
-34;saxi rotu;hl;+;Saxifraga rotundifolia
-36;cera font;hl;+;Cerastium fontanum
-36;prim elat;hl;+;Primula elatior agg.
-36;lath prat prat;hl;+;Lathyrus pratensis
-37;epil alsi;hl;1;Epilobium alsinifolium
-38;ajug pyra;hl;+;Ajuga pyramidalis
-39;pice abie;hl;1;Picea abies
-39;card defl viri;hl;+;Carduus defloratus
-39;hier muro;hl;+;Hieracium sylvaticum
-39;luzu camp;hl;+;Luzula campestris
-39;ranu nemo;hl;1;Ranunculus nemorosus
-39;knau maxi;hl;+;Knautia dipsacifolia
-40;botr luna;hl;+;Botrychium lunaria
-41;pyro mino;hl;+;Pyrola minor
-43;heli alpe;hl;+;Helianthemum alpestre
-46;sagi sagi ides;hl;+;Sagina saginoides
-47;epil alpe;hl;+;Epilobium alpestre
-48;geum riva;hl;+;Geum rivale
-48;epil alsi;hl;+;Epilobium alsinifolium
-49;tara sect rude;hl;+;Taraxacum officinale agg.
-49;prim elat;hl;+;Primula elatior agg.
-50;sagi sagi ides;hl;+;Sagina saginoides
-51;epil alsi;hl;+;Epilobium alsinifolium
-51;arab cili;hl;+;Arabis ciliata
-51;drab aizo aizo;hl;+;Draba aizoides ssp. aizoides
-51;epil alpe;hl;+;Epilobium alpestre
-52;epil alsi;hl;+;Epilobium alsinifolium
-52;geum riva;hl;+;Geum rivale
-52;plan medi;hl;+;Plantago media
-54;poa prat;hl;+;Poa pratensis
-55;geum riva;hl;+;Geum rivale
-55;sile nuta nuta;hl;1;Silene nutans
-55;arab cili;hl;+;Arabis ciliata
-56;luzu camp;hl;+;Luzula campestris
-56;care ater;hl;+;Carex aterrima
-56;botr luna;hl;+;Botrychium lunaria
-56;card defl viri;hl;+;Carduus defloratus
-56;sagi sagi ides;hl;+;Sagina saginoides
-56;gymn cono cono;hl;+;Gymnadenia conopsea
-58;care digi;hl;+;Carex digitata
-58;arab cili;hl;+;Arabis ciliata
-58;leuc ircu;hl;+;Leucanthe-mum ircutianum
-58;plan medi;hl;+;Plantago media
-59;sorb aucu slat;hl;+;Sorbus aucuparia
-59;soli virg virg;hl;1;Solidago virgaurea
-60;sali appe;hl;+;Salix appendiculata
-60;luzu luzu ina;hl;+;Luzula luzulina
-60;prim elat;hl;+;Primula elatior agg.
-60;leuc ircu;hl;+;Leucanthemum ircutianum
-60;vale saxa;hl;+;Valeriana saxatilis
-61;arab cili;hl;+;Arabis ciliata
-61;ranu nemo;hl;+;Ranunculus nemorosus
-62;vale trip;hl;+;Valeriana tripteris ssp. austriaca
-62;beto alop;hl;+;Betonica alopecuros
-62;card defl viri;hl;+;Carduus defloratus
-63;heli pusi pusi;hl;+;Silene pusilla
-63;dryo vill;hl;+;Dryopteris villarii
-65;sorb cham;hl;+;Sorbus chamae-mespilus
-65;sali appe;hl;+;Salix appendiculata
-65;geum riva;hl;+;Geum rivale
-65;dryo vill;hl;+;Dryopteris villarii
-67;ranu nemo;hl;+;Ranunculus nemorosus
-67;luzu luzu ina;hl;+;Luzula luzulina
-69;ping alpi;hl;+;Pinguicula alpina
-70;ping alpi;hl;+;Pinguicula alpina
-71;empe nigr;hl;+;Empetrum nigrum ssp. hermaphroditum
-76;sagi sagi ides;hl;+;Sagina saginoides
-77;sagi sagi ides;hl;+;Sagina saginoides
-78;viol palu;hl;1;Viola palustris
-79;geum riva;hl;1;Geum rivale
-79;epil alpe;hl;+;Epilobium alpestre
-79;viol palu;hl;+;Viola palustris
-81;ranu nemo;hl;+;Ranunculus nemorosus
-81;oxal acet;hl;+;Oxalis acetosella
-82;dryo expa;hl;1;Dryopteris assimilis
-82;oxal acet;hl;+;Oxalis acetosella
-82;luzu luzu ina;hl;+;Luzula luzulina
-82;soli virg virg;hl;+;Solidago virgaurea
-82;vale trip;hl;+;Valeriana tripteris ssp. austriaca
-83;poa prat;hl;+;Poa pratensis
-83;card defl viri;hl;+;Carduus defloratus
-83;gale flav;hl;1;Lamiastrum galeobdolon agg.
-84;hier pilo ella;hl;1;Hieracium pilosella
-85;sagi sagi ides;hl;+;Sagina saginoides
-88;luzu sude;hl;1;Luzula sudetica
-88;cirs spin;hl;+;Cirsium spinosissimum
-89;luzu camp;hl;+;Luzula campestris
-91;agro giga;hl;2;Agrostis gigantea
-91;plan majo majo;hl;+;Plantago major
-91;luzu sude;hl;1;Luzula sudetica
-92;glob nudi;hl;+;Globularia nudicaulis
-93;gnap hopp;hl;+;Gnaphalium hoppeanum
-94;agro giga;hl;2;Agrostis gigantea
-94;card defl viri;hl;+;Carduus defloratus
-94;heli pusi pusi;hl;+;Silene pusilla
-94;pedi rost tata;hl;+;Pedicularis rostrato-capitata
-95;arab cili;hl;+;Arabis ciliata
-95;card defl viri;hl;+;Carduus defloratus
-96;cera font;hl;+;Cerastium fontanum
-96;sali reti;hl;+;Salix reticulata
-99;cera font;hl;+;Cerastium fontanum
+001;geum riva;hl;1;Geum rivale
+002;agro giga;hl;+;Agrostis gigantea
+003;alch fiss;hl;+;Alchemilla fissa
+003;heli alpe;hl;+;Helianthemum alpestre
+003;pach mute;hl;+;Ligusticum mutellinoides
+003;luzu camp;hl;+;Luzula campestris
+003;gnap hopp;hl;+;Gnaphalium hoppeanum
+003;minu aust;hl;+;Minuartia austriaca
+004;alch fiss;hl;+;Alchemilla fissa
+004;cera font;hl;+;Cerastium fontanum
+005;agro giga;hl;+;Agrostis gigantea
+006;epil alsi;hl;2;Epilobium alsinifolium
+007;gnap hopp;hl;1;Gnaphalium hoppeanum
+007;care orni;hl;+;Carex omithopodoides
+007;ping alpi;hl;+;Pinguicula alpina
+007;heli alpe;hl;+;Helianthemum alpestre
+009;card defl viri;hl;+;Carduus defioratus
+010;alch fiss;hl;+;Alchemilla fissa
+010;ping alpi;hl;+;Pinguicula alpina
+013;epil alsi;hl;+;Epilobium alsinifolium
+013;junc jacq;hl;+;Juncus jacquinii
+015;gnap hopp;hl;+;Gnaphalium hoppeanum
+015;luzu camp;hl;+;Luzula campestris
+016;pyro mino;hl;+;Pyrola minor
+017;cera font;hl;+;Cerastium fontanum
+017;hier muro;hl;+;Hieracium sylvaticum
+017;camp barb barb;hl;+;Campanula barbata
+017;pyro mino;hl;+;Pyrola minor
+017;loni caer caer;hl;1;Lonicera caerulea
+017;pice abie;hl;+;Picea abies
+017;empe nigr;hl;+;Empetrum nigrum ssp. hermaphroditum
+017;sagi sagi ides;hl;+;Sagina saginoides
+018;cera cera;hl;+;Cerastium cerastoides
+018;tara sect rude;hl;+;Taraxacum officinale agg.
+019;alch fiss;hl;+;Alchemilla fissa
+020;sorb cham;hl;1;Sorbus chamae-mespilus
+020;rubu saxa;hl;2;Rubus saxatilis
+020;saxi rotu;hl;1;Saxifraga rotundifolia
+020;knau maxi;hl;+;Knautia dipsacifolia
+020;oxal acet;hl;+;Oxalis acetosella
+020;heli pusi pusi;hl;+;Silene pusilla
+020;soli virg virg;hl;+;Solidago virgaurea
+020;vale trip;hl;+;Valeriana tripteris ssp. austriaca
+021;luzu camp;hl;+;Luzula campestris
+021;hera aust aust;hl;+;Heracleum austria-cum
+022;alch fiss;hl;+;Alchemilla fissa
+022;luzu camp;hl;+;Luzula campestris
+025;sali reti;hl;+;Salix reticulata
+025;pach mute;hl;1;Ligusticum mutellinoides
+025;pyro mino;hl;+;Pyrola minor
+026;pote cran;hl;+;Potentilla crantzii
+027;hier muro;hl;+;Hieracium sylvaticum
+027;mela sylv;hl;+;Melampyrum sylvaticum
+029;sagi sagi ides;hl;+;Sagina saginoides
+030;empe nigr;hl;1;Empetrum nigrum ssp. hermaphroditum
+030;arab cili;hl;+;Arabis ciliata
+030;luzu camp;hl;+;Luzula campestris
+031;heli alpe;hl;+;Helianthemum alpestre
+032;botr luna;hl;+;Botrychium lunaria
+032;luzu camp;hl;+;Luzula campestris
+032;prim elat;hl;+;Primula elatior agg.
+033;botr luna;hl;+;Botrychium lunaria
+033;luzu camp;hl;+;Luzula campestris
+034;saxi rotu;hl;+;Saxifraga rotundifolia
+036;cera font;hl;+;Cerastium fontanum
+036;prim elat;hl;+;Primula elatior agg.
+036;lath prat prat;hl;+;Lathyrus pratensis
+037;epil alsi;hl;1;Epilobium alsinifolium
+038;ajug pyra;hl;+;Ajuga pyramidalis
+039;pice abie;hl;1;Picea abies
+039;card defl viri;hl;+;Carduus defloratus
+039;hier muro;hl;+;Hieracium sylvaticum
+039;luzu camp;hl;+;Luzula campestris
+039;ranu nemo;hl;1;Ranunculus nemorosus
+039;knau maxi;hl;+;Knautia dipsacifolia
+040;botr luna;hl;+;Botrychium lunaria
+041;pyro mino;hl;+;Pyrola minor
+043;heli alpe;hl;+;Helianthemum alpestre
+046;sagi sagi ides;hl;+;Sagina saginoides
+047;epil alpe;hl;+;Epilobium alpestre
+048;geum riva;hl;+;Geum rivale
+048;epil alsi;hl;+;Epilobium alsinifolium
+049;tara sect rude;hl;+;Taraxacum officinale agg.
+049;prim elat;hl;+;Primula elatior agg.
+050;sagi sagi ides;hl;+;Sagina saginoides
+051;epil alsi;hl;+;Epilobium alsinifolium
+051;arab cili;hl;+;Arabis ciliata
+051;drab aizo aizo;hl;+;Draba aizoides ssp. aizoides
+051;epil alpe;hl;+;Epilobium alpestre
+052;epil alsi;hl;+;Epilobium alsinifolium
+052;geum riva;hl;+;Geum rivale
+052;plan medi;hl;+;Plantago media
+054;poa prat;hl;+;Poa pratensis
+055;geum riva;hl;+;Geum rivale
+055;sile nuta nuta;hl;1;Silene nutans
+055;arab cili;hl;+;Arabis ciliata
+056;luzu camp;hl;+;Luzula campestris
+056;care ater;hl;+;Carex aterrima
+056;botr luna;hl;+;Botrychium lunaria
+056;card defl viri;hl;+;Carduus defloratus
+056;sagi sagi ides;hl;+;Sagina saginoides
+056;gymn cono cono;hl;+;Gymnadenia conopsea
+058;care digi;hl;+;Carex digitata
+058;arab cili;hl;+;Arabis ciliata
+058;leuc ircu;hl;+;Leucanthe-mum ircutianum
+058;plan medi;hl;+;Plantago media
+059;sorb aucu slat;hl;+;Sorbus aucuparia
+059;soli virg virg;hl;1;Solidago virgaurea
+060;sali appe;hl;+;Salix appendiculata
+060;luzu luzu ina;hl;+;Luzula luzulina
+060;prim elat;hl;+;Primula elatior agg.
+060;leuc ircu;hl;+;Leucanthemum ircutianum
+060;vale saxa;hl;+;Valeriana saxatilis
+061;arab cili;hl;+;Arabis ciliata
+061;ranu nemo;hl;+;Ranunculus nemorosus
+062;vale trip;hl;+;Valeriana tripteris ssp. austriaca
+062;beto alop;hl;+;Betonica alopecuros
+062;card defl viri;hl;+;Carduus defloratus
+063;heli pusi pusi;hl;+;Silene pusilla
+063;dryo vill;hl;+;Dryopteris villarii
+065;sorb cham;hl;+;Sorbus chamae-mespilus
+065;sali appe;hl;+;Salix appendiculata
+065;geum riva;hl;+;Geum rivale
+065;dryo vill;hl;+;Dryopteris villarii
+067;ranu nemo;hl;+;Ranunculus nemorosus
+067;luzu luzu ina;hl;+;Luzula luzulina
+069;ping alpi;hl;+;Pinguicula alpina
+070;ping alpi;hl;+;Pinguicula alpina
+071;empe nigr;hl;+;Empetrum nigrum ssp. hermaphroditum
+076;sagi sagi ides;hl;+;Sagina saginoides
+077;sagi sagi ides;hl;+;Sagina saginoides
+078;viol palu;hl;1;Viola palustris
+079;geum riva;hl;1;Geum rivale
+079;epil alpe;hl;+;Epilobium alpestre
+079;viol palu;hl;+;Viola palustris
+081;ranu nemo;hl;+;Ranunculus nemorosus
+081;oxal acet;hl;+;Oxalis acetosella
+082;dryo expa;hl;1;Dryopteris assimilis
+082;oxal acet;hl;+;Oxalis acetosella
+082;luzu luzu ina;hl;+;Luzula luzulina
+082;soli virg virg;hl;+;Solidago virgaurea
+082;vale trip;hl;+;Valeriana tripteris ssp. austriaca
+083;poa prat;hl;+;Poa pratensis
+083;card defl viri;hl;+;Carduus defloratus
+083;gale flav;hl;1;Lamiastrum galeobdolon agg.
+084;hier pilo ella;hl;1;Hieracium pilosella
+085;sagi sagi ides;hl;+;Sagina saginoides
+088;luzu sude;hl;1;Luzula sudetica
+088;cirs spin;hl;+;Cirsium spinosissimum
+089;luzu camp;hl;+;Luzula campestris
+091;agro giga;hl;2;Agrostis gigantea
+091;plan majo majo;hl;+;Plantago major
+091;luzu sude;hl;1;Luzula sudetica
+092;glob nudi;hl;+;Globularia nudicaulis
+093;gnap hopp;hl;+;Gnaphalium hoppeanum
+094;agro giga;hl;2;Agrostis gigantea
+094;card defl viri;hl;+;Carduus defloratus
+094;heli pusi pusi;hl;+;Silene pusilla
+094;pedi rost tata;hl;+;Pedicularis rostrato-capitata
+095;arab cili;hl;+;Arabis ciliata
+095;card defl viri;hl;+;Carduus defloratus
+096;cera font;hl;+;Cerastium fontanum
+096;sali reti;hl;+;Salix reticulata
+099;cera font;hl;+;Cerastium fontanum
 101;meli nuta;hl;+;Melica nutans
 104;luzu luzu ina;hl;+;Luzula luzulina

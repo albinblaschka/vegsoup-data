@@ -5,20 +5,19 @@ accuracy                                                  5212 22 1 21
                                                        555005050050200
                                                        000000000000000
                                                                       
-elevation                                              111111122222122
-                                                       649968822003922
-                                                       262258300132002
-                                                       000000000000000
+elevation                                                 1           
+                                                          9           
+                                                       NNN2NNNNNNNNNNN
+                                                       AAA0AAAAAAAAAAA
                                                                       
-slope                                                  111 222        
-                                                       050550500520500
+slope                                                  NNN NNNNNNNNNNN
+                                                       AAA5AAAAAAAAAAA
                                                                       
-pls                                                    23  2     1    
-                                                       001102522201111
-                                                       000000000000000
+pls                                                    NNN1NNNNNNNNNNN
+                                                       AAA0AAAAAAAAAAA
                                                                       
-cov                                                    999989998978568
-                                                       595050005055005
+cov                                                    NNN9NNNNNNNNNNN
+                                                       AAA0AAAAAAAAAAA
                                                                       
 richness                                               45124223224212 
                                                        464773503305419

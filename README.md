@@ -1,9 +1,51 @@
-vegsoup-data Collection of vegetation data
-==========================================
+vegsoup-data
+============
 
 This is our personal vegetation data base (spatial and temporal explicit species occurrence data). It contains a bunch of unpublished data sets (1469 releveés), as well as data taken from the literature (1890 releveés). The bibtex file `./references.bib` that is contained in each project folder gives citation information for a particular data set (see also section licence).
 
 Data sets containing a file named `transcript.txt` are ready to be used with the available [**vegsoup** *R*-package](http://r-forge.r-project.org/projects/vegsoup/). Just download the corresponding `*.rda` file and load it into your *R* session. Most data sets link to a standard list ([see here)](https://github.com/kardinal-eros/vegsoup-standards/tree/master/austrian%20standard%20list%202008). A summary of all  data available is contained in the [./mirror](https://github.com/kardinal-eros/vegsoup-data/blob/master/mirror) folder.
+=======
+A repository of plant species co-occurrence data (vegetation data, phytosociological relevés).
+
+About
+-----
+
+This is our personal vegetation data base (spatial and temporal explicit species co-occurrence data).
+It can be viewed as an incubator area for the accumulation of vegetation-plot data.
+Currently the repository contains a bunch of unpublished data sets (1545 relevés), as well as computerized data taken from the literature (1940 relevés), in sum 3485 relevés involving 2369 taxa (species).
+The bibtex file `./references.bib` that is contained in each project folder gives citation information for a particular data set (see also section license).
+
+How to access and use the data sets
+-----------------------------------
+
+Data sets containing a file named `transcript.txt` are ready to be used with the [**vegsoup** *R*-package](http://r-forge.r-project.org/projects/vegsoup/).
+To install this package from within *R*, type:
+
+```R
+install.packages("vegsoup", repos="http://R-Forge.R-project.org", type = "source")
+```
+
+To load a data set it into an *R* session you may either download a particular `*.rda` file and attach it to your *R*-session (first navigate to the respective `*.rda` file, then right-click on the file, a further click on *View Raw* will download the file.), or load the data directly from inside an R session:
+
+```R
+library(vegsoup)
+library(RCurl)  
+
+URL <- paste0(
+	"https://raw.githubusercontent.com/",  # to accesses the raw files
+	"kardinal-eros/vegsoup-data/master/",  # this is the repository
+	"barmstein%20dta/bs.rda"               # folder and *.rda file
+)
+load(rawConnection(getBinaryURL(URL)))
+```
+
+A condensed object containing all available data in this repository is contained in the [./mirror](https://github.com/kardinal-eros/vegsoup-data/blob/master/mirror) folder as `mirror.rda`.
+
+Species designation and taxonomic concepts
+------------------------------------------
+
+All data sets link to a standard list ([for further details see here)](https://github.com/kardinal-eros/vegsoup-standards/tree/master/austrian%20standard%20list%202008). 
+>>>>>>> upstream/master
 
 ![](README.png)
 
@@ -124,7 +166,7 @@ We supply the stratum/layer notation as defined in Mucina et al. 2000 (E₀, E�
 *We don't estimate the cover of any sub-strata in the terrestrial herb layer (upper, middle and lower herb layer ***E₁ α***, ***E₁ β***, and ***E₁ γ***, respectively), but, we do so for aquatic vegetation:*
 
 > `ncov` cover of *natant plants* (***E₁n***)  
-> `scov` cover of *submerged plants* (***E₁s***)  
+> `ucov` cover of *submerged plants* (***E₁s***)  
 
 <!--- *Cover of *emergent plants* (***E₁e***) equals `hcov` (***E₁***) -->
 
