@@ -21,7 +21,7 @@ To install this package from within *R*, type:
 install.packages("vegsoup", repos="http://R-Forge.R-project.org", type = "source")
 ```
 
-To load a data set it into an *R* session you may either download a particular `*.rda` file and attach it to your *R*-session (first navigate to the respective `*.rda` file, then right-click on the file, a further click on *View Raw* will download the file.), or load the data directly from inside an R session:
+To load a data set into an *R* session you may either download a particular `*.rda` file and attach it to your *R*-session (first navigate to the respective `*.rda` file, then right-click on the file, a further click on *View Raw* will download the file.), or load the data directly from inside an R session:
 
 ```R
 library(vegsoup)
@@ -50,14 +50,8 @@ Licence
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons licnece" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a Craetive Commons licence <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution - NonCommercial - ShareAlike 4.0 International</a>.
 
 
+We ask to contact the [maintainer](https://github.com/kardinal-eros) if you plan to use any data from this repository in a publication.
 
-<!-- Please contact me (kardinal.eros at gmail.com) if you want to use any of the data sets in a publication.
-
-Short note about formats
-------------------------
-Date format is in general IS0 8601.
-Coordinates are given in decimal degree with 6 significant digits and refer to the WGS84 ellipsoid (EPSG code 4326). A field named `accuracy` is available for most data sets and quantifies coordinate uncertainty in meters.
--->
 
 Sampling protocol and data standards
 ====================================
@@ -105,7 +99,7 @@ When ever possible we use square plots. In some rare cases (e.g. forest on rock 
 Attributes of the sampling units (relevés) that are recored in the field
 ------------------------------------------------------------------------
 
-Principal standards of the phytosociological relevé follow Mucina et al. (2000).
+Principal standards of the phytosociological relevé follow the notation of Mucina et al. (2000).
 
 **Data on field record**
 
@@ -113,14 +107,14 @@ Principal standards of the phytosociological relevé follow Mucina et al. (2000)
 > ` date` date of sampling (ISO 8601, yyyy-mm-dd)  
 > `observer` name(s) of the author(s) of the relevé  
 > `alliance` provisional classification into syntaxon  
-> `association`  
+> `association` optional  
 > `plsx` edge length of plot, parallel to hillside  
 > `plsy` edge length of plot, orthogonal to hillside  
 
 
 **Geographic data**  
 
-> `locality` topographic name  
+> `location` locality, topographic name  
 > `expo` exposition, aspect  
 > `slope` slope, inclination  
 
@@ -135,9 +129,9 @@ Other fields, such as, country, province (district), nearest village, and altitu
 
 **Data on vegetation**  
 
-*Cover of vegetation*
+We supply the stratum/layer notation as defined in Mucina et al. 2000 (E₀, E₁, E₂, E₃)
 
-We supply the stratum/layer notation as defined in Mucina et al. 2000 (E₀, E₁, E₂, E₃).
+*Cover of vegetation*
 
 > `cov` total cover, total projection of standing vegetation  
 
@@ -158,7 +152,7 @@ We supply the stratum/layer notation as defined in Mucina et al. 2000 (E₀, E�
 
 > `hcov` cover of *herb* layer (***E₁***)  
 
-*We don't estimate the cover of any sub-strata in the terrestrial herb layer (upper, middle and lower herb layer ***E₁ α***, ***E₁ β***, and ***E₁ γ***, respectively), but, we do so  for aquatic vegetation:*
+We don't estimate the cover of any sub-strata in the terrestrial herb layer (upper, middle and lower herb layer ***E₁ α***, ***E₁ β***, and ***E₁ γ***, respectively), but, we do so  for aquatic vegetation:
 
 > `ncov` cover of *natant plants* (***E₁n***)  
 > `ucov` cover of *submerged plants* (***E₁s***)  
@@ -179,6 +173,7 @@ We supply the stratum/layer notation as defined in Mucina et al. 2000 (E₀, E�
 > `soil` cover of debris  
 > `water` cover of free water  
 
+*Height of vegetation*
 
 *Height of tree layer* in meters, woody plants over 6 m tall (***E₃***)
 
@@ -202,9 +197,9 @@ We don't distinguish a lower (***E₂ α***) and upper shrub layer (***E₂ β**
 > `hhl1` height of upper herb layer (***E₁ γ***)  
 > `hhl2` height of lower herb layer (***E₁ α***)  
 
-*We don't distinguish a middle herb layer (***E₁ β***)*  
-*We include woody plants that compete with non-woody phanerogams in the herb layer (juvenile trees)*  
-*We don't estimate the height of the cryptogam layer (***E₀***)*  
+We don't distinguish a middle herb layer (***E₁ β***).  
+Woody plants that compete with non-woody phanerogams are attributed to the herb layer (juvenile trees).  
+The height of the cryptogam layer (***E₀***) is not estimated/measured.  
 
 
 **Data on habitat and Notes**  
