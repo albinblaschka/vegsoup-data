@@ -48,8 +48,8 @@ plot;observer;date;location;latitude;longitude;accuracy;elevation;expo;slope;geo
 47;E. Stadler;2011-09-25;Ostufer nach Karbach;47.865148;13.816073;500;;W;40;;;;no;256;90;10;10;6;80;0,5;5;5;
 48;E. Stadler;2011-09-25;Ostufer nach Karbach;47.865148;13.816073;500;;W;60;;;;no;256;90;15;60;6;30;0,5;80;15;
 49;E. Stadler;2011-09-25;Ostufer nach Karbach;47.865148;13.816073;500;;W;30;;;;no;256;90;20;80;6;30;0,5;70;30; 
-50;E. Stadler;2011-09-25;Miesweg;47.860232;13.814662;300;30 über See;W;30 - 45;;;;no;8;90;;50;;20;;80;5;am Ende des Miesweges, nach erster Abbiegung des Weges vom Mieswegufer rauf zur Forststraße (wird oft als Klo missbraucht)
-51;E. Stadler;2011-09-25;Miesweg;47.860232;13.814662;300;15 über See;W;50;;;;no;8;95;;15;;15;;85;; 
-52;E. Stadler;2011-09-25;Miesweg;47.860232;13.814662;300;10 über See;W;45;;;;;8;95;;20;;30;;90;10;feuchtere, baumbeschattete Stelle, mit flacher Mulde ca. 10 m weiter südlich von 51
-53;E. Stadler;2011-09-25;Miesweg;47.860232;13.814662;300;50 über See;W;30;;;;;64;70;;60;;60;;40;1;freier Fels: 15 %
+50;E. Stadler;2011-09-25;Miesweg;47.860232;13.814662;300;462;W;40;;;;no;8;90;;50;;20;;80;5;am Ende des Miesweges, nach erster Abbiegung des Weges vom Mieswegufer rauf zur Forststraße (wird oft als Klo missbraucht), 30 m über See
+51;E. Stadler;2011-09-25;Miesweg;47.860232;13.814662;300;427;W;50;;;;no;8;95;;15;;15;;85;;15 m über See
+52;E. Stadler;2011-09-25;Miesweg;47.860232;13.814662;300;442;W;45;;;;;8;95;;20;;30;;90;10;feuchtere, baumbeschattete Stelle, mit flacher Mulde ca. 10 m weiter südlich von 51, 10 m über See
+53;E. Stadler;2011-09-25;Miesweg;47.860232;13.814662;300;482;W;30;;;;;64;70;;60;;60;;40;1;freier Fels: 15 %, 50 m über See
 54;E. Stadler;2011-09-24;Forststraße Traunstein ;47.87105;13.817235;500;;;;;;;;64;40;8;15;6;10;;35;; 
