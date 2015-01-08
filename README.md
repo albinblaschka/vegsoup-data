@@ -18,6 +18,9 @@ Data sets containing a file named `transcript.txt` are ready to be used with the
 To install this package from within *R*, type:
 
 ```R
+# if needed
+install.packages("devtools")
+
 install.packages("vegsoup", repos="http://R-Forge.R-project.org", type = "source")
 ```
 
