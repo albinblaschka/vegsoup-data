@@ -3,6 +3,7 @@ require(bibtex)
 
 path <- "~/Documents/vegsoup-data/nockberge dta"
 key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
+key <- key[[1]]
 
 #	there are two data partitions with prefix 1 and 2
 
