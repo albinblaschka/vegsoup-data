@@ -33,7 +33,7 @@ make <- function (tab = 1) {
 	
 	file <- file.path(path, paste0("Dullnig1989Tab", tab, "FooterSpecies.txt"))
 	x2 <- castFooter(file, first = FALSE, layers = "@")
-	x2 <- species(x2[, c(1,3,4,2)])
+	x2 <- species(x2)
 	
 	X <- rbind(x1, x2)
 	X$cov[X$cov == "R"] <- "r"
