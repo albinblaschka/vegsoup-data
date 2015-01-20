@@ -15,7 +15,7 @@ zz <- read.csv(file.path(path, "translate.csv"),
 zz <- join(zz, Z)
 
 #	make function for tables 1:4
-make <- function (tab = 27) {
+make <- function (tab = 16) {
 	file <- file.path(path, paste0("Greimler1997Tab", tab, ".txt"))
 	x <- read.verbatim(file, colnames = "Aufn.Nr.", layers = "@", vertical = FALSE)
 	x1 <- species(x)

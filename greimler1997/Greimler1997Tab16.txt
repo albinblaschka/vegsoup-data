@@ -45,7 +45,7 @@ Androsace chamaejasme            @hl    .   .   .   .   .   .   .   .   .   +   
 Gentiana clusii                  @hl    +   .   .   .   .   .   .   .   .   .   +   +   +   +   .   .   +   +   1   .   +   +   +   1   .   .   .   .
 Tofieldia calyculata             @hl    .   .   .   .   .   .   .   .   .   .   .   +   .   +   .   .   +   .   .   +   +   .   .   .   1   .   .   +
 Pinguicula alpina                @hl    .   +   .   .   +   .   .   .   .   .   .   +   +   .   .   .   .   .   1   +   +   .   .   .   1   .   r   .
-Carex capilaris                  @hl    .   +   .   .   +   .   .   .   .   .   .   .   +   .   +   +   +   +   .   +   .   .   .   .   .   .   .   .
+Carex capillaris                 @hl    .   +   .   .   +   .   .   .   .   .   .   .   +   .   +   +   +   +   .   +   .   .   .   .   .   .   .   .
 Chamorchis alpina                @hl    .   +   .   .   .   .   .   .   .   .   .   .   +   .   .   .   1   .   +   .   .   .   .   .   .   .   .   .
 Dianthus alpinus                 @hl    .   .   .   .   .   .   .   .   .   r   r   .   +   +   .   .   .   +   .   .   .   .   .   .   .   .   .   .
 Phyteuma orbiculare              @hl    .   .   .   .   +   .   .   .   .   .   .   +   1   .   .   .   .   .   .   +   +   .   .   .   .   .   .   .
