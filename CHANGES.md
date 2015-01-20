@@ -69,4 +69,7 @@ there are two homonymous instances in standard list for *Hypnum cupressiforme*
 
 instances with `hypn cupr` should be replaced with `hypn cupr slat`
 
+*Barbula reflexa* and *Barbula rigidula* are not valid taxa.
+
+
 > ./* many data sets 
