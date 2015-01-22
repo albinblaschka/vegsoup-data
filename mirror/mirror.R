@@ -19,7 +19,6 @@ ii <- c(
 #	unfished data sets	
 	"dirnböck1999",
 	"dunzendorfer1980",
-	"ewald2013",
 	"greimler1996",
 	"greimler1997",
 	"grims1982",
