@@ -43,28 +43,28 @@ ff <- sapply(f, list.files, pattern = "rda", USE.NAMES = FALSE)
 k <- gsub(".rda", "", ff)
 
 for (i in seq_along(f)) {
-	cat(".")
 	load(file.path(f[i], ff[i]))
 	ii <- get(k[i])
 	ii$key = k[i]
 	assign(k[i], ii)
 }
 
+#	applied coverscales
 sapply(sapply(mget(k), coverscale), slot, "name")
+
 #	find a common set of sites variables
 j <- unique(unlist(sapply(mget(k), names)))
-l <- sapply(mget(k), function (x) compress(x)) # retain = c("author", "title", "accuracy", "observer")
 
+#	compress and bind all objects
+l <- sapply(mget(k), function (x) compress(x)) # retain = c("author", "title", "accuracy", "observer")
 X <- do.call("bind", l)
 
+#	save to disk
 save(X, file = file.path(path, "mirror", "mirror dev.rda"))
 
+#	write ESRI Shapefile
 x <- data.frame(coordinates(X), Sites(X))
 coordinates(x) <- ~longitude + latitude
 proj4string(x) <- CRS("+init=epsg:4326")
 dsn <- file.path(path.expand(path), "mirror")
-writeOGR(x, dsn, "mirror_dev.shp", driver = "ESRI Shapefile", overwrite_layer = TRUE)
-#	test sites consitency
-#test <- X$accuracy
-#write.csv2(cbind(plot = rownames(X), test)[is.na(test), ],
-#	"foo.csv", quote = FALSE, row.names = FALSE)
+writeOGR(x, dsn, "mirror dev", driver = "ESRI Shapefile", overwrite_layer = TRUE)

@@ -68,6 +68,7 @@ ii <- c(
 x <- x[-match(ii, x)]
 
 #	update
+#	note, Make-files will delete objects in the enviroment when leaving
 sapply(file.path(path, x, "MakeVegsoup.R"), function (x) {
 	cat(x, "\n")
 	source(x)
@@ -102,26 +103,26 @@ for (i in seq_along(f)) {
 	assign(k[i], ii)
 }
 
+#	applied coverscales
 sapply(sapply(mget(k), coverscale), slot, "name")
-l <- sapply(mget(k), function (x) compress(x, retain = c("author", "title", "accuracy", "observer")))
 
+#	compress and bind all objects
+l <- sapply(mget(k), function (x) compress(x, retain = c("author", "title", "accuracy", "observer")))
 X <- do.call("bind", l)
 
+#	save to disk
 save(X, file = file.path(path, "mirror", "mirror.rda"))
 
+#	write ESRI Shapefile
 x <- data.frame(coordinates(X), Sites(X))
-coordinates(x) <- ~longitude + latitude
+coordinates(x) <- ~x + y
 proj4string(x) <- CRS("+init=epsg:4326")
 dsn <- file.path(path.expand(path), "mirror")
-writeOGR(x, dsn, "mirror_dev.shp", driver = "ESRI Shapefile", overwrite_layer = TRUE)
 
-#	literature data
-length(grep(":", rownames(X), fixed = TRUE))
+#	flag literature data
+x$published <- "no"
+x$published[grep(":", rownames(X), fixed = TRUE)] <- "yes"
+table(x$published)
 
-#	own data
-nrow(X) - length(grep(":", rownames(X), fixed = TRUE))
-
-#	test sites consitency
-#test <- X$accuracy
-#write.csv2(cbind(plot = rownames(X), test)[is.na(test), ],
-#	"foo.csv", quote = FALSE, row.names = FALSE)
+#	write ESRI Shaepfile
+writeOGR(x, dsn, "mirror", driver = "ESRI Shapefile", overwrite_layer = TRUE)
