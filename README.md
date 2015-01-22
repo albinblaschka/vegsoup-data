@@ -66,9 +66,10 @@ Notes about computerization of literature data
 
 Each project that is developed from a published source can seamlessly built from OCR transcripts.
 In this way it is possible to scrutinize all steps that were involved in digitizing the data.
-First of all, we supply PDF-files of the source along with its OCR transcripts.
+First of all, we supply PDF-files of the (table) sources along with its OCR transcripts.
 All data manipulation steps are documented within a *Make* file (`MakeVegsoup.R`).
 Concerning the interpretation of taxonomic concepts a table is supplied that translate the taxa in the publication to a reference list.
+The the *URL* tag in the `references.bib` file provides a (stable) link to a full PDF-version of the publication – not just the tables and related material. If no freely available PDF-version is available, a scanned version of the document is stored along with the project.
 
 Bibliographic information
 =========================
