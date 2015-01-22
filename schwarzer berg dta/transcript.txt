@@ -3,29 +3,25 @@ plot                                        ss
                                             bb
                                             00
                                             12
+accuracy                                    22
+                                            00
+                                              
+bare                                        00
+                                              
 cov                                         83
                                             55
-                                              
-t1cov                                       2 
-                                            00
-                                              
-t2cov                                       2 
-                                            50
-                                              
-scov                                        31
-                                            00
                                               
 hcov                                        83
                                             05
                                               
-mcov                                        53
+hsl                                         32
                                               
 htl1                                        1 
                                             30
                                               
 htl2                                        90
                                               
-hsl                                         32
+mcov                                        53
                                               
 plsx                                        2 
                                             58
@@ -33,18 +29,22 @@ plsx                                        2
 plsy                                        1 
                                             08
                                               
-slope                                       47
-                                            50
-                                              
 rock                                        26
                                             05
                                               
-bare                                        00
+scov                                        31
+                                            00
+                                              
+slope                                       47
+                                            50
                                               
 stones                                      00
                                               
-accuracy                                    22
+t1cov                                       2 
                                             00
+                                              
+t2cov                                       2 
+                                            50
                                               
 richness                                    62
                                             58

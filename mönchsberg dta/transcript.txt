@@ -3,22 +3,17 @@ plot                                            mmm
                                                 bbb
                                                 000
                                                 123
+accuracy                                        111
+                                                000
+                                                   
+bare                                             1 
+                                                000
+                                                   
 cov                                             999
                                                 807
                                                    
-t1cov                                           936
-                                                050
-                                                   
-t2cov                                           275
-                                                050
-                                                   
-scov                                            417
-                                                550
-                                                   
 hcov                                            886
                                                 055
-                                                   
-mcov                                            121
                                                    
 htl1                                            112
                                                 665
@@ -26,24 +21,29 @@ htl1                                            112
 htl2                                            111
                                                 208
                                                    
+mcov                                            121
+                                                   
 plsx                                            222
                                                 555
                                                    
 plsy                                            111
                                                 000
                                                    
-slope                                           242
-                                                000
-                                                   
 rock                                            002
                                                    
-bare                                             1 
+scov                                            417
+                                                550
+                                                   
+slope                                           242
                                                 000
                                                    
 stones                                          000
                                                    
-accuracy                                        111
-                                                000
+t1cov                                           936
+                                                050
+                                                   
+t2cov                                           275
+                                                050
                                                    
 richness                                        555
                                                 358

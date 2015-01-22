@@ -3,23 +3,18 @@ plot                                            rrr
                                                 bbb
                                                 000
                                                 123
+accuracy                                        111
+                                                000
+                                                   
+bare                                            000
+                                                   
 cov                                             999
                                                 570
-                                                   
-t1cov                                           654
-                                                005
-                                                   
-t2cov                                           557
-                                                005
-                                                   
-scov                                            346
-                                                550
                                                    
 hcov                                            877
                                                 000
                                                    
-mcov                                             11
-                                                700
+hsl                                             554
                                                    
 htl1                                            211
                                                 205
@@ -27,7 +22,8 @@ htl1                                            211
 htl2                                            1 1
                                                 472
                                                    
-hsl                                             554
+mcov                                             11
+                                                700
                                                    
 plsx                                            121
                                                 650
@@ -35,18 +31,22 @@ plsx                                            121
 plsy                                            112
                                                 605
                                                    
-slope                                            52
-                                                000
-                                                   
 rock                                            132
                                                 550
                                                    
-bare                                            000
+scov                                            346
+                                                550
+                                                   
+slope                                            52
+                                                000
                                                    
 soil                                            000
                                                    
-accuracy                                        111
-                                                000
+t1cov                                           654
+                                                005
+                                                   
+t2cov                                           557
+                                                005
                                                    
 richness                                        467
                                                 741

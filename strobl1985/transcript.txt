@@ -1,36 +1,36 @@
 BEGIN HEAD
 plot                                  12
+accuracy                              22
+                                      00
+                                      00
+                                        
 cov                                   45
                                       00
-                                        
-t1cov                                 00
-                                        
-t2cov                                 00
-                                        
-scov                                  00
-                                        
-hcov                                  45
-                                      00
-                                        
-mcov                                  00
-                                        
-htl1                                  00
-                                        
-htl2                                  00
-                                        
-hsl                                   02
-                                        
-plsx                                  12
-                                        
-plsy                                  23
                                         
 elevation                             77
                                       67
                                       00
                                         
-accuracy                              22
+hcov                                  45
                                       00
-                                      00
+                                        
+hsl                                   02
+                                        
+htl1                                  00
+                                        
+htl2                                  00
+                                        
+mcov                                  00
+                                        
+plsx                                  12
+                                        
+plsy                                  23
+                                        
+scov                                  00
+                                        
+t1cov                                 00
+                                        
+t2cov                                 00
                                         
 richness                              12
                                       43

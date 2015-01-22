@@ -3,31 +3,27 @@ plot                                       ss
                                            gg
                                            00
                                            12
-cov                                        98
+accuracy                                   22
                                            00
                                              
-t1cov                                      00
-                                             
-t2cov                                      03
-                                             
-scov                                       77
+cov                                        98
                                            00
                                              
 hcov                                       96
                                            00
                                              
-mcov                                       52
-                                           00
+hhl1                                       00
+                                             
+hhl2                                       00
+                                             
+hsl                                        00
                                              
 htl1                                       00
                                              
 htl2                                       00
                                              
-hsl                                        00
-                                             
-hhl1                                       00
-                                             
-hhl2                                       00
+mcov                                       52
+                                           00
                                              
 plsx                                       11
                                            00
@@ -35,10 +31,14 @@ plsx                                       11
 plsy                                       11
                                            00
                                              
+scov                                       77
+                                           00
+                                             
 slope                                      00
                                              
-accuracy                                   22
-                                           00
+t1cov                                      00
+                                             
+t2cov                                      03
                                              
 richness                                   45
                                            71

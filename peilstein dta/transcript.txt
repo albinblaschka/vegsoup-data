@@ -3,45 +3,45 @@ plot                               pp
                                    ss
                                    00
                                    12
-cov                                87
+accuracy                           11
                                    00
-                                     
-tcov                               00
-                                     
-scov                               01
-                                     
-hcov                               87
-                                   00
-                                     
-mcov                               33
-                                     
-rock                               00
-                                     
-bare                               00
-                                     
-debris                             00
-                                     
-htl                                00
-                                     
-hsl                                00
-                                     
-hhl1                               00
-                                     
-hhl2                               00
-                                     
-slope                              87
-                                   05
-                                     
-plsx                               34
-                                     
-plsy                               14
                                      
 altitude                           66
                                    67
                                    84
                                      
-accuracy                           11
+bare                               00
+                                     
+cov                                87
                                    00
+                                     
+debris                             00
+                                     
+hcov                               87
+                                   00
+                                     
+hhl1                               00
+                                     
+hhl2                               00
+                                     
+hsl                                00
+                                     
+htl                                00
+                                     
+mcov                               33
+                                     
+plsx                               34
+                                     
+plsy                               14
+                                     
+rock                               00
+                                     
+scov                               01
+                                     
+slope                              87
+                                   05
+                                     
+tcov                               00
                                      
 richness                           12
                                    54

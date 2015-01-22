@@ -1,5 +1,5 @@
-#	this is build script for all available data set
-#	data sets referncing to to https://github.com/kardinal-eros/vegsoup-standards/tree/master/austrian%20standard%20list%202008
+#	this is a build script for all available data sets
+#	referncing to to https://github.com/kardinal-eros/vegsoup-standards/tree/master/austrian%20standard%20list%202008
 
 library(vegsoup)
 library(RefManageR)

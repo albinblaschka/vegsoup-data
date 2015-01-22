@@ -40,4 +40,4 @@ Vincetoxicum hirundinaria                         2
 Syntrichia ruralis                          ml    1  
 Tortella tortuosa                                 2  
  
-longitude: 16.01297, latitude: 47.81091, cov: 70, tcov: 0, scov: 0, hcov: 70, mcov: 0, htl: 0, hsl: 0, hhl1: 0,4, hhl2: 0,7, expo: SE, slope: 45, plsx: 1, plsy: 50, date: 23.09.62, ibex: no, rupi: no, soil: shallow, rock.type: precipice, rock.soil.verbose: unbekannt, location.verbose: Hohe Wand, Große Kanzel, am Wagnersteig, Arten in Klammer exkludiert (Felspflanzen?), Niklfeld 1964, accuracy: 200, richness: 40
+x: 16.01297, y: 47.81091, accuracy: 200, cov: 70, date: 23.09.62, expo: SE, hcov: 70, hhl1: 0,4, hhl2: 0,7, hsl: 0, htl: 0, ibex: no, location.verbose: Hohe Wand, Große Kanzel, am Wagnersteig, Arten in Klammer exkludiert (Felspflanzen?), Niklfeld 1964, mcov: 0, plsx: 1, plsy: 50, rock.soil.verbose: unbekannt, rock.type: precipice, rupi: no, scov: 0, slope: 45, soil: shallow, tcov: 0, richness: 40

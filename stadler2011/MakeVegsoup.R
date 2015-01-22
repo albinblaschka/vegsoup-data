@@ -7,7 +7,7 @@ bib <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")
 key <- bib$key
 
 file <- file.path(path, "species wide.csv")
-X <- stackSpecies(file = file, schema = c("taxon", "layer"), verbose = T)[, 1:4]
+X <- stackSpecies(file = file, schema = c("taxon", "layer"))[, 1:4]
 
 file <- file.path(path, "sites wide.csv")
 Y <- stackSites(file = file, sep = ";")

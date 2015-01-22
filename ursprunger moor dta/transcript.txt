@@ -3,46 +3,46 @@ plot                            uuuuuu
                                 mmmmmm
                                 000000
                                 123456
+accuracy                        111111
+                                000000
+                                      
+bare                               1  
+                                000500
+                                      
 cov                              1    
                                 309899
                                 509532
                                       
-t1cov                           000000
-                                      
-t2cov                           000000
-                                      
-scov                            001000
-                                      
 hcov                            399469
                                 055050
                                       
-mcov                            389868
-                                050000
+hsl                             003000
                                       
 htl1                            000000
                                       
 htl2                            000000
                                       
-hsl                             003000
+mcov                            389868
+                                050000
                                       
 plsx                            444444
                                       
 plsy                            444444
                                       
-slope                           000000
-                                      
 rock                            000000
                                       
-bare                               1  
-                                000500
+scov                            001000
+                                      
+slope                           000000
                                       
 stones                          000000
                                       
+t1cov                           000000
+                                      
+t2cov                           000000
+                                      
 water                           1     
                                 500054
-                                      
-accuracy                        111111
-                                000000
                                       
 richness                        112221
                                 896025

@@ -3,23 +3,18 @@ plot                                            mmmm
                                                 ssss
                                                 0000
                                                 1234
-cov                                             9999
-                                                0507
-                                                    
-tcov1                                           34 2
-                                                5005
-                                                    
-tcov2                                           75 4
+accuracy                                        1111
                                                 0000
                                                     
-scov                                            4788
-                                                0550
+bare                                            0000
+                                                    
+cov                                             9999
+                                                0507
                                                     
 hcov                                            7766
                                                 5505
                                                     
-mcov                                            1158
-                                                0500
+hsl                                             3335
                                                     
 htl1                                            11 1
                                                 4404
@@ -27,7 +22,8 @@ htl1                                            11 1
 htl2                                            1  1
                                                 0900
                                                     
-hsl                                             3335
+mcov                                            1158
+                                                0500
                                                     
 plsx                                            11 2
                                                 0685
@@ -35,17 +31,21 @@ plsx                                            11 2
 plsy                                            21 1
                                                 5680
                                                     
-slope                                           4536
-                                                0055
-                                                    
 rock                                             122
                                                 2000
                                                     
-bare                                            0000
+scov                                            4788
+                                                0550
+                                                    
+slope                                           4536
+                                                0055
                                                     
 stones                                          0000
                                                     
-accuracy                                        1111
+tcov1                                           34 2
+                                                5005
+                                                    
+tcov2                                           75 4
                                                 0000
                                                     
 richness                                        3444

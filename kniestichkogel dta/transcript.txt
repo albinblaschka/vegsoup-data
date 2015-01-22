@@ -6,13 +6,6 @@ plot                                 kkk
 accuracy                               1
                                      952
                                         
-plsx                                 655
-                                        
-plsy                                 445
-                                        
-slope                                1 2
-                                     050
-                                        
 cov                                   11
                                      900
                                      800
@@ -22,6 +15,13 @@ hcov                                 759
                                         
 mcov                                 999
                                      098
+                                        
+plsx                                 655
+                                        
+plsy                                 445
+                                        
+slope                                1 2
+                                     050
                                         
 richness                             211
                                      471

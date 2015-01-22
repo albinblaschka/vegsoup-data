@@ -3,6 +3,9 @@ plot                                              hhhhhhh
                                                   sssssss
                                                   0000000
                                                   1234567
+accuracy                                          1112222
+                                                  0000000
+                                                         
 altitude                                          1111111
                                                   1102111
                                                   7491975
@@ -16,21 +19,12 @@ cov                                               6763655
 hcov                                              5244555
                                                   0555560
                                                          
-htl1                                              NNN    
-                                                  AAA0008
-                                                         
-htl2                                              NNN    
-                                                  AAA0000
-                                                         
 mcov                                              454 1  
                                                   0055033
                                                          
 plsx                                              8888888
                                                          
 plsy                                              8888888
-                                                         
-accuracy                                          1112222
-                                                  0000000
                                                          
 precision.vertical                                   1111
                                                   5550000
@@ -45,6 +39,12 @@ slope                                             8878888
                                                   0000000
                                                          
 stones                                            3114110
+                                                         
+htl1                                              NNN    
+                                                  AAA0008
+                                                         
+htl2                                              NNN    
+                                                  AAA0000
                                                          
 tcov1                                             NNNNNN 
                                                   AAAAAA5

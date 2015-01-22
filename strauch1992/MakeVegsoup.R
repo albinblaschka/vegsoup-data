@@ -26,9 +26,9 @@ names(Y)[grep("precision", names(Y))] <- "accuracy"
 Y <- stackSites(Y[, -grep("tms", names(Y))])
 
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
-Z <- SpeciesTaxonomy(X, file.y = file)
+XZ <- SpeciesTaxonomy(X, file.y = file)
 
-obj <- Vegsoup(X, Y, Z, coverscale = "braun.blanquet2")
+obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
 # assign header data stored as attributes in
 # imported original community table
