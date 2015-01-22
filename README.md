@@ -3,20 +3,18 @@ vegsoup-data
 
 A repository of plant species co-occurrence data (vegetation data, phytosociological relevés).
 
-About
------
-
-This is our personal vegetation data base (spatial and temporal explicit species co-occurrence data).
+***This is our personal vegetation data base (spatial and temporal explicit species co-occurrence data).
 It can be viewed as an incubator area for the accumulation of vegetation-plot data.
-Currently the repository contains a bunch of unpublished data sets, as well as computerized data taken from the literature.
+Currently the repository contains a bunch of unpublished data sets, as well as computerized data taken from the literature.***
 1545 relevés were observed R. Kaiser & T. Eberl and 2069 relevés originate from literature sources and were digitized by R. Kaiser.
 1347 relevés are provided M. Staudinger.
 In sum 4961 relevés involving 2369 and 1259 taxa, respectively.
-
 Up to now, R. Kaiser, M. Staudinger and T. Eberl and are the main contributors.
 You are welcome to join the project!
 
-The bibtex file `./refernces.bib` that is contained in each project folder gives citation information for a particular data set (see also section license).
+The bibtex file `./refernces.bib` that is contained in each project folder gives citation information for a particular data set (see also section license). The *URL* field provides a link to a PDF-file in case of a literature source.
+
+![](README.png)
 
 How to access and use the data sets
 -----------------------------------
@@ -47,19 +45,17 @@ load(rawConnection(getBinaryURL(URL)))
 
 A condensed object containing all available data in this repository is contained in the [./mirror](https://github.com/kardinal-eros/vegsoup-data/blob/master/mirror) folder as `mirror.rda`.
 
-Species designation and taxonomic concepts
-------------------------------------------
-
-All data sets link to a standard list ([for further details see here)](https://github.com/kardinal-eros/vegsoup-standards/tree/master/austrian%20standard%20list%202008). 
-
-![](README.png)
-
 Licence
 -------
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons licnece" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a Craetive Commons licence <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution - NonCommercial - ShareAlike 4.0 International</a>.
 
 We ask to contact the [maintainer](https://github.com/kardinal-eros) if you plan to use any data from this repository in a publication.
+
+Species designation and taxonomic concepts
+==========================================
+
+All data sets link to a standard list ([for further details see here)](https://github.com/kardinal-eros/vegsoup-standards/tree/master/austrian%20standard%20list%202008). 
 
 Notes about computerization of literature data
 ==============================================
@@ -80,7 +76,7 @@ Using the efficient BibTex format and its readable syntax it is easy then to cre
 Sampling protocol and data standards
 ====================================
 
-This is a brief summary of the sampling protocol and descriptive attributes collected with each sampling unit (plot or relevé) as available in the **vegsoup-data** repository. Of course, this does not apply to data sets taken from the literature.
+This is a brief summary of the sampling protocol applied by R. Kaiser & T. Eberl and descriptive attributes collected with each sampling unit (plot or relevé) as available in the **vegsoup-data** repository. Of course, this does not apply to data sets taken from the literature.
 
 Sampling procedure
 ------------------
