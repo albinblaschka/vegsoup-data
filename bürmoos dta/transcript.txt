@@ -3,15 +3,15 @@ plot                                             bbbbbbb
                                                  mmmmmmm
                                                  0000000
                                                  1234567
+accuracy                                              11
+                                                 5555500
+                                                        
 cov                                                111  
                                                  990009N
                                                  850009A
                                                         
 hcov                                             9776399
                                                  0500077
-                                                        
-mcov                                             6999924
-                                                 0505505
                                                         
 hhl1                                                  0 
                                                  000  .0
@@ -22,6 +22,9 @@ hhl2                                             0000000
                                                  .......
                                                  1212125
                                                         
+mcov                                             6999924
+                                                 0505505
+                                                        
 plsx                                                   1
                                                  3443546
                                                         
@@ -31,19 +34,16 @@ plsy                                                   1
 slope                                             NNNNN 
                                                  3AAAAA0
                                                         
-accuracy                                              11
-                                                 5555500
-                                                        
-t1cov                                            NNNNNN7
-                                                 AAAAAA0
-                                                        
-scov                                             NNNNNN5
+hsl                                              NNNNNN5
                                                  AAAAAA0
                                                         
 htl1                                             NNNNNN2
                                                  AAAAAA0
                                                         
-hsl                                              NNNNNN5
+scov                                             NNNNNN5
+                                                 AAAAAA0
+                                                        
+t1cov                                            NNNNNN7
                                                  AAAAAA0
                                                         
 richness                                         2233331
@@ -85,7 +85,7 @@ Carex canescens ssp. canescens                   .+++++.
 Carex rostrata                                   .4++1..
 Cirsium palustre                                 .++.11.
 Drosera rotundifolia                             .+.....
-Dryopteris carthusiana s.str.                    .+....+
+Dryopteris carthusiana s.str.                    .r....r
 Epilobium palustre                               .+.++..
 Frangula alnus                                   .+....2
 Galium palustre ssp. palustre                    .121+2.
@@ -103,7 +103,7 @@ Ajuga reptans                                    ..+....
 Carex hirta                                      ..21.2.
 Centaurea jacea ssp. jacea                       ..++...
 Dactylorhiza incarnata ssp. incarnata            ..++...
-Dactylorhiza majalis ssp. majalis                ..+..+.
+Dactylorhiza majalis ssp. majalis                ..r..+.
 Festuca rubra ssp. rubra                         ..2.+..
 Leucanthemum vulgare s.str.                      ..221..
 Lotus corniculatus s.lat.                        ..1....
@@ -126,7 +126,7 @@ Rubus sect. Rubus                                ...+..1
 Aulacomnium palustre                             ....2..
 Carex echinata                                   ....+..
 Carex leporina                                   ....+..
-Hieracium pilosella                              ....+..
+Hieracium pilosella                              ....r..
 Hypochaeris radicata                             ....2..
 Pinus sylvestris                                 ....+.+
 Populus tremula                                  ....+..
@@ -137,12 +137,12 @@ Agrostis stolonifera s.str.                      .....1.
 Carex brizoides                                  .....2.
 Cerastium holosteoides                           .....1.
 Erigeron canadensis                              .....+.
-Leersia oryzoides                                .....+.
+Leersia oryzoides                                .....r.
 Poa trivialis                                    .....1.
 Potentilla norvegica                             .....2.
 Rumex acetosa                                    .....+.
 Solidago canadensis                              .....2.
-Tanacetum vulgare                                .....+.
+Tanacetum vulgare                                .....r.
 Taraxacum sect. Ruderalia                        .....1.
 Valeriana officinalis ssp. officinalis           .....+.
 Veronica arvensis                                .....2.

@@ -40,7 +40,8 @@ make <- function (tab = 1) {
 	species(X) <- zz
 	
 	y1 <- header(x)
-	names(y1) <- c("pls", "expo", "slope", "pH", "dH", "hcov", "mcov")
+	
+	names(y1) <- c("pls", "expo", "slope", "pH", "dH", "hcov", "richness.hl", "mcov", "richness.ml")
 	y1 <- cbind(plot = as.character(rownames(y1)), y1)
 	y1$pH <- y1$pH / 10
 	y1 <- stackSites(x = y1, zeros = TRUE)

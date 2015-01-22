@@ -1,4 +1,4 @@
-4: Cladonia coccifera +
+04: Cladonia coccifera +
 11: Polytrichum piliferum +, Nardus stricta +
 14: Leontodon croceus 1, Agrostis schraderiana 2
 15: Pulsatilla vernalis +

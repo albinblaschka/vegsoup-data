@@ -3,6 +3,9 @@ plot                                             bbbbbbb
                                                  hhhhhhh
                                                  0000000
                                                  1234567
+accuracy                                         1111111
+                                                 0000000
+                                                        
 bare                                             2000002
                                                         
 cov                                              9857899
@@ -38,9 +41,6 @@ t1cov                                            7     6
                                                         
 t2cov                                            1     1
                                                  5000005
-                                                        
-accuracy                                         1111111
-                                                 0000000
                                                         
 richness                                         6121423
                                                  0483281

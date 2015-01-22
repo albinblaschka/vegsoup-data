@@ -3,6 +3,13 @@ plot                                           bb
                                                uu
                                                00
                                                12
+accuracy                                       11
+                                               00
+                                                 
+altitude                                       77
+                                               99
+                                               00
+                                                 
 bare                                           4 
                                                50
                                                  
@@ -19,23 +26,16 @@ plsx                                           1
                                                  
 plsy                                           35
                                                  
-accuracy                                       11
-                                               00
-                                                 
 rock                                            9
                                                05
                                                  
 scov                                           82
                                                50
                                                  
-stones                                         50
-                                                 
 slope                                          48
                                                55
                                                  
-altitude                                       77
-                                               99
-                                               00
+stones                                         50
                                                  
 richness                                       43
                                                00

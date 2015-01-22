@@ -6,9 +6,9 @@ Inklination (o)                              15   10   15    5    6   30   15   
 Quellwasser: pH-Wert                         65   60   60   60   60   60   60   55   50   60   60   60   60   60
 Haerte (dH)                                   4    4    5    4    4    4    3    4    4    4    4    4    1    1
 Phanerogamen: Deckung (%)                    10   20   20   20   10    .   70   20   20   10   30   10    .   20
-Artenzahl                                    12    5   16    8   13    .    9    7   20    8    3    9    .    6
+Phanerogamen: Artenzahl                      12    5   16    8   13    .    9    7   20    8    3    9    .    6
 Moos: Deckung (%)                            30   10   30   50   60  100   10   30   20   10   30   20   60   30
-Artenzahl                                    10   10    5   11    5   10   14    8    5    4    6    6   12    7
+Moos: Artenzahl                              10   10    5   11    5   10   14    8    5    4    6    6   12    7
 END HEAD
 
 BEGIN TABLE

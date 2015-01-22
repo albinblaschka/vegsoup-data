@@ -3,6 +3,16 @@ plot                                       ff
                                            kk
                                            00
                                            12
+accuracy                                    2
+                                           80
+                                             
+altitude                                   11
+                                           88
+                                           55
+                                           00
+                                             
+bare                                       10
+                                             
 cov                                        99
                                            59
                                              
@@ -12,26 +22,16 @@ hcov                                       99
 mcov                                       1 
                                            05
                                              
-slope                                      45
-                                           50
-                                             
-rock                                       41
-                                             
-bare                                       10
-                                             
-stones                                     00
-                                             
 plsx                                       44
                                              
 plsy                                       44
                                              
-accuracy                                    2
-                                           80
+rock                                       41
                                              
-altitude                                   11
-                                           88
-                                           55
-                                           00
+slope                                      45
+                                           50
+                                             
+stones                                     00
                                              
 richness                                   32
                                            89

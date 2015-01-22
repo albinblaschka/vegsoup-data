@@ -1,3 +1,6 @@
+#	this is build script for all available data set
+#	data sets referncing to to https://github.com/kardinal-eros/vegsoup-standards/tree/master/austrian%20standard%20list%202008
+
 library(vegsoup)
 library(RefManageR)
 library(knitr)
@@ -18,6 +21,7 @@ ii <- c(
 	"dunzendorfer1980",
 	"ewald2013",
 	"greimler1996",
+	"greimler1997",
 	"grims1982",
 	"hohewand fence dta",
 	"hohewand transect dta",
@@ -30,25 +34,44 @@ ii <- c(
 	"schwarz1989",
 	"stadler1991",
 	"stadler1992",
-	"stadler2011",
 	"surina2004",
 	"urban1992",
 	"urban2008",
 #	independent taxonomy
 	"crete dta",
-	"cape hallet lichen dta",
 	"javakheti dta",
+	"cape hallet lichen dta",
 	"salzkammergut lichen dta",
-	"kalkalpen lichen dta"	
+	"kalkalpen lichen dta",
+#	turboveg taxonomy (keep in sync with mirror dev.R)
+	"aspro dta",
+	"donauauen dta",
+	"enzersfeld dta",
+	"fischamend dta",	
+	"hainburg dta",
+	"kirchdorf and steyr-land dta",
+	"mountain hay meadows dta",
+	"nackter sattel dta",
+	"neusiedlersee dta",
+	"pilgersdorf dta",
+	"ravine forest dta",	
+	"reichraming dta",
+	"sankt margarethen dta",
+	"seekirchen dta",	
+	"südburgenland dta",
+	"vorarlberg dta",
+	"wien dta",
+	"wienerwald dta",
+	"witzelsdorf dta"
 )
 
 x <- x[-match(ii, x)]
 
 #	update
-#sapply(file.path(path, x, "MakeVegsoup.R"), function (x) {
-#	cat(x, "\n")
-#	source(x)
-#	})
+sapply(file.path(path, x, "MakeVegsoup.R"), function (x) {
+	cat(x, "\n")
+	source(x)
+	} )
 
 #	biblographic entities	
 x <- sapply(file.path(path, x), function (x) {
@@ -57,8 +80,7 @@ x <- sapply(file.path(path, x), function (x) {
 
 #	write bibliography
 b <- do.call("c", x)
-WriteBib(b)
-Cite(b)
+
 f <- names(x)
 k <- sapply(x, function (x) x[[1]]$key)
 n <- sapply(x, function (x) x[[1]]$title)
@@ -70,6 +92,7 @@ a <- sapply(a, function (x) {
 	else
 		as.character(x)})
 
+#	load objects
 for (i in seq_along(f)) {
 	load(file.path(f[i], paste0(k[i], ".rda")))
 	ii <- get(k[i])
@@ -85,6 +108,12 @@ l <- sapply(mget(k), function (x) compress(x, retain = c("author", "title", "acc
 X <- do.call("bind", l)
 
 save(X, file = file.path(path, "mirror", "mirror.rda"))
+
+x <- data.frame(coordinates(X), Sites(X))
+coordinates(x) <- ~longitude + latitude
+proj4string(x) <- CRS("+init=epsg:4326")
+dsn <- file.path(path.expand(path), "mirror")
+writeOGR(x, dsn, "mirror_dev.shp", driver = "ESRI Shapefile", overwrite_layer = TRUE)
 
 #	literature data
 length(grep(":", rownames(X), fixed = TRUE))

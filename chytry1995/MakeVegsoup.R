@@ -51,7 +51,8 @@ Y <- stackSites(x = Y)
 #	build object of class "SpeciesTaxonomy", tests matching to reference list
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 XZ <- SpeciesTaxonomy(x = X, file.y = file)
-
+variable(Y, "longitude")
+variable(Y, "latitude")
 #	build vegsoup object
 obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 

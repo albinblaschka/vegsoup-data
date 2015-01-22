@@ -1,3 +1,5 @@
+#	outdated make procedure!
+
 require(vegsoup)
 require(bibtex)
 
@@ -33,7 +35,7 @@ X <- rbind(X, XX)
 
 #	sites
 file <- file.path(path, "Franz2000Tab1Locations.csv")
-Y <- stackSites(file = file, schema = "Laufende Nr.")
+Y <- stackSites(file = file, schema = "Laufende Nr.", sep = ";", zeros = TRUE)
 Y$plot <- sprintf("%02d", as.numeric(Y$plot))
 
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
