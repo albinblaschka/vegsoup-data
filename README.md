@@ -8,10 +8,15 @@ About
 
 This is our personal vegetation data base (spatial and temporal explicit species co-occurrence data).
 It can be viewed as an incubator area for the accumulation of vegetation-plot data.
-Currently the repository contains a bunch of unpublished data sets (1545 relevés observered R. Kaiser & T. Eberl + 1347 relevés by M. Staudinger), as well as computerized data taken from the literature (1940 relevés), in sum 4832 relevés involving 2369 taxa (species).
-The bibtex file `./refernces.bib` that is contained in each project folder gives citation information for a particular data set (see also section license).
+Currently the repository contains a bunch of unpublished data sets, as well as computerized data taken from the literature.
+1545 relevés were observed R. Kaiser & T. Eberl and 2069 relevés originate from literature sources and were digitized by R. Kaiser.
+1347 relevés are provided M. Staudinger.
+In sum 4961 relevés involving 2369 and 1259 taxa, respectively.
 
-Up to now, R. Kaiser, M. Staudinger and T. Eberl and are the main contributors. You are welcome to join the project!
+Up to now, R. Kaiser, M. Staudinger and T. Eberl and are the main contributors.
+You are welcome to join the project!
+
+The bibtex file `./refernces.bib` that is contained in each project folder gives citation information for a particular data set (see also section license).
 
 How to access and use the data sets
 -----------------------------------
@@ -54,9 +59,22 @@ Licence
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons licnece" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a Craetive Commons licence <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution - NonCommercial - ShareAlike 4.0 International</a>.
 
-
 We ask to contact the [maintainer](https://github.com/kardinal-eros) if you plan to use any data from this repository in a publication.
 
+Notes about computerization of literature data
+==============================================
+
+Each project that is developed from a published source can seamlessly built from OCR transcripts.
+In this way it is possible to scrutinize all steps that were involved in digitizing the data.
+First of all, we supply PDF-files of the source along with its OCR transcripts.
+All data manipulation steps are documented within a *Make* file (`MakeVegsoup.R`).
+Concerning the interpretation of taxonomic concepts a table is supplied that translate the taxa in the publication to a reference list.
+
+Bibliographic information
+=========================
+
+Each project folder contains a `references.bib` that contains bibliographic information related to a data set.
+Using the efficient BibTex format and its readable syntax it is easy then to create and maintain bibliographic information for the whole repository.
 
 Sampling protocol and data standards
 ====================================
