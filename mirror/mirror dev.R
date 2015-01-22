@@ -30,7 +30,7 @@ ii <- c(
 x <- x[match(ii, x)]
 
 #	update
-#	sapply(file.path(path, x, "MakeVegsoup.R"), function (x) { cat(x, "\n"); source(x) } )
+sapply(file.path(path, x, "MakeVegsoup.R"), function (x) { cat(x, "\n"); source(x) } )
 
 #	biblographic entities	
 x <- sapply(file.path(path, x), function (x) {
