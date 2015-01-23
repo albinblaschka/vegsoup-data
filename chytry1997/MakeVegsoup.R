@@ -87,8 +87,8 @@ proj4string(obj) <- CRS("+init=epsg:4326")
 #	assign rownames and groome data structure
 rownames(obj) <- paste(key, rownames(obj), sep = ":")
 
-obj <- Layers(obj, collapse = c("hl", "t1", "hl", "s1", "ml"))
-obj <- Layers(obj, collapse = c("hl", "tl", "sl", "ml"))
+obj <- layers(obj, collapse = c("hl", "t1", "hl", "s1", "ml"))
+obj <- layers(obj, collapse = c("hl", "tl", "sl", "ml"))
 Layers(obj) <- c("tl", "sl", "hl", "ml")
 
 #	assign result object

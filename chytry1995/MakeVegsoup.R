@@ -89,8 +89,8 @@ proj4string(obj) <- CRS("+init=epsg:4326")
 rownames(obj) <- paste(key, rownames(obj), sep = ":")
 
 #	groome strata
-obj <- Layers(obj, collapse = c("hl", "s1", "ml", "t1", "hl"))
-obj <- Layers(obj, collapse = c("hl", "sl", "ml", "tl"))
+obj <- layers(obj, collapse = c("hl", "s1", "ml", "t1", "hl"))
+obj <- layers(obj, collapse = c("hl", "sl", "ml", "tl"))
 Layers(obj) <- c("tl", "sl", "hl", "ml" )
 
 obj <- obj[naturalorder(rownames(obj)), ]

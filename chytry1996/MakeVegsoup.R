@@ -89,7 +89,7 @@ proj4string(obj) <- CRS("+init=epsg:4326")
 #	assign rownames
 rownames(obj) <- paste(key, rownames(obj), sep = ":")
 
-obj <- Layers(obj, collapse = c("hl", "tl", "sl", "ml", "hl"))
+obj <- layers(obj, collapse = c("hl", "tl", "sl", "ml", "hl"))
 Layers(obj) <- c("tl", "sl", "hl", "ml")
 obj <- obj[naturalorder(rownames(obj)), ]
 

@@ -25,7 +25,7 @@ obj <- turbovegLayers(obj) # all layers defined
 
 #	collapse layer
 #	drop juveniles layer
-obj <- Layers(obj, collapse = c("hl", "hl", "sl", "tl1"))
+obj <- layers(obj, collapse = c("hl", "hl", "sl", "tl1"))
 
 #	assign result object
 assign(key, obj)

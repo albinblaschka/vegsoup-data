@@ -22,7 +22,7 @@ obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
 #	order layer
 Layers(obj)	 <- c("sl", "hl", "ml", "ll")
-obj <- Layers(obj, collapse = c("sl", "hl", "ml", "ml"))
+obj <- layers(obj, collapse = c("sl", "hl", "ml", "ml"))
 
 #	unique rownames
 rownames(obj) <- paste(key, "Tab1-5", gsub("ga", "", rownames(obj)), sep = ":")

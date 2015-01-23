@@ -28,7 +28,7 @@ obj <- turbovegLayers(obj, "hl") # no layer is herb layer
 #	although, stand descriptions indicate a low tree layer.
 #	Maybe it's coppice or brushwood (cp. obj$remarks)
 
-obj <- Layers(obj, collapse = c("hl", "hl", "sl", "tl1"))
+obj <- layers(obj, collapse = c("hl", "hl", "sl", "tl1"))
 
 #	assign result object
 assign(key, obj)

@@ -29,7 +29,7 @@ proj4string(obj) <- CRS("+init=epsg:4326")
 obj <- turbovegLayers(obj, "hl") # no layer is herb layer
 
 #	collapse juveniles layers
-obj <- Layers(obj, c("hl", "sl2", "hl", "sl1", "tl2", "tl1", "tl3", "ml"))
+obj <- layers(obj, c("hl", "sl2", "hl", "sl1", "tl2", "tl1", "tl3", "ml"))
 
 #	order layers
 Layers(obj) <- c("ml", "hl", "sl1", "sl2", "tl3", "tl2", "tl1")

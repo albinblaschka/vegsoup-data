@@ -12,13 +12,13 @@ file <- file.path(path, paste0(key[[1]], ".xml"))
 obj1 <- read.XML(file)
 coverscale(obj1) <- "braun.blanquet"
 obj1 <- turbovegLayers(obj1) # no undefined
-obj1 <- Layers(obj1, collapse = c("hl", "hl"))
+obj1 <- layers(obj1, collapse = c("hl", "hl"))
 #	project 2 (Staudinger028)
 file <- file.path(path, paste0(key[[2]], ".xml"))
 obj2 <- read.XML(file)
 coverscale(obj2) <- "braun.blanquet"
 obj2 <- turbovegLayers(obj2, "hl") # no layer is herb layer 
-obj2 <- Layers(obj2, collapse = c("hl", "hl", "tl"))
+obj2 <- layers(obj2, collapse = c("hl", "hl", "tl"))
 
 #	concatenate objects
 obj <- bind(obj1, obj2)

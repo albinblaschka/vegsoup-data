@@ -50,7 +50,7 @@ obj <- bind(obj1, obj2, obj3, obj4)
 obj <- turbovegLayers(obj, "hl") # no layer is herb layer
 
 #	collapse juveniles layers
-obj <- Layers(obj, c("hl", "tl1", "sl1", "tl2", "hl", "sl2", "tl3"))
+obj <- layers(obj, c("hl", "tl1", "sl1", "tl2", "hl", "sl2", "tl3"))
 
 #	order layers
 Layers(obj) <- c("hl", "sl1", "sl2", "tl3", "tl2", "tl1")

@@ -27,7 +27,7 @@ proj4string(obj) <- CRS("+init=epsg:4326")
 obj <- turbovegLayers(obj)
 
 #	collapse layers
-obj <- Layers(obj, collapse = c("hl", "hl", "hl", "sl", "tl"))
+obj <- layers(obj, collapse = c("hl", "hl", "hl", "sl", "tl"))
 
 #	assign result object
 assign(key, obj)

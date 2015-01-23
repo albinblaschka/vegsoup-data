@@ -32,7 +32,7 @@ proj4string(obj) <- CRS("+init=epsg:4326")
 obj <- turbovegLayers(obj, "hl") # no layer is herb layer
 
 #	collapse middle and lower tree layer
-obj <- Layers(obj, collapse = c("hl", "sl", "tl1", "tl2", "tl2"))
+obj <- layers(obj, collapse = c("hl", "sl", "tl1", "tl2", "tl2"))
 
 #	assign result object
 assign(key, obj)
