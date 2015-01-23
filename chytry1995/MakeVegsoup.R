@@ -57,7 +57,7 @@ variable(Y, "latitude")
 obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
 #	assign coordinates
-xy <- Sites(obj)[c("Longitude", "Latitude")]
+xy <- sites(obj)[c("Longitude", "Latitude")]
 
 #	function convert data (DDMMSS.SS) into decimal degrees
 string2dd <- function (x) {

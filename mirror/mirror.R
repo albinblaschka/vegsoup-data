@@ -113,7 +113,7 @@ X <- do.call("bind", l)
 save(X, file = file.path(path, "mirror", "mirror.rda"))
 
 #	write ESRI Shapefile
-x <- data.frame(coordinates(X), Sites(X))
+x <- data.frame(coordinates(X), sites(X))
 coordinates(x) <- ~x + y
 proj4string(x) <- CRS("+init=epsg:4326")
 dsn <- file.path(path.expand(path), "mirror")
