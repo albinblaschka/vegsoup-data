@@ -61,10 +61,11 @@ sp59;93;0;0;15;80;1;0;0;4;0,8;0,3;16;16;SW;15;0;2013-07-12 & 2013-08-28;48.08317
 sp60;98;95;10;7;90;1;25;20;3,5;0,6;0,3;16;16;F;0;0;2013-07-12;48.071648N;13.837227E;15;Braunerde;TBW;Cephalanthero-Fagenion;Helleboro nigri-Fagetum;R. Kaiser & T. Eberl
 sp61;98;85;15;10;25;1;26;22;4;0,3;0,2;16;16;F;0;0;2013-07-12;48.070798N;13.837619E;15;Braunerde;TBW;Cephalanthero-Fagenion;Helleboro nigri-Fagetum;R. Kaiser & T. Eberl
 sp62;75;0;0;65;73;1;0;0;3;1,2;0,5;32;8;SW;25;0;2013-07-16;48.083168N;13.842189E;10;Braunerde;REK;Cephalanthero-Fagenion;Frangula alnus Cephalanthero-Fagenion-Gesellschaft;R. Kaiser & T. Eberl
-sp63;;;;;;;;;;;;;;;;;2014-03-20 & 2014-07-31;48.086200N;13.839460E;10;Braunerde & Ausand;LW;Tilio-Acerion;;R: Kaiser
-sp64;;;;;;;;;;;;;;;;;2014-03-20 & 2014-07-31;48.086384N;13.839551E;10;Braunerde;LW;Tilio-Acerion;;R: Kaiser
-sp65;;;;;;;;;;;;;;;;;2014-03-20 & 2014-07-31;48.087037N;13.839813E;10;Braunerde;EHW;Carpinion betuli;;R: Kaiser
-sp66;;;;;;;;;;;;;;;;;2014-07-31;48.087659N;13.841848E;10;Braunerde;EHW;Carpinion betuli;;R: Kaiser
-sp67;;;;;;;;;;;;;;;;;2014-07-01 & 2014-07-31;48.081770N;13.843750E;10;Braunerde;EHW;Carpinion betuli;;R: Kaiser
-sp68;;;;;;;;;;;;;;;;;2014-07-31;48.085280N;13.839160E;20;Mull;AW;Alnenion glutinoso-incanae;;R: Kaiser
-sp69;;;;;;;;;;;;;;;;;2014-07-31;48.085560N;13.839680E;20;Mull & Ausand;AW;Alnenion glutinoso-incanae;;R: Kaiser
+sp63;100;80;60;8;10;1;14;12;8;0,35;0,15;32;8;SW;20;0;2014-03-20 & 2014-07-31;48.086200N;13.839460E;10;Braunerde & Ausand;LW;Tilio-Acerion;;R. Kaiser
+sp64;100;85;60;55;80;3;24;18;8;0,3;0,2;16;16;S;15;0;2014-03-20 & 2014-07-31;48.086384N;13.839551E;10;Braunerde;LW;Tilio-Acerion;;R. Kaiser
+sp65;99;80;20;25;70;1;24;19;5;0,6;0,15;16;16;S;35;0;2014-03-20 & 2014-07-31;48.087037N;13.839813E;10;Braunerde;EHW;Carpinion betuli;;R. Kaiser
+sp66;100;75;75;10;15;1;25;20;4;0,6;0,1;16;16;S;45;0;2014-07-31;48.087659N;13.841848E;10;Braunerde;EHW;Carpinion betuli;;R. Kaiser
+sp67;98;70;40;60;80;1;22;18;5;0,4;0,15;16;16;F;0;0;2014-07-01 & 2014-07-31;48.081770N;13.843750E;10;Braunerde;EHW;Carpinion betuli;;R. Kaiser
+sp68;100;0;55;85;7;5;0;11;8;0,3;0,1;16;16;F;0;0;2014-07-31;48.085280N;13.839160E;20;Mull;AW;Alnenion glutinoso-incanae;;R. Kaiser
+sp69;100;60;75;70;10;0;16;12;8;0,3;0,1;16;16;F;0;0;2014-07-31;48.085560N;13.839680E;20;Mull & Ausand;AW;Alnenion glutinoso-incanae;;R. Kaiser
+sp70;60;0;0;0;20;40;0;0;0;0,3;0,1;2;2;N;50;0;2013-07-28;48.085090N;13.839800E;10;Kalktuff;TQ;Cratoneurion;;R. Kaiser
