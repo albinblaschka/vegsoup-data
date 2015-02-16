@@ -6,8 +6,7 @@ key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
 file <- file.path(path, "species.csv")
 #	promote to class "Species"
-X <- species(file, sep = ";")
-X <- X[, 1:4]
+X <- species(file, sep = ",")[, 1:4]
 
 file <- file.path(path, "sites wide.csv")
 #	promote to class "Sites"
@@ -21,7 +20,7 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
 #	order layer
-Layers(obj)	 <- c("tl1", "tl2", "sl", "hl", "ml")
+layers(obj)	 <- c("tl1", "tl2", "sl", "hl", "ml")
 
 #	assign result object
 assign(key, obj)
