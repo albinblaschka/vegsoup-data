@@ -4,7 +4,6 @@ plot                            uuuuuu
                                 000000
                                 123456
 accuracy                        111111
-                                000000
                                       
 bare                               1  
                                 000500
