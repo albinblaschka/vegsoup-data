@@ -1,0 +1,125 @@
+BEGIN HEAD
+plot                                          pppppp
+                                              gggggg
+                                              000000
+                                              123456
+accuracy                                      111111
+                                              000000
+                                                    
+bare                                          534303
+                                                    
+cov                                           999999
+                                              576797
+                                                    
+hcov                                          999999
+                                              576777
+                                                    
+hsl                                           012345
+                                                    
+htl1                                          012345
+                                                    
+htl2                                          012345
+                                                    
+mcov                                              1 
+                                              101151
+                                                    
+plsx                                          444444
+                                                    
+plsy                                          444444
+                                                    
+rock                                          000000
+                                                    
+scov                                          012345
+                                                    
+slope                                         335403
+                                                    
+stones                                        000000
+                                                    
+t1cov                                         012345
+                                                    
+t2cov                                         012345
+                                                    
+richness                                      423333
+                                              275966
+                                                    
+END HEAD
+BEGIN TABLE
+Calliergonella cuspidata                   ml ....2.
+Ajuga reptans                              hl ++++++
+Alchemilla Sect. Alchemilla                   ++++..
+Alopecurus pratensis                          21++.+
+Anemone nemorosa                              +..++.
+Anthoxanthum odoratum s.str.                  222222
+Arrhenatherum elatius                         +.++..
+Bellis perennis                               +....+
+Betonica officinalis                          +++21+
+Carex brizoides                               +.++22
+Carex pallescens                              1.++11
+Cerastium holosteoides                        ++++.+
+Cirsium rivulare                              r.+...
+Crepis biennis                                +..+.+
+Cynosurus cristatus                           321212
+Dactylis glomerata ssp. glomerata             1..+..
+Festuca pratensis s.str.                      1.11r1
+Festuca rubra agg.                            ++11+1
+Ficaria verna ssp. verna                      +.....
+Galium album s.str.                           +..+.+
+Geum rivale                                   r...+.
+Geum urbanum                                  r.....
+Glechoma hederacea                            +.....
+Holcus lanatus                                221212
+Knautia maxima ssp. maxima                    r.....
+Lathyrus pratensis ssp. pratensis             +.+..+
+Lotus corniculatus s.str.                     +111+1
+Lychnis flos-cuculi                           r++.++
+Lysimachia nummularia                         +.r...
+Plantago lanceolata                           2111+.
+Potentilla erecta                             +++++.
+Primula elatior s.str.                        r.....
+Prunella vulgaris                             ++++.+
+Ranunculus acris ssp. acris                   +22212
+Rhinanthus minor                              ++++.+
+Rubus sect. Rubus                             r.....
+Rumex acetosa                                 ++.+.+
+Sanguisorba officinalis                       +.+++.
+Taraxacum sect. Ruderalia                     +..+..
+Trifolium pratense ssp. pratense              ++2112
+Veronica chamaedrys ssp. chamaedrys           +..+..
+Veronica serpyllifolia ssp. serpyllifolia     +.....
+Vicia sepium                                  +..+++
+Carex panicea                                 .++.2r
+Centaurea jacea ssp. jacea                    .22..2
+Cirsium oleraceum                             .++.+r
+Daucus carota ssp. carota                     .+....
+Homalotrichon pubescens ssp. pubescens        .+.1..
+Luzula multiflora s.str.                      .+.+..
+Myosotis nemorosa                             .++.+r
+Trifolium repens ssp. repens                  .1+...
+Vicia cracca s.str.                           .+++.+
+Achillea millefolium agg.                     ..++..
+Dactylorhiza majalis ssp. majalis             ..+...
+Juncus effusus ssp. effusus                   ..r.+.
+Ranunculus repens                             ..+..+
+Agrostis stolonifera s.str.                   ...+..
+Campanula patula                              ...+..
+Carex caryophyllea                            ...+..
+Poa pratensis                                 ...+.+
+Tragopogon orientalis                         ...+..
+Trisetum flavescens ssp. flavescens           ...+.1
+Aegopodium podagraria                         ....+.
+Angelica sylvestris ssp. sylvestris           ....r.
+Briza media                                   ....+.
+Caltha palustris                              ....r.
+Carex flava agg.                              ....+.
+Carex hirta                                   ....++
+Carex nigra                                   ....1.
+Deschampsia cespitosa                         ....+.
+Equisetum arvense                             ....+.
+Filipendula ulmaria                           ....2.
+Molinia caerulea agg.                         ....+.
+Succisa pratensis                             ....r.
+Cardamine pratensis s.str.                    .....+
+Heracleum sphondylium ssp. sphondylium        .....r
+Phleum pratense s.str.                        .....+
+Poa trivialis                                 .....+
+END TABLE
