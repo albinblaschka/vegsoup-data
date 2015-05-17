@@ -32,7 +32,7 @@ obj <- turbovegLayers(obj, "hl") # no layer is herb layer
 obj <- layers(obj, c("hl", "sl2", "hl", "sl1", "tl2", "tl1", "tl3", "ml"))
 
 #	order layers
-Layers(obj) <- c("ml", "hl", "sl1", "sl2", "tl3", "tl2", "tl1")
+layers(obj) <- c("ml", "hl", "sl1", "sl2", "tl3", "tl2", "tl1")
 
 #	assign result object
 assign(key, obj)

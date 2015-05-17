@@ -184,6 +184,6 @@ Rubus idaeus                                    ....r
 Sesleria caerulea s.str.                        ....+
 Sorbus aucuparia ssp. aucuparia                 ....+
 Taraxacum sect. Ruderalia                       ....r
-Viola alba s.lat                                ....r
+Viola alba s.lat.                               ....r
 Neckera crispa                               ml ....1
 END TABLE

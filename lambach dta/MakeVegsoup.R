@@ -21,7 +21,7 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
 #	order layer
-Layers(obj)	 <- c("tl1", "tl2", "sl", "hl")
+layers(obj)	 <- c("tl1", "tl2", "sl", "hl")
 
 #	assign result object
 assign(key, obj)

@@ -29,7 +29,7 @@ obj <- Vegsoup(X, Y, Z, coverscale = "braun.blanquet2")
 obj$allicance <- "Caricion bicoloris atrofuscae"
 		
 #	order layer
-Layers(obj)	<- c("hl", "ml")
+layers(obj)	<- c("hl", "ml")
 
 #	unique rownames
 rownames(obj) <- paste0(key, ":Tab", obj$tab, ":", rownames(obj))

@@ -194,7 +194,7 @@ Achillea millefolium agg.                     ..........+++
 Alchemilla monticola                          ..........+.+
 Anthoxanthum odoratum s.str.                  ..........112
 Anthyllis vulneraria s.lat.                   ..........+..
-Arabis sp.                                    ..........r..
+Arabis ciliata                                ..........r..
 Astrantia major                               ..........+++
 Bellis perennis                               ..........++.
 Betonica officinalis                          ..........++2

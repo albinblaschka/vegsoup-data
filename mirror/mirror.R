@@ -4,10 +4,9 @@
 library(vegsoup)
 library(RefManageR)
 library(knitr)
+library(rgdal)
 
-#	
 path <- "~/Documents/vegsoup-data"
-
 x <- list.files(path)
 
 ii <- c(
@@ -19,6 +18,7 @@ ii <- c(
 #	unfished data sets	
 	"dirnböck1999",
 	"dunzendorfer1980",
+	"golling dta",
 	"greimler1996",
 	"greimler1997",
 	"grims1982",
@@ -58,6 +58,8 @@ ii <- c(
 	"sankt margarethen dta",
 	"seekirchen dta",	
 	"südburgenland dta",
+	"staufen dta",
+	"untersberg dta",
 	"vorarlberg dta",
 	"wien dta",
 	"wienerwald dta",
@@ -66,8 +68,10 @@ ii <- c(
 
 x <- x[-match(ii, x)]
 
-#	update
-#	note, Make-files will delete objects in the enviroment when leaving
+#	run this to update
+#	note, Make-files will delete *all* objects in the enviroment when leaving.
+dump()
+ 
 sapply(file.path(path, x, "MakeVegsoup.R"), function (x) {
 	cat(x, "\n")
 	source(x)

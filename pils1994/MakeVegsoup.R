@@ -16,7 +16,7 @@ file <- file.path(path, "Pils1994Tab8FooterSpecies.csv")
 X1 <- read.csv2(file, colClasses = "character")
 X1 <- X1[, -grep("taxon", names(X1))]
 X1 <- species(X1)
-X <- rbind(X0, X1)
+X <- bind(X0, X1)
 
 #   sites data including coordinates
 file <- file.path(path, "Pils1994Tab8Locations.csv")

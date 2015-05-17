@@ -13,7 +13,7 @@ source(file.path(path, "MakeVegsoup 3.R"))
 obj <- bind(tab1, tab2, tab3)
 
 #	order layer
-Layers(obj)	 <- c("sl", "hl", "ml")
+layers(obj)	 <- c("sl", "hl", "ml")
 
 #	unique rownames created by scripts MakeVegsoup *.R
 

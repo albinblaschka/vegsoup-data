@@ -31,7 +31,7 @@ x$layer[c(1,2,10,17,23:26)] <- "ml"
 XX <- species(x)
 XX$plot <- sprintf("%02d", as.numeric(XX$plot))
 
-X <- rbind(X, XX)
+X <- bind(X, XX)
 
 #	sites
 file <- file.path(path, "Franz2000Tab1Locations.csv")
@@ -46,7 +46,7 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
 #	order layer
-Layers(obj)	 <- c("hl", "ml")
+layers(obj)	 <- c("hl", "ml")
 
 #	classification
 obj$alliance <- "Loiseleurio-Vaccinion"

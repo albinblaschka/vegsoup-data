@@ -46,7 +46,7 @@ obj2 <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 obj <- bind(obj1, obj2)
 
 #	order layer
-Layers(obj)	 <- c("ml", "hl")
+layers(obj)	 <- c("ml", "hl")
  
 #	assign result object
 assign(key, obj)

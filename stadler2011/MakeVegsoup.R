@@ -26,7 +26,7 @@ species(X) <- zz
 obj <- Vegsoup(X, Y, Z, coverscale = "braun.blanquet")
 
 #	order layer
-Layers(obj)	 <- c("tl", "sl", "hl")
+layers(obj)	 <- c("tl", "sl", "hl")
 
 #	unique rownames
 rownames(obj) <- paste(key, sprintf("%02d", as.numeric(rownames(obj))), sep = ":")

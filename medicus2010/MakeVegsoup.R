@@ -10,7 +10,7 @@ source("~/Documents/vegsoup-data/medicus2010/MakeVegsoup 2.R")
 obj <- bind(tab1, tab2)
 
 #	order layer
-Layers(obj)	 <- c("tl", "sl", "hl", "ml")
+layers(obj)	 <- c("tl", "sl", "hl", "ml")
 
 #	assign result object
 assign(key, obj)

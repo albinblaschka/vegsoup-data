@@ -53,7 +53,7 @@ obj <- turbovegLayers(obj, "hl") # no layer is herb layer
 obj <- layers(obj, c("hl", "tl1", "sl1", "tl2", "hl", "sl2", "tl3"))
 
 #	order layers
-Layers(obj) <- c("hl", "sl1", "sl2", "tl3", "tl2", "tl1")
+layers(obj) <- c("hl", "sl1", "sl2", "tl3", "tl2", "tl1")
 
 #	assign coordiantes
 obj$longitude <- char2dd(obj$e_coord)

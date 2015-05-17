@@ -23,7 +23,7 @@ Y <- stackSites(file = file, sep = ";")
 obj <- Vegsoup(X, Y, Z, coverscale = "braun.blanquet2")
 		
 #	order layer
-Layers(obj)	<- c("hl", "ml")
+layers(obj)	<- c("hl", "ml")
 
 #	unique rownames
 rownames(obj) <- paste0(key, ":Tab1", ":", rownames(obj))
