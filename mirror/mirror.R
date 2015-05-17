@@ -18,7 +18,6 @@ ii <- c(
 #	unfished data sets	
 	"dirnböck1999",
 	"dunzendorfer1980",
-	"golling dta",
 	"greimler1996",
 	"greimler1997",
 	"grims1982",
@@ -58,8 +57,6 @@ ii <- c(
 	"sankt margarethen dta",
 	"seekirchen dta",	
 	"südburgenland dta",
-	"staufen dta",
-	"untersberg dta",
 	"vorarlberg dta",
 	"wien dta",
 	"wienerwald dta",
