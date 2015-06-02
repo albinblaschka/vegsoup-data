@@ -67,12 +67,13 @@ x <- x[-match(ii, x)]
 
 #	run update
 #	WARNING, running Make-files will delete *all* objects in the enviroment when leaving.
-if (FASLE) {
+if (FALSE) {
 	sapply(file.path(path, x, "MakeVegsoup.R"), function (x) {
 		cat(x, "\n")
 		source(x)
 		} )
 }
+
 #	biblographic entities	
 x <- sapply(file.path(path, x), function (x) {
 	ReadBib(file.path(x, "references.bib"))	
