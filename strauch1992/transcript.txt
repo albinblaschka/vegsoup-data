@@ -29,7 +29,7 @@ END HEAD
 BEGIN TABLE
 Quercus robur                                       tl 4222233422423332332322454424324421434434454
 Carpinus betulus                                       2444222233........r+....r..........1.+.....
-Prunus avium ssp. avium                                r.r...2+r11.+.r.+.r2..+++.+1+...+++2+11+1+1
+Prunus avium s.lat.                                    r.r...2+r11.+.r.+.r2..+++.+1+...+++2+11+1+1
 Fraxinus excelsior                                     22214322331433342333442132423422242+2121212
 Pinus sylvestris                                       +1+1......3112.+122+2....2.+21.+31+2++33221
 Picea abies                                            +.+...+1r..+.r...+1++..r+........r.r...r.+.
