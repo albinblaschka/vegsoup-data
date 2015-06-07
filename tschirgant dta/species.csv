@@ -466,7 +466,7 @@ tc18b;brac rupe;hl;2a;;;;
 tc18b;buph sali;hl;1;;;;
 tc18b;camp glom;hl;+;;;;
 tc18b;camp pers;hl;+;;;;
-tc18b;camp rapu;hl;+;;;;
+tc18b;camp rapu rapu;hl;+;;;;
 tc18b;camp sche;hl;+;;;;
 tc18b;care alba;hl;2m;;;;
 tc18b;care humi;hl;1;;;;
@@ -636,7 +636,7 @@ tc1b;arrh elat;hl;1;;;;
 tc1b;arte vulg;hl;+;;;;
 tc1b;brac rupe;hl;2b;;;;
 tc1b;brom erec;hl;2a;;;;
-tc1b;camp rapu;hl;1;;;;
+tc1b;camp rapu rapu;hl;1;;;;
 tc1b;colc autu;hl;2a;;;;
 tc1b;erig annu slat;hl;+;;;; | Changed erig annu To erig annu slat 2012-11-27 16:08:03
 tc1b;fest brev;hl;3;voucher;7;4;
@@ -1575,7 +1575,7 @@ tc6a;elyt repe;hl;+;;;; | Changed agro repe To elyt repe 2012-11-27 16:08:08
 tc6a;berb vulg;hl;1;;;;
 tc6a;berb vulg;sl;1;;;;
 tc6a;brac sylv;hl;+;;;;
-tc6a;camp rapu;hl;+;;;;
+tc6a;camp rapu rapu;hl;+;;;;
 tc6a;care alba;hl;1;;;;
 tc6a;cirs vulg;hl;r;;;;
 tc6a;clem vita;hl;2m;;;;

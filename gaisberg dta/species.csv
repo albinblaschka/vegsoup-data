@@ -36,9 +36,9 @@
 "gb01";"care mont";"hl";"+";;
 "gb01";"care digi";"hl";"r";;
 "gb01";"brac pinn";"hl";"+";;
-"gb02";"sorb aria aggr";"hl";"+";;
-"gb02";"sorb aria aggr";"sl";"1";;
-"gb02";"sorb aria aggr";"tl2";"2b";;
+"gb02";"sorb aria";"hl";"+";;
+"gb02";"sorb aria";"sl";"1";;
+"gb02";"sorb aria";"tl2";"2b";;
 "gb02";"pice abie";"hl";"1";;
 "gb02";"pice abie";"sl";"2b";;
 "gb02";"pice abie";"tl2";"2a";;
@@ -97,7 +97,7 @@
 "gb03";"amel oval";"sl";"2a";;
 "gb03";"rham cath";"hl";"+";;
 "gb03";"rham cath";"sl";"2a";;
-"gb03";"sorb aria aggr";"hl";"+";;
+"gb03";"sorb aria";"hl";"+";;
 "gb03";"frax exce";"hl";"+";;
 "gb03";"frax exce";"sl";"+";;
 "gb03";"glob cord";"hl";"2b";;
@@ -140,8 +140,8 @@
 "gb04";"cory avel";"sl";"2b";;
 "gb04";"rham cath";"hl";"+";;
 "gb04";"rham cath";"sl";"1";;
-"gb04";"sorb aria aggr";"hl";"1";;
-"gb04";"sorb aria aggr";"sl";"2b";;
+"gb04";"sorb aria";"hl";"1";;
+"gb04";"sorb aria";"sl";"2b";;
 "gb04";"sorb aucu aucu";"hl";"+";;
 "gb04";"sorb aucu aucu";"sl";"+";;
 "gb04";"frax exce";"hl";"+";;
@@ -184,8 +184,8 @@
 "gb04";"care brac";"hl";"+";;
 "gb05";"amel oval";"hl";"2a";;
 "gb05";"amel oval";"sl";"2b";;
-"gb05";"sorb aria aggr";"hl";"1";;
-"gb05";"sorb aria aggr";"sl";"2a";;
+"gb05";"sorb aria";"hl";"1";;
+"gb05";"sorb aria";"sl";"2a";;
 "gb05";"frax exce";"hl";"1";;
 "gb05";"vibu lant";"hl";"1";;
 "gb05";"vibu lant";"sl";"1";;
@@ -229,7 +229,7 @@
 "gb05";"phyt orbi";"hl";"+";;
 "gb05";"hier bifi";"hl";"+";;
 "gb06";"fagu sylv";"tl1";"3";;
-"gb06";"sorb aria aggr";"tl2";"2b";;
+"gb06";"sorb aria";"tl2";"2b";;
 "gb06";"frax exce";"hl";"+";;
 "gb06";"frax exce";"sl";"+";;
 "gb06";"frax exce";"tl2";"1";;
@@ -279,7 +279,7 @@
 "gb06";"gali odor";"hl";"+";;
 "gb06";"daph meze";"hl";"r";;
 "gb07";"vibu lant";"sl";"2a";;
-"gb07";"sorb aria aggr";"sl";"2a";;
+"gb07";"sorb aria";"sl";"2a";;
 "gb07";"amel oval";"sl";"2b";;
 "gb07";"rosa pend";"hl";"2a";;
 "gb07";"rosa pend";"sl";"1";;
@@ -321,8 +321,8 @@
 "gb08";"prun aviu aviu";"hl";"+";;
 "gb08";"prun aviu aviu";"tl2";"2a";;
 "gb08";"cory avel";"sl";"3";;
-"gb08";"sorb aria aggr";"sl";"2b";;
-"gb08";"sorb aria aggr";"tl2";"2a";;
+"gb08";"sorb aria";"sl";"2b";;
+"gb08";"sorb aria";"tl2";"2a";;
 "gb08";"clem vita";"hl";"2b";;
 "gb08";"clem vita";"sl";"1";;
 "gb08";"corn sang sang";"hl";"2m";;
@@ -366,8 +366,8 @@
 "gb09";"frax exce";"sl";"2a";;
 "gb09";"rosa pend";"hl";"2a";;
 "gb09";"rosa pend";"sl";"2b";;
-"gb09";"sorb aria aggr";"hl";"+";;
-"gb09";"sorb aria aggr";"sl";"2a";;
+"gb09";"sorb aria";"hl";"+";;
+"gb09";"sorb aria";"sl";"2a";;
 "gb09";"amel oval";"hl";"+";;
 "gb09";"amel oval";"sl";"2b";;
 "gb09";"cory avel";"hl";"1";;
@@ -454,8 +454,8 @@
 "gb10";"care orni orni";"hl";"+";;
 "gb10";"aspl tric quad";"hl";"+";;
 "gb10";"meli nuta";"hl";"+";;
-"gb10";"sorb aria aggr";"hl";"+";;
-"gb10";"sorb aria aggr";"sl";"+";;
+"gb10";"sorb aria";"hl";"+";;
+"gb10";"sorb aria";"sl";"+";;
 "gb10";"merc pere";"hl";"+";;
 "gb10";"sesl caer";"hl";"+";;
 "gb10";"loni alpi";"hl";"+";;
@@ -505,5 +505,5 @@
 "gb11";"hier bupl";"hl";"+";;
 "gb11";"aspl tric quad";"hl";"+";;
 "gb11";"care digi";"hl";"+";;
-"gb11";"sorb aria aggr";"hl";"+";;
-"gb11";"sorb aria aggr";"sl";"1";;
+"gb11";"sorb aria";"hl";"+";;
+"gb11";"sorb aria";"sl";"1";;

@@ -67,7 +67,7 @@ Lonicera xylosteum                               1...+..
 Tilia platyphyllos                               +......
 Viburnum opulus                                  1......
 Fagus sylvatica                                  ....1.2
-Sorbus aria agg.                                 ....1..
+Sorbus aria s.str.                               ....1..
 Viburnum lantana                                 ....+..
 Sorbus aucuparia ssp. aucuparia                  ......+
 Arabis hirsuta s.str.                         hl +......
@@ -77,7 +77,7 @@ Asplenium ruta-muraria                           +...r.+
 Brachypodium sylvaticum                          111....
 Calamagrostis varia                              1...1.1
 Campanula persicifolia                           +.....+
-Campanula rapunculus                             2...+..
+Campanula rapunculoides ssp. rapunculoides       2...+..
 Carex alba                                       41..r.4
 Carex digitata                                   1...1.+
 Carex montana                                    1.....1
@@ -151,7 +151,7 @@ Viburnum lantana                                 ..+.+..
 Campanula rotundifolia s.str.                    ...+..+
 Cytisus nigricans ssp. nigricans                 ...2...
 Scabiosa columbaria s.str.                       ...+...
-Sorbus aria agg.                                 ....+..
+Sorbus aria s.str.                               ....+..
 Lonicera xylosteum                               ....+..
 Acer pseudoplatanus                              ....1.+
 Anemone nemorosa                                 ....1.r
