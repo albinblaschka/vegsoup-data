@@ -10,7 +10,7 @@ kb08;95;50;65;35;30;1;12;9;3;0,5;0,2;16;16;SW;40;15;0;0;2014-05-24;Rendzina;Kupu
 kb09;97;75;20;50;70;1;24;18;3;0,5;0,2;16;16;SW;15;3;0;0;2014-05-24,2015-02-15 ;Rendzina;Kupuzinerberg, W Haus Kapuzinerberg 8 ;;47.801142N;13.052713E;10;Cephalanthero Fagenion;R. Kaiser
 kb10;99;50;65;10;93;1;25;20;5;0,5;0,2;25;10;SW;40;5;0;0;2014-05-24,2015-02-15 ;Rendzina;Kapuzinerberg, Äußererstein;an der Kante eiener Felsstufe oberhalb des Basteiweges bei der Holzstiege;47.801301N;13.056586E;10;Carpinion betuli;R. Kaiser
 kb11;95;35;70;45;80;5;14;10;2,5;0,7;0,3;10;25;S;40;15;0;0;2014-05-24;Rendzina;Kapuzinerberg, Südseite oberhalb Arenbergstraße;;47.801093N;13.059049E;10;Carpinion betuli;R. Kaiser
-kb12;90;25;65;50;75;2;15;12;4;0,5;0,25;16;16;S;60;10;0;0;2014-05-24;Rendzina;Kapuzinerberg, Südseite oberhalb Arenbergstraße;;47.801105N;13.058600E;10;Carpinion betuli;R. Kaiser
+kb12;90;25;65;50;75;2;15;12;4;0,5;0,25;16;16;S;60;10;0;0;2014-05-24;Rendzina;Kapuzinerberg, Südseite oberhalb Arenbergstraße;;47.801030N;13.058660E;10;Carpinion betuli;R. Kaiser
 kb13;98;70;60;50;80;1;25;10;5;0,8;0,2;16;16;N;30;0;0;0;2014-07-19;Rendzina;Kapuzinerberg, Nord-Seite;am beginn der Eisenbahnschienen, von da nach oben;47.806452N;13.062846E;10;Cephalanthero Fagenion;R. Kaiser
 kb14;98;80;60;25;35;1;27;16;8;0,8;0,3;16;16;N;35;1;0;2;2014-07-19;verbraunte Rendzina;Kapuzinerberg, Nord-Seite;oberhalb und unterhalb Weg;47.805537N;13.058405E;10;Lunario-Acerenion pseudoplatani;R. Kaiser
 kb15;99;55;35;45;80;1;27;22;5;0,9;0,3;16;16;N;55;3;0;0;2014-07-19;Mull-Rendzina;Kapuzinerberg, Nord-Seite;kbx3;47.805691N;13.059315E;20;Lunario-Acerenion pseudoplatani;R. Kaiser
@@ -22,3 +22,6 @@ kb20;98;80;25;60;40;1;23;20;4;0,5;0,2;16;16;S;20;15;0;0;2015-04-27;skelettreiche
 kb21;98;60;70;70;60;1;18;9;3;0,5;0,25;16;16;SW;25;5;0;0;2015-04-27;skelettreiche Braunerde;Kapuzinerberg, Äußererstein;oben ein Buchenprotz neben großer Esche;47.800862N;13.053036E;20;Carpinion betuli;R. Kaiser
 kb22;95;30;75;40;35;1;10;7;4;0,5;0,2;16;16;S;35;20;0;0;2015-04-27;verbraunte Rendzina;Kapuzinerberg, Äußererstein;mächtige Laubstreuauflage;47.801239N;13.057476E;20;Carpinion betuli;R. Kaiser
 kb23;98;25;75;10;15;1;12;9;3;0,4;0,2;16;16;S;60;40;0;0;2015-04-27;Rendzina;Kapuzinerberg, Äußererstein;an Felstufe oberhalb eines kleines Felsdaches oberhalb des Basteiweges;47.801245N;13.057119E;20;Tilenion platyphylli;R. Kaiser
+kb24;;;;;;;;;;;;;;;;;;;2015-06-13;;Kapuzinerberg, Äußererstein;;47.800840N;13.051400E;10;Carpinion betuli;R. Kaiser
+kb25;;;;;;;;;;;;;;;;;;;2015-06-13;;Kapuzinerberg, Äußererstein;;47.800670N;13.052350E;10;Carpinion betuli;R. Kaiser
+kb26;;;;;;;;;;;;;;;;;;;2015-06-13;;Kapuzinerberg, Äußererstein;;47.800488N;13.052517E;10;Carpinion betuli;R. Kaiser
