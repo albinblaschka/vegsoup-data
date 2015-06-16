@@ -20,7 +20,7 @@ Salix alba;sali alba;tl1;;;;;;;;;;;;;;;
 Salix eleagnos;sali elea elea;tl1;;;;;;2a;;;;;;;;;
 Salix purpurea;sali purp;tl1;;;;;;;;;;;;;;;
 Salix viminalis;sali vimi;tl1;;;;;;;;;;;;;;3;
-Sorbus aria;sorb aria aggr;tl1;;;2b;;;;;;;;;;;;
+Sorbus aria;sorb aria;tl1;;;2b;;;;;;;;;;;;
 Tilia cordata;tili cord;tl1;;;4;;;3;;;;4;;;4;;3
 Tilia platyphyllos;tili plat;tl1;;;;;;;;;;;;;2b;;
 Ulmus glabra;ulmu glab;tl1;;;;;;;;;2a;;;;;;
@@ -50,7 +50,7 @@ Salix eleagnos;sali elea elea;tl2;;;;;;;;;;;;;;;
 Salix fragilis;sali frag;tl2;;;;;;;;;;;;;;;
 Salix purpurea;sali purp;tl2;;;;;;;;;;;;;;;
 Salix viminalis;sali vimi;tl2;;;;;;;;;;;;;;;
-Sorbus aria;sorb aria aggr;tl2;;;2b;;;2a;;;;;;;;;
+Sorbus aria;sorb aria;tl2;;;2b;;;2a;;;;;;;;;
 Tilia cordata;tili cord;tl2;;;2b;;;2b;2a;;;;;;3;;2a
 Tilia platyphyllos;tili plat;tl2;;;;;;2a;;;;2a;;;2a;;
 Ulmus glabra;ulmu glab;tl2;;;2b;;;3;;;;;;;;2b;2b
@@ -315,7 +315,7 @@ Silene vulgaris;sile vulg vulg;hl;;;;;;;;;;;;;;;
 Solidago canadensis;soli cana;hl;;;;;;;;;;;;;;;
 Solidago gigantea;soli giga;hl;;;;;;;;;2a;;5;;;;
 Sonchus arvensis;sonc arve slat;hl;;;;;;;;;;+;;+;;;
-Sorbus aria         ;sorb aria aggr;hl;;;;;;;;;;;;;;;
+Sorbus aria;sorb aria;hl;;;;;;;;;;;;;;;
 Stachys sylvatica;stac sylv;hl;;;+;;;2a;;2a;;;;;2a;;+
 Stellaria intermedia;stel medi;hl;Stellaria media;+;;;;;;;;;;;;;
 Stellaria nemorum;stel nemo;hl;;;;;;;;;;;;;;;

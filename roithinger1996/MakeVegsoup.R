@@ -16,7 +16,7 @@ X1 <- species(x)
 file <- file.path(path, "Roithinger1996TabAFooterSpecies.csv")
 X2 <- species(file, sep = ";")[, 1:4]
 X2$plot <- sprintf("%03d", as.numeric(X2$plot))
-X <- rbind(X1, X2)
+X <- bind(X1, X2)
 
 #   sites data including coordinates
 file <- file.path(path, "Roithinger1996TabALocations.csv")
@@ -31,7 +31,7 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 # promote to class "Vegsoup"
 obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
-Layers(obj) <- c("sl", "hl")
+layers(obj) <- c("sl", "hl")
 # assign header data stored as attributes in
 # imported original community table
 # omit dimnames, plot id (Releveé number) and class

@@ -24,7 +24,7 @@ proj4string(obj) <- CRS("+init=epsg:4326")
 obj <- turbovegLayers(obj)
 
 #	order layer
-Layers(obj) <- c("hl", "sl1", "sl2", "tl3", "tl2", "tl1")
+layers(obj) <- c("hl", "sl1", "sl2", "tl3", "tl2", "tl1")
 
 #	assign result object
 assign(key, obj)

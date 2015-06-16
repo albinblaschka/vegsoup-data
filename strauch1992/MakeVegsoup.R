@@ -49,7 +49,7 @@ obj$alliance <- "Carpinion betuli"
 obj$association <- "Stellario-Carpinetum Oberd. 1957"
 
 #	order layres
-Layers(obj) <- c("tl", "sl", "hl")
+layers(obj) <- c("tl", "sl", "hl")
 
 #	unique rownames
 rownames(obj) <- paste(key, "Tab2", rownames(obj), sep = ":")

@@ -1,5 +1,5 @@
 plot;cov;tcov1;tcov2;scov;hcov;mcov;htl1;htl2;hsl;hhl1;hhl2;plsx;plsy;expo;slope;rock;bare;stones;date;location;observer;soil.comment;comment;altitude;latitude;longitude;accuracy;alliance;soil;bedrock
-rk00;98;97;0;0;98;2;0;0;0;0,4;0,25;4;4;W;7;0;0;0;2014-05-06;Rettenkogel, Wiese am Weg zur Laimeralm;R. Kaiser & T. Eberl;;;;47.704092;13.498651;10;Polygono-Trisetion;;
+rk00;98;0;0;0;98;2;0;0;0;0,4;0,25;4;4;W;7;0;0;0;2014-05-06;Rettenkogel, Wiese am Weg zur Laimeralm;R. Kaiser & T. Eberl;;;;47.704092;13.498651;10;Polygono-Trisetion;;
 rk01;97;65;50;10;85;2;25;18;6;0,7;0,2;16;16;W;30;0;0;0;2014-07-16;Kammersbachtachtal, Tal zur Wilden Kammer;R. Kaiser & T. Eberl;;;;47.644051;13.473336;10;Fagion sylvaticae;;
 rk02;95;80;10;15;85;1;18;12;6;0,6;0,2;16;16;W;35;0;0;0;2014-07-16;Kammersbachtachtal, Tal zur Wilden Kammer;R. Kaiser & T. Eberl;;;;47.635379;13.476813;10;Fagion sylvaticae;;
 rk03;90;40;45;15;60;3;20;12;6;0,5;0,1;10;25;W;30;0;0;0;2014-07-16;Gamsfeld, am Rande der Wilden Kammer;R. Kaiser & T. Eberl;Rücken mit oberflächig versauerter Rohhumus-Auflage;;;47.634773;13.479725;10;Fagion sylvaticae;;

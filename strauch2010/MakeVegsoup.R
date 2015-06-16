@@ -34,7 +34,7 @@ XZ <- SpeciesTaxonomy(x = X, file.y = file)
 obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
 #	order layers
-Layers(obj) <- c("tl", "sl", "hl")
+layers(obj) <- c("tl", "sl", "hl")
 
 #	unique rownames
 rownames(obj) <- paste(key, "TabT16-19-20-21", rownames(obj), sep = ":")

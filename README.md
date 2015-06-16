@@ -6,9 +6,9 @@ A repository of plant species co-occurrence data (vegetation data, phytosociolog
 ***This is our personal vegetation data base (spatial and temporal explicit species co-occurrence data).
 It can be viewed as an incubator area for the accumulation of vegetation-plot data.
 Currently the repository contains a bunch of unpublished data sets, as well as computerized data taken from the literature.***
-1545 relevés were observed by R. Kaiser & T. Eberl and 2069 relevés originate from literature sources and were digitized by R. Kaiser.
+1606 relevés were observed by R. Kaiser & T. Eberl and 2069 relevés originate from literature sources and were digitized by R. Kaiser.
 1347 relevés are provided M. Staudinger.
-In sum 4961 relevés involving 2369 and 1259 taxa, respectively.
+In sum 5022 relevés involving 2406 and 1259 taxa, respectively.
 Up to now, R. Kaiser, M. Staudinger and T. Eberl and are the main contributors.
 You are welcome to join the project!
 

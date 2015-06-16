@@ -6,8 +6,8 @@ key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 
 file <- file.path(path, "species.csv")
 #	promote to class "Species"
-X <- species(file, sep = ";")
-X <- X[, 1:4]
+X <- species(file, sep = ",")[, 1:4]
+
 
 file <- file.path(path, "sites wide.csv")
 #	promote to class "Sites"
@@ -21,7 +21,7 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
 #	order layer
-Layers(obj)	 <- c("tl1", "tl2", "sl", "hl", "ml")
+layers(obj)	 <- c("tl1", "tl2", "sl", "hl", "ml")
 
 #	assign result object
 assign(key, obj)
@@ -33,12 +33,5 @@ obj$richness <- richness(obj, "sample")
 do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
 write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
 
-if (FALSE) {
-	decostand(obj) <- "pa"
-	vegdist(obj) <- "bray"
-	write.verbatim(seriation(obj), file.path(path, "seriation.txt"),
-	sep = "", add.lines = TRUE)
-	KML(obj)
-}
 #	tidy up
 rm(list = ls()[-grep(key, ls())])

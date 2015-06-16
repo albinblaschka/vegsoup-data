@@ -41,7 +41,7 @@ obj$association <- "Juncus trifidus-Primula minima-Gesellschaft"
 obj$alliance <- "Oxytropido-Elynion"
 
 #	order layer
-Layers(obj)	 <- c("hl", "ml")
+layers(obj)	 <- c("hl", "ml")
 
 #	unique rownames
 rownames(obj) <- paste(key, "Tab5", sprintf("%01d", as.numeric(rownames(obj))), sep = ":")

@@ -15,7 +15,7 @@ X2 <- stackSpecies(file = file)[, c(1:4)]
 file <- file.path(path, "species wide mat.csv")
 X3 <- stackSpecies(file = file)[, c(1:4)]
 
-X <- rbind(X1, X2, X3)
+X <- bind(X1, X2, X3)
 
 file <- file.path(path, "sites wide.csv")
 Y <- stackSites(file = file)
@@ -26,7 +26,7 @@ XZ <- SpeciesTaxonomy(x = X, file.y = file)
 obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
 #	order layer
-Layers(obj)	 <- c("tl1", "tl2", "sl", "hl")
+layers(obj)	 <- c("tl1", "tl2", "sl", "hl")
 
 #	assign result object
 assign(key, obj)

@@ -42,7 +42,7 @@ obj <- bind(obj1, obj2)
 obj <- layers(obj, c("hl", "sl2", "tl2", "tl3", "hl", "tl1", "sl1", "ml"))
 
 #	order layers
-Layers(obj) <- c("ml", "hl", "sl1", "sl2", "tl3", "tl2", "tl1")
+layers(obj) <- c("ml", "hl", "sl1", "sl2", "tl3", "tl2", "tl1")
 
 #	assign coordiantes
 obj$longitude <- char2dd(obj$e_coord)

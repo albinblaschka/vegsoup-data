@@ -35,7 +35,7 @@ make <- function (tab = 1) {
 	x2 <- castFooter(file, first = FALSE, layers = "@")
 	x2 <- species(x2)
 	
-	X <- rbind(x1, x2)
+	X <- bind(x1, x2)
 	X$cov[X$cov == "R"] <- "r"
 	species(X) <- zz
 	
@@ -48,7 +48,7 @@ make <- function (tab = 1) {
 	
 	file <- file.path(path, paste0("Dullnig1989Tab", tab, "Locations.csv"))
 	y2 <- stackSites(file = file, sep = ",", zeros = TRUE)
-	Y <- rbind(y1, y2)
+	Y <- bind(y1, y2)
 	
 	obj <- Vegsoup(X, Y, Z, coverscale = "braun.blanquet2")
 		
@@ -72,7 +72,7 @@ coordinates(obj) <- ~longitude+latitude
 proj4string(obj) <- CRS("+init=epsg:4326")
 
 #	order layer
-Layers(obj)	<- c("hl", "ml")
+layers(obj)	<- c("hl", "ml")
 
 #	unique rownames
 rownames(obj) <- paste0(key, ":Tab", obj$tab, ":", rownames(obj))

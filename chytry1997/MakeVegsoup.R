@@ -89,7 +89,7 @@ rownames(obj) <- paste(key, rownames(obj), sep = ":")
 
 obj <- layers(obj, collapse = c("hl", "t1", "hl", "s1", "ml"))
 obj <- layers(obj, collapse = c("hl", "tl", "sl", "ml"))
-Layers(obj) <- c("tl", "sl", "hl", "ml")
+layers(obj) <- c("tl", "sl", "hl", "ml")
 
 #	assign result object
 assign(key, obj)
@@ -117,7 +117,7 @@ if (FALSE) {
 	
 	#	bind data sets
 	obj <- bind(obj, Chytry1995, Chytry1996)
-	Layers(obj) <- c("tl", "sl", "hl", "ml")
+	layers(obj) <- c("tl", "sl", "hl", "ml")
 	
 	#	assign syntaxa
 	obj$alliance <- "Tilio-Acerion"

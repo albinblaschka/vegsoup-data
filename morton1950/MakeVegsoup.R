@@ -21,7 +21,7 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet2")
 
 #	order layer
-Layers(obj)	 <- c("tl1", "sl", "hl", "ml")
+layers(obj)	 <- c("tl1", "sl", "hl", "ml")
 
 #	unique rownames
 #	we don't change what we have in the files, Morton's numbering is complex

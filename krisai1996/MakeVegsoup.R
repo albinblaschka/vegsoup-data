@@ -10,7 +10,7 @@ source(file.path(path, "MakeVegsoup 8.R"))
 obj <- bind(tab7, tab8)
 
 #	order layer
-Layers(obj)	 <- c("tl", "sl", "hl", "ml")
+layers(obj)	 <- c("tl", "sl", "hl", "ml")
 
 #	assign result object
 assign(key, obj)

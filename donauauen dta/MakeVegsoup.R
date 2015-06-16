@@ -11,13 +11,13 @@ key <- read.bib(file.path(path, "references.bib"), encoding = "UTF-8")$key
 file <- file.path(path, paste0(key[[1]], ".xml"))
 obj1 <- read.XML(file)
 coverscale(obj1) <- "braun.blanquet"
-obj1 <- turbovegLayers(obj1, "hl") # no layer is herb layer 
+obj1 <- turboveglayers(obj1, "hl") # no layer is herb layer 
 
 #	project 2 (Staudinger102)
 file <- file.path(path, paste0(key[[2]], ".xml"))
 obj2 <- read.XML(file)
 coverscale(obj2) <- "braun.blanquet"
-obj2 <- turbovegLayers(obj2)       # all herb layer 
+obj2 <- turboveglayers(obj2)       # all herb layer 
 
 #	concatenate objects
 obj <- bind(obj1, obj2)

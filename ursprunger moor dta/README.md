@@ -3,7 +3,7 @@ About this data set
 
 This is data for 6 permanent plots in a bog rewetting program. The work was conducted on behalf of the municipality of Elixhausen (Salzburg, Austria). The data contain temporally and spatially explicit species co-occurrence data of woody plants, herbaceous plants, bryophytes and lichens determined to the lowest taxonomic level.
 
-Plot dimensions were recored with high accuracy GPS (Median accuracy ±10 cm).
+Plot dimensions were recored with high accuracy GPS (Median accuracy ±10 cm). Plot shapes in WKT representation (EPSG 31258) are given below.
 
     POLYGON((429903.45800000004237518 305521.64600000064820051,429907.1720000000204891 305520.37399999983608723,429905.57099998567719012 305516.5970000121742487,429901.88028772576944903 305517.85896429786225781,429903.45800000004237518 305521.64600000064820051))
     POLYGON((429893.39000000001396984 305527.07200000062584877,429897.15200000000186265 305525.93300000112503767,429895.99499999999534339 305522.09300000127404928,429892.26699999999254942 305523.21299999952316284,429893.39000000001396984 305527.07200000062584877))

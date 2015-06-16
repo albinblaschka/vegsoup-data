@@ -23,7 +23,7 @@ file <- "~/Documents/vegsoup-data/griesher1993/Griehser1993Tab1FooterSpecies.csv
 x <- read.csv2(file, colClasses = "character")
 x <- x[, -grep("taxon", names(x))]
 XX <- species(x)
-X <- rbind(X, XX)
+X <- bind(X, XX)
 
 #   sites data including coordinates
 file <- "~/Documents/vegsoup-data/griesher1993/Griehser1993Tab1Locations.csv"

@@ -10,7 +10,7 @@
 "cory avel";"tl2";"Corylus avellana";1;".";1;2;".";".";".";".";"."
 "prun padu padu";"tl2";"Prunus padus";".";".";".";1;".";".";".";".";"."
 "acer pseu";"tl2";"Acer pseudoplatanus";1;".";1;3;4;1;".";".";"."
-"prun aviu aviu";"tl2";"Prunus avium";1;".";".";".";".";2;".";".";"."
+"prun aviu slat";"tl2";"Prunus avium";1;".";".";".";".";2;".";".";"."
 "frax exce";"tl2";"Fraxinus excelsior";".";".";1;3;3;3;".";".";"."
 "carp betu";"tl2";"Carpinus betulus";1;4;".";".";".";2;".";".";3
 "fagu sylv";"tl2";"Fagus sylvatica";".";".";".";".";".";1;".";".";1
@@ -95,7 +95,7 @@
 "gali sylv";"hl";"Galium sylvaticum";"+";"+";".";".";".";"+";".";2;"."
 "clem vita";"hl";"Clematis vitalba";".";".";".";".";".";"+";".";".";"."
 "pice abie";"hl";"Picea abies";".";".";".";".";".";"+";".";".";"."
-"prun aviu aviu";"hl";"Prunus avium";".";".";".";".";".";"+";".";".";"."
+"prun aviu slat";"hl";"Prunus avium";".";".";".";".";".";"+";".";".";"."
 "poly odor";"hl";"Polygonatum odoratum";".";".";".";".";".";1;".";".";"."
 "fest hete ylla";"hl";"Festuca heterophylla";1;1;".";"+";1;1;".";"+";"+"
 "cory avel";"hl";"Corylus avellana";".";".";"+";".";".";".";1;1;"."

@@ -20,7 +20,7 @@ XZ <- SpeciesTaxonomy(X, file.y = file)
 obj <- Vegsoup(XZ, Y, coverscale = "braun.blanquet")
 
 #	order layers
-Layers(obj) <- c("hl", "ml")
+layers(obj) <- c("hl", "ml")
 
 #	unique rownames
 #	we don't change what we have in the files

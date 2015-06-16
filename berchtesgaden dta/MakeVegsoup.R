@@ -45,7 +45,7 @@ obj$plsx <- 2
 obj$plsy <- 2
 
 #	order layer
-Layers(obj)	 <- c("sl", "hl")
+layers(obj)	 <- c("sl", "hl")
 
 names(obj)
 #	assign result object

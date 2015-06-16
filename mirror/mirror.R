@@ -1,13 +1,12 @@
 #	this is a build script for all available data sets
-#	referncing to to https://github.com/kardinal-eros/vegsoup-standards/tree/master/austrian%20standard%20list%202008
+#	referencing to https://github.com/kardinal-eros/vegsoup-standards/tree/master/austrian%20standard%20list%202008
 
 library(vegsoup)
 library(RefManageR)
 library(knitr)
+library(rgdal)
 
-#	
 path <- "~/Documents/vegsoup-data"
-
 x <- list.files(path)
 
 ii <- c(
@@ -36,6 +35,7 @@ ii <- c(
 	"surina2004",
 	"urban1992",
 	"urban2008",
+	"urhamerberg dta",
 #	independent taxonomy
 	"crete dta",
 	"javakheti dta",
@@ -66,12 +66,14 @@ ii <- c(
 
 x <- x[-match(ii, x)]
 
-#	update
-#	note, Make-files will delete objects in the enviroment when leaving
-sapply(file.path(path, x, "MakeVegsoup.R"), function (x) {
-	cat(x, "\n")
-	source(x)
-	} )
+#	run update
+#	WARNING, running Make-files will delete *all* objects in the enviroment when leaving.
+if (FALSE) {
+	sapply(file.path(path, x, "MakeVegsoup.R"), function (x) {
+		cat(x, "\n")
+		source(x)
+		} )
+}
 
 #	biblographic entities	
 x <- sapply(file.path(path, x), function (x) {
