@@ -21,7 +21,7 @@ obj <- Vegsoup(XZ, Y, coverscale = "as.is")
 
 #	order layer
 layers(obj)	 <- c("hl", "ml")
-obj <- layers(obj, collapse = c("hl", NA))
+#	obj <- layers(obj, collapse = c("hl", NA))
 
 #	assign result object
 assign(key, obj)
