@@ -9,13 +9,27 @@ Topics
 * Plant community delimitation and surface patterning of a boreal high mountain mire ecosystem (string bog, »Strangmoor«, »Aapa« mire).
 * Species diversity of wetland.
 
-Authors
-=======
+Students
+========
 
-Group #: …  
+Group #1:
+Rudolf Benter, 
+Brigitte Heilmann, 
+Pascal Koob, 
+David Polten, 
+Daniela Rippl, 
+Eva Maria Rungaldier.
 
+Group #3:
+Stephanie Binder, 
+Miriam SophieHolztrattner, 
+Tobias Panhofer, 
+Eva Maria Piberger, 
+Katharina Weitgasser.
 
-Group #: …  
-
-
-Group #: … 
+Group #5:
+Fiona Brugger, 
+Julia Grüneis, 
+Tina Haider, 
+Philip Langwallner, 
+Julia Rhode.
