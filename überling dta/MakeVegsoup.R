@@ -10,7 +10,7 @@ X <- species(file, sep = ",")[, 1:4]
 
 file <- file.path(path, "sites wide.csv")
 #	promote to class "Sites"
-Y <- stackSites(file = file)
+Y <- stackSites(file = file, sep = ",", dec = ".")
 
 file <- "~/Documents/vegsoup-standards/austrian standard list 2008/austrian standard list 2008.csv"
 #	promote to class "SpeciesTaxonomy"
@@ -30,5 +30,8 @@ assign(key, obj)
 do.call("save", list(key, file = file.path(path, paste0(key, ".rda"))))
 write.verbatim(obj, file.path(path, "transcript.txt"), sep = "", add.lines = TRUE)
 
+write.csv(cbind(splitAbbr(ul), t(as.matrix(ul))), file.path(path, "transcript.csv"))
+
 #	tidy up
 rm(list = ls()[-grep(key, ls())])
+
