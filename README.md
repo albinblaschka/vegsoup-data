@@ -12,7 +12,7 @@ In sum 5022 relevés involving 2406 and 1259 taxa, respectively.
 Up to now, R. Kaiser, M. Staudinger and T. Eberl and are the main contributors.
 You are welcome to join the project!
 
-The bibtex file `./refernces.bib` that is contained in each project folder gives citation information for a particular data set (see also section license). The *URL* field provides a link to a PDF-file in case of a literature source.
+The bibtex file `./refernces.bib` that is contained in each project folder gives intellectual property rights for a particular data set (see also section license). The *URL* field provides a link to a PDF-file in case of a literature source.
 
 ![](README.png)
 
@@ -26,7 +26,12 @@ To install this package from within *R*, type:
 # if needed
 install.packages("devtools")
 
+library(devtools)
+
 install.packages("vegsoup", repos="http://R-Forge.R-project.org", type = "source")
+
+#   github mirror
+install_github("rforge/vegsoup/pkg")
 ```
 
 To load a data set into an *R* session you may either download a particular `*.rda` file and attach it to your *R*-session (first navigate to the respective `*.rda` file, then right-click on the file, a further click on *View Raw* will download the file.), or load the data directly from inside an R session:
@@ -70,7 +75,7 @@ The *URL* tag in the `references.bib` file provides a (stable) link to a full PD
 Bibliographic information
 -------------------------
 
-Each project folder contains a `references.bib` that contains bibliographic information related to a data set.
+Each project folder contains a `references.bib` file that contains bibliographic information related to a data set.
 Using the efficient BibTex format and its readable syntax it is easy then to create and maintain bibliographic information for the whole repository.
 
 Sampling protocol and data standards
@@ -93,7 +98,7 @@ Depending on the scope of a particular project, different sampling procedures ar
 
 - *Rock Vegetation Sampling* is performed by using mountaineering equipment (rope and climbing harness), occasionally be free-climbing. Rock vegetation of any kind or forests of steep slopes are sampled using a rope along a vertical transect. Usually 3 to 4 plots are sampled along a 100 m long rope. The first plot is typically sampled just below the rope betray point. The last relevé is taken at the end of the rope. Depending on how long the rappelling (abseiling) needs to be, non overlapping plots are taken along this line, with gaps between sampling units of at least half the plot size applied.
 
-- *Systematic sampling* is performed by using a rectangular grid or along a transect.
+- *Systematic sampling* is performed by using a rectangular grid or along a (measure tape) transect.
 
 
 We don't (really) care about homogeneity or other subjective criteria concerning a sample plot and sampling locations
