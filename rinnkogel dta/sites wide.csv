@@ -30,8 +30,8 @@ rk27;98;25;60;30;85;15;24;12;4;0,7;0,2;16;16;NW;45;0;0;0;2014-08-08;Gamsfeld, B�
 rk28;99;60;65;5;65;10;30;15;2;0,3;0,1;16;16;F;0;0;0;0;2014-08-08;Gamsfeld, Bärenpfadkogel;R. Kaiser;mächtige Rohumus-Renzina, extrem bodensauer;Mulde an Rücken;;47.651636;13.494743;10;Abieti-Piceion;;
 rk29;99;60;40;5;93;10;27;13;5;0,25;0,1;16;16;NE;20;0;0;0;2014-08-08;Gamsfeld, Bärenpfadkogel;R. Kaiser;mächtige Rohumus-Renzina;knapp unterhalb Rücken;;47.647092;13.490012;10;Abieti-Piceion;;
 rk30;95;85;25;3;50;5;23;15;3;0,7;0,2;16;16;NE;35;0;0;0;2014-08-08;Rinnkogel, Brennet;T. Eberl;Rendzina;;;47.674705;13.477011;10;Abieti-Piceion;;
-rk31;;;;;;;;;;;;;;;;;;;2015-08-24;Rettenkogel, Südabfall des Bärenkogels;R. Kaiser;;;;47.689984;13.501337;10;Fagion sylvaticae;;
-rk32;;;;;;;;;;;;;;;;;;;2015-08-24;Rettenkogel, Südabfall des Bärenkogels;R. Kaiser;;;;47.689707;13.498811;10;Lunario-Acerenion pseudoplatani;;
-rk33;;;;;;;;;;;;;;;;;;;2015-08-24;Rettenkogel, Südabfall des Bärenkogels;R. Kaiser;;;;47.689356;13.497918;10;Fagion sylvaticae;;
-rk34;;;;;;;;;;;;;;;;;;;2015-08-24;Rettenkogel, Südabfall des Bärenkogels;R. Kaiser;;;;47.688451;13.498681;10;Fagion sylvaticae;;
-rk35;;;;;;;;;;;;;;;;;;;2015-08-24;Rettenkogel, Südabfall des Bärenkogels;R. Kaiser;;;;47.687924;13.498525;10;Abieti-Piceion;;
+rk31;95;65;30;1;75;3;23;10;3;0,5;0,2;16;16;NW;40;15;0;0;2015-08-24;Rettenkogel, Südabfall des Bärenkogels;R. Kaiser;lehmige Braunerde über Konglomerat;;;47.689984;13.501337;10;Fagion sylvaticae;;
+rk32;95;85;25;1;80;15;31;25;2,5;0,6;0,15;10;26;NW;30;0;0;60;2015-08-24;Rettenkogel, Südabfall des Bärenkogels;R. Kaiser;;in Fallinie;;47.689707;13.498811;10;Lunario-Acerenion pseudoplatani;;
+rk33;95;80;45;0;40;3;35;22;0;0,4;0,15;16;16;NW;35;0;0;0;2015-08-24;Rettenkogel, Südabfall des Bärenkogels;R. Kaiser;verbraunte Renzina, sehr skelettreich;;;47.689356;13.497918;10;Fagion sylvaticae;;
+rk34;90;45;15;35;55;3;23;16;3;0,5;0,15;16;16;N;45;5;0;0;2015-08-24;Rettenkogel, Südabfall des Bärenkogels;R. Kaiser;;;;47.688451;13.498681;10;Fagion sylvaticae;;
+rk35;85;25;35;20;45;35;22;11;3;0,3;0,1;10;26;N;45;20;0;0;2015-08-24;Rettenkogel, Südabfall des Bärenkogels;R. Kaiser;mächtige Rohumus-Renzina;in Fallinie;;47.687924;13.498525;10;Abieti-Piceion;;
