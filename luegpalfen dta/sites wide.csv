@@ -26,10 +26,10 @@ lp24;99;80;25;25;25;80;24;19;5;0,6;0,25;16;16;S;15;0;0;100;2015-06-01;Luegpalfen
 lp25;95;0;40;85;80;2;0;8;4;1;0,15;16;16;SW;70;20;0;0;2015-06-01;Salzachöfen, Amonitenwand;zwischen den Seilversicherungen;47.578716;13.192402;10;Tilenion platyphylli;(Moor 1973) Müller 1992;Rendzina;;R. Kaiser
 lp26;97;65;55;50;65;25;10;8;3,5;0,7;0,2;16;16;SW;55;40;0;0;2015-06-01;Salzachöfen, Amonitenwand;oberhalb der Seilversicherung ;47.578841;13.192595;10;Tilenion platyphylli;(Moor 1973) Müller 1992;Mull-Rendzina;;R. Kaiser
 lp27;98;70;35;40;35;30;23;14;5;0,4;0,2;16;16;S;15;0;0;100;2015-06-01;Luegpalfen, Unterhang zwischen Tunneln;;47.566867;13.177985;10;Tilenion platyphylli;(Moor 1973) Müller 1992;;;R. Kaiser
-lp28;;;;;;;;;;;;;;;;;;;2015-04-24, 2015-08-31;Hiefler, Westseite;;47.555433;13.171353;10;Fagion sylvaticae;Luquet 1926;;;
-lp29;;;;;;;;;;;;;;;;;;;2015-04-24, 2015-08-31;Hiefler, Westseite;;47.555010;13.171641;10;Fagion sylvaticae;Luquet 1926;;;
-lp30;;;;;;;;;;;;;;;;;;;2015-04-24, 2015-08-31;Hiefler, Westseite;;47.554782;13.172075;10;Fagion sylvaticae;Luquet 1926;;;
-lp31;;;;;;;;;;;;;;;;;;;2015-04-24, 2015-08-31;Hiefler, Westseite;;47.554408;13.171543;10;Fagion sylvaticae;Luquet 1926;;;
-lp32;;;;;;;;;;;;;;;;;;;2015-04-24, 2015-08-31;Hiefler, Westseite;;47.553013;13.172425;10;Fagion sylvaticae;Luquet 1926;;;
-lp33;;;;;;;;;;;;;;;;;;;2015-04-24, 2015-08-31;Hiefler, Westseite;;47.552000;13.172650;10;Fagion sylvaticae;Luquet 1926;;;
-lp34;;;;;;;;;;;;;;;;;;;2015-04-24, 2015-08-31;Hiefler, Westseite;;47.552193;13.172923;10;Fagion sylvaticae;Luquet 1926;;;
+lp28;80;45;50;1;35;1;24;11;3;0,5;0,1;16;16;W;40;5;0;10;2015-04-24, 2015-08-31;Hiefler, Westseite;;47.555433;13.171353;10;Fagion sylvaticae;Luquet 1926;;;
+lp29;97;70;30;1;45;1;16;8;3,5;0,5;0,25;16;16;W;35;1;0;0;2015-04-24, 2015-08-31;Hiefler, Westseite;;47.555010;13.171641;10;Fagion sylvaticae;Luquet 1926;;;
+lp30;97;70;25;1;40;1;20;11;0;0,5;0,2;16;16;W;45;5;0;0;2015-04-24, 2015-08-31;Hiefler, Westseite;;47.554782;13.172075;10;Fagion sylvaticae;Luquet 1926;;;
+lp31;80;60;15;10;65;1;22;15;4;0,8;0,25;16;16;W;45;20;0;10;2015-04-24, 2015-08-31;Hiefler, Westseite;;47.554408;13.171543;10;Fagion sylvaticae;Luquet 1926;;;
+lp32;85;50;20;1;45;1;15;9;3;0,8;0,3;16;16;W;50;85;0;5;2015-04-24, 2015-08-31;Hiefler, Westseite;;47.553013;13.172425;10;Fagion sylvaticae;Luquet 1926;;;
+lp33;80;0;35;7;65;1;0;8;3;0,6;0,25;16;16;SW;50;35;0;0;2015-04-24, 2015-08-31;Hiefler, Westseite;;47.552000;13.172650;10;Fagion sylvaticae;Luquet 1926;;;
+lp34;95;25;60;3;35;1;18;12;3,5;0,7;0,25;16;16;SW;40;0;0;100;2015-04-24, 2015-08-31;Hiefler, Westseite;;47.552193;13.172923;10;Fagion sylvaticae;Luquet 1926;;;
