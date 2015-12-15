@@ -1,0 +1,183 @@
+BEGIN HEAD
+plot                                               mmm
+                                                   bbb
+                                                   000
+                                                   123
+accuracy                                           111
+                                                   000
+                                                      
+bare                                                1 
+                                                   000
+                                                      
+cov                                                999
+                                                   807
+                                                      
+hcov                                               886
+                                                   055
+                                                      
+htl1                                               112
+                                                   665
+                                                      
+htl2                                               111
+                                                   208
+                                                      
+mcov                                               121
+                                                      
+plsx                                               222
+                                                   555
+                                                      
+plsy                                               111
+                                                   000
+                                                      
+rock                                               002
+                                                      
+scov                                               417
+                                                   550
+                                                      
+slope                                              242
+                                                   000
+                                                      
+stones                                             000
+                                                      
+t1cov                                              936
+                                                   050
+                                                      
+t2cov                                              275
+                                                   050
+                                                      
+richness                                           555
+                                                   358
+                                                      
+END HEAD
+BEGIN TABLE
+Carpinus betulus                               tl1 31.
+Fagus sylvatica                                    2.2
+Robinia pseudacacia                                2..
+Tilia cordata                                      .22
+Acer platanoides                                   ..2
+Fraxinus excelsior                                 ..2
+Quercus robur                                      ..2
+Acer platanoides                               tl2 2.2
+Carpinus betulus                                   232
+Robinia pseudacacia                                2..
+Tilia cordata                                      223
+Fagus sylvatica                                    .2.
+Quercus robur                                      .2.
+Taxus baccata                                      .1.
+Acer pseudoplatanus                                ..1
+Fraxinus excelsior                                 ..2
+Hedera helix                                       ..2
+Sorbus aria s.str.                                 ..2
+Viscum album s.str.                                ..+
+Acer platanoides                                sl ++1
+Carpinus betulus                                   +11
+Cornus sanguinea s.lat.                            211
+Cornus sericea                                     1+.
+Crataegus monogyna                                 +++
+Euonymus europaeus                                 +++
+Fagus sylvatica                                    +++
+Hedera helix                                       +..
+Ligustrum vulgare                                  +.2
+Lonicera xylosteum                                 +.1
+Prunus avium s.lat.                                1+.
+Prunus spinosa                                     +..
+Robinia pseudacacia                                1..
+Rosa canina s.str.                                 +..
+Taxus baccata                                      +++
+Tilia cordata                                      ++2
+Fraxinus excelsior                                 .+.
+Rhamnus cathartica                                 .++
+Rosa arvensis                                      .1+
+Syringa vulgaris                                   .+.
+Acer pseudoplatanus                                ..2
+Cornus mas                                         ..+
+Corylus avellana                                   ..+
+Cotoneaster divaricatus                            ..+
+Crataegus laevigata ssp. laevigata                 ..1
+Euonymus latifolius                                ..+
+Sorbus aria s.str.                                 ..+
+Sorbus aucuparia ssp. aucuparia                    ..+
+Ulmus glabra                                       ..1
+Viburnum lantana                                   ..1
+Acer campestre                                  hl ++.
+Acer platanoides                                   212
+Acer pseudoplatanus                                ++1
+Aegopodium podagraria                              2..
+Anemone nemorosa                                   +++
+Aposeris foetida                                   11+
+Brachypodium sylvaticum                            +++
+Bromus benekenii                                   +.+
+Campanula rapunculoides ssp. rapunculoides         +..
+Carex digitata                                     +11
+Carpinus betulus                                   12+
+Cephalanthera damasonium                           1..
+Cornus sanguinea s.lat.                            111
+Cornus sericea                                     1++
+Corylus avellana                                   +.+
+Crataegus laevigata ssp. laevigata                 r.1
+Crataegus monogyna                                 +1+
+Euonymus europaeus                                 +++
+Euphorbia amygdaloides ssp. amygdaloides           +..
+Euphorbia dulcis ssp. dulcis                       ++.
+Fagus sylvatica                                    1++
+Fraxinus excelsior                                 11.
+Galeobdolon montanum                               +++
+Galium sylvaticum s.str.                           +2+
+Hedera helix                                       222
+Hepatica nobilis                                   +11
+Hieracium murorum                                  +2+
+Juglans regia                                      +.+
+Lathyrus vernus                                    2++
+Ligustrum vulgare                                  1+2
+Lilium martagon                                    +.+
+Lonicera xylosteum                                 ++1
+Melica nutans s.str.                               +.+
+Phyteuma spicatum                                  +r+
+Poa nemoralis                                      r++
+Prunus avium s.lat.                                11+
+Prunus padus ssp. padus                            +..
+Prunus spinosa                                     +..
+Quercus robur                                      +1+
+Rhamnus cathartica                                 +++
+Robinia pseudacacia                                +..
+Rosa arvensis                                      +21
+Rosa canina s.str.                                 +..
+Solidago virgaurea ssp. virgaurea                  +1+
+Sorbus aucuparia ssp. aucuparia                    +++
+Symphytum tuberosum s.lat.                         +..
+Taxus baccata                                      +++
+Tilia × vulgaris (=T. cordata × platyphyllos)      +..
+Tilia cordata                                      112
+Ulmus glabra                                       +.1
+Viburnum lantana                                   r11
+Vincetoxicum hirundinaria                          +1+
+Viola riviniana                                    r..
+Brachypodium pinnatum s.str.                       .1+
+Calamagrostis varia                                .++
+Campanula persicifolia                             .+.
+Campanula rotundifolia s.str.                      .+.
+Carex montana                                      .+1
+Clematis vitalba                                   .+.
+Convallaria majalis ssp. majalis                   .+1
+Cotoneaster divaricatus                            .++
+Festuca heterophylla                               .2+
+Fragaria vesca                                     .1+
+Hieracium sabaudum                                 .2.
+Hylotelephium maximum                              .r.
+Hypericum perforatum                               .1.
+Lonicera periclymenum                              .1.
+Luzula luzuloides                                  .+.
+Melampyrum pratense                                .2+
+Potentilla sterilis                                .+.
+Rubus sect. Rubus                                  .+.
+Securigera varia                                   .+.
+Syringa vulgaris                                   .1.
+Asplenium ruta-muraria                             ..+
+Asplenium trichomanes ssp. quadrivalens            ..+
+Cornus mas                                         ..+
+Euonymus latifolius                                ..+
+Polygonatum multiflorum                            ..+
+Prenanthes purpurea                                ..+
+Viola alba s.lat.                                  ..r
+Viola reichenbachiana                              ..+
+END TABLE

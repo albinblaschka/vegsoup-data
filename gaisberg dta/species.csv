@@ -737,6 +737,7 @@ gb16,taxu bacc,tl2,1,,,
 gb16,tili ×vul,tl2,2b,,,
 gb16,tili plat,tl2,3,,,
 gb16,ulmu glab,tl2,+,,,
+<<<<<<< HEAD
 gb17,acer camp,hl,+,,,
 gb17,acer plat,hl,+,,,
 gb17,acer pseu,hl,+,,,
@@ -1023,3 +1024,5 @@ gb20,prun aviu slat,tl2,+,,,
 gb20,sorb aria,tl2,2b,,,
 gb20,taxu bacc,tl2,1,,,
 gb20,ulmu glab,tl2,+,,,
+=======
+>>>>>>> refs/remotes/kardinal-eros/master

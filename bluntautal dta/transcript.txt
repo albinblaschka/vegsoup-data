@@ -3,6 +3,7 @@ plot                                          bbbbbbb
                                               ttttttt
                                               0000000
                                               1234567
+<<<<<<< HEAD
 accuracy                                      1111111
                                               0000000
                                                      
@@ -47,12 +48,59 @@ t1cov                                           32323
                                                      
 t2cov                                         433344 
                                               0005503
+=======
+bare                                                N
+                                              000000A
+                                                     
+cov                                             1111 
+                                              990000N
+                                              050000A
+                                                     
+hcov                                              11 
+                                              899900N
+                                              559900A
+                                                     
+htl1                                            1111N
+                                              007354A
+                                                     
+htl2                                          11   1N
+                                              107980A
+                                                     
+mcov                                                N
+                                              531313A
+                                                     
+plsx                                          111111N
+                                              666666A
+                                                     
+plsy                                          111111N
+                                              666666A
+                                                     
+rock                                                N
+                                              001130A
+                                                     
+scov                                          33 22 N
+                                              553051A
+                                                     
+slope                                         444444N
+                                              000055A
+                                                     
+stones                                         11111 
+                                              200000N
+                                              000000A
+                                                     
+t1cov                                           3232N
+                                              000500A
+                                                     
+t2cov                                         433344N
+                                              000550A
+>>>>>>> refs/remotes/kardinal-eros/master
                                                      
 richness                                      4344343
                                               3754600
                                                      
 END HEAD
 BEGIN TABLE
+<<<<<<< HEAD
 Fraxinus excelsior                        tl1 ..22222
 Acer pseudoplatanus                           ......2
 Fraxinus excelsior                        tl2 222333+
@@ -69,6 +117,8 @@ Clematis vitalba                              .+.1++.
 Rhamnus cathartica                            .r.++..
 Acer pseudoplatanus                           ....++.
 Picea abies                                   ......+
+=======
+>>>>>>> refs/remotes/kardinal-eros/master
 Acer pseudoplatanus                        hl +++++++
 Allium lusitanicum                            +.+++r2
 Anthericum ramosum                            21+++++
@@ -140,4 +190,23 @@ Galium anisophyllon                           ......+
 Pimpinella saxifraga s.lat.                   ......+
 Sedum album                                   ......+
 Sedum sexangulare                             ......1
+<<<<<<< HEAD
+=======
+Corylus avellana                           sl 33+22+.
+Frangula alnus                                111+1..
+Fraxinus excelsior                            12+.++.
+Sorbus aria s.str.                            1....+.
+Clematis vitalba                              .+.1++.
+Rhamnus cathartica                            .r.++..
+Acer pseudoplatanus                           ....++.
+Picea abies                                   ......+
+Fraxinus excelsior                        tl2 222333+
+Picea abies                                   2......
+Sorbus aria s.str.                            21..1..
+Acer pseudoplatanus                           .2.1...
+Clematis vitalba                              ....2..
+Prunus avium s.lat.                           ....1..
+Fraxinus excelsior                        tl1 ..22222
+Acer pseudoplatanus                           ......2
+>>>>>>> refs/remotes/kardinal-eros/master
 END TABLE

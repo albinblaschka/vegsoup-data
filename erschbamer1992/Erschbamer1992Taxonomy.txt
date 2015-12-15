@@ -34,7 +34,11 @@ sold alpi	Soldanella alpina
 anth vuln alpi	Anthyllis vulneraria subsp. alpicola
 achi oxyl	Achillea oxyloba
 phyt hemi	Phyteuma hemisphaericum
+<<<<<<< HEAD
 heli alpe	Helianthemum alpestre s.str.
+=======
+heli alpe	Helianthemum alpestre
+>>>>>>> refs/remotes/kardinal-eros/master
 minu gera	Minuartia gerardii
 care semp semp	Carex sempervirens subsp. sempervirens
 leon hisp slat	Leontodon hispidus s.lat.
