@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 "plot";"date";"year_releve";"month_releve";"day_releve";"geology";"exp";"hhl";"cover";"grasses";"forbs";"legumes";"mosses";"rock";"location";"latitude";"longitude";"accuracy";"msm";"observer"
 "john11";"1993-06-03";1993;6;3;"Kristallin";"Süd";50;96;50;35;15;;;"Haberl";"47.475003N";"14.645392E";;1100;"Sobotik et al."
 "john12";"1994-05-26";1994;5;26;"Kristallin";"Süd";20;90;60;40;5;;;"Haberl";"47.475003N";"14.645392E";;1100;"Sobotik et al."
@@ -130,4 +129,3 @@ john161;1993-07-14;1993;7;14;Kristallin;Nord;27;90;50;45;5;;1;Moserkogel;;;;1700
 john162;1994-07-29;1994;7;29;Kristallin;Nord;38;99;50;40;10;;1;Moserkogel;;;;1700;Sobotik et al.
 john163;1995-07-17;1995;7;17;Kristallin;Nord;36;95;50;64;10;1;1;Moserkogel;;;;1700;Sobotik et al.
 john164;1996-07-04;1996;7;4;Kristallin;Nord;22;90;55;40;5;;1;Moserkogel;;;;1700;Sobotik et al.
->>>>>>> refs/remotes/kardinal-eros/master
