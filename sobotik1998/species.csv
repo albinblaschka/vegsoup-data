@@ -1942,8 +1942,6 @@ john164;Trollius europaeus;hl;+;;;
 john164;Veratrum album;hl;+;;;
 john164;Veronica chamaedrys;hl;10;;;
 john164;Veronica serpyllifolia;hl;+;;;
-=======
-plot;abbr;layer;cov;voucher;comment;history
 john11;Achillea millefolium agg.;hl;2;;;
 john11;Agrostis capillaris;hl;5;;;
 john11;Alchemilla glabra;hl;+;;;
@@ -2161,11 +2159,7 @@ john21;Hieracium bauhini;hl;+;;;
 john21;Hieracium pilosella;hl;5;;;
 john21;Holcus mollis;hl;5;;;
 john21;Hypericum maculatum;hl;3;;;
-<<<<<<< HEAD
 john21;Hypochaeris radicata;hl;+;;;
-=======
-john21;Hypochoeris radicata;hl;+;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john21;Knautia arvensis;hl;+;;;
 john21;Lathyrus pratensis;hl;+;;;
 john21;Leontodon hispidus;hl;5;;;
@@ -2191,11 +2185,7 @@ john21;Ranunculus acris;hl;5;;;
 john21;Ranunculus repens;hl;5;;;
 john21;Rumex acetosa;hl;5;;;
 john21;Stellaria graminea;hl;2;;;
-<<<<<<< HEAD
 john21;Taraxacum officinale agg.;hl;5;;;
-=======
-john21;Taraxacum officinale;hl;5;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john21;Thymus pulegioides;hl;+;;;
 john21;Trifolium medium;hl;+;;;
 john21;Trifolium pratense;hl;10;;;
@@ -2258,11 +2248,7 @@ john22;Ranunculus repens;hl;+;;;
 john22;Rumex acetosa;hl;5;;;
 john22;Rumex acetosella;hl;+;;;
 john22;Stellaria graminea;hl;+;;;
-<<<<<<< HEAD
 john22;Taraxacum officinale agg.;hl;5;;;
-=======
-john22;Taraxacum officinale;hl;5;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john22;Thymus pulegioides;hl;3;;;
 john22;Trifolium medium;hl;+;;;
 john22;Trifolium pratense;hl;5;;;
@@ -2303,11 +2289,7 @@ john23;Hieracium bauhini;hl;+;;;
 john23;Hieracium pilosella;hl;5;;;
 john23;Holcus mollis;hl;10;;;
 john23;Hypericum maculatum;hl;3;;;
-<<<<<<< HEAD
 john23;Hypochaeris radicata;hl;+;;;
-=======
-john23;Hypochoeris radicata;hl;+;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john23;Knautia arvensis;hl;+;;;
 john23;Lathyrus pratensis;hl;3;;;
 john23;Leontodon hispidus;hl;10;;;
@@ -2333,11 +2315,7 @@ john23;Ranunculus repens;hl;5;;;
 john23;Rumex acetosa;hl;5;;;
 john23;Rumex acetosella;hl;3;;;
 john23;Stellaria graminea;hl;+;;;
-<<<<<<< HEAD
 john23;Taraxacum officinale agg.;hl;5;;;
-=======
-john23;Taraxacum officinale;hl;5;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john23;Thymus pulegioides;hl;3;;;
 john23;Trifolium medium;hl;+;;;
 john23;Trifolium pratense;hl;5;;;
@@ -2399,11 +2377,7 @@ john24;Ranunculus repens;hl;+;;;
 john24;Rumex acetosa;hl;10;;;
 john24;Rumex acetosella;hl;3;;;
 john24;Stellaria graminea;hl;2;;;
-<<<<<<< HEAD
 john24;Taraxacum officinale agg.;hl;5;;;
-=======
-john24;Taraxacum officinale;hl;5;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john24;Thymus pulegioides;hl;3;;;
 john24;Trifolium pratense;hl;5;;;
 john24;Trifolium repens;hl;5;;;
@@ -2463,11 +2437,7 @@ john31;Rumex alpestris;hl;+;;;
 john31;Rumex alpinus;hl;+;;;
 john31;Saxifraga rotundifolia;hl;+;;;
 john31;Senecio subalpinus;hl;10;;;
-<<<<<<< HEAD
 john31;Taraxacum officinale agg.;hl;+;;;
-=======
-john31;Taraxacum officiniale;hl;+;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john31;Trifolium pratense;hl;10;;;
 john31;Trifolium repens;hl;5;;;
 john31;Trisetum flavescens;hl;20;;;
@@ -2522,11 +2492,7 @@ john32;Rumex alpestris;hl;+;;;
 john32;Rumex alpinus;hl;+;;;
 john32;Senecio subalpinus;hl;5;;;
 john32;Silene dioica;hl;+;;;
-<<<<<<< HEAD
 john32;Taraxacum officinale agg.;hl;+;;;
-=======
-john32;Taraxacum officiniale;hl;+;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john32;Trifolium badium;hl;+;;;
 john32;Trifolium pratense;hl;10;;;
 john32;Trifolium repens;hl;5;;;
@@ -2584,11 +2550,7 @@ john33;Rumex alpestris;hl;+;;;
 john33;Rumex alpinus;hl;+;;;
 john33;Senecio subalpinus;hl;5;;;
 john33;Silene dioica;hl;+;;;
-<<<<<<< HEAD
 john33;Taraxacum officinale agg.;hl;+;;;
-=======
-john33;Taraxacum officiniale;hl;+;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john33;Tragopogon orientalis;hl;1;;;
 john33;Trifolium pratense;hl;10;;;
 john33;Trifolium repens;hl;5;;;
@@ -2653,11 +2615,7 @@ john34;Rumex alpestris;hl;3;;;
 john34;Rumex alpinus;hl;+;;;
 john34;Senecio subalpinus;hl;5;;;
 john34;Silene dioica;hl;+;;;
-<<<<<<< HEAD
 john34;Taraxacum officinale agg.;hl;3;;;
-=======
-john34;Taraxacum officiniale;hl;3;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john34;Trifolium pratense;hl;5;;;
 john34;Trifolium repens;hl;5;;;
 john34;Trisetum flavescens;hl;20;;;
@@ -2710,11 +2668,7 @@ john41;Rumex alpinus;hl;+;;;
 john41;Senecio subalpinus;hl;5;;;
 john41;Silene dioica;hl;+;;;
 john41;Stellaria graminea;hl;+;;;
-<<<<<<< HEAD
 john41;Taraxacum officinale agg.;hl;15;;;
-=======
-john41;Taraxacum officinale;hl;15;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john41;Trifolium pratense;hl;10;;;
 john41;Trifolium repens;hl;20;;;
 john41;Trisetum flavescens;hl;20;;;
@@ -2757,11 +2711,7 @@ john42;Rumex alpinus;hl;+;;;
 john42;Senecio subalpinus;hl;5;;;
 john42;Silene dioica;hl;+;;;
 john42;Stellaria graminea;hl;+;;;
-<<<<<<< HEAD
 john42;Taraxacum officinale agg.;hl;5;;;
-=======
-john42;Taraxacum officinale;hl;5;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john42;Trifolium pratense;hl;5;;;
 john42;Trifolium repens;hl;20;;;
 john42;Trisetum flavescens;hl;5;;;
@@ -2815,11 +2765,7 @@ john43;Rumex alpinus;hl;+;;;
 john43;Senecio subalpinus;hl;15;;;
 john43;Silene vulgaris;hl;+;;;
 john43;Stellaria graminea;hl;+;;;
-<<<<<<< HEAD
 john43;Taraxacum officinale agg.;hl;10;;;
-=======
-john43;Taraxacum officinale;hl;10;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john43;Trifolium pratense;hl;10;;;
 john43;Trifolium repens;hl;20;;;
 john43;Trisetum flavescens;hl;5;;;
@@ -2868,11 +2814,7 @@ john44;Rhinanthus alectorolophus;hl;+;;;
 john44;Rumex alpestris;hl;15;;;
 john44;Rumex alpinus;hl;+;;;
 john44;Senecio subalpinus;hl;5;;;
-<<<<<<< HEAD
 john44;Taraxacum officinale agg.;hl;5;;;
-=======
-john44;Taraxacum officinale;hl;5;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john44;Trifolium pratense;hl;5;;;
 john44;Trifolium repens;hl;20;;;
 john44;Trisetum flavescens;hl;5;;;
@@ -3036,11 +2978,7 @@ john53;Rhinanthus alectorolophus;hl;5;;;
 john53;Rumex alpestris;hl;3;;;
 john53;Senecio subalpinus;hl;5;;;
 john53;Silene vulgaris;hl;+;;;
-<<<<<<< HEAD
 john53;Taraxacum officinale agg.;hl;+;;;
-=======
-john53;Taraxacum officinale;hl;+;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john53;Trifolium pratense;hl;10;;;
 john53;Trifolium repens;hl;5;;;
 john53;Vaccinium myrtillus;hl;+;;;
@@ -3129,11 +3067,7 @@ john61;Deschampsia cespitosa;hl;5;;;
 john61;Euphorbia cyparissias;hl;+;;;
 john61;Euphrasia officinalis ssp. rostkoviana;hl;+;;;
 john61;Festuca rubra agg.;hl;5;;;
-<<<<<<< HEAD
 john61;Galium album;hl;+;;;
-=======
-john61;Galium album agg.;hl;+;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john61;Gnaphalium sylvaticum;hl;+;;;
 john61;Hypericum maculatum;hl;+;;;
 john61;Leontodon hispidus;hl;3;;;
@@ -3199,11 +3133,7 @@ john62;Deschampsia cespitosa;hl;+;;;
 john62;Euphorbia cyparissias;hl;+;;;
 john62;Festuca pratensis;hl;+;;;
 john62;Festuca rubra agg.;hl;10;;;
-<<<<<<< HEAD
 john62;Galium album;hl;+;;;
-=======
-john62;Galium album agg.;hl;+;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john62;Gnaphalium sylvaticum;hl;+;;;
 john62;Hypericum maculatum;hl;+;;;
 john62;Leontodon hispidus;hl;3;;;
@@ -3231,11 +3161,7 @@ john62;Rumex alpestris;hl;+;;;
 john62;Rumex alpinus;hl;+;;;
 john62;Senecio subalpinus;hl;5;;;
 john62;Stellaria graminea;hl;+;;;
-<<<<<<< HEAD
 john62;Taraxacum officinale agg.;hl;+;;;
-=======
-john62;Taraxacum officinale;hl;+;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john62;Thymus pulegioides;hl;+;;;
 john62;Trifolium pratense;hl;5;;;
 john62;Trifolium repens;hl;5;;;
@@ -3271,11 +3197,7 @@ john63;Deschampsia cespitosa;hl;+;;;
 john63;Euphorbia cyparissias;hl;+;;;
 john63;Festuca pratensis;hl;+;;;
 john63;Festuca rubra agg.;hl;10;;;
-<<<<<<< HEAD
 john63;Galium album;hl;+;;;
-=======
-john63;Galium album agg.;hl;+;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john63;Geum rivale;hl;+;;;
 john63;Gnaphalium sylvaticum;hl;+;;;
 john63;Hypericum maculatum;hl;5;;;
@@ -3304,11 +3226,7 @@ john63;Rumex alpestris;hl;5;;;
 john63;Rumex alpinus;hl;+;;;
 john63;Senecio subalpinus;hl;5;;;
 john63;Stellaria graminea;hl;+;;;
-<<<<<<< HEAD
 john63;Taraxacum officinale agg.;hl;+;;;
-=======
-john63;Taraxacum officinale;hl;+;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john63;Thymus pulegioides;hl;+;;;
 john63;Trifolium pratense;hl;10;;;
 john63;Trifolium repens;hl;5;;;
@@ -3323,11 +3241,7 @@ john64;Alchemilla monticola;hl;30;;;
 john64;Anemone nemorosa;hl;+;;;
 john64;Anthoxanthum alpinum;hl;5;;;
 john64;Bellis perennis;hl;+;;;
-<<<<<<< HEAD
 john64;Betonica alopecuros;hl;+;;;
-=======
-john64;Betonica alopecurus;hl;+;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john64;Briza media;hl;5;;;
 john64;Calamagrostis varia;hl;+;;;
 john64;Campanula scheuchzeri;hl;+;;;
@@ -3350,11 +3264,7 @@ john64;Dentaria bulbifera;hl;+;;;
 john64;Deschampsia cespitosa;hl;+;;;
 john64;Euphorbia austriaca;hl;+;;;
 john64;Festuca rubra agg.;hl;10;;;
-<<<<<<< HEAD
 john64;Galium album;hl;+;;;
-=======
-john64;Galium album agg.;hl;+;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john64;Geum rivale;hl;+;;;
 john64;Gnaphalium sylvaticum;hl;+;;;
 john64;Hypericum maculatum;hl;5;;;
@@ -3383,11 +3293,7 @@ john64;Rumex alpestris;hl;10;;;
 john64;Rumex alpinus;hl;+;;;
 john64;Senecio subalpinus;hl;10;;;
 john64;Silene dioica;hl;+;;;
-<<<<<<< HEAD
 john64;Taraxacum officinale agg.;hl;+;;;
-=======
-john64;Taraxacum officinale;hl;+;;;
->>>>>>> refs/remotes/kardinal-eros/master
 john64;Thymus pulegioides;hl;+;;;
 john64;Trifolium pratense;hl;5;;;
 john64;Trifolium repens;hl;5;;;
@@ -4000,8 +3906,6 @@ john94;Veratrum album;hl;10;;;
 john94;Veronica chamaedrys;hl;r;;;
 john94;Veronica officinalis;hl;2;;;
 john94;Veronica serpyllifolia;hl;+;;;
-<<<<<<< HEAD
-=======
 john101;Achillea millefolium agg.;hl;3;;;
 john101;Agrostis capillaris;hl;10;;;
 john101;Ajuga reptans;hl;+;;;
